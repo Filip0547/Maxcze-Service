@@ -17,6 +17,10 @@ def get_locale():
 
 babel = Babel(app, locale_selector=get_locale)
 
+@app.context_processor
+def inject_locale():
+    return {'get_locale': get_locale}
+
 @app.route('/')
 def home():
     return render_template('index.html')
