@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% block title %}{% endblock %} | MaxCze Service</title>
   <meta name="description" content="{% block description %}{% endblock %}" />
-  <link rel="stylesheet" href="/static/css/style.css" />
-  <link rel="icon" href="/static/img/maxcze_logo_zwart.png" media="(prefers-color-scheme: light)" />
-  <link rel="icon" href="/static/img/maxcze_logo_wit.png" media="(prefers-color-scheme: dark)" />
-  <link rel="icon" href="/static/img/maxcze_logo_zwart.png" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='20260310-flagfix') }}" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260310-flagfix') }}" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260310-flagfix') }}" />
 </head>
 <body>
 
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <img src="/static/img/maxcze_logo_wit.png" alt="MaxCze Service" class="site-logo site-logo-nav" />
+        <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" alt="MaxCze Service" class="site-logo site-logo-nav" />
       </a>
       <ul class="nav-links">
         <li><a href="/" class="{% if request.path == '/' %}actief{% endif %}">{{ _('Home') }}</a></li>
@@ -61,7 +61,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <img src="/static/img/maxcze_logo_wit.png" alt="MaxCze Service" class="site-logo site-logo-footer" />
+        <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" alt="MaxCze Service" class="site-logo site-logo-footer" />
         <p class="footer-beschrijving">{{ _('MaxCze Service - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30 jaar ervaring in Goor en regio Twente.') }}</p>
         <div class="footer-sociaal">
           <!-- icons omitted for brevity -->
@@ -98,6 +98,6 @@
   </div>
 </footer>
 
-<script src="/static/js/main.js"></script>
+<script src="{{ url_for('static', filename='js/main.js', v='20260310-flagfix') }}"></script>
 </body>
 </html>

@@ -63,19 +63,19 @@ msgstr "Services"
 
 #: templates/base.html:82 templates/index.html:67
 msgid "Complete verbouwingen"
-msgstr ""
+msgstr "Complete renovations"
 
 #: templates/base.html:83 templates/index.html:77
 msgid "Kozijnen en deuren"
-msgstr ""
+msgstr "Window frames and doors"
 
 #: templates/base.html:84 templates/index.html:89 templates/projecten.html:35
 msgid "Renovaties"
-msgstr ""
+msgstr "Renovations"
 
 #: templates/base.html:85 templates/index.html:99
 msgid "Overig timmerwerk"
-msgstr ""
+msgstr "Other carpentry"
 
 #: templates/base.html:90
 msgid "Goor en regio Twente"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: templates/contact.html:118
 msgid "Voornaam"
-msgstr ""
+msgstr "First name"
 
 #: templates/contact.html:119
 msgid "Jan"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: templates/contact.html:122
 msgid "Achternaam"
-msgstr ""
+msgstr "Last name"
 
 #: templates/contact.html:123
 msgid "de Vries"
@@ -225,23 +225,23 @@ msgstr ""
 
 #: templates/contact.html:133 templates/privacy.html:42
 msgid "Telefoonnummer"
-msgstr ""
+msgstr "Phone number"
 
 #: templates/contact.html:138
 msgid "Type aanvraag"
-msgstr ""
+msgstr "Request type"
 
 #: templates/contact.html:140
 msgid "Maak een keuze"
-msgstr ""
+msgstr "Choose an option"
 
 #: templates/contact.html:141
 msgid "Offerte aanvraag"
-msgstr ""
+msgstr "Quote request"
 
 #: templates/contact.html:142
 msgid "Vraag"
-msgstr ""
+msgstr "Question"
 
 #: templates/contact.html:143 templates/index.html:223
 #: templates/projecten.html:59
@@ -251,15 +251,15 @@ msgstr ""
 #: templates/contact.html:144 templates/projecten.html:107
 #: templates/projecten.html:131
 msgid "Verbouwing"
-msgstr ""
+msgstr "Renovation project"
 
 #: templates/contact.html:145
 msgid "Overig"
-msgstr ""
+msgstr "Other"
 
 #: templates/contact.html:150
 msgid "Bericht"
-msgstr ""
+msgstr "Message"
 
 #: templates/contact.html:151
 msgid "Omschrijf uw aanvraag"
@@ -267,15 +267,15 @@ msgstr ""
 
 #: templates/contact.html:157
 msgid "Ik ga akkoord met het"
-msgstr ""
+msgstr "I agree with the"
 
 #: templates/contact.html:157
 msgid "privacybeleid"
-msgstr ""
+msgstr "privacy policy"
 
 #: templates/contact.html:163
 msgid "Aanvraag versturen"
-msgstr ""
+msgstr "Send request"
 
 #: templates/contact.html:172
 msgid "Request received!"
@@ -306,13 +306,15 @@ msgstr ""
 
 #: templates/index.html:16
 msgid "Vakmanschap voor complete verbouwingen en maatwerk"
-msgstr ""
+msgstr "Craftsmanship for complete renovations and custom carpentry"
 
 #: templates/index.html:17
 msgid ""
 "Meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. "
 "Wij helpen u uw woonwensen werkelijkheid te maken."
 msgstr ""
+"More than 30 years of experience in renovations, window frames, doors and "
+"custom carpentry. We help turn your living wishes into reality."
 
 #: templates/index.html:20
 msgid ""
@@ -320,6 +322,9 @@ msgid ""
 "          Gratis offerte aanvragen\n"
 "        "
 msgstr ""
+"\n"
+"          Request a free quote\n"
+"        "
 
 #: templates/index.html:24
 msgid ""
@@ -327,6 +332,9 @@ msgid ""
 "          Bekijk onze projecten\n"
 "        "
 msgstr ""
+"\n"
+"          View our projects\n"
+"        "
 
 #: templates/index.html:31 templates/index.html:35
 msgid "0+"
