@@ -29,12 +29,9 @@
 
       <!-- language switcher -->
       <div class="lang-switcher" style="font-size:0.9rem;">
-        {% macro lang_url(code) -%}
-          {{ request.path }}?lang={{ code }}
-        {%- endmacro %}
-        <a href="{{ lang_url('nl') }}">{{ _('NL') }}</a> |
-        <a href="{{ lang_url('en') }}">{{ _('EN') }}</a> |
-        <a href="{{ lang_url('pl') }}">{{ _('PL') }}</a>
+        <a href="{{ url_for('set_language', lang='nl') }}">{{ _('NL') }}</a> |
+        <a href="{{ url_for('set_language', lang='en') }}">{{ _('EN') }}</a> |
+        <a href="{{ url_for('set_language', lang='pl') }}">{{ _('PL') }}</a>
       </div>
 
       <button class="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>

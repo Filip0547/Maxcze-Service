@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash
+from flask import Flask, render_template, request, flash, session, redirect, url_for
 from flask_babel import Babel, _
 import os
 
@@ -6,20 +6,16 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Change this to a real secret key
 
 # --- internationalization / localization ---
-app.config['BABEL_DEFAULT_LOCALE'] = 'nl'
-app.config['BABEL_SUPPORTED_LOCALES'] = ['nl', 'en', 'pl']
+app.config["BABEL_DEFAULT_LOCALE"] = "nl"
+app.config["BABEL_TRANSLATION_DIRECTORIES"] = "translations"
 
-babel = Babel(app)
-
-@babel.localeselector
-# decide which locale to use for this request
-# priority: ?lang query param, then Accept-Language header
-# (could be extended to use cookie or user settings)
 def get_locale():
-    lang = request.args.get('lang')
-    if lang in app.config['BABEL_SUPPORTED_LOCALES']:
+    lang = session.get('lang')
+    if lang in ['nl', 'en', 'pl']:
         return lang
-    return request.accept_languages.best_match(app.config['BABEL_SUPPORTED_LOCALES'])
+    return request.accept_languages.best_match(['nl', 'en', 'pl'])
+
+babel = Babel(app, locale_selector=get_locale)
 
 @app.route('/')
 def home():
@@ -55,6 +51,12 @@ def contact():
 @app.route('/privacy')
 def privacy():
     return render_template('privacy.html')
+
+@app.route('/set-language/<lang>')
+def set_language(lang):
+    if lang in ['nl', 'en', 'pl']:
+        session['lang'] = lang
+    return redirect(request.referrer or url_for('home'))
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
