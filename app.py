@@ -59,6 +59,7 @@ def contact():
         achternaam = request.form.get('achternaam')
         email = request.form.get('email')
         telefoon = request.form.get('telefoon')
+        type_aanvraag = request.form.get('type_aanvraag')
         bericht = request.form.get('bericht')
         akkoord = request.form.get('akkoord')
         
@@ -72,6 +73,7 @@ Nieuwe offerte aanvraag ontvangen via de website.
 Naam: {voornaam} {achternaam}
 E-mail: {email}
 Telefoon: {telefoon or 'Niet opgegeven'}
+Type aanvraag: {type_aanvraag or 'Niet opgegeven'}
 
 Bericht:
 {bericht}

@@ -115,11 +115,11 @@
           <form id="contact-formulier" method="post" action="/contact" novalidate>
             <div class="formulier-rij">
               <div class="formulier-groep">
-                <label for="voornaam">{{ _('First name') }} <span>*</span></label>
+                <label for="voornaam">{{ _('Voornaam') }} <span>*</span></label>
                 <input type="text" id="voornaam" name="voornaam" placeholder="{{ _('Jan') }}" required />
               </div>
               <div class="formulier-groep">
-                <label for="achternaam">{{ _('Last name') }} <span>*</span></label>
+                <label for="achternaam">{{ _('Achternaam') }} <span>*</span></label>
                 <input type="text" id="achternaam" name="achternaam" placeholder="{{ _('de Vries') }}" required />
               </div>
             </div>
@@ -130,25 +130,37 @@
             </div>
 
             <div class="formulier-groep">
-              <label for="telefoon">{{ _('Phone number') }}</label>
+              <label for="telefoon">{{ _('Telefoonnummer') }}</label>
               <input type="tel" id="telefoon" name="telefoon" placeholder="06 - 12 34 56 78" />
             </div>
 
             <div class="formulier-groep">
-              <label for="bericht">{{ _('Message / request') }} <span>*</span></label>
+              <label for="type_aanvraag">{{ _('Type aanvraag') }} <span>*</span></label>
+              <select id="type_aanvraag" name="type_aanvraag" required>
+                <option value="">{{ _('Maak een keuze') }}</option>
+                <option value="offerte">{{ _('Offerte aanvraag') }}</option>
+                <option value="vraag">{{ _('Vraag') }}</option>
+                <option value="renovatie">{{ _('Renovatie') }}</option>
+                <option value="verbouwing">{{ _('Verbouwing') }}</option>
+                <option value="overig">{{ _('Overig') }}</option>
+              </select>
+            </div>
+
+            <div class="formulier-groep">
+              <label for="bericht">{{ _('Bericht') }} <span>*</span></label>
               <textarea id="bericht" name="bericht" rows="5" placeholder="{{ _('Omschrijf uw aanvraag') }}" required></textarea>
             </div>
 
             <div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1.5rem;">
               <input type="checkbox" id="akkoord" name="akkoord" style="margin-top:3px;accent-color:var(--goud);width:auto;" required />
               <label for="akkoord" style="font-size:0.85rem;color:var(--grijs);cursor:pointer;font-weight:400;">
-                {{ _('I agree to the') }} <a href="/privacy" style="color:var(--goud);">{{ _('privacy policy') }}</a>
+                {{ _('Ik ga akkoord met het') }} <a href="/privacy" style="color:var(--goud);">{{ _('privacybeleid') }}</a>
               </label>
             </div>
 
             <button type="submit" class="btn btn-primair" style="width:100%;justify-content:center;padding:1rem;">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
-              {{ _('Submit request') }}
+              {{ _('Aanvraag versturen') }}
             </button>
           </form>
 

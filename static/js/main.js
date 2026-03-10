@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (formulier) {
     formulier.addEventListener('submit', (e) => {
-      e.preventDefault();
       const velden = formulier.querySelectorAll('input[required], textarea[required], select[required]');
       let geldig = true;
 
@@ -162,17 +161,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-      if (!geldig) return;
+      if (!geldig) {
+        e.preventDefault();
+        return;
+      }
 
-      // Simuleer verzenden
+      // Real submit to Flask endpoint after client-side validation.
       const submitBtn = formulier.querySelector('button[type="submit"]');
-      submitBtn.textContent = 'Verzenden...';
-      submitBtn.disabled = true;
-
-      setTimeout(() => {
-        formulier.style.display = 'none';
-        if (succes) succes.classList.add('zichtbaar');
-      }, 1200);
+      if (submitBtn) {
+        submitBtn.textContent = 'Verzenden...';
+        submitBtn.disabled = true;
+      }
     });
   }
 
