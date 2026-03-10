@@ -1,9 +1,27 @@
 from flask import Flask, render_template, request, flash, session, redirect, url_for
 from flask_babel import Babel, _
+from flask_mail import Mail, Message
+from dotenv import load_dotenv
 import os
+
+# Load environment variables from .env file
+# Make sure to create a .env file with your email credentials
+# See .env.example for the required variables
+load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Change this to a real secret key
+
+# --- Flask-Mail configuration ---
+# Load email credentials from environment variables
+app.config['MAIL_SERVER'] = os.getenv('MAIL_SERVER', 'smtp-mail.outlook.com')
+app.config['MAIL_PORT'] = int(os.getenv('MAIL_PORT', 587))
+app.config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'True').lower() == 'true'
+app.config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')  # Required: your email address
+app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')  # Required: your email password
+app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', os.getenv('MAIL_USERNAME'))
+
+mail = Mail(app)
 
 # --- internationalization / localization ---
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
@@ -44,9 +62,35 @@ def contact():
         bericht = request.form.get('bericht')
         akkoord = request.form.get('akkoord')
         
-        # Here you would process the form, e.g., send email, save to database
-        # For now, just flash a message (translated)
-        flash(_('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
+        # Send email
+        msg = Message(
+            subject='Nieuwe offerte aanvraag van MaxCze Service website',
+            recipients=['maxcze@hotmail.com'],
+            body=f"""
+Nieuwe offerte aanvraag ontvangen via de website.
+
+Naam: {voornaam} {achternaam}
+E-mail: {email}
+Telefoon: {telefoon or 'Niet opgegeven'}
+
+Bericht:
+{bericht}
+
+Privacy akkoord: {'Ja' if akkoord else 'Nee'}
+
+--
+Deze e-mail is automatisch verzonden vanaf de MaxCze Service website.
+            """.strip()
+        )
+        msg.extra_headers = {
+            'X-Priority': '1',
+            'Importance': 'High'
+        }
+        try:
+            mail.send(msg)
+            flash(_('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
+        except Exception as e:
+            flash(_('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.'), 'error')
         
         return render_template('contact.html')
     return render_template('contact.html')

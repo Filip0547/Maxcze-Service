@@ -1,4 +1,6 @@
 Flask==2.3.3
 Flask-Babel==3.0.0
+Flask-Mail==0.9.1
+python-dotenv==1.0.0
 gunicorn==21.2.0
 Babel==2.14.0
