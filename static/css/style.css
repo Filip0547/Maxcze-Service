@@ -288,6 +288,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 
 .lang-current {
+  list-style: none;
   height: 36px;
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.25);
@@ -301,9 +302,18 @@ p { color: var(--grijs); font-size: 1.05rem; }
   cursor: pointer;
 }
 
-.lang-current span {
-  font-size: 1rem;
-  line-height: 1;
+.lang-current::-webkit-details-marker {
+  display: none;
+}
+
+.lang-current::after {
+  content: '▾';
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.lang-switcher[open] .lang-current::after {
+  transform: rotate(180deg);
 }
 
 .lang-current:focus {
@@ -322,19 +332,23 @@ p { color: var(--grijs); font-size: 1.05rem; }
   border-radius: 10px;
   box-shadow: var(--shadow-medium);
   padding: 0.35rem;
-  display: none;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: var(--overgang);
   z-index: 1100;
 }
 
-.lang-switcher:hover .lang-menu,
-.lang-switcher:focus-within .lang-menu {
-  display: block;
+.lang-switcher[open] .lang-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 
 .lang-menu a {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 0.5rem;
   padding: 0.5rem 0.55rem;
   border-radius: 8px;
@@ -347,9 +361,29 @@ p { color: var(--grijs); font-size: 1.05rem; }
   background: var(--lichtgrijs);
 }
 
-.lang-menu a span {
-  font-size: 1rem;
-  line-height: 1;
+.flag {
+  width: 18px;
+  height: 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+.flag-nl {
+  background: linear-gradient(to bottom, #ae1c28 33.33%, #ffffff 33.33% 66.66%, #21468b 66.66%);
+}
+
+.flag-pl {
+  background: linear-gradient(to bottom, #ffffff 50%, #dc143c 50%);
+}
+
+.flag-en {
+  background:
+    linear-gradient(to bottom, transparent 42%, #ffffff 42% 58%, transparent 58%),
+    linear-gradient(to right, transparent 42%, #ffffff 42% 58%, transparent 58%),
+    linear-gradient(to bottom, transparent 45%, #c8102e 45% 55%, transparent 55%),
+    linear-gradient(to right, transparent 45%, #c8102e 45% 55%, transparent 55%),
+    #012169;
 }
 
 /* Hamburger */
@@ -1576,7 +1610,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .hamburger { display: flex; }
   .lang-current {
     height: 32px;
-    max-width: 150px;
+    min-width: 126px;
     font-size: 0.8rem;
   }
 
