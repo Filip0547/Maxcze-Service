@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}{% endblock %} | MaxCze Service</title>
+  <meta name="description" content="{% block description %}{% endblock %}" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232E1503'/><path d='M8 20 L16 8 L24 20' stroke='%23C8942A' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='10' y1='20' x2='22' y2='20' stroke='%23C8942A' stroke-width='2.5' stroke-linecap='round'/></svg>" />
+</head>
+<body>
+
+<!-- ═══ NAVIGATIE ═══ -->
+<nav class="nav gescrold">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <div class="nav-logo-icoon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        </div>
+        <div class="nav-logo-tekst">{{ _('MaxCze') }}<span>{{ _('Service') }}</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/" class="{% if request.path == '/' %}actief{% endif %}">{{ _('Home') }}</a></li>
+        <li><a href="/over-ons" class="{% if request.path.startswith('/over-ons') %}actief{% endif %}">{{ _('Over ons') }}</a></li>
+        <li><a href="/projecten" class="{% if request.path.startswith('/projecten') %}actief{% endif %}">{{ _('Projecten') }}</a></li>
+        <li><a href="/contact" class="nav-cta {% if request.path.startswith('/contact') %}actief{% endif %}">{{ _('Offerte aanvragen') }}</a></li>
+      </ul>
+
+      <!-- language switcher -->
+      <div class="lang-switcher" style="font-size:0.9rem;">
+        {% macro lang_url(code) -%}
+          {{ request.path }}?lang={{ code }}
+        {%- endmacro %}
+        <a href="{{ lang_url('nl') }}">{{ _('NL') }}</a> |
+        <a href="{{ lang_url('en') }}">{{ _('EN') }}</a> |
+        <a href="{{ lang_url('pl') }}">{{ _('PL') }}</a>
+      </div>
+
+      <button class="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<nav class="mobiel-menu">
+  <a href="/">{{ _('Home') }}</a>
+  <a href="/over-ons">{{ _('Over ons') }}</a>
+  <a href="/projecten">{{ _('Projecten') }}</a>
+  <a href="/contact">{{ _('Contact & Offerte') }}</a>
+</nav>
+
+{% block content %}{% endblock %}
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-tekst">{{ _('MaxCze Service') }}</div>
+        <div class="footer-logo-sub">{{ _('Vakmanschap in hout') }}</div>
+        <p class="footer-beschrijving">{{ _('Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente.') }}</p>
+        <div class="footer-sociaal">
+          <!-- icons omitted for brevity -->
+        </div>
+      </div>
+      <div class="footer-kolom">
+        <h5>{{ _('Navigatie') }}</h5>
+        <ul class="footer-links">
+          <li><a href="/">{{ _('Home') }}</a></li>
+          <li><a href="/over-ons">{{ _('Over ons') }}</a></li>
+          <li><a href="/projecten">{{ _('Projecten') }}</a></li>
+          <li><a href="/contact">{{ _('Contact') }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-kolom">
+        <h5>{{ _('Diensten') }}</h5>
+        <ul class="footer-links">
+          <li><a href="#">{{ _('Verbouwingen') }}</a></li>
+          <li><a href="#">{{ _('Maatwerk meubels') }}</a></li>
+          <li><a href="#">{{ _('Kozijnen') }}</a></li>
+          <li><a href="#">{{ _('Deuren') }}</a></li>
+          <li><a href="#">{{ _('Renovaties') }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-kolom">
+        <h5>{{ _('Contact') }}</h5>
+        <div class="footer-contact-item"><svg><!-- ... --></svg><span>{{ _('Dorpsstraat 42, 7471 AK Goor') }}</span></div>
+        <div class="footer-contact-item"><svg><!-- ... --></svg><span><a href="tel:0547123456">{{ _('0547 - 123 456') }}</a></span></div>
+        <div class="footer-contact-item"><svg><!-- ... --></svg><span><a href="mailto:info@vanwijntimmerwerken.nl">{{ _('info@vanwijntimmerwerken.nl') }}</a></span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>{{ _('© 2026 MaxCze Service |') }}<a href="/privacy">{{ _('Privacy Policy') }}</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

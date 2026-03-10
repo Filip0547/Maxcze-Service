@@ -139,10 +139,26 @@ document.addEventListener('DOMContentLoaded', () => {
       let geldig = true;
 
       velden.forEach(veld => {
+        // reset previous error styling
         veld.style.borderColor = '';
-        if (!veld.value.trim()) {
-          veld.style.borderColor = '#e53e3e';
-          geldig = false;
+        if (veld.type === 'checkbox') {
+          const lbl = formulier.querySelector(`label[for="${veld.id}"]`);
+          if (lbl) lbl.style.color = '';
+        }
+
+        // checkboxes need to be validated via checked state
+        if (veld.type === 'checkbox') {
+          if (!veld.checked) {
+            // highlight label instead of border
+            const label = formulier.querySelector(`label[for="${veld.id}"]`);
+            if (label) label.style.color = '#e53e3e';
+            geldig = false;
+          }
+        } else {
+          if (!veld.value.trim()) {
+            veld.style.borderColor = '#e53e3e';
+            geldig = false;
+          }
         }
       });
 

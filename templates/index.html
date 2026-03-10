@@ -1,52 +1,8 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MaxCze Service | Vakmanschap in hout – Goor, Overijssel</title>
-  <meta name="description" content="MaxCze Service – meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen, deuren en verbouwingen in Goor en omgeving." />
-  <link rel="stylesheet" href="/static/css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232E1503'/><path d='M8 20 L16 8 L24 20' stroke='%23C8942A' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='10' y1='20' x2='22' y2='20' stroke='%23C8942A' stroke-width='2.5' stroke-linecap='round'/></svg>" />
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}{{ _('MaxCze Service | Vakmanschap in hout – Goor, Overijssel') }}{% endblock %}
+{% block description %}{{ _('MaxCze Service – meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen, deuren en verbouwingen in Goor en omgeving.') }}{% endblock %}
 
-<!-- ═══ NAVIGATIE ═══ -->
-<nav class="nav">
-  <div class="container">
-    <div class="nav-inner">
-      <a href="/" class="nav-logo">
-        <div class="nav-logo-icoon">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-          </svg>
-        </div>
-        <div class="nav-logo-tekst">
-          MaxCze
-          <span>Service</span>
-        </div>
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="/" class="actief">Home</a></li>
-        <li><a href="/over-ons">Over ons</a></li>
-        <li><a href="/projecten">Projecten</a></li>
-        <li><a href="/contact" class="nav-cta">Offerte aanvragen</a></li>
-      </ul>
-
-      <button class="hamburger" aria-label="Menu openen">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-</nav>
-
-<!-- Mobiel menu -->
-<nav class="mobiel-menu">
-  <a href="/">Home</a>
-  <a href="/over-ons">Over ons</a>
-  <a href="/projecten">Projecten</a>
-  <a href="/contact">Contact & Offerte</a>
-</nav>
+{% block content %}
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
@@ -54,51 +10,51 @@
   <div class="container">
     <div class="hero-content">
       <div class="hero-badge">
-        <span></span>
+        <span></span>{{ _('
         Gevestigd in Goor, Overijssel
-      </div>
-      <h1>Vakmanschap in hout,<br /><em>passie voor perfectie</em></h1>
-      <p>Meer dan 25 jaar ervaring in maatwerk meubels, kozijnen, deuren en complete verbouwingen. Wij maken uw woonwensen werkelijkheid.</p>
+      ') }}</div>
+      <h1>{{ _('Vakmanschap in hout,') }}<br /><em>{{ _('passie voor perfectie') }}</em></h1>
+      <p>{{ _('Meer dan 25 jaar ervaring in maatwerk meubels, kozijnen, deuren en complete verbouwingen. Wij maken uw woonwensen werkelijkheid.') }}</p>
       <div class="hero-knoppen">
         <a href="contact.html" class="btn btn-primair">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>{{ _('
           Gratis offerte aanvragen
-        </a>
+        ') }}</a>
         <a href="projecten.html" class="btn btn-outline">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>{{ _('
           Bekijk onze projecten
-        </a>
+        ') }}</a>
       </div>
 
       <div class="hero-stats">
         <div class="hero-stat">
-          <div class="hero-stat-nummer" data-teller="25" data-suffix="+">0+</div>
-          <div class="hero-stat-label">Jaar ervaring</div>
+          <div class="hero-stat-nummer" data-teller="25" data-suffix="+">{{ _('0+') }}</div>
+          <div class="hero-stat-label">{{ _('Jaar ervaring') }}</div>
         </div>
         <div class="hero-stat">
-          <div class="hero-stat-nummer" data-teller="480" data-suffix="+">0+</div>
-          <div class="hero-stat-label">Projecten voltooid</div>
+          <div class="hero-stat-nummer" data-teller="480" data-suffix="+">{{ _('0+') }}</div>
+          <div class="hero-stat-label">{{ _('Projecten voltooid') }}</div>
         </div>
         <div class="hero-stat">
-          <div class="hero-stat-nummer" data-teller="98" data-suffix="%">0%</div>
-          <div class="hero-stat-label">Tevreden klanten</div>
+          <div class="hero-stat-nummer" data-teller="98" data-suffix="%">{{ _('0%') }}</div>
+          <div class="hero-stat-label">{{ _('Tevreden klanten') }}</div>
         </div>
       </div>
     </div>
   </div>
   <div class="scroll-hint">
-    <div class="scroll-hint-pijl"></div>
+    <div class="scroll-hint-pijl"></div>{{ _('
     Scroll
-  </div>
+  ') }}</div>
 </section>
 
 <!-- ═══ DIENSTEN ═══ -->
 <section class="sectie-diensten">
   <div class="container">
     <div class="sectie-header">
-      <div class="sectie-label">Wat wij doen</div>
-      <h2>Onze diensten &amp; specialisaties</h2>
-      <p>Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op maat voor elk project.</p>
+      <div class="sectie-label">{{ _('Wat wij doen') }}</div>
+      <h2>{{ _('Onze diensten &amp; specialisaties') }}</h2>
+      <p>{{ _('Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op maat voor elk project.') }}</p>
     </div>
 
     <div class="diensten-grid">
@@ -108,8 +64,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
           </svg>
         </div>
-        <h3>Verbouwingen</h3>
-        <p>Complete woning- en bedrijfsverbouwingen van A tot Z. Wij begeleiden het gehele proces en zorgen voor een vlekkeloze oplevering.</p>
+        <h3>{{ _('Verbouwingen') }}</h3>
+        <p>{{ _('Complete woning- en bedrijfsverbouwingen van A tot Z. Wij begeleiden het gehele proces en zorgen voor een vlekkeloze oplevering.') }}</p>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-1">
@@ -118,8 +74,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
           </svg>
         </div>
-        <h3>Maatwerk meubels</h3>
-        <p>Unieke, op maat gemaakte meubels die perfect passen in uw interieur. Van kasten en boekenkasten tot complete woonwanden.</p>
+        <h3>{{ _('Maatwerk meubels') }}</h3>
+        <p>{{ _('Unieke, op maat gemaakte meubels die perfect passen in uw interieur. Van kasten en boekenkasten tot complete woonwanden.') }}</p>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-2">
@@ -130,8 +86,8 @@
             <line x1="12" y1="3" x2="12" y2="21" stroke="currentColor" stroke-width="1.8"/>
           </svg>
         </div>
-        <h3>Kozijnen &amp; ramen</h3>
-        <p>Hoogwaardige houten kozijnen en ramen op maat. Energiezuinig, duurzaam en prachtig afgewerkt voor een warme uitstraling.</p>
+        <h3>{{ _('Kozijnen &amp; ramen') }}</h3>
+        <p>{{ _('Hoogwaardige houten kozijnen en ramen op maat. Energiezuinig, duurzaam en prachtig afgewerkt voor een warme uitstraling.') }}</p>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-3">
@@ -140,8 +96,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/>
           </svg>
         </div>
-        <h3>Deuren &amp; drempels</h3>
-        <p>Stijlvolle binnen- en buitendeuren van massief hout. Inclusief kozijn, hang- en sluitwerk en professionele montage.</p>
+        <h3>{{ _('Deuren &amp; drempels') }}</h3>
+        <p>{{ _('Stijlvolle binnen- en buitendeuren van massief hout. Inclusief kozijn, hang- en sluitwerk en professionele montage.') }}</p>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-4">
@@ -150,8 +106,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>
           </svg>
         </div>
-        <h3>Renovaties</h3>
-        <p>Revitaliseer uw woning of bedrijfspand met een vakkundige renovatie. Wij herstellen, vervangen en moderniseren houtwerk van elke omvang.</p>
+        <h3>{{ _('Renovaties') }}</h3>
+        <p>{{ _('Revitaliseer uw woning of bedrijfspand met een vakkundige renovatie. Wij herstellen, vervangen en moderniseren houtwerk van elke omvang.') }}</p>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-5">
@@ -160,8 +116,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
           </svg>
         </div>
-        <h3>Overig houtwerk</h3>
-        <p>Vloerdelen, trappen, plafonds, terrasoverkappingen en tuinhuizen. Wij werken met alle houtsoorten voor elk vraagstuk.</p>
+        <h3>{{ _('Overig houtwerk') }}</h3>
+        <p>{{ _('Vloerdelen, trappen, plafonds, terrasoverkappingen en tuinhuizen. Wij werken met alle houtsoorten voor elk vraagstuk.') }}</p>
       </div>
     </div>
   </div>
@@ -179,15 +135,15 @@
           loading="lazy"
         />
         <div class="intro-badge-foto">
-          <strong>25+</strong>
-          <span>jaar<br />vakmanschap</span>
+          <strong>{{ _('25+') }}</strong>
+          <span>{{ _('jaar') }}<br />{{ _('vakmanschap') }}</span>
         </div>
       </div>
 
       <div class="intro-tekst fade-in vertraging-2">
-        <div class="sectie-label">Over ons</div>
-        <h2>Twee generaties timmervakmanschap in Goor</h2>
-        <p>MaxCze Service is in 1998 opgericht door Henk van Wijnen en is inmiddels uitgegroeid tot een begrip in de regio Twente. Wij combineren traditioneel vakmanschap met moderne technieken voor een resultaat dat eeuwig meegaat.</p>
+        <div class="sectie-label">{{ _('Over ons') }}</div>
+        <h2>{{ _('Twee generaties timmervakmanschap in Goor') }}</h2>
+        <p>{{ _('MaxCze Service is in 1998 opgericht door Henk van Wijnen en is inmiddels uitgegroeid tot een begrip in de regio Twente. Wij combineren traditioneel vakmanschap met moderne technieken voor een resultaat dat eeuwig meegaat.') }}</p>
 
         <div class="intro-kenmerken">
           <div class="kenmerk">
@@ -195,8 +151,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
             </div>
             <div>
-              <h4>Gecertificeerd vakmanschap</h4>
-              <p>Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit.</p>
+              <h4>{{ _('Gecertificeerd vakmanschap') }}</h4>
+              <p>{{ _('Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit.') }}</p>
             </div>
           </div>
           <div class="kenmerk">
@@ -204,8 +160,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
             </div>
             <div>
-              <h4>Duurzame materialen</h4>
-              <p>Wij werken uitsluitend met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen.</p>
+              <h4>{{ _('Duurzame materialen') }}</h4>
+              <p>{{ _('Wij werken uitsluitend met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen.') }}</p>
             </div>
           </div>
           <div class="kenmerk">
@@ -213,15 +169,15 @@
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             </div>
             <div>
-              <h4>Op tijd en binnen budget</h4>
-              <p>Heldere afspraken, transparante communicatie en altijd op tijd opgeleverd.</p>
+              <h4>{{ _('Op tijd en binnen budget') }}</h4>
+              <p>{{ _('Heldere afspraken, transparante communicatie en altijd op tijd opgeleverd.') }}</p>
             </div>
           </div>
         </div>
 
-        <a href="over-ons.html" class="btn btn-donker">
+        <a href="over-ons.html" class="btn btn-donker">{{ _('
           Meer over ons verhaal
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          ') }}<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
       </div>
     </div>
@@ -232,31 +188,31 @@
 <section class="sectie-werkproces">
   <div class="container">
     <div class="sectie-header fade-in">
-      <div class="sectie-label">Hoe werken wij</div>
-      <h2>Van idee tot oplevering</h2>
-      <p>Een helder en transparant werkproces zodat u altijd weet waar u aan toe bent.</p>
+      <div class="sectie-label">{{ _('Hoe werken wij') }}</div>
+      <h2>{{ _('Van idee tot oplevering') }}</h2>
+      <p>{{ _('Een helder en transparant werkproces zodat u altijd weet waar u aan toe bent.') }}</p>
     </div>
 
     <div class="werkproces-stappen">
       <div class="stap fade-in">
-        <div class="stap-nummer">1</div>
-        <h4>Kennismaken</h4>
-        <p>Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te bespreken.</p>
+        <div class="stap-nummer">{{ _('1') }}</div>
+        <h4>{{ _('Kennismaken') }}</h4>
+        <p>{{ _('Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te bespreken.') }}</p>
       </div>
       <div class="stap fade-in vertraging-1">
-        <div class="stap-nummer">2</div>
-        <h4>Offerte &amp; ontwerp</h4>
-        <p>Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of 3D-visualisatie.</p>
+        <div class="stap-nummer">{{ _('2') }}</div>
+        <h4>{{ _('Offerte &amp; ontwerp') }}</h4>
+        <p>{{ _('Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of 3D-visualisatie.') }}</p>
       </div>
       <div class="stap fade-in vertraging-2">
-        <div class="stap-nummer">3</div>
-        <h4>Uitvoering</h4>
-        <p>Vakkundige uitvoering door ons eigen team, met dagelijkse communicatie over de voortgang.</p>
+        <div class="stap-nummer">{{ _('3') }}</div>
+        <h4>{{ _('Uitvoering') }}</h4>
+        <p>{{ _('Vakkundige uitvoering door ons eigen team, met dagelijkse communicatie over de voortgang.') }}</p>
       </div>
       <div class="stap fade-in vertraging-3">
-        <div class="stap-nummer">4</div>
-        <h4>Oplevering</h4>
-        <p>Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op.</p>
+        <div class="stap-nummer">{{ _('4') }}</div>
+        <h4>{{ _('Oplevering') }}</h4>
+        <p>{{ _('Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op.') }}</p>
       </div>
     </div>
   </div>
@@ -266,44 +222,44 @@
 <section class="sectie-projecten-preview">
   <div class="container">
     <div class="sectie-header fade-in" style="color:white">
-      <div class="sectie-label">Recent werk</div>
-      <h2>Uitgelichte projecten</h2>
-      <p>Een greep uit onze meest recente opdrachten in Twente en omgeving.</p>
+      <div class="sectie-label">{{ _('Recent werk') }}</div>
+      <h2>{{ _('Uitgelichte projecten') }}</h2>
+      <p>{{ _('Een greep uit onze meest recente opdrachten in Twente en omgeving.') }}</p>
     </div>
 
     <div class="projecten-preview-grid">
       <div class="project-kaart fade-in">
         <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Maatwerk keuken" loading="lazy" />
         <div class="project-kaart-overlay">
-          <span class="project-tag">Maatwerk</span>
-          <h3>Keuken op maat – Almelo</h3>
-          <p>Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur.</p>
+          <span class="project-tag">{{ _('Maatwerk') }}</span>
+          <h3>{{ _('Keuken op maat – Almelo') }}</h3>
+          <p>{{ _('Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur.') }}</p>
         </div>
       </div>
 
       <div class="project-kaart fade-in vertraging-1">
         <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Renovatie houten trap" loading="lazy" />
         <div class="project-kaart-overlay">
-          <span class="project-tag">Renovatie</span>
-          <h3>Trap renovatie – Enschede</h3>
-          <p>Volledige traprenovatie met nieuwe treden en spijlen in massief eiken.</p>
+          <span class="project-tag">{{ _('Renovatie') }}</span>
+          <h3>{{ _('Trap renovatie – Enschede') }}</h3>
+          <p>{{ _('Volledige traprenovatie met nieuwe treden en spijlen in massief eiken.') }}</p>
         </div>
       </div>
 
       <div class="project-kaart fade-in vertraging-2">
         <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80" alt="Houten kozijnen" loading="lazy" />
         <div class="project-kaart-overlay">
-          <span class="project-tag">Kozijnen</span>
-          <h3>Kozijnen plaatsing – Hengelo</h3>
-          <p>Vervanging van 14 kozijnen in houten meranti met dubbele beglazing.</p>
+          <span class="project-tag">{{ _('Kozijnen') }}</span>
+          <h3>{{ _('Kozijnen plaatsing – Hengelo') }}</h3>
+          <p>{{ _('Vervanging van 14 kozijnen in houten meranti met dubbele beglazing.') }}</p>
         </div>
       </div>
     </div>
 
     <div class="projecten-meer fade-in">
-      <a href="projecten.html" class="btn btn-primair">
+      <a href="projecten.html" class="btn btn-primair">{{ _('
         Bekijk alle projecten
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        ') }}<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
       </a>
     </div>
   </div>
@@ -313,9 +269,9 @@
 <section class="sectie-reviews">
   <div class="container">
     <div class="sectie-header fade-in">
-      <div class="sectie-label">Klantbeoordelingen</div>
-      <h2>Wat onze klanten zeggen</h2>
-      <p>We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk vinden.</p>
+      <div class="sectie-label">{{ _('Klantbeoordelingen') }}</div>
+      <h2>{{ _('Wat onze klanten zeggen') }}</h2>
+      <p>{{ _('We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk vinden.') }}</p>
     </div>
 
     <div class="reviews-grid">
@@ -327,12 +283,12 @@
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
         </div>
-        <blockquote>"Van Wijnen heeft onze complete keuken verbouwd. Van het eerste gesprek tot de oplevering was alles perfect geregeld. De kwaliteit van het maatwerk overtreft onze verwachtingen ruimschoots. Echt een aanrader!"</blockquote>
+        <blockquote>{{ _('"Van Wijnen heeft onze complete keuken verbouwd. Van het eerste gesprek tot de oplevering was alles perfect geregeld. De kwaliteit van het maatwerk overtreft onze verwachtingen ruimschoots. Echt een aanrader!"') }}</blockquote>
         <div class="review-auteur">
           <img class="review-avatar" src="https://i.pravatar.cc/46?img=12" alt="Klant" />
           <div>
-            <div class="review-auteur-naam">Marieke de Boer</div>
-            <div class="review-auteur-plaats">Almelo</div>
+            <div class="review-auteur-naam">{{ _('Marieke de Boer') }}</div>
+            <div class="review-auteur-plaats">{{ _('Almelo') }}</div>
           </div>
         </div>
       </div>
@@ -345,12 +301,12 @@
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
         </div>
-        <blockquote>"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is onberispelijk. Wij zijn heel blij met het resultaat!"</blockquote>
+        <blockquote>{{ _('"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is onberispelijk. Wij zijn heel blij met het resultaat!"') }}</blockquote>
         <div class="review-auteur">
           <img class="review-avatar" src="https://i.pravatar.cc/46?img=33" alt="Klant" />
           <div>
-            <div class="review-auteur-naam">Peter Jansen</div>
-            <div class="review-auteur-plaats">Hengelo</div>
+            <div class="review-auteur-naam">{{ _('Peter Jansen') }}</div>
+            <div class="review-auteur-plaats">{{ _('Hengelo') }}</div>
           </div>
         </div>
       </div>
@@ -363,12 +319,12 @@
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
           <svg viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
         </div>
-        <blockquote>"Wij lieten onze complete slaapkamer inrichten met maatwerk kasten. Prachtig vakwerk! Iedere centimeter is benut. De prijs-kwaliteitverhouding is uitstekend en de communicatie was altijd snel en duidelijk."</blockquote>
+        <blockquote>{{ _('"Wij lieten onze complete slaapkamer inrichten met maatwerk kasten. Prachtig vakwerk! Iedere centimeter is benut. De prijs-kwaliteitverhouding is uitstekend en de communicatie was altijd snel en duidelijk."') }}</blockquote>
         <div class="review-auteur">
           <img class="review-avatar" src="https://i.pravatar.cc/46?img=47" alt="Klant" />
           <div>
-            <div class="review-auteur-naam">Sandra Visscher</div>
-            <div class="review-auteur-plaats">Goor</div>
+            <div class="review-auteur-naam">{{ _('Sandra Visscher') }}</div>
+            <div class="review-auteur-plaats">{{ _('Goor') }}</div>
           </div>
         </div>
       </div>
@@ -380,18 +336,18 @@
 <section class="sectie-cta">
   <div class="container">
     <div class="sectie-cta-inner fade-in">
-      <div class="sectie-label" style="justify-content:center">Klaar om te beginnen?</div>
-      <h2>Heeft u een project in gedachten?</h2>
-      <p>Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis offerte aan. Wij reageren binnen één werkdag.</p>
+      <div class="sectie-label" style="justify-content:center">{{ _('Klaar om te beginnen?') }}</div>
+      <h2>{{ _('Heeft u een project in gedachten?') }}</h2>
+      <p>{{ _('Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis offerte aan. Wij reageren binnen één werkdag.') }}</p>
       <div class="cta-knoppen">
         <a href="contact.html" class="btn btn-primair">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>{{ _('
           Offerte aanvragen
-        </a>
+        ') }}</a>
         <a href="tel:0547123456" class="btn btn-outline">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>{{ _('
           0547 - 123 456
-        </a>
+        ') }}</a>
       </div>
     </div>
   </div>
@@ -402,9 +358,9 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-logo-tekst">MaxCze Service</div>
-        <div class="footer-logo-sub">Vakmanschap in hout</div>
-        <p class="footer-beschrijving">Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente. Wij bouwen aan uw woondromen met vakmanschap, kwaliteit en passie.</p>
+        <div class="footer-logo-tekst">{{ _('MaxCze Service') }}</div>
+        <div class="footer-logo-sub">{{ _('Vakmanschap in hout') }}</div>
+        <p class="footer-beschrijving">{{ _('Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente. Wij bouwen aan uw woondromen met vakmanschap, kwaliteit en passie.') }}</p>
         <div class="footer-sociaal">
           <a href="#" aria-label="Facebook">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
@@ -419,54 +375,54 @@
       </div>
 
       <div class="footer-kolom">
-        <h5>Navigatie</h5>
+        <h5>{{ _('Navigatie') }}</h5>
         <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="over-ons.html">Over ons</a></li>
-          <li><a href="projecten.html">Projecten</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="contact.html">Offerte aanvragen</a></li>
+          <li><a href="index.html">{{ _('Home') }}</a></li>
+          <li><a href="over-ons.html">{{ _('Over ons') }}</a></li>
+          <li><a href="projecten.html">{{ _('Projecten') }}</a></li>
+          <li><a href="contact.html">{{ _('Contact') }}</a></li>
+          <li><a href="contact.html">{{ _('Offerte aanvragen') }}</a></li>
         </ul>
       </div>
 
       <div class="footer-kolom">
-        <h5>Diensten</h5>
+        <h5>{{ _('Diensten') }}</h5>
         <ul class="footer-links">
-          <li><a href="#">Verbouwingen</a></li>
-          <li><a href="#">Maatwerk meubels</a></li>
-          <li><a href="#">Kozijnen &amp; ramen</a></li>
-          <li><a href="#">Deuren</a></li>
-          <li><a href="#">Renovaties</a></li>
-          <li><a href="#">Houtwerk</a></li>
+          <li><a href="#">{{ _('Verbouwingen') }}</a></li>
+          <li><a href="#">{{ _('Maatwerk meubels') }}</a></li>
+          <li><a href="#">{{ _('Kozijnen &amp; ramen') }}</a></li>
+          <li><a href="#">{{ _('Deuren') }}</a></li>
+          <li><a href="#">{{ _('Renovaties') }}</a></li>
+          <li><a href="#">{{ _('Houtwerk') }}</a></li>
         </ul>
       </div>
 
       <div class="footer-kolom">
-        <h5>Contact</h5>
+        <h5>{{ _('Contact') }}</h5>
         <div class="footer-contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-          <span>Dorpsstraat 42<br />7471 AK Goor</span>
+          <span>{{ _('Dorpsstraat 42') }}<br />{{ _('7471 AK Goor') }}</span>
         </div>
         <div class="footer-contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          <span><a href="tel:0547123456">0547 - 123 456</a></span>
+          <span><a href="tel:0547123456">{{ _('0547 - 123 456') }}</a></span>
         </div>
         <div class="footer-contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          <span><a href="mailto:info@vanwijntimmerwerken.nl">info@vanwijntimmerwerken.nl</a></span>
+          <span><a href="mailto:info@vanwijntimmerwerken.nl">{{ _('info@vanwijntimmerwerken.nl') }}</a></span>
         </div>
         <div class="footer-contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          <span>Ma–Vr: 07:30 – 17:00</span>
+          <span>{{ _('Ma–Vr: 07:30 – 17:00') }}</span>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <span>© 2025 MaxCze Service · KvK 08123456 · BTW NL001234567B01</span>
+      <span>{{ _('© 2025 MaxCze Service · KvK 08123456 · BTW NL001234567B01') }}</span>
       <div class="footer-bottom-links">
-        <a href="#">Privacybeleid</a>
-        <a href="#">Algemene voorwaarden</a>
+        <a href="#">{{ _('Privacybeleid') }}</a>
+        <a href="#">{{ _('Algemene voorwaarden') }}</a>
       </div>
     </div>
   </div>

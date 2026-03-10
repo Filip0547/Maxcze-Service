@@ -1,0 +1,36 @@
+
+# Translations for en
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION
+"
+"POT-Creation-Date: 2025-01-01 00:00+0000
+"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>
+"
+"Language-Team: en
+"
+"Language: en
+"
+"MIME-Version: 1.0
+"
+"Content-Type: text/plain; charset=utf-8
+"
+"Content-Transfer-Encoding: 8bit
+"
+"Plural-Forms: nplurals=2; plural=(n != 1);
+"
+"
+"
+# Example translations
+msgid "Home"
+msgstr "Home"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Projecten"
+msgstr "Projects"
+

@@ -1,41 +1,8 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projecten &amp; Portfolio | MaxCze Service – Goor</title>
-  <meta name="description" content="Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, verbouwingen en meer. Vakmanschap dat spreekt voor zich." />
-  <link rel="stylesheet" href="/static/css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%232E1503'/><path d='M8 20 L16 8 L24 20' stroke='%23C8942A' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='10' y1='20' x2='22' y2='20' stroke='%23C8942A' stroke-width='2.5' stroke-linecap='round'/></svg>" />
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}{{ _('Projecten & Portfolio') }}{% endblock %}
+{% block description %}{{ _('Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, verbouwingen en meer. Vakmanschap dat spreekt voor zich.') }}{% endblock %}
 
-<!-- ═══ NAVIGATIE ═══ -->
-<nav class="nav gescrold">
-  <div class="container">
-    <div class="nav-inner">
-      <a href="/" class="nav-logo">
-        <div class="nav-logo-icoon">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-        </div>
-        <div class="nav-logo-tekst">MaxCze<span>Service</span></div>
-      </a>
-      <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/over-ons">Over ons</a></li>
-        <li><a href="/projecten" class="actief">Projecten</a></li>
-        <li><a href="/contact" class="nav-cta">Offerte aanvragen</a></li>
-      </ul>
-      <button class="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</nav>
-<nav class="mobiel-menu">
-  <a href="/">Home</a>
-  <a href="/over-ons">Over ons</a>
-  <a href="/projecten">Projecten</a>
-  <a href="/contact">Contact & Offerte</a>
-</nav>
+{% block content %}
 
 <!-- ═══ PAGINA HERO ═══ -->
 <header class="pagina-hero">
@@ -43,13 +10,13 @@
   <div class="container">
     <div class="pagina-hero-content">
       <nav class="breadcrumb">
-        <a href="/">Home</a>
+        <a href="/">{{ _('Home') }}</a>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-        <span>Projecten</span>
+        <span>{{ _('Projecten') }}</span>
       </nav>
-      <div class="sectie-label" style="color:var(--goud)">Ons portfolio</div>
-      <h1>Projecten die<br />voor zichzelf spreken</h1>
-      <p>Een selectie van onze meest recente en bijzondere opdrachten in Twente en omgeving.</p>
+      <div class="sectie-label" style="color:var(--goud)">{{ _('Ons portfolio') }}</div>
+      <h1>{{ _('Projecten die') }}<br />{{ _('voor zichzelf spreken') }}</h1>
+      <p>{{ _('Een selectie van onze meest recente en bijzondere opdrachten in Twente en omgeving.') }}</p>
     </div>
   </div>
 </header>
@@ -60,12 +27,12 @@
 
     <!-- Filter knoppen -->
     <div class="portfolio-filter fade-in">
-      <button class="filter-btn actief" data-filter="alles">Alle projecten</button>
-      <button class="filter-btn" data-filter="maatwerk">Maatwerk meubels</button>
-      <button class="filter-btn" data-filter="kozijnen">Kozijnen &amp; ramen</button>
-      <button class="filter-btn" data-filter="verbouwing">Verbouwingen</button>
-      <button class="filter-btn" data-filter="deuren">Deuren</button>
-      <button class="filter-btn" data-filter="renovatie">Renovaties</button>
+      <button class="filter-btn actief" data-filter="alles">{{ _('Alle projecten') }}</button>
+      <button class="filter-btn" data-filter="maatwerk">{{ _('Maatwerk meubels') }}</button>
+      <button class="filter-btn" data-filter="kozijnen">{{ _('Kozijnen &amp; ramen') }}</button>
+      <button class="filter-btn" data-filter="verbouwing">{{ _('Verbouwingen') }}</button>
+      <button class="filter-btn" data-filter="deuren">{{ _('Deuren') }}</button>
+      <button class="filter-btn" data-filter="renovatie">{{ _('Renovaties') }}</button>
     </div>
 
     <!-- Portfolio grid -->
@@ -77,9 +44,9 @@
           src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80"
           alt="Maatwerk keuken Almelo" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Maatwerk meubels</span>
-          <h3>Complete keuken op maat – Almelo</h3>
-          <p>Een volledig op maat gemaakte keuken in wit eiken met een kookeiland van Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de kastjes.</p>
+          <span class="portfolio-tag">{{ _('Maatwerk meubels') }}</span>
+          <h3>{{ _('Complete keuken op maat – Almelo') }}</h3>
+          <p>{{ _('Een volledig op maat gemaakte keuken in wit eiken met een kookeiland van Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de kastjes.') }}</p>
         </div>
       </div>
 
@@ -89,9 +56,9 @@
           src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
           alt="Traprenovatie Enschede" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Renovatie</span>
-          <h3>Traprenovatie – Enschede</h3>
-          <p>Volledige vervanging van treden en spijlen in massief eiken. Inclusief nieuwe leuning en schilderwerk.</p>
+          <span class="portfolio-tag">{{ _('Renovatie') }}</span>
+          <h3>{{ _('Traprenovatie – Enschede') }}</h3>
+          <p>{{ _('Volledige vervanging van treden en spijlen in massief eiken. Inclusief nieuwe leuning en schilderwerk.') }}</p>
         </div>
       </div>
 
@@ -101,9 +68,9 @@
           src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=600&q=80"
           alt="Kozijnen Hengelo" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Kozijnen</span>
-          <h3>Kozijnenvervanging – Hengelo</h3>
-          <p>14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief schilderwerk in kleur van de klant.</p>
+          <span class="portfolio-tag">{{ _('Kozijnen') }}</span>
+          <h3>{{ _('Kozijnenvervanging – Hengelo') }}</h3>
+          <p>{{ _('14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief schilderwerk in kleur van de klant.') }}</p>
         </div>
       </div>
 
@@ -113,9 +80,9 @@
           src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80"
           alt="Inbouwkasten slaapkamer" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Maatwerk meubels</span>
-          <h3>Inbouwkasten slaapkamer – Goor</h3>
-          <p>Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met zachte sluitingen. Maximale benutting van de ruimte.</p>
+          <span class="portfolio-tag">{{ _('Maatwerk meubels') }}</span>
+          <h3>{{ _('Inbouwkasten slaapkamer – Goor') }}</h3>
+          <p>{{ _('Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met zachte sluitingen. Maximale benutting van de ruimte.') }}</p>
         </div>
       </div>
 
@@ -125,9 +92,9 @@
           src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&q=80"
           alt="Voordeur op maat" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Deuren</span>
-          <h3>Voordeur op maat – Delden</h3>
-          <p>Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en sluitwerk. Inclusief nieuw kozijn.</p>
+          <span class="portfolio-tag">{{ _('Deuren') }}</span>
+          <h3>{{ _('Voordeur op maat – Delden') }}</h3>
+          <p>{{ _('Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en sluitwerk. Inclusief nieuw kozijn.') }}</p>
         </div>
       </div>
 
@@ -137,9 +104,9 @@
           src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80"
           alt="Badkamer verbouwing" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Verbouwing</span>
-          <h3>Badkamer verbouwing – Borne</h3>
-          <p>Complete verbouwing van een badkamer inclusief het timmerwerk voor de betegeling en inbouwkasten rondom het bad.</p>
+          <span class="portfolio-tag">{{ _('Verbouwing') }}</span>
+          <h3>{{ _('Badkamer verbouwing – Borne') }}</h3>
+          <p>{{ _('Complete verbouwing van een badkamer inclusief het timmerwerk voor de betegeling en inbouwkasten rondom het bad.') }}</p>
         </div>
       </div>
 
@@ -149,9 +116,9 @@
           src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80"
           alt="Studeerkamer meubels" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Maatwerk meubels</span>
-          <h3>Thuiskantoor op maat – Rijssen</h3>
-          <p>Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, perfect passend in de serre.</p>
+          <span class="portfolio-tag">{{ _('Maatwerk meubels') }}</span>
+          <h3>{{ _('Thuiskantoor op maat – Rijssen') }}</h3>
+          <p>{{ _('Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, perfect passend in de serre.') }}</p>
         </div>
       </div>
 
@@ -161,9 +128,9 @@
           src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=80"
           alt="Complete verbouwing woonkamer" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Verbouwing</span>
-          <h3>Complete woonkamer verbouwing – Almelo</h3>
-          <p>Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel.</p>
+          <span class="portfolio-tag">{{ _('Verbouwing') }}</span>
+          <h3>{{ _('Complete woonkamer verbouwing – Almelo') }}</h3>
+          <p>{{ _('Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel.') }}</p>
         </div>
       </div>
 
@@ -173,9 +140,9 @@
           src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?w=600&q=80"
           alt="Dakkapel kozijnen" loading="lazy" />
         <div class="portfolio-info">
-          <span class="portfolio-tag">Kozijnen</span>
-          <h3>Dakkapel kozijnen – Wierden</h3>
-          <p>Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting op de bestaande constructie.</p>
+          <span class="portfolio-tag">{{ _('Kozijnen') }}</span>
+          <h3>{{ _('Dakkapel kozijnen – Wierden') }}</h3>
+          <p>{{ _('Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting op de bestaande constructie.') }}</p>
         </div>
       </div>
 
@@ -193,9 +160,9 @@
 <section class="sectie-cta">
   <div class="container">
     <div class="sectie-cta-inner fade-in">
-      <div class="sectie-label" style="justify-content:center">Uw project</div>
-      <h2>Heeft u een soortgelijk<br />project in gedachten?</h2>
-      <p>Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee over de mogelijkheden.</p>
+      <div class="sectie-label" style="justify-content:center">{{ _('Uw project') }}</div>
+      <h2>{{ _('Heeft u een soortgelijk') }}<br />{{ _('project in gedachten?') }}</h2>
+      <p>{{ _('Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee over de mogelijkheden.') }}</p>
       <div class="cta-knoppen">
         <a href="contact.html" class="btn btn-primair">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
@@ -210,53 +177,4 @@
   </div>
 </section>
 
-<!-- ═══ FOOTER ═══ -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-logo-tekst">MaxCze Service</div>
-        <div class="footer-logo-sub">Vakmanschap in hout</div>
-        <p class="footer-beschrijving">Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente.</p>
-        <div class="footer-sociaal">
-          <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-          <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
-        </div>
-      </div>
-      <div class="footer-kolom">
-        <h5>Navigatie</h5>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="over-ons.html">Over ons</a></li>
-          <li><a href="projecten.html">Projecten</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-kolom">
-        <h5>Categorieën</h5>
-        <ul class="footer-links">
-          <li><a href="#">Maatwerk meubels</a></li>
-          <li><a href="#">Kozijnen</a></li>
-          <li><a href="#">Verbouwingen</a></li>
-          <li><a href="#">Deuren</a></li>
-          <li><a href="#">Renovaties</a></li>
-        </ul>
-      </div>
-      <div class="footer-kolom">
-        <h5>Contact</h5>
-        <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span>Dorpsstraat 42, 7471 AK Goor</span></div>
-        <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><span><a href="tel:0547123456">0547 - 123 456</a></span></div>
-        <div class="footer-contact-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><span><a href="mailto:info@vanwijntimmerwerken.nl">info@vanwijntimmerwerken.nl</a></span></div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2025 MaxCze Service · KvK 08123456</span>
-      <div class="footer-bottom-links"><a href="#">Privacybeleid</a><a href="#">Algemene voorwaarden</a></div>
-    </div>
-  </div>
-</footer>
-
-<script src="/static/js/main.js"></script>
-</body>
-</html>
+{% endblock %}

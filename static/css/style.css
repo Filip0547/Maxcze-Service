@@ -67,6 +67,15 @@ h4 { font-size: 1.15rem; }
 
 p { color: var(--grijs); font-size: 1.05rem; }
 
+/* extra spacing for long content pages like privacybeleid */
+.sectie h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.sectie p {
+  margin-bottom: 1.5rem;
+}
+
 /* ─── Utility ─── */
 .container {
   width: min(1180px, 92%);
