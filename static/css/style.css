@@ -284,36 +284,72 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .nav-links a.nav-cta::after { display: none; }
 
 .lang-switcher {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  position: relative;
 }
 
-.lang-label {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.75);
-}
-
-.lang-select {
-  height: 34px;
+.lang-current {
+  height: 36px;
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.25);
   background: rgba(22,13,6,0.55);
   color: var(--wit);
-  padding: 0 0.6rem;
+  padding: 0 0.7rem;
   font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   cursor: pointer;
 }
 
-.lang-select:focus {
+.lang-current span {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.lang-current:focus {
   outline: none;
   border-color: var(--goud);
   box-shadow: 0 0 0 2px rgba(200,148,42,0.2);
 }
 
-.lang-select option {
-  color: var(--donker);
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 150px;
   background: var(--wit);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-medium);
+  padding: 0.35rem;
+  display: none;
+  z-index: 1100;
+}
+
+.lang-switcher:hover .lang-menu,
+.lang-switcher:focus-within .lang-menu {
+  display: block;
+}
+
+.lang-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem 0.55rem;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  color: var(--donker);
+}
+
+.lang-menu a:hover,
+.lang-menu a.actief {
+  background: var(--lichtgrijs);
+}
+
+.lang-menu a span {
+  font-size: 1rem;
+  line-height: 1;
 }
 
 /* Hamburger */
@@ -1538,10 +1574,9 @@ p { color: var(--grijs); font-size: 1.05rem; }
 @media (max-width: 768px) {
   .nav-links, .nav-cta { display: none; }
   .hamburger { display: flex; }
-  .lang-label { display: none; }
-  .lang-select {
+  .lang-current {
     height: 32px;
-    max-width: 132px;
+    max-width: 150px;
     font-size: 0.8rem;
   }
 

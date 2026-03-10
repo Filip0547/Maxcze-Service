@@ -36,22 +36,22 @@ msgstr ""
 #: templates/privacy.html:13 templates/privacy.html:97
 #: templates/privacy.html:184 templates/projecten.html:13
 msgid "Home"
-msgstr ""
+msgstr "Strona glowna"
 
 #: templates/base.html:25 templates/base.html:43 templates/base.html:66
 #: templates/index.html:144 templates/over-ons.html:2
 #: templates/over-ons.html:15 templates/privacy.html:185
 msgid "Over ons"
-msgstr ""
+msgstr "O nas"
 
 #: templates/base.html:26 templates/base.html:44 templates/base.html:67
 #: templates/privacy.html:186 templates/projecten.html:15
 msgid "Projecten"
-msgstr ""
+msgstr "Realizacje"
 
 #: templates/base.html:27
 msgid "Offerte aanvragen"
-msgstr ""
+msgstr "Popros o wycene"
 
 #: templates/base.html:32
 msgid "NL"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: templates/base.html:45 templates/contact.html:2
 msgid "Contact & Offerte"
-msgstr ""
+msgstr "Kontakt i wycena"
 
 #: templates/base.html:55 templates/privacy.html:172
 msgid "MaxCze Service"
@@ -83,16 +83,16 @@ msgstr ""
 
 #: templates/base.html:63 templates/privacy.html:182
 msgid "Navigatie"
-msgstr ""
+msgstr "Nawigacja"
 
 #: templates/base.html:68 templates/base.html:82 templates/contact.html:15
 #: templates/privacy.html:187 templates/privacy.html:201
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: templates/base.html:72 templates/privacy.html:191
 msgid "Diensten"
-msgstr ""
+msgstr "Uslugi"
 
 #: templates/base.html:74 templates/index.html:67 templates/privacy.html:193
 #: templates/projecten.html:33
@@ -138,7 +138,7 @@ msgstr ""
 
 #: templates/base.html:89
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polityka prywatnosci"
 
 #: templates/contact.html:3
 msgid ""
@@ -162,7 +162,7 @@ msgstr ""
 
 #: templates/contact.html:31
 msgid "Contactgegevens"
-msgstr ""
+msgstr "Dane kontaktowe"
 
 #: templates/contact.html:32
 msgid "Wij helpen u graag verder"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: templates/contact.html:118
 msgid "First name"
-msgstr ""
+msgstr "Imie"
 
 #: templates/contact.html:119
 msgid "Jan"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: templates/contact.html:122
 msgid "Last name"
-msgstr ""
+msgstr "Nazwisko"
 
 #: templates/contact.html:123
 msgid "de Vries"
@@ -268,11 +268,11 @@ msgstr ""
 
 #: templates/contact.html:133
 msgid "Phone number"
-msgstr ""
+msgstr "Numer telefonu"
 
 #: templates/contact.html:138
 msgid "Message / request"
-msgstr ""
+msgstr "Wiadomosc / zapytanie"
 
 #: templates/contact.html:139
 msgid "Omschrijf uw aanvraag"

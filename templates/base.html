@@ -26,18 +26,21 @@
         <li><a href="/contact" class="nav-cta {% if request.path.startswith('/contact') %}actief{% endif %}">{{ _('Offerte aanvragen') }}</a></li>
       </ul>
 
-      <div class="lang-switcher">
-        <label for="taal-select" class="lang-label">Taal</label>
-        <select
-          id="taal-select"
-          class="lang-select"
-          aria-label="Selecteer taal"
-          onchange="window.location.href=this.value"
-        >
-          <option value="{{ url_for('set_language', lang='nl') }}" {% if get_locale() == 'nl' %}selected{% endif %}>Nederlands 🇳🇱</option>
-          <option value="{{ url_for('set_language', lang='en') }}" {% if get_locale() == 'en' %}selected{% endif %}>English 🇬🇧</option>
-          <option value="{{ url_for('set_language', lang='pl') }}" {% if get_locale() == 'pl' %}selected{% endif %}>Polski 🇵🇱</option>
-        </select>
+      <div class="lang-switcher" tabindex="0" aria-label="Selecteer taal">
+        <button type="button" class="lang-current" aria-haspopup="true" aria-expanded="false">
+          {% if get_locale() == 'en' %}
+            English <span>🇬🇧</span>
+          {% elif get_locale() == 'pl' %}
+            Polski <span>🇵🇱</span>
+          {% else %}
+            Nederlands <span>🇳🇱</span>
+          {% endif %}
+        </button>
+        <div class="lang-menu">
+          <a href="{{ url_for('set_language', lang='nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}">Nederlands <span>🇳🇱</span></a>
+          <a href="{{ url_for('set_language', lang='en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}">English <span>🇬🇧</span></a>
+          <a href="{{ url_for('set_language', lang='pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}">Polski <span>🇵🇱</span></a>
+        </div>
       </div>
 
       <button class="hamburger" aria-label="Menu openen"><span></span><span></span><span></span></button>
