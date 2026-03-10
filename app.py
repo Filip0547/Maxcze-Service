@@ -3,6 +3,7 @@ from flask_babel import Babel, _
 from flask_mail import Mail, Message
 from dotenv import load_dotenv
 import os
+import polib
 
 # Load environment variables from .env file
 # Make sure to create a .env file with your email credentials
@@ -36,6 +37,29 @@ ROUTE_MAP = {
     'privacy': {'nl': '/privacy', 'en': '/en/privacy', 'pl': '/pl/prywatnosc'},
 }
 
+
+def load_po_translations(lang):
+    if lang == 'nl':
+        return {}
+
+    po_path = os.path.join(app.root_path, 'translations', lang, 'LC_MESSAGES', 'messages.po')
+    if not os.path.exists(po_path):
+        return {}
+
+    catalog = {}
+    for entry in polib.pofile(po_path):
+        if entry.obsolete or not entry.msgid:
+            continue
+        if entry.msgstr:
+            catalog[entry.msgid] = entry.msgstr
+    return catalog
+
+
+TRANSLATIONS = {
+    'en': load_po_translations('en'),
+    'pl': load_po_translations('pl'),
+}
+
 def get_locale():
     if request.view_args:
         lang = request.view_args.get('lang')
@@ -49,6 +73,13 @@ def get_locale():
     return 'nl'
 
 babel = Babel(app, locale_selector=get_locale)
+
+
+def translate(message):
+    lang = get_locale()
+    if lang == 'nl':
+        return message
+    return TRANSLATIONS.get(lang, {}).get(message, message)
 
 @app.context_processor
 def inject_locale():
@@ -70,6 +101,7 @@ def inject_locale():
         'localized_url': localized_url,
         'switch_language_url': switch_language_url,
         'is_current': is_current,
+        '_': translate,
     }
 
 @app.route('/', defaults={'lang': 'nl'})
@@ -131,9 +163,9 @@ Deze e-mail is automatisch verzonden vanaf de MaxCze Service website.
         }
         try:
             mail.send(msg)
-            flash(_('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
+            flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
         except Exception as e:
-            flash(_('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.'), 'error')
+            flash(translate('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.'), 'error')
         
         return render_template('contact.html')
     return render_template('contact.html')
