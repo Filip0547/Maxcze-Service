@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash, session, redirect, url_for
+from flask import Flask, render_template, request, flash, redirect, url_for
 from flask_babel import Babel, _
 from flask_mail import Mail, Message
 from dotenv import load_dotenv
@@ -27,32 +27,73 @@ mail = Mail(app)
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
 app.config["BABEL_TRANSLATION_DIRECTORIES"] = "translations"
 
+SUPPORTED_LANGS = ['nl', 'en', 'pl']
+ROUTE_MAP = {
+    'home': {'nl': '/', 'en': '/en', 'pl': '/pl'},
+    'over_ons': {'nl': '/over-ons', 'en': '/en/about-us', 'pl': '/pl/o-nas'},
+    'projecten': {'nl': '/projecten', 'en': '/en/projects', 'pl': '/pl/projekty'},
+    'contact': {'nl': '/contact', 'en': '/en/contact', 'pl': '/pl/contact'},
+    'privacy': {'nl': '/privacy', 'en': '/en/privacy', 'pl': '/pl/prywatnosc'},
+}
+
 def get_locale():
-    lang = session.get('lang')
-    if lang in ['nl', 'en', 'pl']:
-        return lang
-    return request.accept_languages.best_match(['nl', 'en', 'pl'])
+    if request.view_args:
+        lang = request.view_args.get('lang')
+        if lang in SUPPORTED_LANGS:
+            return lang
+
+    first_segment = request.path.strip('/').split('/', 1)[0]
+    if first_segment in ['en', 'pl']:
+        return first_segment
+
+    return 'nl'
 
 babel = Babel(app, locale_selector=get_locale)
 
 @app.context_processor
 def inject_locale():
-    return {'get_locale': get_locale}
+    def localized_url(page, lang=None):
+        active_lang = lang or get_locale()
+        return ROUTE_MAP[page][active_lang]
 
-@app.route('/')
-def home():
+    def switch_language_url(lang):
+        endpoint = request.endpoint
+        if endpoint in ROUTE_MAP:
+            return ROUTE_MAP[endpoint][lang]
+        return ROUTE_MAP['home'][lang]
+
+    def is_current(page):
+        return request.endpoint == page
+
+    return {
+        'get_locale': get_locale,
+        'localized_url': localized_url,
+        'switch_language_url': switch_language_url,
+        'is_current': is_current,
+    }
+
+@app.route('/', defaults={'lang': 'nl'})
+@app.route('/en', defaults={'lang': 'en'})
+@app.route('/pl', defaults={'lang': 'pl'})
+def home(lang='nl'):
     return render_template('index.html')
 
-@app.route('/over-ons')
-def over_ons():
+@app.route('/over-ons', defaults={'lang': 'nl'})
+@app.route('/en/about-us', defaults={'lang': 'en'})
+@app.route('/pl/o-nas', defaults={'lang': 'pl'})
+def over_ons(lang='nl'):
     return render_template('over-ons.html')
 
-@app.route('/projecten')
-def projecten():
+@app.route('/projecten', defaults={'lang': 'nl'})
+@app.route('/en/projects', defaults={'lang': 'en'})
+@app.route('/pl/projekty', defaults={'lang': 'pl'})
+def projecten(lang='nl'):
     return render_template('projecten.html')
 
-@app.route('/contact', methods=['GET', 'POST'])
-def contact():
+@app.route('/contact', defaults={'lang': 'nl'}, methods=['GET', 'POST'])
+@app.route('/en/contact', defaults={'lang': 'en'}, methods=['GET', 'POST'])
+@app.route('/pl/contact', defaults={'lang': 'pl'}, methods=['GET', 'POST'])
+def contact(lang='nl'):
     if request.method == 'POST':
         # Handle form submission
         voornaam = request.form.get('voornaam')
@@ -98,15 +139,24 @@ Deze e-mail is automatisch verzonden vanaf de MaxCze Service website.
     return render_template('contact.html')
 
 
-@app.route('/privacy')
-def privacy():
+@app.route('/privacy', defaults={'lang': 'nl'})
+@app.route('/en/privacy', defaults={'lang': 'en'})
+@app.route('/pl/prywatnosc', defaults={'lang': 'pl'})
+def privacy(lang='nl'):
     return render_template('privacy.html')
 
 @app.route('/set-language/<lang>')
 def set_language(lang):
-    if lang in ['nl', 'en', 'pl']:
-        session['lang'] = lang
-    return redirect(request.referrer or url_for('home'))
+    if lang not in SUPPORTED_LANGS:
+        return redirect(ROUTE_MAP['home']['nl'])
+
+    referrer = request.referrer or ''
+    for page, paths in ROUTE_MAP.items():
+        for source_lang, source_path in paths.items():
+            if referrer.endswith(source_path):
+                return redirect(paths[lang])
+
+    return redirect(ROUTE_MAP['home'][lang])
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))

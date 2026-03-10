@@ -10,7 +10,7 @@
   <div class="container">
     <div class="pagina-hero-content">
       <nav class="breadcrumb">
-        <a href="/">{{ _('Home') }}</a>
+        <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <span>{{ _('Contact') }}</span>
       </nav>
@@ -112,7 +112,7 @@
             {% endwith %}
           </div>
 
-          <form id="contact-formulier" method="post" action="/contact" novalidate>
+          <form id="contact-formulier" method="post" action="{{ localized_url('contact') }}" novalidate>
             <div class="formulier-rij">
               <div class="formulier-groep">
                 <label for="voornaam">{{ _('Voornaam') }} <span>*</span></label>
@@ -154,7 +154,7 @@
             <div style="display:flex;align-items:flex-start;gap:0.75rem;margin-bottom:1.5rem;">
               <input type="checkbox" id="akkoord" name="akkoord" style="margin-top:3px;accent-color:var(--goud);width:auto;" required />
               <label for="akkoord" style="font-size:0.85rem;color:var(--grijs);cursor:pointer;font-weight:400;">
-                {{ _('Ik ga akkoord met het') }} <a href="/privacy" style="color:var(--goud);">{{ _('privacybeleid') }}</a>
+                {{ _('Ik ga akkoord met het') }} <a href="{{ localized_url('privacy') }}" style="color:var(--goud);">{{ _('privacybeleid') }}</a>
               </label>
             </div>
 

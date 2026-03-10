@@ -16,30 +16,30 @@
 <nav class="nav gescrold">
   <div class="container">
     <div class="nav-inner">
-      <a href="/" class="nav-logo">
+      <a href="{{ localized_url('home') }}" class="nav-logo">
         <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" alt="MaxCze Service" class="site-logo site-logo-nav" />
       </a>
       <ul class="nav-links">
-        <li><a href="/" class="{% if request.path == '/' %}actief{% endif %}">{{ _('Home') }}</a></li>
-        <li><a href="/over-ons" class="{% if request.path.startswith('/over-ons') %}actief{% endif %}">{{ _('Over ons') }}</a></li>
-        <li><a href="/projecten" class="{% if request.path.startswith('/projecten') %}actief{% endif %}">{{ _('Projecten') }}</a></li>
-        <li><a href="/contact" class="nav-cta {% if request.path.startswith('/contact') %}actief{% endif %}">{{ _('Offerte aanvragen') }}</a></li>
+        <li><a href="{{ localized_url('home') }}" class="{% if is_current('home') %}actief{% endif %}">{{ _('Home') }}</a></li>
+        <li><a href="{{ localized_url('over_ons') }}" class="{% if is_current('over_ons') %}actief{% endif %}">{{ _('Over ons') }}</a></li>
+        <li><a href="{{ localized_url('projecten') }}" class="{% if is_current('projecten') %}actief{% endif %}">{{ _('Projecten') }}</a></li>
+        <li><a href="{{ localized_url('contact') }}" class="nav-cta {% if is_current('contact') %}actief{% endif %}">{{ _('Offerte aanvragen') }}</a></li>
       </ul>
 
       <details class="lang-switcher">
         <summary class="lang-current">
           {% if get_locale() == 'en' %}
-            <span class="flag flag-en" aria-hidden="true"></span>English
+            <span class="flag-emoji" aria-hidden="true">🇬🇧</span>English
           {% elif get_locale() == 'pl' %}
-            <span class="flag flag-pl" aria-hidden="true"></span>Polski
+            <span class="flag-emoji" aria-hidden="true">🇵🇱</span>Polski
           {% else %}
-            <span class="flag flag-nl" aria-hidden="true"></span>Nederlands
+            <span class="flag-emoji" aria-hidden="true">🇳🇱</span>Nederlands
           {% endif %}
         </summary>
         <div class="lang-menu">
-          <a href="{{ url_for('set_language', lang='nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><span class="flag flag-nl" aria-hidden="true"></span>Nederlands</a>
-          <a href="{{ url_for('set_language', lang='en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><span class="flag flag-en" aria-hidden="true"></span>English</a>
-          <a href="{{ url_for('set_language', lang='pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><span class="flag flag-pl" aria-hidden="true"></span>Polski</a>
+          <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇳🇱</span>Nederlands</a>
+          <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇬🇧</span>English</a>
+          <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇵🇱</span>Polski</a>
         </div>
       </details>
 
@@ -48,10 +48,10 @@
   </div>
 </nav>
 <nav class="mobiel-menu">
-  <a href="/">{{ _('Home') }}</a>
-  <a href="/over-ons">{{ _('Over ons') }}</a>
-  <a href="/projecten">{{ _('Projecten') }}</a>
-  <a href="/contact">{{ _('Contact & Offerte') }}</a>
+  <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
+  <a href="{{ localized_url('over_ons') }}">{{ _('Over ons') }}</a>
+  <a href="{{ localized_url('projecten') }}">{{ _('Projecten') }}</a>
+  <a href="{{ localized_url('contact') }}">{{ _('Contact & Offerte') }}</a>
 </nav>
 
 {% block content %}{% endblock %}
@@ -70,19 +70,19 @@
       <div class="footer-kolom">
         <h5>{{ _('Navigatie') }}</h5>
         <ul class="footer-links">
-          <li><a href="/">{{ _('Home') }}</a></li>
-          <li><a href="/over-ons">{{ _('Over ons') }}</a></li>
-          <li><a href="/projecten">{{ _('Projecten') }}</a></li>
-          <li><a href="/contact">{{ _('Contact') }}</a></li>
+          <li><a href="{{ localized_url('home') }}">{{ _('Home') }}</a></li>
+          <li><a href="{{ localized_url('over_ons') }}">{{ _('Over ons') }}</a></li>
+          <li><a href="{{ localized_url('projecten') }}">{{ _('Projecten') }}</a></li>
+          <li><a href="{{ localized_url('contact') }}">{{ _('Contact') }}</a></li>
         </ul>
       </div>
       <div class="footer-kolom">
         <h5>{{ _('Diensten') }}</h5>
         <ul class="footer-links">
-          <li><a href="/projecten">{{ _('Complete verbouwingen') }}</a></li>
-          <li><a href="/projecten">{{ _('Kozijnen en deuren') }}</a></li>
-          <li><a href="/projecten">{{ _('Renovaties') }}</a></li>
-          <li><a href="/projecten">{{ _('Overig timmerwerk') }}</a></li>
+          <li><a href="{{ localized_url('projecten') }}">{{ _('Complete verbouwingen') }}</a></li>
+          <li><a href="{{ localized_url('projecten') }}">{{ _('Kozijnen en deuren') }}</a></li>
+          <li><a href="{{ localized_url('projecten') }}">{{ _('Renovaties') }}</a></li>
+          <li><a href="{{ localized_url('projecten') }}">{{ _('Overig timmerwerk') }}</a></li>
         </ul>
       </div>
       <div class="footer-kolom">
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>{{ _('© 2026 MaxCze Service |') }}<a href="/privacy">{{ _('Privacy Policy') }}</a></span>
+      <span>{{ _('© 2026 MaxCze Service |') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
     </div>
   </div>
 </footer>
