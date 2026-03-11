@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nieuwe offerte aanvraag</title>
+</head>
+<body style="margin:0;padding:0;background:#f4f1ea;font-family:Arial,Helvetica,sans-serif;color:#1f1f1f;">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4f1ea;padding:24px 0;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="680" cellspacing="0" cellpadding="0" style="max-width:680px;width:100%;background:#ffffff;border-radius:12px;overflow:hidden;border:1px solid #ddd5c6;">
+          <tr>
+            <td style="background:#222222;padding:22px 26px;">
+              <h1 style="margin:0;font-size:22px;line-height:1.3;color:#f3c563;">Nieuwe offerte aanvraag</h1>
+              <p style="margin:6px 0 0 0;font-size:13px;color:#f3ead8;">MaxCze Service website</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:24px 26px 10px 26px;">
+              <p style="margin:0 0 12px 0;font-size:15px;">Er is een nieuwe aanvraag binnengekomen via het contactformulier.</p>
+              <p style="margin:0 0 16px 0;font-size:13px;color:#555555;">Ontvangen op: <strong>{{ data.timestamp }}</strong></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 26px 24px 26px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:1px solid #e8e1d4;border-radius:8px;overflow:hidden;">
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;border-bottom:1px solid #e8e1d4;font-size:13px;color:#5f5a4f;">Voornaam</td>
+                  <td style="padding:12px;border-bottom:1px solid #e8e1d4;font-size:14px;">{{ data.voornaam }}</td>
+                </tr>
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;border-bottom:1px solid #e8e1d4;font-size:13px;color:#5f5a4f;">Achternaam</td>
+                  <td style="padding:12px;border-bottom:1px solid #e8e1d4;font-size:14px;">{{ data.achternaam }}</td>
+                </tr>
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;border-bottom:1px solid #e8e1d4;font-size:13px;color:#5f5a4f;">E-mail</td>
+                  <td style="padding:12px;border-bottom:1px solid #e8e1d4;font-size:14px;"><a href="mailto:{{ data.email }}" style="color:#8d6328;text-decoration:none;">{{ data.email }}</a></td>
+                </tr>
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;border-bottom:1px solid #e8e1d4;font-size:13px;color:#5f5a4f;">Telefoon</td>
+                  <td style="padding:12px;border-bottom:1px solid #e8e1d4;font-size:14px;">{{ data.telefoon }}</td>
+                </tr>
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;border-bottom:1px solid #e8e1d4;font-size:13px;color:#5f5a4f;">Type aanvraag</td>
+                  <td style="padding:12px;border-bottom:1px solid #e8e1d4;font-size:14px;">{{ data.type_aanvraag }}</td>
+                </tr>
+                <tr>
+                  <td style="width:38%;padding:12px;background:#fbf9f5;font-size:13px;color:#5f5a4f;">Privacy akkoord</td>
+                  <td style="padding:12px;font-size:14px;">{% if data.akkoord %}Ja{% else %}Nee{% endif %}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 26px 26px 26px;">
+              <h2 style="margin:0 0 8px 0;font-size:16px;color:#1f1f1f;">Bericht van klant</h2>
+              <div style="border:1px solid #e8e1d4;border-radius:8px;background:#fcfbf8;padding:14px 14px;font-size:14px;line-height:1.6;white-space:pre-wrap;">{{ data.bericht }}</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="background:#f7f3eb;padding:14px 26px;font-size:12px;color:#666052;">
+              Automatisch verstuurd via MaxCze Service website.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

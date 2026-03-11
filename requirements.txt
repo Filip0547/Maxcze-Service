@@ -5,3 +5,4 @@ python-dotenv==1.0.0
 gunicorn==21.2.0
 Babel==2.14.0
 polib==1.2.0
+sendgrid==6.11.0

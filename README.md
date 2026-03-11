@@ -47,3 +47,19 @@ includes:
 * Templates extend `base.html` and wrap all human‑visible text in `_()` so they
   can be translated.
 
+### Email delivery
+
+The contact form supports 2 providers:
+
+* `MAIL_PROVIDER=smtp` (default when no SendGrid key is set)
+* `MAIL_PROVIDER=sendgrid` (recommended if Microsoft SMTP auth is blocked)
+
+Minimal SendGrid `.env` values:
+
+```dotenv
+MAIL_PROVIDER=sendgrid
+MAIL_RECIPIENT=your-email@domain.com
+SENDGRID_API_KEY=SG.your_api_key
+SENDGRID_FROM_EMAIL=verified-sender@yourdomain.com
+```
+

@@ -1,0 +1,15 @@
+Nieuwe offerte aanvraag ontvangen via de website.
+
+Ontvangen op: {{ data.timestamp }}
+
+Naam: {{ data.voornaam }} {{ data.achternaam }}
+E-mail: {{ data.email }}
+Telefoon: {{ data.telefoon }}
+Type aanvraag: {{ data.type_aanvraag }}
+Privacy akkoord: {% if data.akkoord %}Ja{% else %}Nee{% endif %}
+
+Bericht:
+{{ data.bericht }}
+
+--
+Automatisch verstuurd via MaxCze Service website.

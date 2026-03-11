@@ -1,9 +1,12 @@
-from flask import Flask, render_template, request, flash, redirect, url_for
+from flask import Flask, render_template, request, flash, redirect
 from flask_babel import Babel, _
-from flask_mail import Mail, Message
+from flask_mail import Mail as FlaskMail, Message as FlaskMessage
 from dotenv import load_dotenv
 import os
 import polib
+from datetime import datetime
+from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
+from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
 # Load environment variables from .env file
 # Make sure to create a .env file with your email credentials
@@ -21,8 +24,19 @@ app.config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'True').lower() == 'true'
 app.config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')  # Required: your email address
 app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')  # Required: your email password
 app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', os.getenv('MAIL_USERNAME'))
+app.config['MAIL_RECIPIENT'] = os.getenv('MAIL_RECIPIENT', os.getenv('MAIL_USERNAME', ''))
+app.config['SENDGRID_API_KEY'] = os.getenv('SENDGRID_API_KEY', '')
+app.config['SENDGRID_FROM_EMAIL'] = os.getenv('SENDGRID_FROM_EMAIL', app.config['MAIL_DEFAULT_SENDER'] or app.config['MAIL_USERNAME'])
 
-mail = Mail(app)
+provider_from_env = os.getenv('MAIL_PROVIDER', '').strip().lower()
+if provider_from_env:
+    app.config['MAIL_PROVIDER'] = provider_from_env
+elif app.config['SENDGRID_API_KEY']:
+    app.config['MAIL_PROVIDER'] = 'sendgrid'
+else:
+    app.config['MAIL_PROVIDER'] = 'smtp'
+
+mail = FlaskMail(app)
 
 # --- internationalization / localization ---
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
@@ -81,6 +95,79 @@ def translate(message):
         return message
     return TRANSLATIONS.get(lang, {}).get(message, message)
 
+
+def _clean_value(value, fallback='Niet opgegeven'):
+    cleaned = (value or '').strip()
+    return cleaned or fallback
+
+
+def _build_contact_payload(form_data):
+    return {
+        'voornaam': _clean_value(form_data.get('voornaam'), ''),
+        'achternaam': _clean_value(form_data.get('achternaam'), ''),
+        'email': _clean_value(form_data.get('email'), ''),
+        'telefoon': _clean_value(form_data.get('telefoon')),
+        'type_aanvraag': _clean_value(form_data.get('type_aanvraag')),
+        'bericht': _clean_value(form_data.get('bericht'), ''),
+        'akkoord': bool(form_data.get('akkoord')),
+        'timestamp': datetime.now().strftime('%d-%m-%Y %H:%M'),
+    }
+
+
+def _send_contact_email(payload):
+    if not app.config.get('MAIL_RECIPIENT'):
+        raise RuntimeError('MAIL_RECIPIENT is not configured')
+
+    provider = (app.config.get('MAIL_PROVIDER') or 'smtp').lower()
+    if provider == 'sendgrid':
+        _send_contact_email_sendgrid(payload)
+        return
+
+    _send_contact_email_smtp(payload)
+
+
+def _send_contact_email_smtp(payload):
+    fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
+    subject_name = fullname or 'Onbekende afzender'
+    msg = FlaskMessage(
+        subject=f'Nieuwe offerte aanvraag: {subject_name}',
+        recipients=[app.config['MAIL_RECIPIENT']],
+        reply_to=payload['email'] if payload['email'] else None,
+    )
+    msg.body = render_template('emails/offerte_notification.txt', data=payload)
+    msg.html = render_template('emails/offerte_notification.html', data=payload)
+    msg.extra_headers = {
+        'X-Priority': '1',
+        'Importance': 'High'
+    }
+    mail.send(msg)
+
+
+def _send_contact_email_sendgrid(payload):
+    api_key = app.config.get('SENDGRID_API_KEY')
+    if not api_key:
+        raise RuntimeError('SENDGRID_API_KEY is not configured')
+
+    fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
+    subject_name = fullname or 'Onbekende afzender'
+    text_content = render_template('emails/offerte_notification.txt', data=payload)
+    html_content = render_template('emails/offerte_notification.html', data=payload)
+
+    message = SendGridMail(
+        from_email=app.config['SENDGRID_FROM_EMAIL'],
+        to_emails=app.config['MAIL_RECIPIENT'],
+        subject=f'Nieuwe offerte aanvraag: {subject_name}',
+        plain_text_content=text_content,
+        html_content=html_content,
+    )
+
+    if payload.get('email'):
+        message.reply_to = SendGridEmail(payload['email'])
+
+    response = SendGridAPIClient(api_key).send(message)
+    if response.status_code < 200 or response.status_code >= 300:
+        raise RuntimeError(f'SendGrid send failed with status {response.status_code}')
+
 @app.context_processor
 def inject_locale():
     def localized_url(page, lang=None):
@@ -127,47 +214,23 @@ def projecten(lang='nl'):
 @app.route('/pl/contact', defaults={'lang': 'pl'}, methods=['GET', 'POST'])
 def contact(lang='nl'):
     if request.method == 'POST':
-        # Handle form submission
-        voornaam = request.form.get('voornaam')
-        achternaam = request.form.get('achternaam')
-        email = request.form.get('email')
-        telefoon = request.form.get('telefoon')
-        type_aanvraag = request.form.get('type_aanvraag')
-        bericht = request.form.get('bericht')
-        akkoord = request.form.get('akkoord')
-        
-        # Send email
-        msg = Message(
-            subject='Nieuwe offerte aanvraag van MaxCze Service website',
-            recipients=['maxcze@hotmail.com'],
-            body=f"""
-Nieuwe offerte aanvraag ontvangen via de website.
+        payload = _build_contact_payload(request.form)
 
-Naam: {voornaam} {achternaam}
-E-mail: {email}
-Telefoon: {telefoon or 'Niet opgegeven'}
-Type aanvraag: {type_aanvraag or 'Niet opgegeven'}
+        if not payload['voornaam'] or not payload['achternaam'] or not payload['email'] or not payload['bericht']:
+            flash(translate('Vul alle verplichte velden in en probeer opnieuw.'), 'error')
+            return render_template('contact.html')
 
-Bericht:
-{bericht}
+        if not payload['akkoord']:
+            flash(translate('U moet akkoord gaan met het privacybeleid.'), 'error')
+            return render_template('contact.html')
 
-Privacy akkoord: {'Ja' if akkoord else 'Nee'}
-
---
-Deze e-mail is automatisch verzonden vanaf de MaxCze Service website.
-            """.strip()
-        )
-        msg.extra_headers = {
-            'X-Priority': '1',
-            'Importance': 'High'
-        }
         try:
-            mail.send(msg)
+            _send_contact_email(payload)
             flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
-        except Exception as e:
+        except Exception:
             flash(translate('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.'), 'error')
-        
-        return render_template('contact.html')
+
+        return redirect(ROUTE_MAP['contact'][lang])
     return render_template('contact.html')
 
 
