@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import os
 import polib
 from datetime import datetime
+import logging
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
@@ -15,6 +16,7 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Change this to a real secret key
+logger = logging.getLogger(__name__)
 
 # --- Flask-Mail configuration ---
 # Load email credentials from environment variables
@@ -147,6 +149,8 @@ def _send_contact_email_sendgrid(payload):
     api_key = app.config.get('SENDGRID_API_KEY')
     if not api_key:
         raise RuntimeError('SENDGRID_API_KEY is not configured')
+    if not app.config.get('SENDGRID_FROM_EMAIL'):
+        raise RuntimeError('SENDGRID_FROM_EMAIL is not configured')
 
     fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
     subject_name = fullname or 'Onbekende afzender'
@@ -228,6 +232,12 @@ def contact(lang='nl'):
             _send_contact_email(payload)
             flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
         except Exception:
+            logger.exception(
+                'Email send failed. provider=%s recipient_set=%s from_set=%s',
+                app.config.get('MAIL_PROVIDER'),
+                bool(app.config.get('MAIL_RECIPIENT')),
+                bool(app.config.get('SENDGRID_FROM_EMAIL') or app.config.get('MAIL_DEFAULT_SENDER')),
+            )
             flash(translate('Er is een fout opgetreden bij het verzenden. Probeer het later opnieuw.'), 'error')
 
         return redirect(ROUTE_MAP['contact'][lang])
