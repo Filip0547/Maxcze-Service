@@ -16,13 +16,30 @@ load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Change this to a real secret key
+logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO').upper())
 logger = logging.getLogger(__name__)
+
+
+def _normalize_mail_provider(provider):
+    normalized = (provider or '').strip().lower()
+    aliases = {
+        'outlook': 'smtp',
+        'hotmail': 'smtp',
+        'microsoft': 'smtp',
+        'office365': 'smtp',
+    }
+    if normalized in aliases:
+        return aliases[normalized]
+    if normalized in ('smtp', 'sendgrid'):
+        return normalized
+    return ''
 
 # --- Flask-Mail configuration ---
 # Load email credentials from environment variables
 app.config['MAIL_SERVER'] = os.getenv('MAIL_SERVER', 'smtp-mail.outlook.com')
 app.config['MAIL_PORT'] = int(os.getenv('MAIL_PORT', 587))
 app.config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'True').lower() == 'true'
+app.config['MAIL_TIMEOUT'] = int(os.getenv('MAIL_TIMEOUT', 10))
 app.config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')  # Required: your email address
 app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')  # Required: your email password
 app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', os.getenv('MAIL_USERNAME'))
@@ -30,13 +47,16 @@ app.config['MAIL_RECIPIENT'] = os.getenv('MAIL_RECIPIENT', os.getenv('MAIL_USERN
 app.config['SENDGRID_API_KEY'] = os.getenv('SENDGRID_API_KEY', '')
 app.config['SENDGRID_FROM_EMAIL'] = os.getenv('SENDGRID_FROM_EMAIL', app.config['MAIL_DEFAULT_SENDER'] or app.config['MAIL_USERNAME'])
 
-provider_from_env = os.getenv('MAIL_PROVIDER', '').strip().lower()
+provider_from_env = _normalize_mail_provider(os.getenv('MAIL_PROVIDER', ''))
 if provider_from_env:
     app.config['MAIL_PROVIDER'] = provider_from_env
 elif app.config['SENDGRID_API_KEY']:
     app.config['MAIL_PROVIDER'] = 'sendgrid'
 else:
     app.config['MAIL_PROVIDER'] = 'smtp'
+
+if app.config['MAIL_PROVIDER'] == 'sendgrid' and (app.config.get('SENDGRID_FROM_EMAIL') or '').endswith('@gmail.com'):
+    logger.warning('SENDGRID_FROM_EMAIL uses gmail.com. This often fails unless the sender is verified in SendGrid.')
 
 mail = FlaskMail(app)
 
@@ -120,7 +140,7 @@ def _send_contact_email(payload):
     if not app.config.get('MAIL_RECIPIENT'):
         raise RuntimeError('MAIL_RECIPIENT is not configured')
 
-    provider = (app.config.get('MAIL_PROVIDER') or 'smtp').lower()
+    provider = _normalize_mail_provider(app.config.get('MAIL_PROVIDER')) or 'smtp'
     if provider == 'sendgrid':
         _send_contact_email_sendgrid(payload)
         return
@@ -129,6 +149,13 @@ def _send_contact_email(payload):
 
 
 def _send_contact_email_smtp(payload):
+    if not app.config.get('MAIL_USERNAME'):
+        raise RuntimeError('MAIL_USERNAME is not configured for SMTP delivery')
+    if not app.config.get('MAIL_PASSWORD'):
+        raise RuntimeError('MAIL_PASSWORD is not configured for SMTP delivery')
+    if not app.config.get('MAIL_DEFAULT_SENDER'):
+        raise RuntimeError('MAIL_DEFAULT_SENDER is not configured for SMTP delivery')
+
     fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
     subject_name = fullname or 'Onbekende afzender'
     msg = FlaskMessage(
@@ -168,9 +195,26 @@ def _send_contact_email_sendgrid(payload):
     if payload.get('email'):
         message.reply_to = SendGridEmail(payload['email'])
 
-    response = SendGridAPIClient(api_key).send(message)
+    try:
+        response = SendGridAPIClient(api_key).send(message, request_timeout=10)
+    except Exception as exc:
+        status_code = getattr(exc, 'status_code', None)
+        body = getattr(exc, 'body', None)
+        if isinstance(body, (bytes, bytearray)):
+            body = body.decode('utf-8', errors='replace')
+        detail = f' status={status_code}' if status_code else ''
+        if body:
+            detail += f' body={body}'
+        raise RuntimeError(f'SendGrid request failed.{detail}') from exc
+
     if response.status_code < 200 or response.status_code >= 300:
-        raise RuntimeError(f'SendGrid send failed with status {response.status_code}')
+        response_body = getattr(response, 'body', None)
+        if isinstance(response_body, (bytes, bytearray)):
+            response_body = response_body.decode('utf-8', errors='replace')
+        detail = f' status={response.status_code}'
+        if response_body:
+            detail += f' body={response_body}'
+        raise RuntimeError(f'SendGrid send failed.{detail}')
 
 @app.context_processor
 def inject_locale():

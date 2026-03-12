@@ -43,6 +43,30 @@ class ContactEmailFlowTest(unittest.TestCase):
         self.assertIn('de Vries', sent_message.html)
         self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
 
+    def test_contact_form_outlook_provider_uses_smtp(self):
+        app.config.update(
+            MAIL_PROVIDER='outlook',
+            MAIL_USERNAME='owner@example.com',
+            MAIL_PASSWORD='dummy-password',
+            MAIL_DEFAULT_SENDER='owner@example.com',
+        )
+        payload = {
+            'voornaam': 'Anna',
+            'achternaam': 'Jansen',
+            'email': 'anna@example.com',
+            'telefoon': '06-00000000',
+            'type_aanvraag': 'advies',
+            'bericht': 'Kunt u mij terugbellen?',
+            'akkoord': 'on',
+        }
+
+        with patch('app.mail.send') as mock_send:
+            response = self.client.post('/contact', data=payload, follow_redirects=True)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(mock_send.call_count, 1)
+        self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
+
 
 if __name__ == '__main__':
     unittest.main()
