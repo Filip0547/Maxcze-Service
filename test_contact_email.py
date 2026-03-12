@@ -10,6 +10,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             TESTING=True,
             MAIL_PROVIDER='smtp',
             MAIL_SUPPRESS_SEND=True,
+            EMAIL_SEND_ASYNC=False,
             MAIL_RECIPIENT='owner@example.com',
             MAIL_DEFAULT_SENDER='noreply@example.com',
             WTF_CSRF_ENABLED=False,

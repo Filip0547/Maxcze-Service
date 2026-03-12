@@ -6,6 +6,8 @@ import os
 import polib
 from datetime import datetime
 import logging
+from concurrent.futures import ThreadPoolExecutor
+import atexit
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
@@ -46,6 +48,8 @@ app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', os.getenv('
 app.config['MAIL_RECIPIENT'] = os.getenv('MAIL_RECIPIENT', os.getenv('MAIL_USERNAME', ''))
 app.config['SENDGRID_API_KEY'] = os.getenv('SENDGRID_API_KEY', '')
 app.config['SENDGRID_FROM_EMAIL'] = os.getenv('SENDGRID_FROM_EMAIL', app.config['MAIL_DEFAULT_SENDER'] or app.config['MAIL_USERNAME'])
+app.config['EMAIL_SEND_ASYNC'] = os.getenv('EMAIL_SEND_ASYNC', 'True').lower() == 'true'
+app.config['EMAIL_SEND_WORKERS'] = max(1, int(os.getenv('EMAIL_SEND_WORKERS', 2)))
 
 provider_from_env = _normalize_mail_provider(os.getenv('MAIL_PROVIDER', ''))
 if provider_from_env:
@@ -59,6 +63,8 @@ if app.config['MAIL_PROVIDER'] == 'sendgrid' and (app.config.get('SENDGRID_FROM_
     logger.warning('SENDGRID_FROM_EMAIL uses gmail.com. This often fails unless the sender is verified in SendGrid.')
 
 mail = FlaskMail(app)
+email_executor = ThreadPoolExecutor(max_workers=app.config['EMAIL_SEND_WORKERS'])
+atexit.register(lambda: email_executor.shutdown(wait=False, cancel_futures=True))
 
 # --- internationalization / localization ---
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
@@ -137,8 +143,7 @@ def _build_contact_payload(form_data):
 
 
 def _send_contact_email(payload):
-    if not app.config.get('MAIL_RECIPIENT'):
-        raise RuntimeError('MAIL_RECIPIENT is not configured')
+    _validate_email_delivery_config()
 
     provider = _normalize_mail_provider(app.config.get('MAIL_PROVIDER')) or 'smtp'
     if provider == 'sendgrid':
@@ -148,7 +153,18 @@ def _send_contact_email(payload):
     _send_contact_email_smtp(payload)
 
 
-def _send_contact_email_smtp(payload):
+def _validate_email_delivery_config():
+    if not app.config.get('MAIL_RECIPIENT'):
+        raise RuntimeError('MAIL_RECIPIENT is not configured')
+
+    provider = _normalize_mail_provider(app.config.get('MAIL_PROVIDER')) or 'smtp'
+    if provider == 'sendgrid':
+        if not app.config.get('SENDGRID_API_KEY'):
+            raise RuntimeError('SENDGRID_API_KEY is not configured')
+        if not app.config.get('SENDGRID_FROM_EMAIL'):
+            raise RuntimeError('SENDGRID_FROM_EMAIL is not configured')
+        return
+
     if not app.config.get('MAIL_USERNAME'):
         raise RuntimeError('MAIL_USERNAME is not configured for SMTP delivery')
     if not app.config.get('MAIL_PASSWORD'):
@@ -156,6 +172,23 @@ def _send_contact_email_smtp(payload):
     if not app.config.get('MAIL_DEFAULT_SENDER'):
         raise RuntimeError('MAIL_DEFAULT_SENDER is not configured for SMTP delivery')
 
+
+def _send_contact_email_async(payload):
+    # Copy payload to decouple background work from request object lifecycle.
+    payload_copy = dict(payload)
+
+    def _job():
+        with app.app_context():
+            try:
+                _send_contact_email(payload_copy)
+                logger.info('Async email send completed successfully')
+            except Exception:
+                logger.exception('Async email send failed')
+
+    email_executor.submit(_job)
+
+
+def _send_contact_email_smtp(payload):
     fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
     subject_name = fullname or 'Onbekende afzender'
     msg = FlaskMessage(
@@ -174,10 +207,6 @@ def _send_contact_email_smtp(payload):
 
 def _send_contact_email_sendgrid(payload):
     api_key = app.config.get('SENDGRID_API_KEY')
-    if not api_key:
-        raise RuntimeError('SENDGRID_API_KEY is not configured')
-    if not app.config.get('SENDGRID_FROM_EMAIL'):
-        raise RuntimeError('SENDGRID_FROM_EMAIL is not configured')
 
     fullname = f"{payload['voornaam']} {payload['achternaam']}".strip()
     subject_name = fullname or 'Onbekende afzender'
@@ -273,7 +302,11 @@ def contact(lang='nl'):
             return render_template('contact.html')
 
         try:
-            _send_contact_email(payload)
+            _validate_email_delivery_config()
+            if app.config.get('EMAIL_SEND_ASYNC', True):
+                _send_contact_email_async(payload)
+            else:
+                _send_contact_email(payload)
             flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
         except Exception:
             logger.exception(
