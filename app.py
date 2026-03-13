@@ -164,7 +164,18 @@ def _send_contact_email(payload):
         _send_contact_email_sendgrid(payload)
         return
 
-    _send_contact_email_smtp(payload)
+    try:
+        _send_contact_email_smtp(payload)
+    except Exception as exc:
+        has_sendgrid_fallback = bool(app.config.get('SENDGRID_API_KEY')) and bool(app.config.get('SENDGRID_FROM_EMAIL'))
+        if not has_sendgrid_fallback:
+            raise
+
+        logger.warning(
+            'SMTP delivery failed; falling back to SendGrid. error=%s',
+            str(exc),
+        )
+        _send_contact_email_sendgrid(payload)
 
 
 def _validate_email_delivery_config():
@@ -234,7 +245,7 @@ def _send_contact_email_sendgrid(payload):
         message.reply_to = SendGridEmail(payload['email'])
 
     try:
-        response = SendGridAPIClient(api_key).send(message, request_timeout=10)
+        response = SendGridAPIClient(api_key).send(message)
     except Exception as exc:
         status_code = getattr(exc, 'status_code', None)
         body = getattr(exc, 'body', None)

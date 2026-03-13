@@ -111,6 +111,31 @@ class ContactEmailFlowTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'Er is een fout opgetreden bij het verzenden.', response.data)
 
+    def test_contact_form_falls_back_to_sendgrid_when_smtp_fails(self):
+        app.config.update(
+            MAIL_PROVIDER='smtp',
+            SENDGRID_API_KEY='SG.test-key',
+            SENDGRID_FROM_EMAIL='verified@example.com',
+        )
+
+        payload = {
+            'voornaam': 'Noah',
+            'achternaam': 'Koster',
+            'email': 'noah@example.com',
+            'telefoon': '06-77777777',
+            'type_aanvraag': 'offerte',
+            'bericht': 'Graag een prijsindicatie voor een renovatie.',
+            'akkoord': 'on',
+        }
+
+        with patch('app._send_contact_email_smtp', side_effect=RuntimeError('SMTP timeout')):
+            with patch('app._send_contact_email_sendgrid') as mock_sendgrid:
+                response = self.client.post('/contact', data=payload, follow_redirects=True)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(mock_sendgrid.call_count, 1)
+        self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
+
 
 if __name__ == '__main__':
     unittest.main()
