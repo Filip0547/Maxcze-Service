@@ -60,9 +60,16 @@ Recommended shared settings:
 SECRET_KEY=replace-with-a-long-random-string
 MAIL_RECIPIENT=your-email@domain.com
 EMAIL_SEND_ASYNC=False
+EMAIL_REQUEST_TIMEOUT=20
 ```
 
 Note: the contact route sends mail synchronously so users get an immediate success/error result. Keep `EMAIL_SEND_ASYNC=False` in hosted environments.
+
+For Render, ensure the Start Command is:
+
+```bash
+gunicorn --timeout 120 app:app
+```
 
 Minimal SMTP `.env` values:
 

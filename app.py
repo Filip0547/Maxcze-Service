@@ -6,6 +6,7 @@ import os
 import polib
 from datetime import datetime
 import logging
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
@@ -64,6 +65,7 @@ app.config['SENDGRID_API_KEY'] = os.getenv('SENDGRID_API_KEY', '')
 app.config['SENDGRID_FROM_EMAIL'] = os.getenv('SENDGRID_FROM_EMAIL', app.config['MAIL_DEFAULT_SENDER'] or app.config['MAIL_USERNAME'])
 app.config['EMAIL_SEND_ASYNC'] = _as_bool(os.getenv('EMAIL_SEND_ASYNC', 'False'), default=False)
 app.config['EMAIL_SEND_WORKERS'] = max(1, int(os.getenv('EMAIL_SEND_WORKERS', 2)))
+app.config['EMAIL_REQUEST_TIMEOUT'] = max(5, int(os.getenv('EMAIL_REQUEST_TIMEOUT', 20)))
 
 provider_from_env = _normalize_mail_provider(os.getenv('MAIL_PROVIDER', ''))
 if provider_from_env:
@@ -199,7 +201,17 @@ def _send_contact_email_smtp(payload):
         'X-Priority': '1',
         'Importance': 'High'
     }
-    mail.send(msg)
+    executor = ThreadPoolExecutor(max_workers=1)
+    try:
+        future = executor.submit(mail.send, msg)
+        future.result(timeout=app.config.get('EMAIL_REQUEST_TIMEOUT', 20))
+    except FuturesTimeoutError as exc:
+        future.cancel()
+        raise RuntimeError(
+            f"SMTP send exceeded {app.config.get('EMAIL_REQUEST_TIMEOUT', 20)}s timeout"
+        ) from exc
+    finally:
+        executor.shutdown(wait=False, cancel_futures=True)
 
 
 def _send_contact_email_sendgrid(payload):

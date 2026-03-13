@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import patch
+import time
 
 from app import app
 
@@ -88,6 +89,27 @@ class ContactEmailFlowTest(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(mock_send.call_count, 1)
         self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
+
+    def test_contact_form_handles_slow_mail_without_hanging(self):
+        app.config.update(EMAIL_REQUEST_TIMEOUT=1)
+        payload = {
+            'voornaam': 'Mila',
+            'achternaam': 'Pieters',
+            'email': 'mila@example.com',
+            'telefoon': '06-88888888',
+            'type_aanvraag': 'offerte',
+            'bericht': 'Ik wil een offerte voor een aanbouw.',
+            'akkoord': 'on',
+        }
+
+        def _slow_send(_msg):
+            time.sleep(2)
+
+        with patch('app.mail.send', side_effect=_slow_send):
+            response = self.client.post('/contact', data=payload, follow_redirects=True)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'Er is een fout opgetreden bij het verzenden.', response.data)
 
 
 if __name__ == '__main__':
