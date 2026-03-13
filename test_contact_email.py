@@ -70,7 +70,7 @@ class ContactEmailFlowTest(unittest.TestCase):
         self.assertEqual(mock_send.call_count, 1)
         self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
 
-    def test_contact_form_async_mode_still_reports_delivery(self):
+    def test_contact_form_send_mode_setting_does_not_break_delivery(self):
         app.config.update(EMAIL_SEND_ASYNC=True, MAIL_TIMEOUT=5)
         payload = {
             'voornaam': 'Lars',

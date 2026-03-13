@@ -62,6 +62,8 @@ MAIL_RECIPIENT=your-email@domain.com
 EMAIL_SEND_ASYNC=False
 ```
 
+Note: the contact route sends mail synchronously so users get an immediate success/error result. Keep `EMAIL_SEND_ASYNC=False` in hosted environments.
+
 Minimal SMTP `.env` values:
 
 ```dotenv

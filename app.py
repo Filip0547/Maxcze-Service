@@ -6,8 +6,6 @@ import os
 import polib
 from datetime import datetime
 import logging
-from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
-import atexit
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
@@ -79,8 +77,6 @@ if app.config['MAIL_PROVIDER'] == 'sendgrid' and (app.config.get('SENDGRID_FROM_
     logger.warning('SENDGRID_FROM_EMAIL uses gmail.com. This often fails unless the sender is verified in SendGrid.')
 
 mail = FlaskMail(app)
-email_executor = ThreadPoolExecutor(max_workers=app.config['EMAIL_SEND_WORKERS'])
-atexit.register(lambda: email_executor.shutdown(wait=False, cancel_futures=True))
 
 # --- internationalization / localization ---
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
@@ -187,18 +183,6 @@ def _validate_email_delivery_config():
         raise RuntimeError('MAIL_PASSWORD is not configured for SMTP delivery')
     if not app.config.get('MAIL_DEFAULT_SENDER'):
         raise RuntimeError('MAIL_DEFAULT_SENDER is not configured for SMTP delivery')
-
-
-def _send_contact_email_async(payload):
-    # Copy payload to decouple background work from request object lifecycle.
-    payload_copy = dict(payload)
-
-    def _job():
-        with app.app_context():
-            _send_contact_email(payload_copy)
-            logger.info('Async email send completed successfully')
-
-    return email_executor.submit(_job)
 
 
 def _send_contact_email_smtp(payload):
@@ -316,15 +300,8 @@ def contact(lang='nl'):
 
         try:
             _validate_email_delivery_config()
-            if app.config.get('EMAIL_SEND_ASYNC', False):
-                future = _send_contact_email_async(payload)
-                future.result(timeout=app.config.get('MAIL_TIMEOUT', 10) + 5)
-            else:
-                _send_contact_email(payload)
+            _send_contact_email(payload)
             flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
-        except FuturesTimeoutError:
-            logger.exception('Email send timed out before completion')
-            flash(translate('Het verzenden duurt langer dan verwacht. Probeer het nogmaals of neem direct telefonisch contact op.'), 'error')
         except Exception:
             logger.exception(
                 'Email send failed. provider=%s recipient_set=%s from_set=%s',
