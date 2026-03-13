@@ -1167,7 +1167,8 @@ p { color: var(--grijs); font-size: 1.05rem; }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: minmax(280px, 420px);
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -1182,8 +1183,10 @@ p { color: var(--grijs); font-size: 1.05rem; }
 
 .team-foto {
   width: 100%;
-  height: 280px;
+  aspect-ratio: 4 / 5;
+  height: auto;
   object-fit: cover;
+  object-position: center top;
 }
 .team-info { padding: 1.5rem; }
 .team-info h4 { font-size: 1.1rem; margin-bottom: 0.25rem; }
@@ -1628,6 +1631,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .verhaal-foto-klein { display: none; }
 
   .formulier-rij { grid-template-columns: 1fr; }
+  .team-grid { grid-template-columns: 1fr; }
 
   .tijdlijn::before { left: 0; }
   .tijdlijn-item, .tijdlijn-item:nth-child(even) {

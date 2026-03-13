@@ -54,6 +54,26 @@ The contact form supports 2 providers:
 * `MAIL_PROVIDER=smtp` (default when no SendGrid key is set)
 * `MAIL_PROVIDER=sendgrid` (recommended if Microsoft SMTP auth is blocked)
 
+Recommended shared settings:
+
+```dotenv
+SECRET_KEY=replace-with-a-long-random-string
+MAIL_RECIPIENT=your-email@domain.com
+EMAIL_SEND_ASYNC=False
+```
+
+Minimal SMTP `.env` values:
+
+```dotenv
+MAIL_PROVIDER=smtp
+MAIL_SERVER=smtp-mail.outlook.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+MAIL_USERNAME=your-email@outlook.com
+MAIL_PASSWORD=your-app-password
+MAIL_DEFAULT_SENDER=your-email@outlook.com
+```
+
 Minimal SendGrid `.env` values:
 
 ```dotenv

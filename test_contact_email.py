@@ -12,6 +12,8 @@ class ContactEmailFlowTest(unittest.TestCase):
             MAIL_SUPPRESS_SEND=True,
             EMAIL_SEND_ASYNC=False,
             MAIL_RECIPIENT='owner@example.com',
+            MAIL_USERNAME='owner@example.com',
+            MAIL_PASSWORD='dummy-password',
             MAIL_DEFAULT_SENDER='noreply@example.com',
             WTF_CSRF_ENABLED=False,
         )
@@ -58,6 +60,25 @@ class ContactEmailFlowTest(unittest.TestCase):
             'telefoon': '06-00000000',
             'type_aanvraag': 'advies',
             'bericht': 'Kunt u mij terugbellen?',
+            'akkoord': 'on',
+        }
+
+        with patch('app.mail.send') as mock_send:
+            response = self.client.post('/contact', data=payload, follow_redirects=True)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(mock_send.call_count, 1)
+        self.assertIn(b'Bedankt voor uw aanvraag!', response.data)
+
+    def test_contact_form_async_mode_still_reports_delivery(self):
+        app.config.update(EMAIL_SEND_ASYNC=True, MAIL_TIMEOUT=5)
+        payload = {
+            'voornaam': 'Lars',
+            'achternaam': 'Bakker',
+            'email': 'lars@example.com',
+            'telefoon': '06-99999999',
+            'type_aanvraag': 'offerte',
+            'bericht': 'Graag een offerte voor een dakkapel.',
             'akkoord': 'on',
         }
 

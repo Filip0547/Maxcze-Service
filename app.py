@@ -6,7 +6,7 @@ import os
 import polib
 from datetime import datetime
 import logging
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
 import atexit
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
@@ -17,9 +17,14 @@ from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key'  # Change this to a real secret key
 logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO').upper())
 logger = logging.getLogger(__name__)
+
+app.secret_key = os.getenv('SECRET_KEY')
+if not app.secret_key:
+    # Use a random fallback in development, but warn because this rotates each restart.
+    app.secret_key = os.urandom(32)
+    logger.warning('SECRET_KEY is not configured. Using a temporary key; set SECRET_KEY in .env for stable sessions.')
 
 
 def _normalize_mail_provider(provider):
@@ -36,11 +41,22 @@ def _normalize_mail_provider(provider):
         return normalized
     return ''
 
+
+def _as_bool(value, default=False):
+    if value is None:
+        return default
+    normalized = str(value).strip().lower()
+    if normalized in ('1', 'true', 'yes', 'y', 'on'):
+        return True
+    if normalized in ('0', 'false', 'no', 'n', 'off'):
+        return False
+    return default
+
 # --- Flask-Mail configuration ---
 # Load email credentials from environment variables
 app.config['MAIL_SERVER'] = os.getenv('MAIL_SERVER', 'smtp-mail.outlook.com')
 app.config['MAIL_PORT'] = int(os.getenv('MAIL_PORT', 587))
-app.config['MAIL_USE_TLS'] = os.getenv('MAIL_USE_TLS', 'True').lower() == 'true'
+app.config['MAIL_USE_TLS'] = _as_bool(os.getenv('MAIL_USE_TLS', 'True'), default=True)
 app.config['MAIL_TIMEOUT'] = int(os.getenv('MAIL_TIMEOUT', 10))
 app.config['MAIL_USERNAME'] = os.getenv('MAIL_USERNAME')  # Required: your email address
 app.config['MAIL_PASSWORD'] = os.getenv('MAIL_PASSWORD')  # Required: your email password
@@ -48,7 +64,7 @@ app.config['MAIL_DEFAULT_SENDER'] = os.getenv('MAIL_DEFAULT_SENDER', os.getenv('
 app.config['MAIL_RECIPIENT'] = os.getenv('MAIL_RECIPIENT', os.getenv('MAIL_USERNAME', ''))
 app.config['SENDGRID_API_KEY'] = os.getenv('SENDGRID_API_KEY', '')
 app.config['SENDGRID_FROM_EMAIL'] = os.getenv('SENDGRID_FROM_EMAIL', app.config['MAIL_DEFAULT_SENDER'] or app.config['MAIL_USERNAME'])
-app.config['EMAIL_SEND_ASYNC'] = os.getenv('EMAIL_SEND_ASYNC', 'True').lower() == 'true'
+app.config['EMAIL_SEND_ASYNC'] = _as_bool(os.getenv('EMAIL_SEND_ASYNC', 'False'), default=False)
 app.config['EMAIL_SEND_WORKERS'] = max(1, int(os.getenv('EMAIL_SEND_WORKERS', 2)))
 
 provider_from_env = _normalize_mail_provider(os.getenv('MAIL_PROVIDER', ''))
@@ -179,13 +195,10 @@ def _send_contact_email_async(payload):
 
     def _job():
         with app.app_context():
-            try:
-                _send_contact_email(payload_copy)
-                logger.info('Async email send completed successfully')
-            except Exception:
-                logger.exception('Async email send failed')
+            _send_contact_email(payload_copy)
+            logger.info('Async email send completed successfully')
 
-    email_executor.submit(_job)
+    return email_executor.submit(_job)
 
 
 def _send_contact_email_smtp(payload):
@@ -303,11 +316,15 @@ def contact(lang='nl'):
 
         try:
             _validate_email_delivery_config()
-            if app.config.get('EMAIL_SEND_ASYNC', True):
-                _send_contact_email_async(payload)
+            if app.config.get('EMAIL_SEND_ASYNC', False):
+                future = _send_contact_email_async(payload)
+                future.result(timeout=app.config.get('MAIL_TIMEOUT', 10) + 5)
             else:
                 _send_contact_email(payload)
             flash(translate('Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op.'), 'success')
+        except FuturesTimeoutError:
+            logger.exception('Email send timed out before completion')
+            flash(translate('Het verzenden duurt langer dan verwacht. Probeer het nogmaals of neem direct telefonisch contact op.'), 'error')
         except Exception:
             logger.exception(
                 'Email send failed. provider=%s recipient_set=%s from_set=%s',
