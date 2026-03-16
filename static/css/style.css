@@ -361,6 +361,15 @@ p { color: var(--grijs); font-size: 1.05rem; }
   background: var(--lichtgrijs);
 }
 
+.lang-flag {
+  width: 18px;
+  height: 13px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.18);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .flag {
   width: 18px;
   height: 12px;

@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% block title %}{% endblock %} | MaxCze Service</title>
   <meta name="description" content="{% block description %}{% endblock %}" />
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='20260310-flagfix') }}" />
-  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260310-flagfix') }}" media="(prefers-color-scheme: light)" />
-  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" media="(prefers-color-scheme: dark)" />
-  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260310-flagfix') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='20260316-flagcdn') }}" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260316-flagcdn') }}" media="(prefers-color-scheme: light)" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260316-flagcdn') }}" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260316-flagcdn') }}" />
 </head>
 <body>
 
@@ -29,17 +29,17 @@
       <details class="lang-switcher">
         <summary class="lang-current">
           {% if get_locale() == 'en' %}
-            <span class="flag-emoji" aria-hidden="true">🇬🇧</span>English
+            <img class="lang-flag" src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />English
           {% elif get_locale() == 'pl' %}
-            <span class="flag-emoji" aria-hidden="true">🇵🇱</span>Polski
+            <img class="lang-flag" src="https://flagcdn.com/w20/pl.png" srcset="https://flagcdn.com/w40/pl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski
           {% else %}
-            <span class="flag-emoji" aria-hidden="true">🇳🇱</span>Nederlands
+            <img class="lang-flag" src="https://flagcdn.com/w20/nl.png" srcset="https://flagcdn.com/w40/nl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands
           {% endif %}
         </summary>
         <div class="lang-menu">
-          <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇳🇱</span>Nederlands</a>
-          <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇬🇧</span>English</a>
-          <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><span class="flag-emoji" aria-hidden="true">🇵🇱</span>Polski</a>
+          <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/nl.png" srcset="https://flagcdn.com/w40/nl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands</a>
+          <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />English</a>
+          <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/pl.png" srcset="https://flagcdn.com/w40/pl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski</a>
         </div>
       </details>
 
@@ -61,7 +61,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260310-flagfix') }}" alt="MaxCze Service" class="site-logo site-logo-footer" />
+        <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260316-flagcdn') }}" alt="MaxCze Service" class="site-logo site-logo-footer" />
         <p class="footer-beschrijving">{{ _('MaxCze Service - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30 jaar ervaring in Goor en regio Twente.') }}</p>
         <div class="footer-sociaal">
           <!-- icons omitted for brevity -->
@@ -98,6 +98,6 @@
   </div>
 </footer>
 
-<script src="{{ url_for('static', filename='js/main.js', v='20260310-flagfix') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js', v='20260316-flagcdn') }}"></script>
 </body>
 </html>
