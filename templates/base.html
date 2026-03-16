@@ -29,17 +29,17 @@
       <details class="lang-switcher">
         <summary class="lang-current">
           {% if get_locale() == 'en' %}
-            <img class="lang-flag" src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />English
+            <img class="lang-flag" src="https://flagcdn.com/gb.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />English
           {% elif get_locale() == 'pl' %}
-            <img class="lang-flag" src="https://flagcdn.com/w20/pl.png" srcset="https://flagcdn.com/w40/pl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski
+            <img class="lang-flag" src="https://flagcdn.com/pl.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />Polski
           {% else %}
-            <img class="lang-flag" src="https://flagcdn.com/w20/nl.png" srcset="https://flagcdn.com/w40/nl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands
+            <img class="lang-flag" src="https://flagcdn.com/nl.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />Nederlands
           {% endif %}
         </summary>
         <div class="lang-menu">
-          <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/nl.png" srcset="https://flagcdn.com/w40/nl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands</a>
-          <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/gb.png" srcset="https://flagcdn.com/w40/gb.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />English</a>
-          <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/w20/pl.png" srcset="https://flagcdn.com/w40/pl.png 2x" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski</a>
+          <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/nl.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands</a>
+          <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/gb.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />English</a>
+          <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/pl.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski</a>
         </div>
       </details>
 

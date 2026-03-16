@@ -362,12 +362,14 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 
 .lang-flag {
-  width: 18px;
-  height: 13px;
+  width: 16px;
+  height: 11px;
   border-radius: 2px;
   border: 1px solid rgba(0,0,0,0.18);
   object-fit: cover;
   flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .flag {
