@@ -219,6 +219,14 @@ msgstr ""
 "Wypełnij formularz, a my skontaktujemy się z Tobą w ciągu jednego dnia "
 "roboczego."
 
+#: templates/contact.html:105
+msgid "Velden met * zijn verplicht."
+msgstr "Pola oznaczone * są obowiązkowe."
+
+#: templates/contact.html:117 app.py:337
+msgid "Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw."
+msgstr "Nie wszystkie wymagane pola zostały wypełnione. Sprawdź pola oznaczone * i spróbuj ponownie."
+
 #: templates/contact.html:118
 msgid "Voornaam"
 msgstr "Imie"
@@ -238,6 +246,22 @@ msgstr "deVries"
 #: templates/contact.html:133 templates/privacy.html:42
 msgid "Telefoonnummer"
 msgstr "Numer telefonu"
+
+#: templates/contact.html:138
+msgid "Voorkeur voor terugkoppeling"
+msgstr "Preferowana forma odpowiedzi"
+
+#: templates/contact.html:140
+msgid "Kies hoe u een reactie wilt ontvangen"
+msgstr "Wybierz, jak chcesz otrzymać odpowiedź"
+
+#: templates/contact.html:142
+msgid "Telefoontje"
+msgstr "Telefon"
+
+#: templates/contact.html:143
+msgid "WhatsApp-bericht"
+msgstr "Wiadomość WhatsApp"
 
 #: templates/contact.html:138
 msgid "Type aanvraag"

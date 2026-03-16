@@ -101,6 +101,9 @@
           <div style="margin-bottom:2rem;">
             <h3 style="margin-bottom:0.5rem;">{{ _('Offerte of vraag sturen') }}</h3>
             <p style="font-size:0.92rem;">{{ _('Vul het formulier in en wij nemen binnen één werkdag contact met u op.') }}</p>
+            <p style="font-size:0.86rem;color:var(--tekst-zacht);margin-top:0.35rem;">
+              <span style="color:#d93025;font-weight:700;">*</span> {{ _('Velden met * zijn verplicht.') }}
+            </p>
             {% with messages = get_flashed_messages(with_categories=true) %}
               {% if messages %}
                 {% for category, message in messages %}
@@ -113,6 +116,10 @@
           </div>
 
           <form id="contact-formulier" method="post" action="{{ localized_url('contact') }}" novalidate>
+            <p id="formulier-foutmelding" class="formulier-foutmelding" role="alert" aria-live="polite">
+              {{ _('Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw.') }}
+            </p>
+
             <div class="formulier-rij">
               <div class="formulier-groep">
                 <label for="voornaam">{{ _('Voornaam') }} <span>*</span></label>
@@ -130,8 +137,18 @@
             </div>
 
             <div class="formulier-groep">
-              <label for="telefoon">{{ _('Telefoonnummer') }}</label>
-              <input type="tel" id="telefoon" name="telefoon" placeholder="06 - 12 34 56 78" />
+              <label for="telefoon">{{ _('Telefoonnummer') }} <span>*</span></label>
+              <input type="tel" id="telefoon" name="telefoon" placeholder="06 - 12 34 56 78" required />
+            </div>
+
+            <div class="formulier-groep">
+              <label for="terugbericht_via">{{ _('Voorkeur voor terugkoppeling') }} <span>*</span></label>
+              <select id="terugbericht_via" name="terugbericht_via" required>
+                <option value="">{{ _('Kies hoe u een reactie wilt ontvangen') }}</option>
+                <option value="email">{{ _('E-mail') }}</option>
+                <option value="telefoon">{{ _('Telefoontje') }}</option>
+                <option value="whatsapp">{{ _('WhatsApp-bericht') }}</option>
+              </select>
             </div>
 
             <div class="formulier-groep">

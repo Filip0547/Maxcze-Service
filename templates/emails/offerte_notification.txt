@@ -5,6 +5,7 @@ Ontvangen op: {{ data.timestamp }}
 Naam: {{ data.voornaam }} {{ data.achternaam }}
 E-mail: {{ data.email }}
 Telefoon: {{ data.telefoon }}
+Terugbericht via: {{ data.terugbericht_label }}
 Type aanvraag: {{ data.type_aanvraag }}
 Privacy akkoord: {% if data.akkoord %}Ja{% else %}Nee{% endif %}
 

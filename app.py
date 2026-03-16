@@ -143,13 +143,31 @@ def _clean_value(value, fallback='Niet opgegeven'):
     return cleaned or fallback
 
 
+FOLLOW_UP_CHANNEL_LABELS = {
+    'email': 'E-mail',
+    'telefoon': 'Telefoontje',
+    'whatsapp': 'WhatsApp-bericht',
+}
+
+
+def _normalize_follow_up_channel(value):
+    normalized = (value or '').strip().lower()
+    if normalized in FOLLOW_UP_CHANNEL_LABELS:
+        return normalized
+    return ''
+
+
 def _build_contact_payload(form_data):
+    follow_up_channel = _normalize_follow_up_channel(form_data.get('terugbericht_via'))
+
     return {
         'voornaam': _clean_value(form_data.get('voornaam'), ''),
         'achternaam': _clean_value(form_data.get('achternaam'), ''),
         'email': _clean_value(form_data.get('email'), ''),
-        'telefoon': _clean_value(form_data.get('telefoon')),
-        'type_aanvraag': _clean_value(form_data.get('type_aanvraag')),
+        'telefoon': _clean_value(form_data.get('telefoon'), ''),
+        'terugbericht_via': follow_up_channel,
+        'terugbericht_label': FOLLOW_UP_CHANNEL_LABELS.get(follow_up_channel, 'Niet opgegeven'),
+        'type_aanvraag': _clean_value(form_data.get('type_aanvraag'), ''),
         'bericht': _clean_value(form_data.get('bericht'), ''),
         'akkoord': bool(form_data.get('akkoord')),
         'timestamp': datetime.now().strftime('%d-%m-%Y %H:%M'),
@@ -313,8 +331,16 @@ def contact(lang='nl'):
     if request.method == 'POST':
         payload = _build_contact_payload(request.form)
 
-        if not payload['voornaam'] or not payload['achternaam'] or not payload['email'] or not payload['bericht']:
-            flash(translate('Vul alle verplichte velden in en probeer opnieuw.'), 'error')
+        required_fields = [
+            payload['voornaam'],
+            payload['achternaam'],
+            payload['telefoon'],
+            payload['email'],
+            payload['terugbericht_via'],
+            payload['bericht'],
+        ]
+        if not all(required_fields):
+            flash(translate('Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw.'), 'error')
             return render_template('contact.html')
 
         if not payload['akkoord']:

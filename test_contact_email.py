@@ -26,6 +26,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             'achternaam': 'de Vries',
             'email': 'jan@example.com',
             'telefoon': '06-12345678',
+            'terugbericht_via': 'whatsapp',
             'type_aanvraag': 'offerte',
             'bericht': 'Ik wil graag een offerte voor kozijnen.',
             'akkoord': 'on',
@@ -42,6 +43,7 @@ class ContactEmailFlowTest(unittest.TestCase):
         self.assertIn('Nieuwe offerte aanvraag:', sent_message.subject)
         self.assertEqual(sent_message.reply_to, 'jan@example.com')
         self.assertIn('Ik wil graag een offerte voor kozijnen.', sent_message.body)
+        self.assertIn('Terugbericht via: WhatsApp-bericht', sent_message.body)
         self.assertIn('<html', sent_message.html.lower())
         self.assertIn('Jan', sent_message.html)
         self.assertIn('de Vries', sent_message.html)
@@ -59,6 +61,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             'achternaam': 'Jansen',
             'email': 'anna@example.com',
             'telefoon': '06-00000000',
+            'terugbericht_via': 'email',
             'type_aanvraag': 'advies',
             'bericht': 'Kunt u mij terugbellen?',
             'akkoord': 'on',
@@ -78,6 +81,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             'achternaam': 'Bakker',
             'email': 'lars@example.com',
             'telefoon': '06-99999999',
+            'terugbericht_via': 'telefoon',
             'type_aanvraag': 'offerte',
             'bericht': 'Graag een offerte voor een dakkapel.',
             'akkoord': 'on',
@@ -97,6 +101,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             'achternaam': 'Pieters',
             'email': 'mila@example.com',
             'telefoon': '06-88888888',
+            'terugbericht_via': 'email',
             'type_aanvraag': 'offerte',
             'bericht': 'Ik wil een offerte voor een aanbouw.',
             'akkoord': 'on',
@@ -123,6 +128,7 @@ class ContactEmailFlowTest(unittest.TestCase):
             'achternaam': 'Koster',
             'email': 'noah@example.com',
             'telefoon': '06-77777777',
+            'terugbericht_via': 'telefoon',
             'type_aanvraag': 'offerte',
             'bericht': 'Graag een prijsindicatie voor een renovatie.',
             'akkoord': 'on',

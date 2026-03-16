@@ -218,6 +218,14 @@ msgstr "Send a quote or question"
 msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
 msgstr "Complete the form and we will contact you within one working day."
 
+#: templates/contact.html:105
+msgid "Velden met * zijn verplicht."
+msgstr "Fields marked with * are required."
+
+#: templates/contact.html:117 app.py:337
+msgid "Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw."
+msgstr "Not all required fields are filled in. Check the fields marked with * and try again."
+
 #: templates/contact.html:118
 msgid "Voornaam"
 msgstr "First name"
@@ -237,6 +245,22 @@ msgstr "deVries"
 #: templates/contact.html:133 templates/privacy.html:42
 msgid "Telefoonnummer"
 msgstr "Phone number"
+
+#: templates/contact.html:138
+msgid "Voorkeur voor terugkoppeling"
+msgstr "Preferred reply method"
+
+#: templates/contact.html:140
+msgid "Kies hoe u een reactie wilt ontvangen"
+msgstr "Choose how you would like to receive a reply"
+
+#: templates/contact.html:142
+msgid "Telefoontje"
+msgstr "Phone call"
+
+#: templates/contact.html:143
+msgid "WhatsApp-bericht"
+msgstr "WhatsApp message"
 
 #: templates/contact.html:138
 msgid "Type aanvraag"

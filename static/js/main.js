@@ -131,11 +131,17 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ─── Contactformulier ─── */
   const formulier = document.getElementById('contact-formulier');
   const succes    = document.getElementById('formulier-succes');
+  const foutmelding = document.getElementById('formulier-foutmelding');
 
   if (formulier) {
     formulier.addEventListener('submit', (e) => {
       const velden = formulier.querySelectorAll('input[required], textarea[required], select[required]');
       let geldig = true;
+      let eersteOngeldigeVeld = null;
+
+      if (foutmelding) {
+        foutmelding.classList.remove('zichtbaar');
+      }
 
       velden.forEach(veld => {
         // reset previous error styling
@@ -151,11 +157,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // highlight label instead of border
             const label = formulier.querySelector(`label[for="${veld.id}"]`);
             if (label) label.style.color = '#e53e3e';
+            if (!eersteOngeldigeVeld) eersteOngeldigeVeld = veld;
             geldig = false;
           }
         } else {
           if (!veld.value.trim()) {
             veld.style.borderColor = '#e53e3e';
+            if (!eersteOngeldigeVeld) eersteOngeldigeVeld = veld;
             geldig = false;
           }
         }
@@ -163,6 +171,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (!geldig) {
         e.preventDefault();
+        if (foutmelding) {
+          foutmelding.classList.add('zichtbaar');
+        }
+        if (eersteOngeldigeVeld && typeof eersteOngeldigeVeld.focus === 'function') {
+          eersteOngeldigeVeld.focus();
+        }
         return;
       }
 

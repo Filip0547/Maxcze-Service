@@ -1414,7 +1414,22 @@ p { color: var(--grijs); font-size: 1.05rem; }
   color: var(--donker);
   letter-spacing: 0.02em;
 }
-.formulier-groep label span { color: var(--goud); }
+.formulier-groep label span { color: #d93025; font-weight: 700; }
+
+.formulier-foutmelding {
+  display: none;
+  margin: 0 0 1rem 0;
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--radius);
+  border: 1px solid rgba(217, 48, 37, 0.25);
+  background: rgba(217, 48, 37, 0.08);
+  color: #a61e1e;
+  font-size: 0.86rem;
+}
+
+.formulier-foutmelding.zichtbaar {
+  display: block;
+}
 
 .formulier-groep input,
 .formulier-groep select,
