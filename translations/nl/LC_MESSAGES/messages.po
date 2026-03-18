@@ -45,7 +45,7 @@ msgstr ""
 
 #: templates/base.html:65
 msgid ""
-"MaxCze Service - vakmanschap voor verbouwingen, renovaties en timmerwerk."
+"MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk."
 " 30 jaar ervaring in Goor en regio Twente."
 msgstr ""
 
@@ -82,7 +82,7 @@ msgid "Goor en regio Twente"
 msgstr ""
 
 #: templates/base.html:91
-msgid "0547 - 123 456"
+msgid "06 33649552"
 msgstr ""
 
 #: templates/base.html:92
@@ -90,7 +90,7 @@ msgid "maxcze@hotmail.com"
 msgstr ""
 
 #: templates/base.html:96
-msgid "© 2026 MaxCze Service |"
+msgid "Â© 2026 MaxCze Services |"
 msgstr ""
 
 #: templates/base.html:96
@@ -99,7 +99,7 @@ msgstr ""
 
 #: templates/contact.html:3
 msgid ""
-"Neem contact op met MaxCze Service in Goor. Vraag een gratis offerte aan "
+"Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan "
 "of plan een vrijblijvend gesprek."
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 
 #: templates/contact.html:19
 msgid ""
-"Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag "
+"Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag "
 "op uw aanvraag."
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 #: templates/contact.html:33
 msgid ""
 "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-"gerust contact op — geen vraag is te klein en geen project te groot."
+"gerust contact op â€” geen vraag is te klein en geen project te groot."
 msgstr ""
 
 #: templates/contact.html:41
@@ -148,7 +148,7 @@ msgid "Telefoon"
 msgstr ""
 
 #: templates/contact.html:52
-msgid "+31 6 3364 9552"
+msgid "06 33649552"
 msgstr ""
 
 #: templates/contact.html:61 templates/contact.html:128
@@ -172,11 +172,11 @@ msgid "Openingstijden"
 msgstr ""
 
 #: templates/contact.html:81
-msgid "Maandag – Vrijdag"
+msgid "Maandag â€“ Vrijdag"
 msgstr ""
 
 #: templates/contact.html:82
-msgid "07:30 – 17:00"
+msgid "07:30 â€“ 17:00"
 msgstr ""
 
 #: templates/contact.html:85
@@ -184,7 +184,7 @@ msgid "Zaterdag"
 msgstr ""
 
 #: templates/contact.html:86
-msgid "08:00 – 12:00"
+msgid "08:00 â€“ 12:00"
 msgstr ""
 
 #: templates/contact.html:89
@@ -196,7 +196,7 @@ msgid "Gesloten"
 msgstr ""
 
 #: templates/contact.html:93
-msgid "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+msgid "Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
 msgstr ""
 
 #: templates/contact.html:102
@@ -204,7 +204,7 @@ msgid "Offerte of vraag sturen"
 msgstr ""
 
 #: templates/contact.html:103
-msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
 msgstr ""
 
 #: templates/contact.html:118
@@ -288,12 +288,12 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:2
-msgid "MaxCze Service | Vakmanschap in hout – Goor, Overijssel"
+msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
 msgstr ""
 
 #: templates/index.html:3
 msgid ""
-"MaxCze Service - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
+"MaxCze Services - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
 "deuren en maatwerk in Goor en omgeving."
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr ""
 
 #: templates/index.html:57
 msgid ""
-"Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit "
+"Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit "
 "op maat voor elk project."
 msgstr ""
 
@@ -412,7 +412,7 @@ msgstr ""
 
 #: templates/index.html:126
 msgid ""
-"MaxCze Service is een eenmanszaak van Max Czepelka. Sinds 2016 helpt hij "
+"MaxCze Services is een eenmanszaak van Max Czepelka. Sinds 2016 helpt hij "
 "klanten met verbouwingen, renovaties en timmerwerk in Goor en de regio "
 "Twente."
 msgstr ""
@@ -535,7 +535,7 @@ msgid "Maatwerk"
 msgstr ""
 
 #: templates/index.html:215
-msgid "Keuken op maat – Almelo"
+msgid "Keuken op maat â€“ Almelo"
 msgstr ""
 
 #: templates/index.html:216
@@ -545,7 +545,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:224
-msgid "Trap renovatie – Enschede"
+msgid "Trap renovatie â€“ Enschede"
 msgstr ""
 
 #: templates/index.html:225
@@ -558,7 +558,7 @@ msgid "Kozijnen"
 msgstr ""
 
 #: templates/index.html:233
-msgid "Kozijnen plaatsing – Hengelo"
+msgid "Kozijnen plaatsing â€“ Hengelo"
 msgstr ""
 
 #: templates/index.html:234
@@ -588,7 +588,7 @@ msgstr ""
 
 #: templates/index.html:266
 msgid ""
-"\"MaxCze Service heeft onze verbouwing netjes en vakkundig uitgevoerd. "
+"\"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. "
 "Fijne communicatie, heldere afspraken en een prachtig eindresultaat.\""
 msgstr ""
 
@@ -640,7 +640,7 @@ msgstr ""
 #: templates/index.html:321
 msgid ""
 "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-"offerte aan. Wij reageren binnen één werkdag."
+"offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
 msgstr ""
 
 #: templates/index.html:324
@@ -653,13 +653,13 @@ msgstr ""
 #: templates/index.html:328
 msgid ""
 "\n"
-"          0547 - 123 456\n"
+"          06 33649552\n"
 "        "
 msgstr ""
 
 #: templates/over-ons.html:3
 msgid ""
-"Leer meer over MaxCze Service. Een eenmanszaak met meer dan 30 jaar "
+"Leer meer over MaxCze Services. Een eenmanszaak met meer dan 30 jaar "
 "ervaring in verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
 
@@ -672,12 +672,12 @@ msgid "Maak kennis met"
 msgstr ""
 
 #: templates/over-ons.html:18
-msgid "MaxCze Service"
+msgid "MaxCze Services"
 msgstr ""
 
 #: templates/over-ons.html:19
 msgid ""
-"MaxCze Service is een eenmanszaak, opgericht in 2016 door Max Czepelka. "
+"MaxCze Services is een eenmanszaak, opgericht in 2016 door Max Czepelka. "
 "Persoonlijk contact en vakmanschap staan centraal."
 msgstr ""
 
@@ -690,7 +690,7 @@ msgid "Persoonlijk vakmanschap"
 msgstr ""
 
 #: templates/over-ons.html:40
-msgid "MaxCze Service werd opgericht in 2016 door Max Czepelka."
+msgid "MaxCze Services werd opgericht in 2016 door Max Czepelka."
 msgstr ""
 
 #: templates/over-ons.html:41
@@ -728,7 +728,7 @@ msgstr ""
 
 #: templates/over-ons.html:82
 msgid ""
-"Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat "
+"Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat "
 "in het teken van deze vier waarden."
 msgstr ""
 
@@ -769,7 +769,7 @@ msgstr ""
 #: templates/over-ons.html:115
 msgid ""
 "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen."
-" Een mooie woning én een gezond milieu gaan hand in hand."
+" Een mooie woning Ã©n een gezond milieu gaan hand in hand."
 msgstr ""
 
 #: templates/over-ons.html:125
@@ -790,7 +790,7 @@ msgstr ""
 
 #: templates/over-ons.html:134
 msgid ""
-"Max Czepelka richt MaxCze Service op in Goor, met focus op verbouwingen, "
+"Max Czepelka richt MaxCze Services op in Goor, met focus op verbouwingen, "
 "renovaties en timmerwerk op maat."
 msgstr ""
 
@@ -818,7 +818,7 @@ msgstr ""
 
 #: templates/over-ons.html:154
 msgid ""
-"Steeds meer klanten kiezen MaxCze Service voor complete verbouwingen en "
+"Steeds meer klanten kiezen MaxCze Services voor complete verbouwingen en "
 "renovatiewerk."
 msgstr ""
 
@@ -832,7 +832,7 @@ msgstr ""
 
 #: templates/over-ons.html:166
 msgid ""
-"MaxCze Service bouwt verder aan een sterke reputatie dankzij persoonlijk "
+"MaxCze Services bouwt verder aan een sterke reputatie dankzij persoonlijk "
 "advies en nette oplevering."
 msgstr ""
 
@@ -846,7 +846,7 @@ msgstr ""
 
 #: templates/over-ons.html:174
 msgid ""
-"Met meer dan 30 jaar ervaring blijft MaxCze Service klanten helpen met "
+"Met meer dan 30 jaar ervaring blijft MaxCze Services klanten helpen met "
 "verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
 
@@ -865,12 +865,12 @@ msgid ""
 msgstr ""
 
 #: templates/over-ons.html:198
-msgid "Eén aanspreekpunt, van begin tot eind"
+msgid "EÃ©n aanspreekpunt, van begin tot eind"
 msgstr ""
 
 #: templates/over-ons.html:199
 msgid ""
-"Bij MaxCze Service wordt elk project persoonlijk uitgevoerd en begeleid "
+"Bij MaxCze Services wordt elk project persoonlijk uitgevoerd en begeleid "
 "door de eigenaar."
 msgstr ""
 
@@ -908,7 +908,7 @@ msgstr ""
 
 #: templates/privacy.html:3
 msgid ""
-"Lees de privacyverklaring van MaxCze Service. Wij leggen uit welke "
+"Lees de privacyverklaring van MaxCze Services. Wij leggen uit welke "
 "persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
 msgstr ""
 
@@ -929,7 +929,7 @@ msgstr ""
 #: templates/privacy.html:28
 msgid ""
 "Deze privacyverklaring is van toepassing op de website en diensten van "
-"MaxCze Service. Wij hechten veel waarde aan de bescherming van uw "
+"MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
 "persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
 "wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
 "gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
@@ -941,7 +941,7 @@ msgid "2. Bedrijfsgegevens"
 msgstr ""
 
 #: templates/privacy.html:31
-msgid "Bedrijfsnaam: MaxCze Service"
+msgid "Bedrijfsnaam: MaxCze Services"
 msgstr ""
 
 #: templates/privacy.html:32
@@ -1088,7 +1088,7 @@ msgstr ""
 
 #: templates/privacy.html:78
 msgid ""
-"U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven"
+"U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven"
 " staat vermeld."
 msgstr ""
 
@@ -1166,7 +1166,7 @@ msgid "Deuren"
 msgstr ""
 
 #: templates/projecten.html:48
-msgid "Complete keuken op maat – Almelo"
+msgid "Complete keuken op maat â€“ Almelo"
 msgstr ""
 
 #: templates/projecten.html:49
@@ -1177,7 +1177,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:60
-msgid "Traprenovatie – Enschede"
+msgid "Traprenovatie â€“ Enschede"
 msgstr ""
 
 #: templates/projecten.html:61
@@ -1187,7 +1187,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:72
-msgid "Kozijnenvervanging – Hengelo"
+msgid "Kozijnenvervanging â€“ Hengelo"
 msgstr ""
 
 #: templates/projecten.html:73
@@ -1197,7 +1197,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:84
-msgid "Inbouwkasten slaapkamer – Goor"
+msgid "Inbouwkasten slaapkamer â€“ Goor"
 msgstr ""
 
 #: templates/projecten.html:85
@@ -1207,7 +1207,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:96
-msgid "Voordeur op maat – Delden"
+msgid "Voordeur op maat â€“ Delden"
 msgstr ""
 
 #: templates/projecten.html:97
@@ -1217,7 +1217,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:108
-msgid "Badkamer verbouwing – Borne"
+msgid "Badkamer verbouwing â€“ Borne"
 msgstr ""
 
 #: templates/projecten.html:109
@@ -1227,7 +1227,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:120
-msgid "Thuiskantoor op maat – Rijssen"
+msgid "Thuiskantoor op maat â€“ Rijssen"
 msgstr ""
 
 #: templates/projecten.html:121
@@ -1237,7 +1237,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:132
-msgid "Complete woonkamer verbouwing – Almelo"
+msgid "Complete woonkamer verbouwing â€“ Almelo"
 msgstr ""
 
 #: templates/projecten.html:133
@@ -1247,7 +1247,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:144
-msgid "Dakkapel kozijnen – Wierden"
+msgid "Dakkapel kozijnen â€“ Wierden"
 msgstr ""
 
 #: templates/projecten.html:145
@@ -1279,7 +1279,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Bedankt voor uw aanvraag! Wij nemen "
-#~ "binnen één werkdag contact met u "
+#~ "binnen Ã©Ã©n werkdag contact met u "
 #~ "op."
 #~ msgstr ""
 
@@ -1313,7 +1313,7 @@ msgstr ""
 #~ msgid "Contact & Offerte"
 #~ msgstr ""
 
-#~ msgid "MaxCze Service"
+#~ msgid "MaxCze Services"
 #~ msgstr ""
 
 #~ msgid "Vakmanschap in hout"
@@ -1349,20 +1349,20 @@ msgstr ""
 #~ msgid "Dorpsstraat 42, 7471 AK Goor"
 #~ msgstr ""
 
-#~ msgid "0547 - 123 456"
+#~ msgid "06 33649552"
 #~ msgstr ""
 
 #~ msgid "info@vanwijntimmerwerken.nl"
 #~ msgstr ""
 
-#~ msgid "© 2026 MaxCze Service |"
+#~ msgid "Â© 2026 MaxCze Services |"
 #~ msgstr ""
 
 #~ msgid "Privacy Policy"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Neem contact op met MaxCze Service "
+#~ "Neem contact op met MaxCze Services "
 #~ "in Goor. Vraag een gratis offerte "
 #~ "aan of plan een vrijblijvend gesprek."
 #~ msgstr ""
@@ -1375,7 +1375,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Vul het formulier in of bel ons"
-#~ " direct. Wij reageren binnen één "
+#~ " direct. Wij reageren binnen Ã©Ã©n "
 #~ "werkdag op uw aanvraag."
 #~ msgstr ""
 
@@ -1388,7 +1388,7 @@ msgstr ""
 #~ msgid ""
 #~ "Heeft u vragen over onze diensten "
 #~ "of wilt u een project bespreken? "
-#~ "Neem gerust contact op — geen "
+#~ "Neem gerust contact op â€” geen "
 #~ "vraag is te klein en geen project"
 #~ " te groot."
 #~ msgstr ""
@@ -1405,7 +1405,7 @@ msgstr ""
 #~ msgid "Telefoon"
 #~ msgstr ""
 
-#~ msgid "+31 6 3364 9552"
+#~ msgid "06 33649552"
 #~ msgstr ""
 
 #~ msgid "E-mail"
@@ -1423,16 +1423,16 @@ msgstr ""
 #~ msgid "Openingstijden"
 #~ msgstr ""
 
-#~ msgid "Maandag – Vrijdag"
+#~ msgid "Maandag â€“ Vrijdag"
 #~ msgstr ""
 
-#~ msgid "07:30 – 17:00"
+#~ msgid "07:30 â€“ 17:00"
 #~ msgstr ""
 
 #~ msgid "Zaterdag"
 #~ msgstr ""
 
-#~ msgid "08:00 – 12:00"
+#~ msgid "08:00 â€“ 12:00"
 #~ msgstr ""
 
 #~ msgid "Zondag"
@@ -1442,14 +1442,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Buiten kantoortijd? Stuur een e-mail —"
+#~ "Buiten kantoortijd? Stuur een e-mail â€”"
 #~ " wij reageren de volgende werkdag."
 #~ msgstr ""
 
 #~ msgid "Offerte of vraag sturen"
 #~ msgstr ""
 
-#~ msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+#~ msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
 #~ msgstr ""
 
 #~ msgid "First name"
@@ -1491,11 +1491,11 @@ msgstr ""
 #~ "day to discuss your request."
 #~ msgstr ""
 
-#~ msgid "MaxCze Service | Vakmanschap in hout – Goor, Overijssel"
+#~ msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service – meer dan 25 jaar"
+#~ "MaxCze Services â€“ meer dan 25 jaar"
 #~ " vakmanschap in maatwerk meubels, kozijnen,"
 #~ " deuren en verbouwingen in Goor en"
 #~ " omgeving."
@@ -1561,7 +1561,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Van kleine reparaties tot complete "
-#~ "verbouwingen – wij leveren kwaliteit op"
+#~ "verbouwingen â€“ wij leveren kwaliteit op"
 #~ " maat voor elk project."
 #~ msgstr ""
 
@@ -1626,7 +1626,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service is in 1998 opgericht "
+#~ "MaxCze Services is in 1998 opgericht "
 #~ "door Henk van Wijnen en is "
 #~ "inmiddels uitgegroeid tot een begrip in"
 #~ " de regio Twente. Wij combineren "
@@ -1640,7 +1640,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Erkend leerbedrijf en lid van de "
-#~ "BouwGarant — uw garantie voor kwaliteit."
+#~ "BouwGarant â€” uw garantie voor kwaliteit."
 #~ msgstr ""
 
 #~ msgid "Duurzame materialen"
@@ -1735,7 +1735,7 @@ msgstr ""
 #~ msgid "Maatwerk"
 #~ msgstr ""
 
-#~ msgid "Keuken op maat – Almelo"
+#~ msgid "Keuken op maat â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -1746,13 +1746,13 @@ msgstr ""
 #~ msgid "Renovatie"
 #~ msgstr ""
 
-#~ msgid "Trap renovatie – Enschede"
+#~ msgid "Trap renovatie â€“ Enschede"
 #~ msgstr ""
 
 #~ msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
 #~ msgstr ""
 
-#~ msgid "Kozijnen plaatsing – Hengelo"
+#~ msgid "Kozijnen plaatsing â€“ Hengelo"
 #~ msgstr ""
 
 #~ msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
@@ -1795,7 +1795,7 @@ msgstr ""
 #~ "\"Onze houten kozijnen zijn prachtig "
 #~ "vervaardigd en gemonteerd. Het team was"
 #~ " vriendelijk, werkte netjes en klaarde "
-#~ "de klus in één dag. De afwerking"
+#~ "de klus in Ã©Ã©n dag. De afwerking"
 #~ " is onberispelijk. Wij zijn heel blij"
 #~ " met het resultaat!\""
 #~ msgstr ""
@@ -1830,7 +1830,7 @@ msgstr ""
 #~ msgid ""
 #~ "Neem contact op voor een vrijblijvend"
 #~ " gesprek of vraag direct uw gratis"
-#~ " offerte aan. Wij reageren binnen één"
+#~ " offerte aan. Wij reageren binnen Ã©Ã©n"
 #~ " werkdag."
 #~ msgstr ""
 
@@ -1842,12 +1842,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "\n"
-#~ "          0547 - 123 456\n"
+#~ "          06 33649552\n"
 #~ "        "
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Leer meer over MaxCze Service. Meer "
+#~ "Leer meer over MaxCze Services. Meer "
 #~ "dan 25 jaar vakmanschap, een gedreven"
 #~ " team en een rijke geschiedenis in"
 #~ " de regio Twente."
@@ -1865,7 +1865,7 @@ msgstr ""
 #~ msgid ""
 #~ "Opgericht in 1998, uitgegroeid tot een"
 #~ " begrip in Twente. Maak kennis met"
-#~ " het team achter MaxCze Service."
+#~ " het team achter MaxCze Services."
 #~ msgstr ""
 
 #~ msgid "Wie wij zijn"
@@ -1875,7 +1875,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service is in 1998 opgericht "
+#~ "MaxCze Services is in 1998 opgericht "
 #~ "door Henk van Wijnen. Na zijn "
 #~ "opleiding aan de vakschool in Almelo "
 #~ "en tien jaar ervaring bij een "
@@ -1899,7 +1899,7 @@ msgstr ""
 #~ "in Twente en de omliggende gemeenten."
 #~ " Niet door grote beloften, maar door"
 #~ " elk project tot in de puntjes "
-#~ "af te leveren — op tijd, binnen"
+#~ "af te leveren â€” op tijd, binnen"
 #~ " budget en met een glimlach."
 #~ msgstr ""
 
@@ -1920,7 +1920,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Elke beslissing die wij nemen, elk "
-#~ "project dat wij uitvoeren — het "
+#~ "project dat wij uitvoeren â€” het "
 #~ "staat in het teken van deze vier"
 #~ " waarden."
 #~ msgstr ""
@@ -1959,7 +1959,7 @@ msgstr ""
 #~ msgid ""
 #~ "Wij werken met FSC-gecertificeerd hout"
 #~ " en milieuvriendelijke afwerkingen. Een "
-#~ "mooie woning én een gezond milieu "
+#~ "mooie woning Ã©n een gezond milieu "
 #~ "gaan hand in hand."
 #~ msgstr ""
 
@@ -2002,7 +2002,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service ontvangt de BouwGarant-"
+#~ "MaxCze Services ontvangt de BouwGarant-"
 #~ "erkenning, een keurmerk voor betrouwbare "
 #~ "bouwbedrijven."
 #~ msgstr ""
@@ -2017,7 +2017,7 @@ msgstr ""
 #~ "Bas van Wijnen treedt toe tot het"
 #~ " bedrijf na zijn opleiding aan het"
 #~ " ROC van Twente. Hij brengt frisse"
-#~ " ideeën en moderne CNC-technieken "
+#~ " ideeÃ«n en moderne CNC-technieken "
 #~ "mee."
 #~ msgstr ""
 
@@ -2144,7 +2144,7 @@ msgstr ""
 #~ msgid ""
 #~ "Deze privacyverklaring is van toepassing "
 #~ "op de website en diensten van "
-#~ "MaxCze Service. Wij hechten veel waarde"
+#~ "MaxCze Services. Wij hechten veel waarde"
 #~ " aan de bescherming van uw "
 #~ "persoonsgegevens en zorgen ervoor dat "
 #~ "persoonlijke informatie zorgvuldig wordt "
@@ -2157,7 +2157,7 @@ msgstr ""
 #~ msgid "2. Bedrijfsgegevens"
 #~ msgstr ""
 
-#~ msgid "Bedrijfsnaam: MaxCze Service"
+#~ msgid "Bedrijfsnaam: MaxCze Services"
 #~ msgstr ""
 
 #~ msgid "Adres: Het Jannink 23"
@@ -2291,7 +2291,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "U kunt hiervoor contact met ons "
-#~ "opnemen via het e‑mailadres dat "
+#~ "opnemen via het eâ€‘mailadres dat "
 #~ "hierboven staat vermeld."
 #~ msgstr ""
 
@@ -2345,7 +2345,7 @@ msgstr ""
 #~ msgid "Alle projecten"
 #~ msgstr ""
 
-#~ msgid "Complete keuken op maat – Almelo"
+#~ msgid "Complete keuken op maat â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2356,7 +2356,7 @@ msgstr ""
 #~ "de kastjes."
 #~ msgstr ""
 
-#~ msgid "Traprenovatie – Enschede"
+#~ msgid "Traprenovatie â€“ Enschede"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2365,7 +2365,7 @@ msgstr ""
 #~ "nieuwe leuning en schilderwerk."
 #~ msgstr ""
 
-#~ msgid "Kozijnenvervanging – Hengelo"
+#~ msgid "Kozijnenvervanging â€“ Hengelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2374,7 +2374,7 @@ msgstr ""
 #~ "in kleur van de klant."
 #~ msgstr ""
 
-#~ msgid "Inbouwkasten slaapkamer – Goor"
+#~ msgid "Inbouwkasten slaapkamer â€“ Goor"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2384,7 +2384,7 @@ msgstr ""
 #~ "van de ruimte."
 #~ msgstr ""
 
-#~ msgid "Voordeur op maat – Delden"
+#~ msgid "Voordeur op maat â€“ Delden"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2396,7 +2396,7 @@ msgstr ""
 #~ msgid "Verbouwing"
 #~ msgstr ""
 
-#~ msgid "Badkamer verbouwing – Borne"
+#~ msgid "Badkamer verbouwing â€“ Borne"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2406,7 +2406,7 @@ msgstr ""
 #~ "bad."
 #~ msgstr ""
 
-#~ msgid "Thuiskantoor op maat – Rijssen"
+#~ msgid "Thuiskantoor op maat â€“ Rijssen"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2415,7 +2415,7 @@ msgstr ""
 #~ "perfect passend in de serre."
 #~ msgstr ""
 
-#~ msgid "Complete woonkamer verbouwing – Almelo"
+#~ msgid "Complete woonkamer verbouwing â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2425,7 +2425,7 @@ msgstr ""
 #~ "ingebouwde TV-meubel."
 #~ msgstr ""
 
-#~ msgid "Dakkapel kozijnen – Wierden"
+#~ msgid "Dakkapel kozijnen â€“ Wierden"
 #~ msgstr ""
 
 #~ msgid ""

@@ -45,11 +45,11 @@ msgstr "Kontakt i wycena"
 
 #: templates/base.html:65
 msgid ""
-"MaxCze Service - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30"
+"MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30"
 " jaar ervaring in Goor en regio Twente."
 msgstr ""
-"MaxCze Service - rzemiosło dla remontów, renowacji i stolarki. 30 lat "
-"doświadczenia w Goor i regionie Twente."
+"MaxCze Services - rzemiosÅ‚o dla remontÃ³w, renowacji i stolarki. 30 lat "
+"doÅ›wiadczenia w Goor i regionie Twente."
 
 #: templates/base.html:71
 msgid "Navigatie"
@@ -84,28 +84,28 @@ msgid "Goor en regio Twente"
 msgstr "Goor i region Twente"
 
 #: templates/base.html:91
-msgid "0547 - 123 456"
-msgstr "0547 - 123 456"
+msgid "06 33649552"
+msgstr "06 33649552"
 
 #: templates/base.html:92
 msgid "maxcze@hotmail.com"
 msgstr "maxcze@hotmail.com"
 
 #: templates/base.html:96
-msgid "© 2026 MaxCze Service |"
-msgstr "© 2026 Serwis MaxCze |"
+msgid "Â© 2026 MaxCze Services |"
+msgstr "Â© 2026 Serwis MaxCze |"
 
 #: templates/base.html:96
 msgid "Privacy Policy"
-msgstr "Polityka prywatności"
+msgstr "Polityka prywatnoÅ›ci"
 
 #: templates/contact.html:3
 msgid ""
-"Neem contact op met MaxCze Service in Goor. Vraag een gratis offerte aan of "
+"Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of "
 "plan een vrijblijvend gesprek."
 msgstr ""
-"Skontaktuj się z serwisem MaxCze w Goor. Poproś o bezpłatną wycenę lub umów "
-"się na niezobowiązującą konsultację."
+"Skontaktuj siÄ™ z serwisem MaxCze w Goor. PoproÅ› o bezpÅ‚atnÄ… wycenÄ™ lub umÃ³w "
+"siÄ™ na niezobowiÄ…zujÄ…cÄ… konsultacjÄ™."
 
 #: templates/contact.html:17
 msgid "Laten we praten"
@@ -113,15 +113,15 @@ msgstr "Porozmawiajmy"
 
 #: templates/contact.html:18
 msgid "Vraag een gratis offerte aan"
-msgstr "Poproś o bezpłatną wycenę"
+msgstr "PoproÅ› o bezpÅ‚atnÄ… wycenÄ™"
 
 #: templates/contact.html:19
 msgid ""
-"Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
+"Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag op "
 "uw aanvraag."
 msgstr ""
-"Wypełnij formularz lub zadzwoń do nas bezpośrednio. Odpowiemy na Twoją "
-"prośbę w ciągu jednego dnia roboczego."
+"WypeÅ‚nij formularz lub zadzwoÅ„ do nas bezpoÅ›rednio. Odpowiemy na TwojÄ… "
+"proÅ›bÄ™ w ciÄ…gu jednego dnia roboczego."
 
 #: templates/contact.html:31
 msgid "Contactgegevens"
@@ -129,15 +129,15 @@ msgstr "Dane kontaktowe"
 
 #: templates/contact.html:32
 msgid "Wij helpen u graag verder"
-msgstr "Chętnie Ci pomożemy"
+msgstr "ChÄ™tnie Ci pomoÅ¼emy"
 
 #: templates/contact.html:33
 msgid ""
 "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-"gerust contact op — geen vraag is te klein en geen project te groot."
+"gerust contact op â€” geen vraag is te klein en geen project te groot."
 msgstr ""
-"Masz pytania dotyczące naszych usług lub chcesz omówić projekt? Zapraszamy "
-"do kontaktu – żadne pytanie nie jest za małe i żaden projekt za duży."
+"Masz pytania dotyczÄ…ce naszych usÅ‚ug lub chcesz omÃ³wiÄ‡ projekt? Zapraszamy "
+"do kontaktu â€“ Å¼adne pytanie nie jest za maÅ‚e i Å¼aden projekt za duÅ¼y."
 
 #: templates/contact.html:41
 msgid "Adres"
@@ -156,8 +156,8 @@ msgid "Telefoon"
 msgstr "Telefon"
 
 #: templates/contact.html:52
-msgid "+31 6 3364 9552"
-msgstr "+31 6 3364 9552"
+msgid "06 33649552"
+msgstr "06 33649552"
 
 #: templates/contact.html:61 templates/contact.html:128
 msgid "E-mail"
@@ -180,20 +180,20 @@ msgid "Openingstijden"
 msgstr "Godziny otwarcia"
 
 #: templates/contact.html:81
-msgid "Maandag – Vrijdag"
-msgstr "poniedziałek – piątek"
+msgid "Maandag â€“ Vrijdag"
+msgstr "poniedziaÅ‚ek â€“ piÄ…tek"
 
 #: templates/contact.html:82
-msgid "07:30 – 17:00"
-msgstr "07:30 – 17:00"
+msgid "07:30 â€“ 17:00"
+msgstr "07:30 â€“ 17:00"
 
 #: templates/contact.html:85
 msgid "Zaterdag"
 msgstr "Sobota"
 
 #: templates/contact.html:86
-msgid "08:00 – 12:00"
-msgstr "08:00 – 12:00"
+msgid "08:00 â€“ 12:00"
+msgstr "08:00 â€“ 12:00"
 
 #: templates/contact.html:89
 msgid "Zondag"
@@ -201,31 +201,31 @@ msgstr "Niedziela"
 
 #: templates/contact.html:90
 msgid "Gesloten"
-msgstr "Zamknięte"
+msgstr "ZamkniÄ™te"
 
 #: templates/contact.html:93
 msgid ""
-"Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+"Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
 msgstr ""
-"Poza godzinami pracy? Wyślij e-mail – odpowiemy następnego dnia roboczego."
+"Poza godzinami pracy? WyÅ›lij e-mail â€“ odpowiemy nastÄ™pnego dnia roboczego."
 
 #: templates/contact.html:102
 msgid "Offerte of vraag sturen"
-msgstr "Wyślij wycenę lub pytanie"
+msgstr "WyÅ›lij wycenÄ™ lub pytanie"
 
 #: templates/contact.html:103
-msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
 msgstr ""
-"Wypełnij formularz, a my skontaktujemy się z Tobą w ciągu jednego dnia "
+"WypeÅ‚nij formularz, a my skontaktujemy siÄ™ z TobÄ… w ciÄ…gu jednego dnia "
 "roboczego."
 
 #: templates/contact.html:105
 msgid "Velden met * zijn verplicht."
-msgstr "Pola oznaczone * są obowiązkowe."
+msgstr "Pola oznaczone * sÄ… obowiÄ…zkowe."
 
 #: templates/contact.html:117 app.py:337
 msgid "Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw."
-msgstr "Nie wszystkie wymagane pola zostały wypełnione. Sprawdź pola oznaczone * i spróbuj ponownie."
+msgstr "Nie wszystkie wymagane pola zostaÅ‚y wypeÅ‚nione. SprawdÅº pola oznaczone * i sprÃ³buj ponownie."
 
 #: templates/contact.html:118
 msgid "Voornaam"
@@ -233,7 +233,7 @@ msgstr "Imie"
 
 #: templates/contact.html:119
 msgid "Jan"
-msgstr "styczeń"
+msgstr "styczeÅ„"
 
 #: templates/contact.html:122
 msgid "Achternaam"
@@ -253,7 +253,7 @@ msgstr "Preferowana forma odpowiedzi"
 
 #: templates/contact.html:140
 msgid "Kies hoe u een reactie wilt ontvangen"
-msgstr "Wybierz, jak chcesz otrzymać odpowiedź"
+msgstr "Wybierz, jak chcesz otrzymaÄ‡ odpowiedÅº"
 
 #: templates/contact.html:142
 msgid "Telefoontje"
@@ -261,7 +261,7 @@ msgstr "Telefon"
 
 #: templates/contact.html:143
 msgid "WhatsApp-bericht"
-msgstr "Wiadomość WhatsApp"
+msgstr "WiadomoÅ›Ä‡ WhatsApp"
 
 #: templates/contact.html:138
 msgid "Type aanvraag"
@@ -299,7 +299,7 @@ msgstr "Wiadomosc"
 
 #: templates/contact.html:151
 msgid "Omschrijf uw aanvraag"
-msgstr "Opisz swoją prośbę"
+msgstr "Opisz swojÄ… proÅ›bÄ™"
 
 #: templates/contact.html:157
 msgid "Ik ga akkoord met het"
@@ -322,20 +322,20 @@ msgid ""
 "Thank you for your message. We will contact you within one business day to "
 "discuss your request."
 msgstr ""
-"Dziękuję za wiadomość. Skontaktujemy się z Tobą w ciągu jednego dnia "
-"roboczego, aby omówić Twoją prośbę."
+"DziÄ™kujÄ™ za wiadomoÅ›Ä‡. Skontaktujemy siÄ™ z TobÄ… w ciÄ…gu jednego dnia "
+"roboczego, aby omÃ³wiÄ‡ TwojÄ… proÅ›bÄ™."
 
 #: templates/index.html:2
-msgid "MaxCze Service | Vakmanschap in hout – Goor, Overijssel"
-msgstr "Serwis MaxCze | Rzemiosło w drewnie – Goor, Overijssel"
+msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
+msgstr "Serwis MaxCze | RzemiosÅ‚o w drewnie â€“ Goor, Overijssel"
 
 #: templates/index.html:3
 msgid ""
-"MaxCze Service - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
+"MaxCze Services - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
 "deuren en maatwerk in Goor en omgeving."
 msgstr ""
-"MaxCze Service - ponad 30 lat rzemiosła w zakresie renowacji, ościeżnic, "
-"drzwi i prac na zamówienie w Goor i okolicach."
+"MaxCze Services - ponad 30 lat rzemiosÅ‚a w zakresie renowacji, oÅ›cieÅ¼nic, "
+"drzwi i prac na zamÃ³wienie w Goor i okolicach."
 
 #: templates/index.html:13
 msgid ""
@@ -344,7 +344,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        Znajduje się w Goor, Overijssel\n"
+"        Znajduje siÄ™ w Goor, Overijssel\n"
 "      "
 
 #: templates/index.html:16
@@ -385,11 +385,11 @@ msgstr "0+"
 
 #: templates/index.html:32 templates/over-ons.html:55
 msgid "Jaar ervaring"
-msgstr "Lata doświadczeń"
+msgstr "Lata doÅ›wiadczeÅ„"
 
 #: templates/index.html:36
 msgid "Projecten voltooid"
-msgstr "Projekty zakończone"
+msgstr "Projekty zakoÅ„czone"
 
 #: templates/index.html:39
 #, python-format
@@ -407,7 +407,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"    Zwój\n"
+"    ZwÃ³j\n"
 "  "
 
 #: templates/index.html:55
@@ -416,46 +416,46 @@ msgstr "Co robimy"
 
 #: templates/index.html:56
 msgid "Onze diensten"
-msgstr "Nasze usługi"
+msgstr "Nasze usÅ‚ugi"
 
 #: templates/index.html:57
 msgid ""
-"Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
+"Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit op "
 "maat voor elk project."
 msgstr ""
-"Od drobnych napraw po kompleksowe remonty – zapewniamy jakość dostosowaną do"
-" każdego projektu."
+"Od drobnych napraw po kompleksowe remonty â€“ zapewniamy jakoÅ›Ä‡ dostosowanÄ… do"
+" kaÅ¼dego projektu."
 
 #: templates/index.html:68
 msgid ""
 "Van voorbereiding tot afwerking verzorgen wij complete verbouwingen voor "
 "woningen en bedrijfspanden."
 msgstr ""
-"Od przygotowania po wykończenie, zapewniamy kompleksowe remonty domów i "
-"obiektów komercyjnych."
+"Od przygotowania po wykoÅ„czenie, zapewniamy kompleksowe remonty domÃ³w i "
+"obiektÃ³w komercyjnych."
 
 #: templates/index.html:78
 msgid ""
 "Plaatsing, vervanging en herstel van kozijnen en deuren met oog voor "
 "duurzaamheid en afwerking."
 msgstr ""
-"Montaż, wymiana i naprawa ościeżnic i drzwi z dbałością o trwałość i "
-"wykończenie."
+"MontaÅ¼, wymiana i naprawa oÅ›cieÅ¼nic i drzwi z dbaÅ‚oÅ›ciÄ… o trwaÅ‚oÅ›Ä‡ i "
+"wykoÅ„czenie."
 
 #: templates/index.html:90
 msgid ""
 "Praktische en nette renovaties voor binnen en buiten, afgestemd op uw wensen"
 " en bestaande situatie."
 msgstr ""
-"Praktyczne i schludne renowacje wewnątrz i na zewnątrz, dostosowane do "
-"Twoich życzeń i istniejącej sytuacji."
+"Praktyczne i schludne renowacje wewnÄ…trz i na zewnÄ…trz, dostosowane do "
+"Twoich Å¼yczeÅ„ i istniejÄ…cej sytuacji."
 
 #: templates/index.html:100
 msgid ""
 "Voor alle overige timmerwerken bieden wij een betrouwbare, vakkundige en "
 "flexibele oplossing."
 msgstr ""
-"Oferujemy niezawodne, profesjonalne i elastyczne rozwiązanie dla wszelkich "
+"Oferujemy niezawodne, profesjonalne i elastyczne rozwiÄ…zanie dla wszelkich "
 "innych prac stolarskich."
 
 #: templates/index.html:118
@@ -468,43 +468,43 @@ msgstr "rok"
 
 #: templates/index.html:119 templates/over-ons.html:126
 msgid "vakmanschap"
-msgstr "rzemiosło"
+msgstr "rzemiosÅ‚o"
 
 #: templates/index.html:125
 msgid "Persoonlijk vakmanschap in Goor"
-msgstr "Własne rzemiosło w Goor"
+msgstr "WÅ‚asne rzemiosÅ‚o w Goor"
 
 #: templates/index.html:126
 msgid ""
-"MaxCze Service is een eenmanszaak van Max Czepelka. Sinds 2016 helpt hij "
+"MaxCze Services is een eenmanszaak van Max Czepelka. Sinds 2016 helpt hij "
 "klanten met verbouwingen, renovaties en timmerwerk in Goor en de regio "
 "Twente."
 msgstr ""
-"MaxCze Service jest jednoosobową firmą Maxa Czepelki. Od 2016 roku pomaga "
+"MaxCze Services jest jednoosobowÄ… firmÄ… Maxa Czepelki. Od 2016 roku pomaga "
 "klientom przy remontach, remontach i stolarstwie na terenie Goor i regionu "
 "Twente."
 
 #: templates/index.html:134
 msgid "30 jaar ervaring"
-msgstr "30 lat doświadczenia"
+msgstr "30 lat doÅ›wiadczenia"
 
 #: templates/index.html:135
 msgid ""
 "Ruime praktijkervaring in complete verbouwingen, renovaties en maatwerk in "
 "hout."
 msgstr ""
-"Bogate doświadczenie praktyczne w zakresie kompleksowych przebudów, "
+"Bogate doÅ›wiadczenie praktyczne w zakresie kompleksowych przebudÃ³w, "
 "renowacji i prac na wymiar w drewnie."
 
 #: templates/index.html:143
 msgid "Persoonlijke aanpak"
-msgstr "Osobiste podejście"
+msgstr "Osobiste podejÅ›cie"
 
 #: templates/index.html:144
 msgid ""
 "U heeft altijd direct contact met de eigenaar, van intake tot oplevering."
 msgstr ""
-"Zawsze masz bezpośredni kontakt z właścicielem, od przyjęcia do dostawy."
+"Zawsze masz bezpoÅ›redni kontakt z wÅ‚aÅ›cicielem, od przyjÄ™cia do dostawy."
 
 #: templates/index.html:152
 msgid "Heldere afspraken"
@@ -513,7 +513,7 @@ msgstr "Jasne umowy"
 #: templates/index.html:153
 msgid ""
 "Duidelijke planning, nette uitvoering en afspraken die worden nagekomen."
-msgstr "Przejrzyste planowanie, staranne wykonanie i dotrzymywanie umów."
+msgstr "Przejrzyste planowanie, staranne wykonanie i dotrzymywanie umÃ³w."
 
 #: templates/index.html:158
 msgid ""
@@ -522,7 +522,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"          Więcej o naszej historii\n"
+"          WiÄ™cej o naszej historii\n"
 "          "
 
 #: templates/index.html:171
@@ -531,14 +531,14 @@ msgstr "Jak pracujemy"
 
 #: templates/index.html:172
 msgid "Van idee tot oplevering"
-msgstr "Od pomysłu do realizacji"
+msgstr "Od pomysÅ‚u do realizacji"
 
 #: templates/index.html:173
 msgid ""
 "Een helder en transparant werkproces zodat u altijd weet waar u aan toe "
 "bent."
 msgstr ""
-"Jasny i przejrzysty proces pracy, dzięki któremu zawsze wiesz, na czym "
+"Jasny i przejrzysty proces pracy, dziÄ™ki ktÃ³remu zawsze wiesz, na czym "
 "stoisz."
 
 #: templates/index.html:178
@@ -547,15 +547,15 @@ msgstr "1"
 
 #: templates/index.html:179
 msgid "Kennismaken"
-msgstr "Poznajemy Cię"
+msgstr "Poznajemy CiÄ™"
 
 #: templates/index.html:180
 msgid ""
 "Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te "
 "bespreken."
 msgstr ""
-"Bezpłatna rozmowa rekrutacyjna w Twoim domu lub w naszym warsztacie, w celu "
-"omówienia Twoich życzeń."
+"BezpÅ‚atna rozmowa rekrutacyjna w Twoim domu lub w naszym warsztacie, w celu "
+"omÃ³wienia Twoich Å¼yczeÅ„."
 
 #: templates/index.html:183
 msgid "2"
@@ -570,8 +570,8 @@ msgid ""
 "Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of "
 "3D-visualisatie."
 msgstr ""
-"Wykonujemy szczegółową wycenę oraz w razie potrzeby szkic projektu lub "
-"wizualizację 3D."
+"Wykonujemy szczegÃ³Å‚owÄ… wycenÄ™ oraz w razie potrzeby szkic projektu lub "
+"wizualizacjÄ™ 3D."
 
 #: templates/index.html:188
 msgid "3"
@@ -586,7 +586,7 @@ msgid ""
 "Vakkundige uitvoering door de eigenaar, met duidelijke communicatie over de "
 "voortgang."
 msgstr ""
-"Profesjonalne wykonanie przez właściciela, z jasną komunikacją o postępach."
+"Profesjonalne wykonanie przez wÅ‚aÅ›ciciela, z jasnÄ… komunikacjÄ… o postÄ™pach."
 
 #: templates/index.html:193
 msgid "4"
@@ -600,7 +600,7 @@ msgstr "Dostawa"
 msgid ""
 "Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op."
 msgstr ""
-"Staranna dostawa i opieka posprzedażna. Niezadowolony? Wtedy to rozwiążemy."
+"Staranna dostawa i opieka posprzedaÅ¼na. Niezadowolony? Wtedy to rozwiÄ…Å¼emy."
 
 #: templates/index.html:205
 msgid "Recent werk"
@@ -608,34 +608,34 @@ msgstr "Niedawna praca"
 
 #: templates/index.html:206
 msgid "Uitgelichte projecten"
-msgstr "Wyróżnione projekty"
+msgstr "WyrÃ³Å¼nione projekty"
 
 #: templates/index.html:207
 msgid "Een greep uit onze meest recente opdrachten in Twente en omgeving."
-msgstr "Wybór naszych najnowszych zleceń w Twente i okolicach."
+msgstr "WybÃ³r naszych najnowszych zleceÅ„ w Twente i okolicach."
 
 #: templates/index.html:214
 msgid "Maatwerk"
 msgstr "Personalizacja"
 
 #: templates/index.html:215
-msgid "Keuken op maat – Almelo"
-msgstr "Kuchnia na wymiar – Almelo"
+msgid "Keuken op maat â€“ Almelo"
+msgstr "Kuchnia na wymiar â€“ Almelo"
 
 #: templates/index.html:216
 msgid ""
 "Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur."
 msgstr ""
-"Całkowicie wykonana na wymiar kuchnia z białego dębu, łącznie z wyspą "
-"kuchenną i urządzeniami do zabudowy."
+"CaÅ‚kowicie wykonana na wymiar kuchnia z biaÅ‚ego dÄ™bu, Å‚Ä…cznie z wyspÄ… "
+"kuchennÄ… i urzÄ…dzeniami do zabudowy."
 
 #: templates/index.html:224
-msgid "Trap renovatie – Enschede"
-msgstr "Remont schodów – Enschede"
+msgid "Trap renovatie â€“ Enschede"
+msgstr "Remont schodÃ³w â€“ Enschede"
 
 #: templates/index.html:225
 msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
-msgstr "Kompletny remont schodów z nowymi stopniami i kratami z litego dębu."
+msgstr "Kompletny remont schodÃ³w z nowymi stopniami i kratami z litego dÄ™bu."
 
 #: templates/index.html:232 templates/projecten.html:71
 #: templates/projecten.html:143
@@ -643,12 +643,12 @@ msgid "Kozijnen"
 msgstr "Ramki"
 
 #: templates/index.html:233
-msgid "Kozijnen plaatsing – Hengelo"
-msgstr "Montaż stolarki okiennej – Hengelo"
+msgid "Kozijnen plaatsing â€“ Hengelo"
+msgstr "MontaÅ¼ stolarki okiennej â€“ Hengelo"
 
 #: templates/index.html:234
 msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
-msgstr "Wymiana 14 stolarki okiennej z drewna meranti na szybę zespoloną."
+msgstr "Wymiana 14 stolarki okiennej z drewna meranti na szybÄ™ zespolonÄ…."
 
 #: templates/index.html:240
 msgid ""
@@ -662,27 +662,27 @@ msgstr ""
 
 #: templates/index.html:252
 msgid "Klantbeoordelingen"
-msgstr "Recenzje klientów"
+msgstr "Recenzje klientÃ³w"
 
 #: templates/index.html:253
 msgid "Wat onze klanten zeggen"
-msgstr "Co mówią nasi klienci"
+msgstr "Co mÃ³wiÄ… nasi klienci"
 
 #: templates/index.html:254
 msgid ""
 "We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk"
 " vinden."
 msgstr ""
-"Jesteśmy dumni z każdej recenzji. Przeczytaj, co o naszej pracy myślą nasi "
+"JesteÅ›my dumni z kaÅ¼dej recenzji. Przeczytaj, co o naszej pracy myÅ›lÄ… nasi "
 "klienci."
 
 #: templates/index.html:266
 msgid ""
-"\"MaxCze Service heeft onze verbouwing netjes en vakkundig uitgevoerd. Fijne"
+"\"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. Fijne"
 " communicatie, heldere afspraken en een prachtig eindresultaat.\""
 msgstr ""
-"\"Serwis MaxCze przeprowadził nasz remont solidnie i profesjonalnie. Dobra "
-"komunikacja, jasne umowy i piękny efekt końcowy.\""
+"\"Serwis MaxCze przeprowadziÅ‚ nasz remont solidnie i profesjonalnie. Dobra "
+"komunikacja, jasne umowy i piÄ™kny efekt koÅ„cowy.\""
 
 #: templates/index.html:270
 msgid "Marieke de Boer"
@@ -694,11 +694,11 @@ msgstr "Almelo"
 
 #: templates/index.html:284
 msgid ""
-"\"Voor het vervangen van kozijnen en deuren kozen wij voor MaxCze Service. "
+"\"Voor het vervangen van kozijnen en deuren kozen wij voor MaxCze Services. "
 "Alles is zorgvuldig afgewerkt en exact volgens planning opgeleverd.\""
 msgstr ""
-"\"Wybraliśmy serwis MaxCze do wymiany stolarki okiennej i drzwi. Wszystko "
-"zostało starannie wykończone i dostarczone dokładnie zgodnie z planem.\""
+"\"WybraliÅ›my serwis MaxCze do wymiany stolarki okiennej i drzwi. Wszystko "
+"zostaÅ‚o starannie wykoÅ„czone i dostarczone dokÅ‚adnie zgodnie z planem.\""
 
 #: templates/index.html:288
 msgid "Peter Jansen"
@@ -713,9 +713,9 @@ msgid ""
 "\"Onze renovatie is professioneel aangepakt. Van de eerste opname tot de "
 "laatste afwerking verliep alles soepel. Zeker een aanrader in Twente.\""
 msgstr ""
-"„Nasz remont został przeprowadzony profesjonalnie. Od pierwszego nagrania do"
-" finalnego wykończenia wszystko przebiegło sprawnie. Zdecydowanie polecamy w"
-" Twente.”"
+"â€žNasz remont zostaÅ‚ przeprowadzony profesjonalnie. Od pierwszego nagrania do"
+" finalnego wykoÅ„czenia wszystko przebiegÅ‚o sprawnie. Zdecydowanie polecamy w"
+" Twente.â€"
 
 #: templates/index.html:306
 msgid "Sandra Visscher"
@@ -727,19 +727,19 @@ msgstr "Gdy"
 
 #: templates/index.html:319
 msgid "Klaar om te beginnen?"
-msgstr "Gotowy, aby zacząć?"
+msgstr "Gotowy, aby zaczÄ…Ä‡?"
 
 #: templates/index.html:320
 msgid "Heeft u een project in gedachten?"
-msgstr "Czy masz na myśli projekt?"
+msgstr "Czy masz na myÅ›li projekt?"
 
 #: templates/index.html:321
 msgid ""
 "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-"offerte aan. Wij reageren binnen één werkdag."
+"offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
 msgstr ""
-"Skontaktuj się z nami, aby uzyskać niezobowiązującą konsultację lub "
-"natychmiast poproś o bezpłatną wycenę. Odpowiemy w ciągu jednego dnia "
+"Skontaktuj siÄ™ z nami, aby uzyskaÄ‡ niezobowiÄ…zujÄ…cÄ… konsultacjÄ™ lub "
+"natychmiast poproÅ› o bezpÅ‚atnÄ… wycenÄ™. Odpowiemy w ciÄ…gu jednego dnia "
 "roboczego."
 
 #: templates/index.html:324
@@ -749,26 +749,26 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          Poproś o wycenę\n"
+"          PoproÅ› o wycenÄ™\n"
 "        "
 
 #: templates/index.html:328
 msgid ""
 "\n"
-"          0547 - 123 456\n"
+"          06 33649552\n"
 "        "
 msgstr ""
 "\n"
-"          0547 - 123 456\n"
+"          06 33649552\n"
 "        "
 
 #: templates/over-ons.html:3
 msgid ""
-"Leer meer over MaxCze Service. Een eenmanszaak met meer dan 30 jaar ervaring"
+"Leer meer over MaxCze Services. Een eenmanszaak met meer dan 30 jaar ervaring"
 " in verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
-"Dowiedz się więcej o serwisie MaxCze. Firma jednoosobowa z ponad 30-letnim "
-"doświadczeniem w remontach, remontach i stolarce w Twente."
+"Dowiedz siÄ™ wiÄ™cej o serwisie MaxCze. Firma jednoosobowa z ponad 30-letnim "
+"doÅ›wiadczeniem w remontach, remontach i stolarce w Twente."
 
 #: templates/over-ons.html:17
 msgid "Ons verhaal"
@@ -776,38 +776,38 @@ msgstr "Nasza historia"
 
 #: templates/over-ons.html:18
 msgid "Maak kennis met"
-msgstr "Poznać"
+msgstr "PoznaÄ‡"
 
 #: templates/over-ons.html:18
-msgid "MaxCze Service"
+msgid "MaxCze Services"
 msgstr "Serwis MaxCze"
 
 #: templates/over-ons.html:19
 msgid ""
-"MaxCze Service is een eenmanszaak, opgericht in 2016 door Max Czepelka. "
+"MaxCze Services is een eenmanszaak, opgericht in 2016 door Max Czepelka. "
 "Persoonlijk contact en vakmanschap staan centraal."
 msgstr ""
-"MaxCze Service jest firmą jednoosobową, założoną w 2016 roku przez Maxa "
-"Czepelkę. Najważniejszy jest osobisty kontakt i rzemiosło."
+"MaxCze Services jest firmÄ… jednoosobowÄ…, zaÅ‚oÅ¼onÄ… w 2016 roku przez Maxa "
+"CzepelkÄ™. NajwaÅ¼niejszy jest osobisty kontakt i rzemiosÅ‚o."
 
 #: templates/over-ons.html:38 templates/over-ons.html:197
 msgid "Maak kennis met de eigenaar"
-msgstr "Poznaj właściciela"
+msgstr "Poznaj wÅ‚aÅ›ciciela"
 
 #: templates/over-ons.html:39
 msgid "Persoonlijk vakmanschap"
-msgstr "Osobiste rzemiosło"
+msgstr "Osobiste rzemiosÅ‚o"
 
 #: templates/over-ons.html:40
-msgid "MaxCze Service werd opgericht in 2016 door Max Czepelka."
-msgstr "Serwis MaxCze został założony w 2016 roku przez Maxa Czepelkę."
+msgid "MaxCze Services werd opgericht in 2016 door Max Czepelka."
+msgstr "Serwis MaxCze zostaÅ‚ zaÅ‚oÅ¼ony w 2016 roku przez Maxa CzepelkÄ™."
 
 #: templates/over-ons.html:41
 msgid ""
 "Met meer dan 30 jaar ervaring in het timmervak helpt hij klanten met "
 "verbouwingen, renovaties en maatwerkprojecten in Goor en de regio Twente."
 msgstr ""
-"Dzięki ponad 30-letniemu doświadczeniu w branży stolarskiej pomaga klientom "
+"DziÄ™ki ponad 30-letniemu doÅ›wiadczeniu w branÅ¼y stolarskiej pomaga klientom "
 "przy remontach, renowacjach i projektach niestandardowych w regionie Goor i "
 "Twente."
 
@@ -817,8 +817,8 @@ msgid ""
 "eigenaar. Zo zijn afspraken duidelijk en blijft de uitvoering persoonlijk en"
 " betrouwbaar."
 msgstr ""
-"Od pierwszego nagrania aż po dostawę zawsze masz bezpośredni kontakt z "
-"właścicielem. Dzięki temu umowy są jasne, a ich realizacja pozostaje "
+"Od pierwszego nagrania aÅ¼ po dostawÄ™ zawsze masz bezpoÅ›redni kontakt z "
+"wÅ‚aÅ›cicielem. DziÄ™ki temu umowy sÄ… jasne, a ich realizacja pozostaje "
 "osobista i niezawodna."
 
 #: templates/over-ons.html:60
@@ -827,7 +827,7 @@ msgstr "Zrealizowane projekty"
 
 #: templates/over-ons.html:65
 msgid "Eigenaar"
-msgstr "Właściciel"
+msgstr "WÅ‚aÅ›ciciel"
 
 #: templates/over-ons.html:70
 msgid "Klanten tevreden"
@@ -839,27 +839,27 @@ msgstr "Co reprezentujemy"
 
 #: templates/over-ons.html:81
 msgid "Onze kernwaarden"
-msgstr "Nasze podstawowe wartości"
+msgstr "Nasze podstawowe wartoÅ›ci"
 
 #: templates/over-ons.html:82
 msgid ""
-"Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
+"Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat in "
 "het teken van deze vier waarden."
 msgstr ""
-"Każda decyzja, którą podejmujemy, każdy projekt, który realizujemy – "
-"wszystko opiera się na tych czterech wartościach."
+"KaÅ¼da decyzja, ktÃ³rÄ… podejmujemy, kaÅ¼dy projekt, ktÃ³ry realizujemy â€“ "
+"wszystko opiera siÄ™ na tych czterech wartoÅ›ciach."
 
 #: templates/over-ons.html:90
 msgid "Kwaliteit"
-msgstr "Jakość"
+msgstr "JakoÅ›Ä‡"
 
 #: templates/over-ons.html:91
 msgid ""
 "Wij werken uitsluitend met premium materialen en staan voor vakmanschap dat "
 "tientallen jaren meegaat. Geen compromissen."
 msgstr ""
-"Pracujemy wyłącznie z materiałami najwyższej jakości i stawiamy na kunszt, "
-"który przetrwa dziesięciolecia. Żadnych kompromisów."
+"Pracujemy wyÅ‚Ä…cznie z materiaÅ‚ami najwyÅ¼szej jakoÅ›ci i stawiamy na kunszt, "
+"ktÃ³ry przetrwa dziesiÄ™ciolecia. Å»adnych kompromisÃ³w."
 
 #: templates/over-ons.html:98
 msgid "Passie"
@@ -870,32 +870,32 @@ msgid ""
 "Houtbewerking is onze passie, geen baan. Die liefde zien en voelen onze "
 "klanten terug in het eindresultaat."
 msgstr ""
-"Obróbka drewna to nasza pasja, a nie praca. Nasi klienci widzą i czują tę "
-"miłość w rezultacie końcowym."
+"ObrÃ³bka drewna to nasza pasja, a nie praca. Nasi klienci widzÄ… i czujÄ… tÄ™ "
+"miÅ‚oÅ›Ä‡ w rezultacie koÅ„cowym."
 
 #: templates/over-ons.html:106
 msgid "Betrouwbaarheid"
-msgstr "Niezawodność"
+msgstr "NiezawodnoÅ›Ä‡"
 
 #: templates/over-ons.html:107
 msgid ""
 "Een afspraak is een afspraak. Wij communiceren helder, zijn op tijd en "
 "leveren wat wij beloven."
 msgstr ""
-"Umowa jest umową. Komunikujemy się jasno, jesteśmy punktualni i dostarczamy "
+"Umowa jest umowÄ…. Komunikujemy siÄ™ jasno, jesteÅ›my punktualni i dostarczamy "
 "to, co obiecujemy."
 
 #: templates/over-ons.html:114
 msgid "Duurzaamheid"
-msgstr "Zrównoważony rozwój"
+msgstr "ZrÃ³wnowaÅ¼ony rozwÃ³j"
 
 #: templates/over-ons.html:115
 msgid ""
 "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
-"Een mooie woning én een gezond milieu gaan hand in hand."
+"Een mooie woning Ã©n een gezond milieu gaan hand in hand."
 msgstr ""
-"Pracujemy z drewnem posiadającym certyfikat FSC i wykończeniami przyjaznymi "
-"dla środowiska. Piękny dom i zdrowe środowisko idą w parze."
+"Pracujemy z drewnem posiadajÄ…cym certyfikat FSC i wykoÅ„czeniami przyjaznymi "
+"dla Å›rodowiska. PiÄ™kny dom i zdrowe Å›rodowisko idÄ… w parze."
 
 #: templates/over-ons.html:125
 msgid "Onze geschiedenis"
@@ -911,14 +911,14 @@ msgstr "2016"
 
 #: templates/over-ons.html:133
 msgid "Oprichting"
-msgstr "Włączenie"
+msgstr "WÅ‚Ä…czenie"
 
 #: templates/over-ons.html:134
 msgid ""
-"Max Czepelka richt MaxCze Service op in Goor, met focus op verbouwingen, "
+"Max Czepelka richt MaxCze Services op in Goor, met focus op verbouwingen, "
 "renovaties en timmerwerk op maat."
 msgstr ""
-"Max Czepelka założył MaxCze Service w Goor, specjalizujący się w "
+"Max Czepelka zaÅ‚oÅ¼yÅ‚ MaxCze Services w Goor, specjalizujÄ…cy siÄ™ w "
 "przebudowach, remontach i stolarce na wymiar."
 
 #: templates/over-ons.html:144
@@ -927,15 +927,15 @@ msgstr "2018"
 
 #: templates/over-ons.html:145
 msgid "Groei in opdrachten"
-msgstr "Wzrost liczby zleceń"
+msgstr "Wzrost liczby zleceÅ„"
 
 #: templates/over-ons.html:146
 msgid ""
 "Door mond-tot-mondreclame groeit het aantal projecten in Goor en de regio "
 "Twente snel."
 msgstr ""
-"Z informacji pantoflowych wynika, że ​​liczba projektów w Goor i regionie "
-"Twente szybko rośnie."
+"Z informacji pantoflowych wynika, Å¼e â€‹â€‹liczba projektÃ³w w Goor i regionie "
+"Twente szybko roÅ›nie."
 
 #: templates/over-ons.html:152
 msgid "2020"
@@ -943,15 +943,15 @@ msgstr "2020"
 
 #: templates/over-ons.html:153
 msgid "Uitbreiding diensten"
-msgstr "Ekspansja usług"
+msgstr "Ekspansja usÅ‚ug"
 
 #: templates/over-ons.html:154
 msgid ""
-"Steeds meer klanten kiezen MaxCze Service voor complete verbouwingen en "
+"Steeds meer klanten kiezen MaxCze Services voor complete verbouwingen en "
 "renovatiewerk."
 msgstr ""
-"Coraz więcej klientów wybiera usługę MaxCze do wykonywania kompleksowych "
-"remontów i prac renowacyjnych."
+"Coraz wiÄ™cej klientÃ³w wybiera usÅ‚ugÄ™ MaxCze do wykonywania kompleksowych "
+"remontÃ³w i prac renowacyjnych."
 
 #: templates/over-ons.html:164
 msgid "2023"
@@ -959,14 +959,14 @@ msgstr "2023"
 
 #: templates/over-ons.html:165
 msgid "Regionale bekendheid"
-msgstr "Regionalna sława"
+msgstr "Regionalna sÅ‚awa"
 
 #: templates/over-ons.html:166
 msgid ""
-"MaxCze Service bouwt verder aan een sterke reputatie dankzij persoonlijk "
+"MaxCze Services bouwt verder aan een sterke reputatie dankzij persoonlijk "
 "advies en nette oplevering."
 msgstr ""
-"Serwis MaxCze w dalszym ciągu buduje swoją dobrą reputację dzięki osobistemu"
+"Serwis MaxCze w dalszym ciÄ…gu buduje swojÄ… dobrÄ… reputacjÄ™ dziÄ™ki osobistemu"
 " doradztwu i starannej dostawie."
 
 #: templates/over-ons.html:172
@@ -979,39 +979,39 @@ msgstr "Niezawodny partner"
 
 #: templates/over-ons.html:174
 msgid ""
-"Met meer dan 30 jaar ervaring blijft MaxCze Service klanten helpen met "
+"Met meer dan 30 jaar ervaring blijft MaxCze Services klanten helpen met "
 "verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
-"Dzięki ponad 30-letniemu doświadczeniu MaxCze Service nadal pomaga klientom "
+"DziÄ™ki ponad 30-letniemu doÅ›wiadczeniu MaxCze Services nadal pomaga klientom "
 "przy remontach, remontach i stolarstwie w Twente."
 
 #: templates/over-ons.html:184
 msgid "Toekomst"
-msgstr "Przyszły"
+msgstr "PrzyszÅ‚y"
 
 #: templates/over-ons.html:185
 msgid "Blijven verbeteren"
-msgstr "Udoskonalaj się"
+msgstr "Udoskonalaj siÄ™"
 
 #: templates/over-ons.html:186
 msgid ""
 "Ook in de komende jaren blijft persoonlijke service en degelijk vakwerk de "
 "basis van ieder project."
 msgstr ""
-"Indywidualna obsługa i solidne rzemiosło pozostaną podstawą każdego projektu"
-" w nadchodzących latach."
+"Indywidualna obsÅ‚uga i solidne rzemiosÅ‚o pozostanÄ… podstawÄ… kaÅ¼dego projektu"
+" w nadchodzÄ…cych latach."
 
 #: templates/over-ons.html:198
-msgid "Eén aanspreekpunt, van begin tot eind"
-msgstr "Jeden punkt kontaktowy od początku do końca"
+msgid "EÃ©n aanspreekpunt, van begin tot eind"
+msgstr "Jeden punkt kontaktowy od poczÄ…tku do koÅ„ca"
 
 #: templates/over-ons.html:199
 msgid ""
-"Bij MaxCze Service wordt elk project persoonlijk uitgevoerd en begeleid door"
+"Bij MaxCze Services wordt elk project persoonlijk uitgevoerd en begeleid door"
 " de eigenaar."
 msgstr ""
-"W MaxCze Service każdy projekt jest wykonywany osobiście i nadzorowany przez"
-" właściciela."
+"W MaxCze Services kaÅ¼dy projekt jest wykonywany osobiÅ›cie i nadzorowany przez"
+" wÅ‚aÅ›ciciela."
 
 #: templates/over-ons.html:206
 msgid "Max Czepelka"
@@ -1019,56 +1019,56 @@ msgstr "Maks Czepelka"
 
 #: templates/over-ons.html:207
 msgid "Eigenaar &amp; Vakman"
-msgstr "Właściciel &amp; Rzemieślnik"
+msgstr "WÅ‚aÅ›ciciel &amp; RzemieÅ›lnik"
 
 #: templates/over-ons.html:208
 msgid ""
 "Meer dan 30 jaar vakkennis in verbouwingen, renovaties en allround "
 "timmerwerk. Altijd persoonlijk contact en een betrouwbare uitvoering."
 msgstr ""
-"Ponad 30 lat doświadczenia w remontach, renowacjach i wszechstronnej "
+"Ponad 30 lat doÅ›wiadczenia w remontach, renowacjach i wszechstronnej "
 "stolarce. Zawsze osobisty kontakt i rzetelna realizacja."
 
 #: templates/over-ons.html:219
 msgid "Samenwerken?"
-msgstr "Współpracować?"
+msgstr "WspÃ³Å‚pracowaÄ‡?"
 
 #: templates/over-ons.html:220
 msgid "Klaar om kennis te maken?"
-msgstr "Gotowy na zapoznanie się?"
+msgstr "Gotowy na zapoznanie siÄ™?"
 
 #: templates/over-ons.html:221
 msgid ""
 "Plan een vrijblijvend gesprek in op onze locatie in Goor, of vraag direct "
 "een offerte aan voor uw project."
 msgstr ""
-"Umów się na niezobowiązującą konsultację w naszej lokalizacji w Goor lub "
-"natychmiast poproś o wycenę swojego projektu."
+"UmÃ³w siÄ™ na niezobowiÄ…zujÄ…cÄ… konsultacjÄ™ w naszej lokalizacji w Goor lub "
+"natychmiast poproÅ› o wycenÄ™ swojego projektu."
 
 #: templates/privacy.html:2 templates/privacy.html:15
 #: templates/privacy.html:18
 msgid "Privacyverklaring"
-msgstr "Oświadczenie o ochronie prywatności"
+msgstr "OÅ›wiadczenie o ochronie prywatnoÅ›ci"
 
 #: templates/privacy.html:3
 msgid ""
-"Lees de privacyverklaring van MaxCze Service. Wij leggen uit welke "
+"Lees de privacyverklaring van MaxCze Services. Wij leggen uit welke "
 "persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
 msgstr ""
-"Przeczytaj oświadczenie o ochronie prywatności MaxCze Service. Wyjaśniamy, "
-"jakie dane osobowe zbieramy, dlaczego i jakie przysługują Ci prawa."
+"Przeczytaj oÅ›wiadczenie o ochronie prywatnoÅ›ci MaxCze Services. WyjaÅ›niamy, "
+"jakie dane osobowe zbieramy, dlaczego i jakie przysÅ‚ugujÄ… Ci prawa."
 
 #: templates/privacy.html:17
 msgid "Belangrijk"
-msgstr "Ważny"
+msgstr "WaÅ¼ny"
 
 #: templates/privacy.html:19
 msgid ""
 "Onderstaand leest u meer over hoe wij omgaan met persoonsgegevens en welke "
 "rechten u heeft."
 msgstr ""
-"Poniżej możesz przeczytać więcej o tym, jak postępujemy z danymi osobowymi i"
-" jakie przysługują Ci prawa."
+"PoniÅ¼ej moÅ¼esz przeczytaÄ‡ wiÄ™cej o tym, jak postÄ™pujemy z danymi osobowymi i"
+" jakie przysÅ‚ugujÄ… Ci prawa."
 
 #: templates/privacy.html:27
 msgid "1. Inleiding"
@@ -1077,25 +1077,25 @@ msgstr "1. Wprowadzenie"
 #: templates/privacy.html:28
 msgid ""
 "Deze privacyverklaring is van toepassing op de website en diensten van "
-"MaxCze Service. Wij hechten veel waarde aan de bescherming van uw "
+"MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
 "persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
 "wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
 "gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
 "omgaan."
 msgstr ""
-"Niniejsze oświadczenie o ochronie prywatności dotyczy strony internetowej i "
-"usług MaxCze Service. Przywiązujemy dużą wagę do ochrony Twoich danych "
-"osobowych i dbamy o to, aby dane osobowe były traktowane ostrożnie i "
-"zabezpieczone. W tym oświadczeniu wyjaśniamy, jakie dane zbieramy, dlaczego "
-"je zbieramy i jak z nimi postępujemy."
+"Niniejsze oÅ›wiadczenie o ochronie prywatnoÅ›ci dotyczy strony internetowej i "
+"usÅ‚ug MaxCze Services. PrzywiÄ…zujemy duÅ¼Ä… wagÄ™ do ochrony Twoich danych "
+"osobowych i dbamy o to, aby dane osobowe byÅ‚y traktowane ostroÅ¼nie i "
+"zabezpieczone. W tym oÅ›wiadczeniu wyjaÅ›niamy, jakie dane zbieramy, dlaczego "
+"je zbieramy i jak z nimi postÄ™pujemy."
 
 #: templates/privacy.html:30
 msgid "2. Bedrijfsgegevens"
 msgstr "2. Informacje o firmie"
 
 #: templates/privacy.html:31
-msgid "Bedrijfsnaam: MaxCze Service"
-msgstr "Nazwa firmy: MaxCze Service"
+msgid "Bedrijfsnaam: MaxCze Services"
+msgstr "Nazwa firmy: MaxCze Services"
 
 #: templates/privacy.html:32
 msgid "Adres: Het Jannink 23"
@@ -1119,15 +1119,15 @@ msgstr "Numer Izby Handlowej: 66516005"
 
 #: templates/privacy.html:38
 msgid "3. Persoonsgegevens die wij verwerken"
-msgstr "3. Dane osobowe, które przetwarzamy"
+msgstr "3. Dane osobowe, ktÃ³re przetwarzamy"
 
 #: templates/privacy.html:39
 msgid ""
 "Wanneer u gebruik maakt van onze website of contact met ons opneemt, kunnen "
 "wij de volgende gegevens verwerken:"
 msgstr ""
-"Gdy korzystasz z naszej strony internetowej lub kontaktujesz się z nami, "
-"możemy przetwarzać następujące dane:"
+"Gdy korzystasz z naszej strony internetowej lub kontaktujesz siÄ™ z nami, "
+"moÅ¼emy przetwarzaÄ‡ nastÄ™pujÄ…ce dane:"
 
 #: templates/privacy.html:41
 msgid "Naam"
@@ -1139,11 +1139,11 @@ msgstr "Adres e-mail"
 
 #: templates/privacy.html:44
 msgid "Adresgegevens (indien nodig voor offerte of werkzaamheden)"
-msgstr "Dane adresowe (jeśli są niezbędne do wyceny lub pracy)"
+msgstr "Dane adresowe (jeÅ›li sÄ… niezbÄ™dne do wyceny lub pracy)"
 
 #: templates/privacy.html:45
 msgid "Eventuele informatie die u zelf invult in een contactformulier"
-msgstr "Wszelkie informacje, które sam wpiszesz w formularzu kontaktowym"
+msgstr "Wszelkie informacje, ktÃ³re sam wpiszesz w formularzu kontaktowym"
 
 #: templates/privacy.html:48
 msgid "4. Waarom wij deze gegevens verzamelen"
@@ -1151,28 +1151,28 @@ msgstr "4. Dlaczego zbieramy te dane"
 
 #: templates/privacy.html:49
 msgid "Wij verwerken persoonsgegevens voor de volgende doeleinden:"
-msgstr "Przetwarzamy dane osobowe w następujących celach:"
+msgstr "Przetwarzamy dane osobowe w nastÄ™pujÄ…cych celach:"
 
 #: templates/privacy.html:51
 msgid ""
 "Om contact met u op te nemen naar aanleiding van een aanvraag of offerte"
-msgstr "Aby skontaktować się z Tobą w sprawie zapytania lub oferty"
+msgstr "Aby skontaktowaÄ‡ siÄ™ z TobÄ… w sprawie zapytania lub oferty"
 
 #: templates/privacy.html:52
 msgid "Om onze diensten uit te voeren"
-msgstr "Aby wykonać nasze usługi"
+msgstr "Aby wykonaÄ‡ nasze usÅ‚ugi"
 
 #: templates/privacy.html:53
 msgid "Voor het opstellen en versturen van offertes en facturen"
-msgstr "Do przygotowywania i wysyłania ofert i faktur"
+msgstr "Do przygotowywania i wysyÅ‚ania ofert i faktur"
 
 #: templates/privacy.html:54
 msgid "Om onze website en dienstverlening te verbeteren"
-msgstr "Aby ulepszyć naszą stronę internetową i usługi"
+msgstr "Aby ulepszyÄ‡ naszÄ… stronÄ™ internetowÄ… i usÅ‚ugi"
 
 #: templates/privacy.html:55
 msgid "Om te voldoen aan wettelijke verplichtingen"
-msgstr "Aby spełnić zobowiązania prawne"
+msgstr "Aby speÅ‚niÄ‡ zobowiÄ…zania prawne"
 
 #: templates/privacy.html:58
 msgid "5. Bewaartermijn"
@@ -1184,13 +1184,13 @@ msgid ""
 "doel waarvoor deze zijn verzameld, tenzij wij wettelijk verplicht zijn deze "
 "langer te bewaren (bijvoorbeeld voor de administratie)."
 msgstr ""
-"Nie przechowujemy Twoich danych osobowych dłużej, niż jest to konieczne do "
-"celu, dla którego zostały zebrane, chyba że jesteśmy prawnie zobowiązani do "
-"ich dłuższego przechowywania (np. w celach administracyjnych)."
+"Nie przechowujemy Twoich danych osobowych dÅ‚uÅ¼ej, niÅ¼ jest to konieczne do "
+"celu, dla ktÃ³rego zostaÅ‚y zebrane, chyba Å¼e jesteÅ›my prawnie zobowiÄ…zani do "
+"ich dÅ‚uÅ¼szego przechowywania (np. w celach administracyjnych)."
 
 #: templates/privacy.html:61
 msgid "6. Delen van gegevens met derden"
-msgstr "6. Udostępnianie danych podmiotom trzecim"
+msgstr "6. UdostÄ™pnianie danych podmiotom trzecim"
 
 #: templates/privacy.html:62
 msgid ""
@@ -1198,21 +1198,21 @@ msgid ""
 " uitvoering van onze diensten of wanneer wij hier wettelijk toe verplicht "
 "zijn. Wij verkopen uw gegevens nooit aan derden."
 msgstr ""
-"Twoje dane osobowe udostępniamy podmiotom trzecim tylko wtedy, gdy jest to "
-"konieczne do świadczenia naszych usług lub gdy jesteśmy do tego prawnie "
-"zobowiązani. Nigdy nie sprzedajemy Twoich danych osobom trzecim."
+"Twoje dane osobowe udostÄ™pniamy podmiotom trzecim tylko wtedy, gdy jest to "
+"konieczne do Å›wiadczenia naszych usÅ‚ug lub gdy jesteÅ›my do tego prawnie "
+"zobowiÄ…zani. Nigdy nie sprzedajemy Twoich danych osobom trzecim."
 
 #: templates/privacy.html:64
 msgid "7. Beveiliging van gegevens"
-msgstr "7. Bezpieczeństwo danych"
+msgstr "7. BezpieczeÅ„stwo danych"
 
 #: templates/privacy.html:65
 msgid ""
 "Wij nemen passende maatregelen om uw persoonsgegevens te beschermen tegen "
 "verlies, misbruik of onbevoegde toegang."
 msgstr ""
-"Podejmujemy odpowiednie środki, aby chronić Twoje dane osobowe przed utratą,"
-" niewłaściwym wykorzystaniem lub nieuprawnionym dostępem."
+"Podejmujemy odpowiednie Å›rodki, aby chroniÄ‡ Twoje dane osobowe przed utratÄ…,"
+" niewÅ‚aÅ›ciwym wykorzystaniem lub nieuprawnionym dostÄ™pem."
 
 #: templates/privacy.html:67
 msgid "8. Cookies"
@@ -1225,10 +1225,10 @@ msgid ""
 "laten functioneren en inzicht te krijgen in het gebruik van de website. U "
 "kunt cookies uitschakelen via de instellingen van uw browser."
 msgstr ""
-"Nasza strona może wykorzystywać pliki cookies. Pliki cookies to małe pliki "
-"tekstowe, które są zapisywane na Twoim urządzeniu w celu lepszego "
-"funkcjonowania witryny i uzyskania wglądu w sposób korzystania z witryny. "
-"Możesz wyłączyć pliki cookie za pomocą ustawień swojej przeglądarki."
+"Nasza strona moÅ¼e wykorzystywaÄ‡ pliki cookies. Pliki cookies to maÅ‚e pliki "
+"tekstowe, ktÃ³re sÄ… zapisywane na Twoim urzÄ…dzeniu w celu lepszego "
+"funkcjonowania witryny i uzyskania wglÄ…du w sposÃ³b korzystania z witryny. "
+"MoÅ¼esz wyÅ‚Ä…czyÄ‡ pliki cookie za pomocÄ… ustawieÅ„ swojej przeglÄ…darki."
 
 #: templates/privacy.html:70
 msgid "9. Uw rechten"
@@ -1240,7 +1240,7 @@ msgstr "Masz prawo do:"
 
 #: templates/privacy.html:73
 msgid "uw persoonsgegevens in te zien"
-msgstr "aby zobaczyć swoje dane osobowe"
+msgstr "aby zobaczyÄ‡ swoje dane osobowe"
 
 #: templates/privacy.html:74
 msgid "uw gegevens te laten corrigeren"
@@ -1248,18 +1248,18 @@ msgstr "do sprostowania swoich danych"
 
 #: templates/privacy.html:75
 msgid "uw gegevens te laten verwijderen"
-msgstr "aby Twoje dane zostały usunięte"
+msgstr "aby Twoje dane zostaÅ‚y usuniÄ™te"
 
 #: templates/privacy.html:76
 msgid "bezwaar te maken tegen het gebruik van uw gegevens"
-msgstr "sprzeciwić się wykorzystaniu Twoich danych"
+msgstr "sprzeciwiÄ‡ siÄ™ wykorzystaniu Twoich danych"
 
 #: templates/privacy.html:78
 msgid ""
-"U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
+"U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven "
 "staat vermeld."
 msgstr ""
-"W tym celu możesz się z nami skontaktować za pośrednictwem podanego powyżej "
+"W tym celu moÅ¼esz siÄ™ z nami skontaktowaÄ‡ za poÅ›rednictwem podanego powyÅ¼ej "
 "adresu e-mail."
 
 #: templates/privacy.html:80
@@ -1271,8 +1271,8 @@ msgid ""
 "Wij behouden ons het recht voor om deze privacyverklaring te wijzigen. De "
 "meest actuele versie staat altijd op onze website."
 msgstr ""
-"Zastrzegamy sobie prawo do zmiany niniejszego oświadczenia o ochronie "
-"prywatności. Najnowsza wersja jest zawsze dostępna na naszej stronie "
+"Zastrzegamy sobie prawo do zmiany niniejszego oÅ›wiadczenia o ochronie "
+"prywatnoÅ›ci. Najnowsza wersja jest zawsze dostÄ™pna na naszej stronie "
 "internetowej."
 
 #: templates/privacy.html:83
@@ -1284,8 +1284,8 @@ msgid ""
 "Heeft u vragen over deze privacyverklaring of over hoe wij met uw gegevens "
 "omgaan? Neem dan contact met ons op via:"
 msgstr ""
-"Czy masz pytania dotyczące niniejszego oświadczenia o ochronie prywatności "
-"lub sposobu, w jaki obchodzimy się z Twoimi danymi? Skontaktuj się z nami "
+"Czy masz pytania dotyczÄ…ce niniejszego oÅ›wiadczenia o ochronie prywatnoÅ›ci "
+"lub sposobu, w jaki obchodzimy siÄ™ z Twoimi danymi? Skontaktuj siÄ™ z nami "
 "poprzez:"
 
 #: templates/privacy.html:86
@@ -1301,8 +1301,8 @@ msgid ""
 "Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, "
 "verbouwingen en meer. Vakmanschap dat spreekt voor zich."
 msgstr ""
-"Zobacz nasze zrealizowane projekty: meble na wymiar, stolarkę okienną, "
-"drzwi, renowacje i wiele innych. Rzemiosło mówi samo za siebie."
+"Zobacz nasze zrealizowane projekty: meble na wymiar, stolarkÄ™ okiennÄ…, "
+"drzwi, renowacje i wiele innych. RzemiosÅ‚o mÃ³wi samo za siebie."
 
 #: templates/projecten.html:17
 msgid "Ons portfolio"
@@ -1310,17 +1310,17 @@ msgstr "Portfolio Ons"
 
 #: templates/projecten.html:18
 msgid "Projecten die"
-msgstr "Projekty, które"
+msgstr "Projekty, ktÃ³re"
 
 #: templates/projecten.html:18
 msgid "voor zichzelf spreken"
-msgstr "mówią za siebie"
+msgstr "mÃ³wiÄ… za siebie"
 
 #: templates/projecten.html:19
 msgid ""
 "Een selectie van onze meest recente en bijzondere opdrachten in Twente en "
 "omgeving."
-msgstr "Wybór naszych najnowszych i specjalnych zleceń w Twente i okolicach."
+msgstr "WybÃ³r naszych najnowszych i specjalnych zleceÅ„ w Twente i okolicach."
 
 #: templates/projecten.html:30
 msgid "Alle projecten"
@@ -1344,7 +1344,7 @@ msgid "Deuren"
 msgstr "Drzwi"
 
 #: templates/projecten.html:48
-msgid "Complete keuken op maat – Almelo"
+msgid "Complete keuken op maat â€“ Almelo"
 msgstr "Kompletna kuchnia na wymiar - Almelo"
 
 #: templates/projecten.html:49
@@ -1353,36 +1353,36 @@ msgid ""
 "Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de "
 "kastjes."
 msgstr ""
-"W pełni wykonana na wymiar kuchnia z białego dębu z wyspą kuchenną wykonaną "
-"z belgijskiego bluestone'a. W tym sprzęt AGD do zabudowy oraz oświetlenie "
+"W peÅ‚ni wykonana na wymiar kuchnia z biaÅ‚ego dÄ™bu z wyspÄ… kuchennÄ… wykonanÄ… "
+"z belgijskiego bluestone'a. W tym sprzÄ™t AGD do zabudowy oraz oÅ›wietlenie "
 "LED pod szafkami."
 
 #: templates/projecten.html:60
-msgid "Traprenovatie – Enschede"
-msgstr "Remont schodów – Enschede"
+msgid "Traprenovatie â€“ Enschede"
+msgstr "Remont schodÃ³w â€“ Enschede"
 
 #: templates/projecten.html:61
 msgid ""
 "Volledige vervanging van treden en spijlen in massief eiken. Inclusief "
 "nieuwe leuning en schilderwerk."
 msgstr ""
-"Całkowita wymiana stopni i prętów z litego dębu. Łącznie z nową balustradą i"
+"CaÅ‚kowita wymiana stopni i prÄ™tÃ³w z litego dÄ™bu. ÅÄ…cznie z nowÄ… balustradÄ… i"
 " malowaniem."
 
 #: templates/projecten.html:72
-msgid "Kozijnenvervanging – Hengelo"
-msgstr "Wymiana stolarki okiennej – Hengelo"
+msgid "Kozijnenvervanging â€“ Hengelo"
+msgstr "Wymiana stolarki okiennej â€“ Hengelo"
 
 #: templates/projecten.html:73
 msgid ""
 "14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief "
 "schilderwerk in kleur van de klant."
 msgstr ""
-"14 ram drewnianych w kolorze meranti, z podwójnym przeszkleniem HR++. "
-"Łącznie z malowaniem na kolor klienta."
+"14 ram drewnianych w kolorze meranti, z podwÃ³jnym przeszkleniem HR++. "
+"ÅÄ…cznie z malowaniem na kolor klienta."
 
 #: templates/projecten.html:84
-msgid "Inbouwkasten slaapkamer – Goor"
+msgid "Inbouwkasten slaapkamer â€“ Goor"
 msgstr "Szafy do sypialni - Goor"
 
 #: templates/projecten.html:85
@@ -1390,48 +1390,48 @@ msgid ""
 "Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met "
 "zachte sluitingen. Maximale benutting van de ruimte."
 msgstr ""
-"Kompletna ściana szaf wnękowych o szerokości ponad 4,5 metra z lakierowanej "
-"na biało płyty MDF z miękkimi zamknięciami. Maksymalne wykorzystanie "
+"Kompletna Å›ciana szaf wnÄ™kowych o szerokoÅ›ci ponad 4,5 metra z lakierowanej "
+"na biaÅ‚o pÅ‚yty MDF z miÄ™kkimi zamkniÄ™ciami. Maksymalne wykorzystanie "
 "przestrzeni."
 
 #: templates/projecten.html:96
-msgid "Voordeur op maat – Delden"
-msgstr "Drzwi wejściowe na wymiar – Delden"
+msgid "Voordeur op maat â€“ Delden"
+msgstr "Drzwi wejÅ›ciowe na wymiar â€“ Delden"
 
 #: templates/projecten.html:97
 msgid ""
 "Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en "
 "sluitwerk. Inclusief nieuw kozijn."
 msgstr ""
-"Drzwi wejściowe z litego drewna dębowego z eleganckim panelem szklanym oraz "
-"zawiasami i zamkami z antycznego mosiądzu. Łącznie z nową ramą."
+"Drzwi wejÅ›ciowe z litego drewna dÄ™bowego z eleganckim panelem szklanym oraz "
+"zawiasami i zamkami z antycznego mosiÄ…dzu. ÅÄ…cznie z nowÄ… ramÄ…."
 
 #: templates/projecten.html:108
-msgid "Badkamer verbouwing – Borne"
-msgstr "Remont łazienki – Borne"
+msgid "Badkamer verbouwing â€“ Borne"
+msgstr "Remont Å‚azienki â€“ Borne"
 
 #: templates/projecten.html:109
 msgid ""
 "Complete verbouwing van een badkamer inclusief het timmerwerk voor de "
 "betegeling en inbouwkasten rondom het bad."
 msgstr ""
-"Kompletny remont łazienki obejmujący stolarkę pod płytki i zabudowę szafek "
-"wokół wanny."
+"Kompletny remont Å‚azienki obejmujÄ…cy stolarkÄ™ pod pÅ‚ytki i zabudowÄ™ szafek "
+"wokÃ³Å‚ wanny."
 
 #: templates/projecten.html:120
-msgid "Thuiskantoor op maat – Rijssen"
-msgstr "Biuro domowe szyte na miarę – Rijssen"
+msgid "Thuiskantoor op maat â€“ Rijssen"
+msgstr "Biuro domowe szyte na miarÄ™ â€“ Rijssen"
 
 #: templates/projecten.html:121
 msgid ""
 "Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, "
 "perfect passend in de serre."
 msgstr ""
-"Wbudowane regały i biurko z ciemnego orzecha. Elegancki i funkcjonalny, "
-"idealnie pasujący do oranżerii."
+"Wbudowane regaÅ‚y i biurko z ciemnego orzecha. Elegancki i funkcjonalny, "
+"idealnie pasujÄ…cy do oranÅ¼erii."
 
 #: templates/projecten.html:132
-msgid "Complete woonkamer verbouwing – Almelo"
+msgid "Complete woonkamer verbouwing â€“ Almelo"
 msgstr "Kompleksowy remont salonu - Almelo"
 
 #: templates/projecten.html:133
@@ -1439,24 +1439,24 @@ msgid ""
 "Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige "
 "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
 msgstr ""
-"Od surowych, gołych ścian po stylowy salon z piękną dębową podłogą, wnęką na"
-" kominek i wbudowaną szafką pod telewizor."
+"Od surowych, goÅ‚ych Å›cian po stylowy salon z piÄ™knÄ… dÄ™bowÄ… podÅ‚ogÄ…, wnÄ™kÄ… na"
+" kominek i wbudowanÄ… szafkÄ… pod telewizor."
 
 #: templates/projecten.html:144
-msgid "Dakkapel kozijnen – Wierden"
-msgstr "Ramy okienne lukarnowe – Wierden"
+msgid "Dakkapel kozijnen â€“ Wierden"
+msgstr "Ramy okienne lukarnowe â€“ Wierden"
 
 #: templates/projecten.html:145
 msgid ""
 "Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting "
 "op de bestaande constructie."
 msgstr ""
-"Montaż ościeżnic drewnianych w nowej lukarnie. Idealne połączenie z "
-"istniejącą konstrukcją."
+"MontaÅ¼ oÅ›cieÅ¼nic drewnianych w nowej lukarnie. Idealne poÅ‚Ä…czenie z "
+"istniejÄ…cÄ… konstrukcjÄ…."
 
 #: templates/projecten.html:163
 msgid "Uw project"
-msgstr "Twój projekt"
+msgstr "TwÃ³j projekt"
 
 #: templates/projecten.html:164
 msgid "Heeft u een soortgelijk"
@@ -1464,21 +1464,21 @@ msgstr "Czy masz podobny?"
 
 #: templates/projecten.html:164
 msgid "project in gedachten?"
-msgstr "projekt na myśli?"
+msgstr "projekt na myÅ›li?"
 
 #: templates/projecten.html:165
 msgid ""
 "Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee "
 "over de mogelijkheden."
 msgstr ""
-"Skontaktuj się z nami, aby uzyskać niezobowiązującą konsultację. Chętnie "
-"zastanowimy się razem z Tobą nad możliwościami."
+"Skontaktuj siÄ™ z nami, aby uzyskaÄ‡ niezobowiÄ…zujÄ…cÄ… konsultacjÄ™. ChÄ™tnie "
+"zastanowimy siÄ™ razem z TobÄ… nad moÅ¼liwoÅ›ciami."
 
 #~ msgid "0%"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op."
+#~ "Bedankt voor uw aanvraag! Wij nemen binnen Ã©Ã©n werkdag contact met u op."
 #~ msgstr ""
 
 #~ msgid "MaxCze"
@@ -1511,7 +1511,7 @@ msgstr ""
 #~ msgid "Contact & Offerte"
 #~ msgstr "Kontakt i wycena"
 
-#~ msgid "MaxCze Service"
+#~ msgid "MaxCze Services"
 #~ msgstr ""
 
 #~ msgid "Vakmanschap in hout"
@@ -1547,20 +1547,20 @@ msgstr ""
 #~ msgid "Dorpsstraat 42, 7471 AK Goor"
 #~ msgstr ""
 
-#~ msgid "0547 - 123 456"
+#~ msgid "06 33649552"
 #~ msgstr ""
 
 #~ msgid "info@vanwijntimmerwerken.nl"
 #~ msgstr ""
 
-#~ msgid "© 2026 MaxCze Service |"
+#~ msgid "Â© 2026 MaxCze Services |"
 #~ msgstr ""
 
 #~ msgid "Privacy Policy"
 #~ msgstr "Polityka prywatnosci"
 
 #~ msgid ""
-#~ "Neem contact op met MaxCze Service in Goor. Vraag een gratis offerte aan of "
+#~ "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of "
 #~ "plan een vrijblijvend gesprek."
 #~ msgstr ""
 
@@ -1571,7 +1571,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
+#~ "Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag op "
 #~ "uw aanvraag."
 #~ msgstr ""
 
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-#~ "gerust contact op — geen vraag is te klein en geen project te groot."
+#~ "gerust contact op â€” geen vraag is te klein en geen project te groot."
 #~ msgstr ""
 
 #~ msgid "Adres"
@@ -1598,7 +1598,7 @@ msgstr ""
 #~ msgid "Telefoon"
 #~ msgstr ""
 
-#~ msgid "+31 6 3364 9552"
+#~ msgid "06 33649552"
 #~ msgstr ""
 
 #~ msgid "E-mail"
@@ -1616,16 +1616,16 @@ msgstr ""
 #~ msgid "Openingstijden"
 #~ msgstr ""
 
-#~ msgid "Maandag – Vrijdag"
+#~ msgid "Maandag â€“ Vrijdag"
 #~ msgstr ""
 
-#~ msgid "07:30 – 17:00"
+#~ msgid "07:30 â€“ 17:00"
 #~ msgstr ""
 
 #~ msgid "Zaterdag"
 #~ msgstr ""
 
-#~ msgid "08:00 – 12:00"
+#~ msgid "08:00 â€“ 12:00"
 #~ msgstr ""
 
 #~ msgid "Zondag"
@@ -1635,13 +1635,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+#~ "Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
 #~ msgstr ""
 
 #~ msgid "Offerte of vraag sturen"
 #~ msgstr ""
 
-#~ msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+#~ msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
 #~ msgstr ""
 
 #~ msgid "First name"
@@ -1682,11 +1682,11 @@ msgstr ""
 #~ "discuss your request."
 #~ msgstr ""
 
-#~ msgid "MaxCze Service | Vakmanschap in hout – Goor, Overijssel"
+#~ msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service – meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen,"
+#~ "MaxCze Services â€“ meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen,"
 #~ " deuren en verbouwingen in Goor en omgeving."
 #~ msgstr ""
 
@@ -1747,7 +1747,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
+#~ "Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit op "
 #~ "maat voor elk project."
 #~ msgstr ""
 
@@ -1803,7 +1803,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service is in 1998 opgericht door Henk van Wijnen en is inmiddels "
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen en is inmiddels "
 #~ "uitgegroeid tot een begrip in de regio Twente. Wij combineren traditioneel "
 #~ "vakmanschap met moderne technieken voor een resultaat dat eeuwig meegaat."
 #~ msgstr ""
@@ -1812,7 +1812,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit."
+#~ "Erkend leerbedrijf en lid van de BouwGarant â€” uw garantie voor kwaliteit."
 #~ msgstr ""
 
 #~ msgid "Duurzame materialen"
@@ -1902,7 +1902,7 @@ msgstr ""
 #~ msgid "Maatwerk"
 #~ msgstr ""
 
-#~ msgid "Keuken op maat – Almelo"
+#~ msgid "Keuken op maat â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -1912,13 +1912,13 @@ msgstr ""
 #~ msgid "Renovatie"
 #~ msgstr ""
 
-#~ msgid "Trap renovatie – Enschede"
+#~ msgid "Trap renovatie â€“ Enschede"
 #~ msgstr ""
 
 #~ msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
 #~ msgstr ""
 
-#~ msgid "Kozijnen plaatsing – Hengelo"
+#~ msgid "Kozijnen plaatsing â€“ Hengelo"
 #~ msgstr ""
 
 #~ msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
@@ -1955,7 +1955,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "\"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was"
-#~ " vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is "
+#~ " vriendelijk, werkte netjes en klaarde de klus in Ã©Ã©n dag. De afwerking is "
 #~ "onberispelijk. Wij zijn heel blij met het resultaat!\""
 #~ msgstr ""
 
@@ -1985,7 +1985,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-#~ "offerte aan. Wij reageren binnen één werkdag."
+#~ "offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
 #~ msgstr ""
 
 #~ msgid ""
@@ -1996,12 +1996,12 @@ msgstr ""
 
 #~ msgid ""
 #~ "\n"
-#~ "          0547 - 123 456\n"
+#~ "          06 33649552\n"
 #~ "        "
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Leer meer over MaxCze Service. Meer dan 25 jaar vakmanschap, een gedreven "
+#~ "Leer meer over MaxCze Services. Meer dan 25 jaar vakmanschap, een gedreven "
 #~ "team en een rijke geschiedenis in de regio Twente."
 #~ msgstr ""
 
@@ -2016,7 +2016,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Opgericht in 1998, uitgegroeid tot een begrip in Twente. Maak kennis met het"
-#~ " team achter MaxCze Service."
+#~ " team achter MaxCze Services."
 #~ msgstr ""
 
 #~ msgid "Wie wij zijn"
@@ -2026,7 +2026,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding "
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding "
 #~ "aan de vakschool in Almelo en tien jaar ervaring bij een groot "
 #~ "aannemersbedrijf, besloot Henk zijn eigen bedrijf te starten vanuit zijn "
 #~ "liefde voor ambachtelijk houtwerk."
@@ -2040,7 +2040,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Wij zijn trots op onze reputatie in Twente en de omliggende gemeenten. Niet "
-#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren —"
+#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren â€”"
 #~ " op tijd, binnen budget en met een glimlach."
 #~ msgstr ""
 
@@ -2060,7 +2060,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
+#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat in "
 #~ "het teken van deze vier waarden."
 #~ msgstr ""
 
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
-#~ "Een mooie woning én een gezond milieu gaan hand in hand."
+#~ "Een mooie woning Ã©n een gezond milieu gaan hand in hand."
 #~ msgstr ""
 
 #~ msgid "Onze geschiedenis"
@@ -2131,7 +2131,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Service ontvangt de BouwGarant-erkenning, een keurmerk voor "
+#~ "MaxCze Services ontvangt de BouwGarant-erkenning, een keurmerk voor "
 #~ "betrouwbare bouwbedrijven."
 #~ msgstr ""
 
@@ -2143,7 +2143,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Bas van Wijnen treedt toe tot het bedrijf na zijn opleiding aan het ROC van "
-#~ "Twente. Hij brengt frisse ideeën en moderne CNC-technieken mee."
+#~ "Twente. Hij brengt frisse ideeÃ«n en moderne CNC-technieken mee."
 #~ msgstr ""
 
 #~ msgid "2020"
@@ -2238,7 +2238,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Lees de privacyverklaring van MaxCze Service. Wij leggen uit welke "
+#~ "Lees de privacyverklaring van MaxCze Services. Wij leggen uit welke "
 #~ "persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
 #~ msgstr ""
 
@@ -2255,7 +2255,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Deze privacyverklaring is van toepassing op de website en diensten van "
-#~ "MaxCze Service. Wij hechten veel waarde aan de bescherming van uw "
+#~ "MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
 #~ "persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
 #~ "wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
 #~ "gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
@@ -2265,7 +2265,7 @@ msgstr ""
 #~ msgid "2. Bedrijfsgegevens"
 #~ msgstr ""
 
-#~ msgid "Bedrijfsnaam: MaxCze Service"
+#~ msgid "Bedrijfsnaam: MaxCze Services"
 #~ msgstr ""
 
 #~ msgid "Adres: Het Jannink 23"
@@ -2383,7 +2383,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
+#~ "U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven "
 #~ "staat vermeld."
 #~ msgstr ""
 
@@ -2431,7 +2431,7 @@ msgstr ""
 #~ msgid "Alle projecten"
 #~ msgstr ""
 
-#~ msgid "Complete keuken op maat – Almelo"
+#~ msgid "Complete keuken op maat â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2440,7 +2440,7 @@ msgstr ""
 #~ "kastjes."
 #~ msgstr ""
 
-#~ msgid "Traprenovatie – Enschede"
+#~ msgid "Traprenovatie â€“ Enschede"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2448,7 +2448,7 @@ msgstr ""
 #~ "nieuwe leuning en schilderwerk."
 #~ msgstr ""
 
-#~ msgid "Kozijnenvervanging – Hengelo"
+#~ msgid "Kozijnenvervanging â€“ Hengelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2456,7 +2456,7 @@ msgstr ""
 #~ "schilderwerk in kleur van de klant."
 #~ msgstr ""
 
-#~ msgid "Inbouwkasten slaapkamer – Goor"
+#~ msgid "Inbouwkasten slaapkamer â€“ Goor"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2464,7 +2464,7 @@ msgstr ""
 #~ "zachte sluitingen. Maximale benutting van de ruimte."
 #~ msgstr ""
 
-#~ msgid "Voordeur op maat – Delden"
+#~ msgid "Voordeur op maat â€“ Delden"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2475,7 +2475,7 @@ msgstr ""
 #~ msgid "Verbouwing"
 #~ msgstr ""
 
-#~ msgid "Badkamer verbouwing – Borne"
+#~ msgid "Badkamer verbouwing â€“ Borne"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2483,7 +2483,7 @@ msgstr ""
 #~ "betegeling en inbouwkasten rondom het bad."
 #~ msgstr ""
 
-#~ msgid "Thuiskantoor op maat – Rijssen"
+#~ msgid "Thuiskantoor op maat â€“ Rijssen"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2491,7 +2491,7 @@ msgstr ""
 #~ "perfect passend in de serre."
 #~ msgstr ""
 
-#~ msgid "Complete woonkamer verbouwing – Almelo"
+#~ msgid "Complete woonkamer verbouwing â€“ Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2499,7 +2499,7 @@ msgstr ""
 #~ "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
 #~ msgstr ""
 
-#~ msgid "Dakkapel kozijnen – Wierden"
+#~ msgid "Dakkapel kozijnen â€“ Wierden"
 #~ msgstr ""
 
 #~ msgid ""

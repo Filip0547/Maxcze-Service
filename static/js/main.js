@@ -1,5 +1,5 @@
 /* =============================================
-   MaxCze Service — Hoofd JavaScript
+   MaxCze Services — Hoofd JavaScript
    ============================================= */
 
 document.addEventListener('DOMContentLoaded', () => {

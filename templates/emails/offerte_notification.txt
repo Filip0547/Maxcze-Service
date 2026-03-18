@@ -13,4 +13,4 @@ Bericht:
 {{ data.bericht }}
 
 --
-Automatisch verstuurd via MaxCze Service website.
+Automatisch verstuurd via MaxCze Services website.
