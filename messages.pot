@@ -89,7 +89,7 @@ msgid "maxcze@hotmail.com"
 msgstr ""
 
 #: templates/base.html:96
-msgid "Â© 2026 MaxCze Services |"
+msgid "© 2026 MaxCze Services |"
 msgstr ""
 
 #: templates/base.html:96
@@ -112,7 +112,7 @@ msgstr ""
 
 #: templates/contact.html:19
 msgid ""
-"Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag "
+"Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag "
 "op uw aanvraag."
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 #: templates/contact.html:33
 msgid ""
 "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-"gerust contact op â€” geen vraag is te klein en geen project te groot."
+"gerust contact op — geen vraag is te klein en geen project te groot."
 msgstr ""
 
 #: templates/contact.html:41
@@ -171,11 +171,11 @@ msgid "Openingstijden"
 msgstr ""
 
 #: templates/contact.html:81
-msgid "Maandag â€“ Vrijdag"
+msgid "Maandag – Vrijdag"
 msgstr ""
 
 #: templates/contact.html:82
-msgid "07:30 â€“ 17:00"
+msgid "07:30 – 17:00"
 msgstr ""
 
 #: templates/contact.html:85
@@ -183,7 +183,7 @@ msgid "Zaterdag"
 msgstr ""
 
 #: templates/contact.html:86
-msgid "08:00 â€“ 12:00"
+msgid "08:00 – 12:00"
 msgstr ""
 
 #: templates/contact.html:89
@@ -195,7 +195,7 @@ msgid "Gesloten"
 msgstr ""
 
 #: templates/contact.html:93
-msgid "Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
+msgid "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
 msgstr ""
 
 #: templates/contact.html:102
@@ -203,7 +203,7 @@ msgid "Offerte of vraag sturen"
 msgstr ""
 
 #: templates/contact.html:103
-msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
+msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
 msgstr ""
 
 #: templates/contact.html:118
@@ -287,7 +287,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:2
-msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
+msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
 msgstr ""
 
 #: templates/index.html:3
@@ -365,7 +365,7 @@ msgstr ""
 
 #: templates/index.html:57
 msgid ""
-"Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit "
+"Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit "
 "op maat voor elk project."
 msgstr ""
 
@@ -534,7 +534,7 @@ msgid "Maatwerk"
 msgstr ""
 
 #: templates/index.html:215
-msgid "Keuken op maat â€“ Almelo"
+msgid "Keuken op maat – Almelo"
 msgstr ""
 
 #: templates/index.html:216
@@ -544,7 +544,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:224
-msgid "Trap renovatie â€“ Enschede"
+msgid "Trap renovatie – Enschede"
 msgstr ""
 
 #: templates/index.html:225
@@ -557,7 +557,7 @@ msgid "Kozijnen"
 msgstr ""
 
 #: templates/index.html:233
-msgid "Kozijnen plaatsing â€“ Hengelo"
+msgid "Kozijnen plaatsing – Hengelo"
 msgstr ""
 
 #: templates/index.html:234
@@ -639,7 +639,7 @@ msgstr ""
 #: templates/index.html:321
 msgid ""
 "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-"offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
+"offerte aan. Wij reageren binnen één werkdag."
 msgstr ""
 
 #: templates/index.html:324
@@ -727,7 +727,7 @@ msgstr ""
 
 #: templates/over-ons.html:82
 msgid ""
-"Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat "
+"Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat "
 "in het teken van deze vier waarden."
 msgstr ""
 
@@ -768,7 +768,7 @@ msgstr ""
 #: templates/over-ons.html:115
 msgid ""
 "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen."
-" Een mooie woning Ã©n een gezond milieu gaan hand in hand."
+" Een mooie woning én een gezond milieu gaan hand in hand."
 msgstr ""
 
 #: templates/over-ons.html:125
@@ -864,7 +864,7 @@ msgid ""
 msgstr ""
 
 #: templates/over-ons.html:198
-msgid "EÃ©n aanspreekpunt, van begin tot eind"
+msgid "Eén aanspreekpunt, van begin tot eind"
 msgstr ""
 
 #: templates/over-ons.html:199
@@ -1087,7 +1087,7 @@ msgstr ""
 
 #: templates/privacy.html:78
 msgid ""
-"U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven"
+"U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven"
 " staat vermeld."
 msgstr ""
 
@@ -1165,7 +1165,7 @@ msgid "Deuren"
 msgstr ""
 
 #: templates/projecten.html:48
-msgid "Complete keuken op maat â€“ Almelo"
+msgid "Complete keuken op maat – Almelo"
 msgstr ""
 
 #: templates/projecten.html:49
@@ -1176,7 +1176,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:60
-msgid "Traprenovatie â€“ Enschede"
+msgid "Traprenovatie – Enschede"
 msgstr ""
 
 #: templates/projecten.html:61
@@ -1186,7 +1186,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:72
-msgid "Kozijnenvervanging â€“ Hengelo"
+msgid "Kozijnenvervanging – Hengelo"
 msgstr ""
 
 #: templates/projecten.html:73
@@ -1196,7 +1196,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:84
-msgid "Inbouwkasten slaapkamer â€“ Goor"
+msgid "Inbouwkasten slaapkamer – Goor"
 msgstr ""
 
 #: templates/projecten.html:85
@@ -1206,7 +1206,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:96
-msgid "Voordeur op maat â€“ Delden"
+msgid "Voordeur op maat – Delden"
 msgstr ""
 
 #: templates/projecten.html:97
@@ -1216,7 +1216,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:108
-msgid "Badkamer verbouwing â€“ Borne"
+msgid "Badkamer verbouwing – Borne"
 msgstr ""
 
 #: templates/projecten.html:109
@@ -1226,7 +1226,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:120
-msgid "Thuiskantoor op maat â€“ Rijssen"
+msgid "Thuiskantoor op maat – Rijssen"
 msgstr ""
 
 #: templates/projecten.html:121
@@ -1236,7 +1236,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:132
-msgid "Complete woonkamer verbouwing â€“ Almelo"
+msgid "Complete woonkamer verbouwing – Almelo"
 msgstr ""
 
 #: templates/projecten.html:133
@@ -1246,7 +1246,7 @@ msgid ""
 msgstr ""
 
 #: templates/projecten.html:144
-msgid "Dakkapel kozijnen â€“ Wierden"
+msgid "Dakkapel kozijnen – Wierden"
 msgstr ""
 
 #: templates/projecten.html:145

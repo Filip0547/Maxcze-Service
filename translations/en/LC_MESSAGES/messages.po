@@ -92,8 +92,8 @@ msgid "maxcze@hotmail.com"
 msgstr "maxcze@hotmail.com"
 
 #: templates/base.html:96
-msgid "Â© 2026 MaxCze Services |"
-msgstr "Â© 2026 MaxCze Services |"
+msgid "© 2026 MaxCze Services |"
+msgstr "© 2026 MaxCze Services |"
 
 #: templates/base.html:96
 msgid "Privacy Policy"
@@ -117,7 +117,7 @@ msgstr "Request a free quote"
 
 #: templates/contact.html:19
 msgid ""
-"Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag op "
+"Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
 "uw aanvraag."
 msgstr ""
 "Fill in the form or call us directly. We will respond to your request within"
@@ -134,10 +134,10 @@ msgstr "We are happy to help you"
 #: templates/contact.html:33
 msgid ""
 "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-"gerust contact op â€” geen vraag is te klein en geen project te groot."
+"gerust contact op — geen vraag is te klein en geen project te groot."
 msgstr ""
 "Do you have questions about our services or would you like to discuss a "
-"project? Please feel free to contact us â€” no question is too small and no "
+"project? Please feel free to contact us — no question is too small and no "
 "project too big."
 
 #: templates/contact.html:41
@@ -181,20 +181,20 @@ msgid "Openingstijden"
 msgstr "Opening hours"
 
 #: templates/contact.html:81
-msgid "Maandag â€“ Vrijdag"
-msgstr "Monday â€“ Friday"
+msgid "Maandag – Vrijdag"
+msgstr "Monday – Friday"
 
 #: templates/contact.html:82
-msgid "07:30 â€“ 17:00"
-msgstr "07:30 â€“ 17:00"
+msgid "07:30 – 17:00"
+msgstr "07:30 – 17:00"
 
 #: templates/contact.html:85
 msgid "Zaterdag"
 msgstr "Saturday"
 
 #: templates/contact.html:86
-msgid "08:00 â€“ 12:00"
-msgstr "08:00 â€“ 12:00"
+msgid "08:00 – 12:00"
+msgstr "08:00 – 12:00"
 
 #: templates/contact.html:89
 msgid "Zondag"
@@ -206,16 +206,16 @@ msgstr "Closed"
 
 #: templates/contact.html:93
 msgid ""
-"Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
+"Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
 msgstr ""
-"Outside office hours? Send an email â€” we will respond the next business day."
+"Outside office hours? Send an email — we will respond the next business day."
 
 #: templates/contact.html:102
 msgid "Offerte of vraag sturen"
 msgstr "Send a quote or question"
 
 #: templates/contact.html:103
-msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
+msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
 msgstr "Complete the form and we will contact you within one working day."
 
 #: templates/contact.html:105
@@ -325,8 +325,8 @@ msgstr ""
 "discuss your request."
 
 #: templates/index.html:2
-msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
-msgstr "MaxCze Services | Craftsmanship in wood â€“ Goor, Overijssel"
+msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
+msgstr "MaxCze Services | Craftsmanship in wood – Goor, Overijssel"
 
 #: templates/index.html:3
 msgid ""
@@ -419,10 +419,10 @@ msgstr "Our services"
 
 #: templates/index.html:57
 msgid ""
-"Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit op "
+"Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
 "maat voor elk project."
 msgstr ""
-"From minor repairs to complete renovations â€“ we deliver tailor-made quality "
+"From minor repairs to complete renovations – we deliver tailor-made quality "
 "for every project."
 
 #: templates/index.html:68
@@ -620,8 +620,8 @@ msgid "Maatwerk"
 msgstr "Customization"
 
 #: templates/index.html:215
-msgid "Keuken op maat â€“ Almelo"
-msgstr "Custom kitchen â€“ Almelo"
+msgid "Keuken op maat – Almelo"
+msgstr "Custom kitchen – Almelo"
 
 #: templates/index.html:216
 msgid ""
@@ -631,8 +631,8 @@ msgstr ""
 "in appliances."
 
 #: templates/index.html:224
-msgid "Trap renovatie â€“ Enschede"
-msgstr "Stair renovation â€“ Enschede"
+msgid "Trap renovatie – Enschede"
+msgstr "Stair renovation – Enschede"
 
 #: templates/index.html:225
 msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
@@ -644,8 +644,8 @@ msgid "Kozijnen"
 msgstr "Frames"
 
 #: templates/index.html:233
-msgid "Kozijnen plaatsing â€“ Hengelo"
-msgstr "Window frame installation â€“ Hengelo"
+msgid "Kozijnen plaatsing – Hengelo"
+msgstr "Window frame installation – Hengelo"
 
 #: templates/index.html:234
 msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
@@ -736,7 +736,7 @@ msgstr "Do you have a project in mind?"
 #: templates/index.html:321
 msgid ""
 "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-"offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
+"offerte aan. Wij reageren binnen één werkdag."
 msgstr ""
 "Contact us for a no-obligation consultation or request your free quote "
 "immediately. We will respond within one working day."
@@ -842,10 +842,10 @@ msgstr "Our core values"
 
 #: templates/over-ons.html:82
 msgid ""
-"Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat in "
+"Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
 "het teken van deze vier waarden."
 msgstr ""
-"Every decision we make, every project we carry out â€” it is all about these "
+"Every decision we make, every project we carry out — it is all about these "
 "four values."
 
 #: templates/over-ons.html:90
@@ -891,7 +891,7 @@ msgstr "Sustainability"
 #: templates/over-ons.html:115
 msgid ""
 "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
-"Een mooie woning Ã©n een gezond milieu gaan hand in hand."
+"Een mooie woning én een gezond milieu gaan hand in hand."
 msgstr ""
 "We work with FSC-certified wood and environmentally friendly finishes. A "
 "beautiful home and a healthy environment go hand in hand."
@@ -1001,7 +1001,7 @@ msgstr ""
 "project in the coming years."
 
 #: templates/over-ons.html:198
-msgid "EÃ©n aanspreekpunt, van begin tot eind"
+msgid "Eén aanspreekpunt, van begin tot eind"
 msgstr "One point of contact, from start to finish"
 
 #: templates/over-ons.html:199
@@ -1253,7 +1253,7 @@ msgstr "to object to the use of your data"
 
 #: templates/privacy.html:78
 msgid ""
-"U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven "
+"U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
 "staat vermeld."
 msgstr ""
 "You can contact us for this purpose via the email address stated above."
@@ -1340,7 +1340,7 @@ msgid "Deuren"
 msgstr "Doors"
 
 #: templates/projecten.html:48
-msgid "Complete keuken op maat â€“ Almelo"
+msgid "Complete keuken op maat – Almelo"
 msgstr "Complete custom kitchen - Almelo"
 
 #: templates/projecten.html:49
@@ -1354,8 +1354,8 @@ msgstr ""
 "cabinets."
 
 #: templates/projecten.html:60
-msgid "Traprenovatie â€“ Enschede"
-msgstr "Stair renovation â€“ Enschede"
+msgid "Traprenovatie – Enschede"
+msgstr "Stair renovation – Enschede"
 
 #: templates/projecten.html:61
 msgid ""
@@ -1366,8 +1366,8 @@ msgstr ""
 "and painting."
 
 #: templates/projecten.html:72
-msgid "Kozijnenvervanging â€“ Hengelo"
-msgstr "Window frame replacement â€“ â€‹â€‹Hengelo"
+msgid "Kozijnenvervanging – Hengelo"
+msgstr "Window frame replacement – ​​Hengelo"
 
 #: templates/projecten.html:73
 msgid ""
@@ -1378,7 +1378,7 @@ msgstr ""
 " the customer's color."
 
 #: templates/projecten.html:84
-msgid "Inbouwkasten slaapkamer â€“ Goor"
+msgid "Inbouwkasten slaapkamer – Goor"
 msgstr "Bedroom fitted wardrobes - Goor"
 
 #: templates/projecten.html:85
@@ -1390,8 +1390,8 @@ msgstr ""
 "MDF with soft closures. Maximum use of space."
 
 #: templates/projecten.html:96
-msgid "Voordeur op maat â€“ Delden"
-msgstr "Custom front door â€“ Delden"
+msgid "Voordeur op maat – Delden"
+msgstr "Custom front door – Delden"
 
 #: templates/projecten.html:97
 msgid ""
@@ -1402,8 +1402,8 @@ msgstr ""
 "locks. Including new frame."
 
 #: templates/projecten.html:108
-msgid "Badkamer verbouwing â€“ Borne"
-msgstr "Bathroom renovation â€“ Borne"
+msgid "Badkamer verbouwing – Borne"
+msgstr "Bathroom renovation – Borne"
 
 #: templates/projecten.html:109
 msgid ""
@@ -1414,8 +1414,8 @@ msgstr ""
 "cupboards around the bath."
 
 #: templates/projecten.html:120
-msgid "Thuiskantoor op maat â€“ Rijssen"
-msgstr "Customized home office â€“ Rijssen"
+msgid "Thuiskantoor op maat – Rijssen"
+msgstr "Customized home office – Rijssen"
 
 #: templates/projecten.html:121
 msgid ""
@@ -1426,7 +1426,7 @@ msgstr ""
 "perfectly in the conservatory."
 
 #: templates/projecten.html:132
-msgid "Complete woonkamer verbouwing â€“ Almelo"
+msgid "Complete woonkamer verbouwing – Almelo"
 msgstr "Complete living room renovation - Almelo"
 
 #: templates/projecten.html:133
@@ -1438,8 +1438,8 @@ msgstr ""
 "fireplace wall niche and built-in TV cabinet."
 
 #: templates/projecten.html:144
-msgid "Dakkapel kozijnen â€“ Wierden"
-msgstr "Dormer window frames â€“ Wierden"
+msgid "Dakkapel kozijnen – Wierden"
+msgstr "Dormer window frames – Wierden"
 
 #: templates/projecten.html:145
 msgid ""
@@ -1469,11 +1469,61 @@ msgstr ""
 "Contact us for a no-obligation consultation. We are happy to think along "
 "with you about the possibilities."
 
+#: templates/base.html:58
+msgid "Wij gebruiken cookies"
+msgstr "We use cookies"
+
+#: templates/base.html:59
+msgid "We gebruiken noodzakelijke cookies om de website goed te laten werken. Met uw toestemming plaatsen we ook aanvullende cookies. U kunt uw keuze altijd aanpassen."
+msgstr "We use necessary cookies to make the website work properly. With your consent, we may also place additional cookies. You can change your choice at any time."
+
+#: templates/base.html:60
+msgid "Meer informatie"
+msgstr "More information"
+
+#: templates/base.html:63
+msgid "Alleen noodzakelijk"
+msgstr "Necessary only"
+
+#: templates/base.html:64
+msgid "Alles accepteren"
+msgstr "Accept all"
+
+#: templates/base.html:101
+msgid "Cookie-instellingen"
+msgstr "Cookie settings"
+
+msgid "Aanvraag ontvangen!"
+msgstr "Request received!"
+
+msgid "Bedankt voor uw bericht. Wij nemen binnen één werkdag contact met u op om uw aanvraag te bespreken."
+msgstr "Thank you for your message. We will contact you within one business day to discuss your request."
+
+#: templates/privacy.html:79
+msgid "Op dit moment gebruiken wij alleen noodzakelijke en functionele cookies om de website goed te laten werken (zoals taalvoorkeuren en cookiekeuzes)."
+msgstr "At this time, we only use necessary and functional cookies to keep the website working properly (such as language preferences and cookie choices)."
+
+#: templates/privacy.html:80
+msgid "Bij ieder nieuw websitebezoek (nieuwe browsersessie) tonen wij de cookiebanner eenmalig. Tijdens hetzelfde bezoek tonen wij deze niet opnieuw op elke pagina."
+msgstr "On each new website visit (new browser session), we show the cookie banner once. During the same visit, we do not show it again on every page."
+
+#: templates/privacy.html:81
+msgid "Wij plaatsen geen analytics- of marketingcookies zonder uw toestemming. Als wij dat in de toekomst veranderen, vragen wij u eerst expliciet om toestemming via de cookiebanner."
+msgstr "We do not place analytics or marketing cookies without your consent. If this changes in the future, we will first ask for your explicit consent via the cookie banner."
+
+#: templates/privacy.html:82
+msgid "Voor bezoekers uit de EU/EER volgen wij de AVG (GDPR) en de ePrivacy-regels: niet-noodzakelijke cookies plaatsen wij alleen na een actieve toestemming."
+msgstr "For visitors from the EU/EEA, we follow GDPR and ePrivacy rules: we only place non-essential cookies after active consent."
+
+#: templates/privacy.html:83
+msgid "U kunt uw cookiekeuze op elk moment aanpassen via de knop Cookie-instellingen onderaan de website."
+msgstr "You can change your cookie choice at any time using the Cookie settings button at the bottom of the website."
+
 #~ msgid "0%"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Bedankt voor uw aanvraag! Wij nemen binnen Ã©Ã©n werkdag contact met u op."
+#~ "Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op."
 #~ msgstr ""
 
 #~ msgid "MaxCze"
@@ -1548,7 +1598,7 @@ msgstr ""
 #~ msgid "info@vanwijntimmerwerken.nl"
 #~ msgstr ""
 
-#~ msgid "Â© 2026 MaxCze Services |"
+#~ msgid "© 2026 MaxCze Services |"
 #~ msgstr ""
 
 #~ msgid "Privacy Policy"
@@ -1566,7 +1616,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Vul het formulier in of bel ons direct. Wij reageren binnen Ã©Ã©n werkdag op "
+#~ "Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
 #~ "uw aanvraag."
 #~ msgstr ""
 
@@ -1578,7 +1628,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
-#~ "gerust contact op â€” geen vraag is te klein en geen project te groot."
+#~ "gerust contact op — geen vraag is te klein en geen project te groot."
 #~ msgstr ""
 
 #~ msgid "Adres"
@@ -1611,16 +1661,16 @@ msgstr ""
 #~ msgid "Openingstijden"
 #~ msgstr ""
 
-#~ msgid "Maandag â€“ Vrijdag"
+#~ msgid "Maandag – Vrijdag"
 #~ msgstr ""
 
-#~ msgid "07:30 â€“ 17:00"
+#~ msgid "07:30 – 17:00"
 #~ msgstr ""
 
 #~ msgid "Zaterdag"
 #~ msgstr ""
 
-#~ msgid "08:00 â€“ 12:00"
+#~ msgid "08:00 – 12:00"
 #~ msgstr ""
 
 #~ msgid "Zondag"
@@ -1630,13 +1680,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Buiten kantoortijd? Stuur een e-mail â€” wij reageren de volgende werkdag."
+#~ "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
 #~ msgstr ""
 
 #~ msgid "Offerte of vraag sturen"
 #~ msgstr ""
 
-#~ msgid "Vul het formulier in en wij nemen binnen Ã©Ã©n werkdag contact met u op."
+#~ msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
 #~ msgstr ""
 
 #~ msgid "First name"
@@ -1677,11 +1727,11 @@ msgstr ""
 #~ "discuss your request."
 #~ msgstr ""
 
-#~ msgid "MaxCze Services | Vakmanschap in hout â€“ Goor, Overijssel"
+#~ msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Services â€“ meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen,"
+#~ "MaxCze Services – meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen,"
 #~ " deuren en verbouwingen in Goor en omgeving."
 #~ msgstr ""
 
@@ -1742,7 +1792,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Van kleine reparaties tot complete verbouwingen â€“ wij leveren kwaliteit op "
+#~ "Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
 #~ "maat voor elk project."
 #~ msgstr ""
 
@@ -1807,7 +1857,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Erkend leerbedrijf en lid van de BouwGarant â€” uw garantie voor kwaliteit."
+#~ "Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit."
 #~ msgstr ""
 
 #~ msgid "Duurzame materialen"
@@ -1897,7 +1947,7 @@ msgstr ""
 #~ msgid "Maatwerk"
 #~ msgstr ""
 
-#~ msgid "Keuken op maat â€“ Almelo"
+#~ msgid "Keuken op maat – Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -1907,13 +1957,13 @@ msgstr ""
 #~ msgid "Renovatie"
 #~ msgstr ""
 
-#~ msgid "Trap renovatie â€“ Enschede"
+#~ msgid "Trap renovatie – Enschede"
 #~ msgstr ""
 
 #~ msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
 #~ msgstr ""
 
-#~ msgid "Kozijnen plaatsing â€“ Hengelo"
+#~ msgid "Kozijnen plaatsing – Hengelo"
 #~ msgstr ""
 
 #~ msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
@@ -1950,7 +2000,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "\"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was"
-#~ " vriendelijk, werkte netjes en klaarde de klus in Ã©Ã©n dag. De afwerking is "
+#~ " vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is "
 #~ "onberispelijk. Wij zijn heel blij met het resultaat!\""
 #~ msgstr ""
 
@@ -1980,7 +2030,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
-#~ "offerte aan. Wij reageren binnen Ã©Ã©n werkdag."
+#~ "offerte aan. Wij reageren binnen één werkdag."
 #~ msgstr ""
 
 #~ msgid ""
@@ -2035,7 +2085,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Wij zijn trots op onze reputatie in Twente en de omliggende gemeenten. Niet "
-#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren â€”"
+#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren —"
 #~ " op tijd, binnen budget en met een glimlach."
 #~ msgstr ""
 
@@ -2055,7 +2105,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren â€” het staat in "
+#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
 #~ "het teken van deze vier waarden."
 #~ msgstr ""
 
@@ -2088,7 +2138,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
-#~ "Een mooie woning Ã©n een gezond milieu gaan hand in hand."
+#~ "Een mooie woning én een gezond milieu gaan hand in hand."
 #~ msgstr ""
 
 #~ msgid "Onze geschiedenis"
@@ -2138,7 +2188,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Bas van Wijnen treedt toe tot het bedrijf na zijn opleiding aan het ROC van "
-#~ "Twente. Hij brengt frisse ideeÃ«n en moderne CNC-technieken mee."
+#~ "Twente. Hij brengt frisse ideeën en moderne CNC-technieken mee."
 #~ msgstr ""
 
 #~ msgid "2020"
@@ -2378,7 +2428,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "U kunt hiervoor contact met ons opnemen via het eâ€‘mailadres dat hierboven "
+#~ "U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
 #~ "staat vermeld."
 #~ msgstr ""
 
@@ -2426,7 +2476,7 @@ msgstr ""
 #~ msgid "Alle projecten"
 #~ msgstr ""
 
-#~ msgid "Complete keuken op maat â€“ Almelo"
+#~ msgid "Complete keuken op maat – Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2435,7 +2485,7 @@ msgstr ""
 #~ "kastjes."
 #~ msgstr ""
 
-#~ msgid "Traprenovatie â€“ Enschede"
+#~ msgid "Traprenovatie – Enschede"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2443,7 +2493,7 @@ msgstr ""
 #~ "nieuwe leuning en schilderwerk."
 #~ msgstr ""
 
-#~ msgid "Kozijnenvervanging â€“ Hengelo"
+#~ msgid "Kozijnenvervanging – Hengelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2451,7 +2501,7 @@ msgstr ""
 #~ "schilderwerk in kleur van de klant."
 #~ msgstr ""
 
-#~ msgid "Inbouwkasten slaapkamer â€“ Goor"
+#~ msgid "Inbouwkasten slaapkamer – Goor"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2459,7 +2509,7 @@ msgstr ""
 #~ "zachte sluitingen. Maximale benutting van de ruimte."
 #~ msgstr ""
 
-#~ msgid "Voordeur op maat â€“ Delden"
+#~ msgid "Voordeur op maat – Delden"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2470,7 +2520,7 @@ msgstr ""
 #~ msgid "Verbouwing"
 #~ msgstr ""
 
-#~ msgid "Badkamer verbouwing â€“ Borne"
+#~ msgid "Badkamer verbouwing – Borne"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2478,7 +2528,7 @@ msgstr ""
 #~ "betegeling en inbouwkasten rondom het bad."
 #~ msgstr ""
 
-#~ msgid "Thuiskantoor op maat â€“ Rijssen"
+#~ msgid "Thuiskantoor op maat – Rijssen"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2486,7 +2536,7 @@ msgstr ""
 #~ "perfect passend in de serre."
 #~ msgstr ""
 
-#~ msgid "Complete woonkamer verbouwing â€“ Almelo"
+#~ msgid "Complete woonkamer verbouwing – Almelo"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2494,7 +2544,7 @@ msgstr ""
 #~ "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
 #~ msgstr ""
 
-#~ msgid "Dakkapel kozijnen â€“ Wierden"
+#~ msgid "Dakkapel kozijnen – Wierden"
 #~ msgstr ""
 
 #~ msgid ""

@@ -11,8 +11,7 @@
   <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260316-flagcdn') }}" />
 </head>
 <body>
-
-<!-- â•â•â• NAVIGATIE â•â•â• -->
+<!-- ═══ NAVIGATIE ═══ -->
 <nav class="nav gescrold">
   <div class="container">
     <div class="nav-inner">
@@ -56,7 +55,21 @@
 
 {% block content %}{% endblock %}
 
-<!-- â•â•â• FOOTER â•â•â• -->
+<section id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <div class="cookie-banner-inner container">
+    <div class="cookie-banner-tekst">
+      <h3>{{ _('Wij gebruiken cookies') }}</h3>
+      <p>{{ _('We gebruiken noodzakelijke cookies om de website goed te laten werken. Met uw toestemming plaatsen we ook aanvullende cookies. U kunt uw keuze altijd aanpassen.') }}</p>
+      <a href="{{ localized_url('privacy') }}">{{ _('Meer informatie') }}</a>
+    </div>
+    <div class="cookie-banner-acties">
+      <button type="button" id="cookie-accept-necessary" class="btn btn-outline cookie-btn-noodzakelijk">{{ _('Alleen noodzakelijk') }}</button>
+      <button type="button" id="cookie-accept-all" class="btn btn-primair">{{ _('Alles accepteren') }}</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -93,11 +106,12 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>{{ _('Â© 2026 MaxCze Services |') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
+      <span>{{ _('© 2026 MaxCze Services |') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
+      <button type="button" id="cookie-settings-btn" class="cookie-settings-btn">{{ _('Cookie-instellingen') }}</button>
     </div>
   </div>
 </footer>
 
-<script src="{{ url_for('static', filename='js/main.js', v='20260316-flagcdn') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js', v='20260318-cookie-session-once') }}"></script>
 </body>
 </html>

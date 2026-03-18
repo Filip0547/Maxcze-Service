@@ -1588,6 +1588,89 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .footer-bottom-links a { color: rgba(255,255,255,0.4); transition: color 0.2s; }
 .footer-bottom-links a:hover { color: rgba(255,255,255,0.7); }
 
+.cookie-settings-btn {
+  border: 1px solid rgba(255,255,255,0.35);
+  background: transparent;
+  color: rgba(255,255,255,0.82);
+  font-size: 0.78rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--overgang);
+}
+
+.cookie-settings-btn:hover {
+  color: var(--wit);
+  border-color: rgba(255,255,255,0.65);
+}
+
+.cookie-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1200;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(14px);
+  transition: var(--overgang);
+}
+
+.cookie-banner.zichtbaar {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.cookie-banner-inner {
+  background: #111111;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 14px;
+  box-shadow: 0 16px 42px rgba(0,0,0,0.35);
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cookie-banner-tekst h3 {
+  color: var(--wit);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.cookie-banner-tekst p {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.86rem;
+  margin: 0;
+}
+
+.cookie-banner-tekst a {
+  color: var(--goud-licht);
+  font-size: 0.82rem;
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+
+.cookie-banner-acties {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.cookie-banner .btn {
+  padding: 0.65rem 1rem;
+  font-size: 0.82rem;
+}
+
+.cookie-btn-noodzakelijk {
+  color: var(--wit);
+  border-color: rgba(255,255,255,0.42);
+}
+
 /* ═══════════════════════════════════════════
    ANIMATIES
 ═══════════════════════════════════════════ */
@@ -1670,6 +1753,21 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .footer-grid { grid-template-columns: 1fr; }
 
   .footer-bottom { flex-direction: column; text-align: center; }
+
+  .cookie-banner-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cookie-banner-acties {
+    justify-content: stretch;
+    width: 100%;
+  }
+
+  .cookie-banner .btn {
+    width: 100%;
+    justify-content: center;
+  }
 
   .sectie-cta, .sectie-intro,
   .sectie-diensten, .sectie-werkproces,

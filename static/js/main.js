@@ -4,6 +4,85 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* ─── Cookie consent ─── */
+  const COOKIE_CONSENT_KEY = 'maxcze_cookie_consent_v2';
+  const COOKIE_BANNER_SESSION_KEY = 'maxcze_cookie_banner_seen_session_v1';
+  const COOKIE_CONSENT_SCHEMA_VERSION = 2;
+  const COOKIE_CONSENT_TTL_MS = 24 * 60 * 60 * 1000; // 1 day
+  const cookieBanner = document.getElementById('cookie-banner');
+  const acceptAllBtn = document.getElementById('cookie-accept-all');
+  const acceptNecessaryBtn = document.getElementById('cookie-accept-necessary');
+  const cookieSettingsBtn = document.getElementById('cookie-settings-btn');
+
+  const writeConsent = (preference) => {
+    const now = Date.now();
+    const consent = {
+      version: COOKIE_CONSENT_SCHEMA_VERSION,
+      necessary: true,
+      analytics: preference === 'all',
+      marketing: preference === 'all',
+      preference,
+      updatedAt: new Date().toISOString(),
+      expiresAt: new Date(now + COOKIE_CONSENT_TTL_MS).toISOString(),
+    };
+
+    try {
+      localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(consent));
+    } catch {
+      // If storage is unavailable, we still hide the banner for this page view.
+    }
+  };
+
+  const showCookieBanner = () => {
+    if (cookieBanner) {
+      cookieBanner.classList.add('zichtbaar');
+    }
+  };
+
+  const hideCookieBanner = () => {
+    if (cookieBanner) {
+      cookieBanner.classList.remove('zichtbaar');
+    }
+  };
+
+  const hasSeenBannerThisSession = () => {
+    try {
+      return sessionStorage.getItem(COOKIE_BANNER_SESSION_KEY) === '1';
+    } catch {
+      return false;
+    }
+  };
+
+  const markBannerSeenThisSession = () => {
+    try {
+      sessionStorage.setItem(COOKIE_BANNER_SESSION_KEY, '1');
+    } catch {
+      // Ignore storage failures and continue gracefully.
+    }
+  };
+
+  if (cookieBanner) {
+    const shouldShowOnThisVisit = !hasSeenBannerThisSession();
+    if (shouldShowOnThisVisit) {
+      showCookieBanner();
+      markBannerSeenThisSession();
+    }
+
+    acceptAllBtn?.addEventListener('click', () => {
+      writeConsent('all');
+      hideCookieBanner();
+    });
+
+    acceptNecessaryBtn?.addEventListener('click', () => {
+      writeConsent('necessary');
+      hideCookieBanner();
+    });
+
+    cookieSettingsBtn?.addEventListener('click', () => {
+      showCookieBanner();
+    });
+  }
+
   /* ─── Navigatie: scroll effect ─── */
   const nav = document.querySelector('.nav');
   if (nav) {
@@ -183,8 +262,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Real submit to Flask endpoint after client-side validation.
       const submitBtn = formulier.querySelector('button[type="submit"]');
       if (submitBtn) {
-        submitBtn.textContent = 'Verzenden...';
         submitBtn.disabled = true;
+        submitBtn.setAttribute('aria-busy', 'true');
       }
     });
   }
