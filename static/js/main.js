@@ -93,15 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
     onScroll();
   }
 
-  /* ─── Navigatie: actief linkje ─── */
-  const huidigePagina = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-links a, .mobiel-menu a').forEach(a => {
-    const href = a.getAttribute('href');
-    if (href === huidigePagina || (huidigePagina === '' && href === 'index.html')) {
-      a.classList.add('actief');
-    }
-  });
-
   /* ─── Hamburger menu ─── */
   const hamburger   = document.querySelector('.hamburger');
   const mobielMenu  = document.querySelector('.mobiel-menu');
@@ -109,12 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburger.addEventListener('click', () => {
       const open = hamburger.classList.toggle('open');
       mobielMenu.classList.toggle('open', open);
+      hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
       document.body.style.overflow = open ? 'hidden' : '';
     });
     mobielMenu.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         hamburger.classList.remove('open');
         mobielMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
       });
     });
@@ -123,9 +116,17 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ─── Hero achtergrond zoom ─── */
   const heroBg = document.querySelector('.hero-bg');
   if (heroBg) {
+    let ticking = false;
     window.addEventListener('scroll', () => {
-      const scroll = window.scrollY;
-      heroBg.style.transform = `scale(${1.05 + scroll * 0.00008})`;
+      if (ticking) {
+        return;
+      }
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        const scroll = window.scrollY;
+        heroBg.style.transform = `scale(${1.05 + scroll * 0.00008})`;
+        ticking = false;
+      });
     }, { passive: true });
   }
 
@@ -184,9 +185,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (lightbox && lightboxImg) {
     document.querySelectorAll('.portfolio-item').forEach(item => {
       item.addEventListener('click', () => {
-        const src = item.querySelector('.portfolio-foto')?.src;
+        const image = item.querySelector('.portfolio-foto');
+        const src = image?.src;
         if (src) {
           lightboxImg.src = src;
+          lightboxImg.alt = image?.alt || 'Project afbeelding';
           lightbox.classList.add('open');
           document.body.style.overflow = 'hidden';
         }

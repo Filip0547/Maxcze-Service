@@ -61,7 +61,7 @@ msgstr "Kontakt"
 
 #: templates/base.html:80
 msgid "Diensten"
-msgstr "Uslugi"
+msgstr "Usługi"
 
 #: templates/base.html:82 templates/index.html:67
 msgid "Complete verbouwingen"
@@ -1523,6 +1523,381 @@ msgid ""
 msgstr ""
 "Skontaktuj się z nami, aby uzyskać niezobowiązującą konsultację. Chętnie "
 "zastanowimy się razem z Tobą nad możliwościami."
+
+msgid "Direct naar inhoud"
+msgstr "Przejdź do treści"
+
+msgid "Hoofdnavigatie"
+msgstr "Nawigacja główna"
+
+msgid "Menu openen"
+msgstr "Otwórz menu"
+
+msgid "Mobiele navigatie"
+msgstr "Nawigacja mobilna"
+
+msgid "Contact met MaxCze Services | Goor, Overijssel"
+msgstr "Kontakt z MaxCze Services | Goor, Overijssel"
+
+msgid "Neem contact op met MaxCze Services in Goor voor een offerte, advies of vragen over verbouwing, renovatie, kozijnen, deuren en timmerwerk."
+msgstr "Skontaktuj się z MaxCze Services w Goor, aby uzyskać wycenę, poradę lub zadać pytania dotyczące przebudowy, renowacji, okien, drzwi i prac stolarskich."
+
+msgid "Contact voor verbouwing, renovatie en timmerwerk in Goor"
+msgstr "Kontakt w sprawie przebudowy, renowacji i prac stolarskich w Goor"
+
+msgid "Vraag een gratis offerte aan voor uw project in Goor of Twente. Wij reageren binnen één werkdag op uw aanvraag."
+msgstr "Poproś o bezpłatną wycenę swojego projektu w Goor lub Twente. Odpowiadamy w ciągu jednego dnia roboczego."
+
+msgid "Uw lokale servicepartner in Goor"
+msgstr "Twój lokalny partner usługowy w Goor"
+
+msgid "Offerte of vraag sturen voor uw project"
+msgstr "Wyślij zapytanie ofertowe lub pytanie dotyczące swojego projektu"
+
+msgid "Verbouwingen, renovatie en timmerwerk in Goor | MaxCze Services"
+msgstr "Przebudowy, renowacje i stolarstwo w Goor | MaxCze Services"
+
+msgid "MaxCze Services uit Goor helpt particulieren en bedrijven met verbouwingen, renovaties, kozijnen, deuren en allround timmerwerk in Twente."
+msgstr "MaxCze Services z Goor pomaga osobom prywatnym i firmom w przebudowach, renowacjach, montażu okien, drzwi oraz we wszechstronnych pracach stolarskich w Twente."
+
+msgid "Verbouwingen, renovatie en timmerwerk in Goor"
+msgstr "Przebudowy, renowacje i stolarstwo w Goor"
+
+msgid "MaxCze Services biedt meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk voor woningen en bedrijfspanden in Goor en regio Twente."
+msgstr "MaxCze Services oferuje ponad 30 lat doświadczenia w przebudowach, oknach, drzwiach i pracach na wymiar dla domów oraz budynków firmowych w Goor i regionie Twente."
+
+msgid "Meer over verbouwingen"
+msgstr "Więcej o przebudowach"
+
+msgid "Meer over kozijnen en deuren"
+msgstr "Więcej o oknach i drzwiach"
+
+msgid "Meer over renovaties"
+msgstr "Więcej o renowacjach"
+
+msgid "Meer over timmerwerk"
+msgstr "Więcej o stolarstwie"
+
+msgid "Lokale vakman voor Goor en Twente"
+msgstr "Lokalny fachowiec dla Goor i Twente"
+
+msgid "Zoekt u een betrouwbare vakman voor verbouwing, renovatie, kozijnen, deuren of timmerwerk in Goor en Twente, dan bent u bij MaxCze Services aan het juiste adres. Wij combineren persoonlijke service met degelijk vakmanschap en heldere afspraken."
+msgstr "Jeśli szukasz rzetelnego fachowca do przebudowy, renowacji, montażu okien, drzwi lub prac stolarskich w Goor i Twente, MaxCze Services jest właściwym wyborem. Łączymy osobiste podejście z solidnym rzemiosłem i jasnymi ustaleniami."
+
+msgid "Over MaxCze Services in Goor | Vakmanschap en service"
+msgstr "O MaxCze Services w Goor | Rzemiosło i obsługa"
+
+msgid "Lees meer over MaxCze Services uit Goor, de werkwijze, ervaring en persoonlijke aanpak voor verbouwingen, renovaties en timmerwerk in Twente."
+msgstr "Dowiedz się więcej o MaxCze Services z Goor, sposobie pracy, doświadczeniu i osobistym podejściu do przebudów, renowacji i stolarstwa w Twente."
+
+msgid "Over MaxCze Services voor verbouwing en timmerwerk in Goor"
+msgstr "O MaxCze Services dla przebudów i stolarstwa w Goor"
+
+msgid "MaxCze Services is een eenmanszaak uit Goor, opgericht in 2016 door Max Czepelka. Persoonlijk contact, heldere service en degelijk vakmanschap staan centraal."
+msgstr "MaxCze Services to jednoosobowa firma z Goor, założona w 2016 roku przez Maxa Czepelkę. W centrum stoją bezpośredni kontakt, jasna obsługa i solidne rzemiosło."
+
+msgid "Persoonlijk vakmanschap en betrouwbare service"
+msgstr "Osobiste rzemiosło i niezawodna obsługa"
+
+msgid "Meer dan 30 jaar vakmanschap in Goor en Twente"
+msgstr "Ponad 30 lat rzemiosła w Goor i Twente"
+
+msgid "Projecten van MaxCze Services | Goor, Overijssel"
+msgstr "Realizacje MaxCze Services | Goor, Overijssel"
+
+msgid "Bekijk projecten van MaxCze Services uit Goor: verbouwingen, renovaties, kozijnen, deuren en timmerwerk voor klanten in Twente."
+msgstr "Zobacz realizacje MaxCze Services z Goor: przebudowy, renowacje, okna, drzwi i stolarstwo dla klientów w Twente."
+
+msgid "Projecten in verbouwing, renovatie en timmerwerk in Goor en Twente"
+msgstr "Realizacje z zakresu przebudowy, renowacji i stolarstwa w Goor i Twente"
+
+msgid "Een selectie van recente opdrachten van MaxCze Services in Goor, Twente en omliggende plaatsen."
+msgstr "Wybór ostatnich realizacji MaxCze Services w Goor, Twente i okolicznych miejscowościach."
+
+msgid "Privacyverklaring MaxCze Services | Goor, Overijssel"
+msgstr "Polityka prywatności MaxCze Services | Goor, Overijssel"
+
+msgid "Lees de privacyverklaring van MaxCze Services uit Goor en bekijk hoe wij persoonsgegevens verwerken, beveiligen en bewaren."
+msgstr "Przeczytaj politykę prywatności MaxCze Services z Goor i zobacz, jak przetwarzamy, zabezpieczamy i przechowujemy dane osobowe."
+
+msgid "Privacyverklaring van MaxCze Services in Goor"
+msgstr "Polityka prywatności MaxCze Services w Goor"
+
+msgid "Onderstaand leest u hoe wij omgaan met persoonsgegevens, websitegebruik en contactaanvragen via onze website."
+msgstr "Poniżej przeczytasz, jak postępujemy z danymi osobowymi, korzystaniem ze strony i zapytaniami kontaktowymi przez naszą witrynę."
+
+msgid "Contactgegevens van de onderneming"
+msgstr "Dane kontaktowe firmy"
+
+msgid "Welke cookies wij gebruiken"
+msgstr "Jakich plików cookie używamy"
+
+msgid "Inzage, correctie en verwijdering"
+msgstr "Wgląd, poprawianie i usuwanie"
+
+msgid "Verbouwingen in Goor | MaxCze Services"
+msgstr "Przebudowy w Goor | MaxCze Services"
+
+msgid "MaxCze Services verzorgt complete verbouwingen in Goor en Twente. Van voorbereiding tot oplevering met duidelijke afspraken en degelijk vakmanschap."
+msgstr "MaxCze Services realizuje kompletne przebudowy w Goor i Twente. Od przygotowania po oddanie prac z jasnymi ustaleniami i solidnym rzemiosłem."
+
+msgid "Verbouwingen"
+msgstr "Przebudowy"
+
+msgid "Onze dienst"
+msgstr "Nasza usługa"
+
+msgid "Complete verbouwingen in Goor en Twente"
+msgstr "Kompletne przebudowy w Goor i Twente"
+
+msgid "Voor een uitbouw, zolderverbouwing, badkamerverbouwing of complete woningaanpassing zorgt MaxCze Services voor een nette uitvoering van begin tot eind."
+msgstr "W przypadku rozbudowy, adaptacji poddasza, remontu łazienki lub pełnej przebudowy domu MaxCze Services zapewnia staranne wykonanie od początku do końca."
+
+msgid "Verbouwen met overzicht"
+msgstr "Przebudowa pod kontrolą"
+
+msgid "Een verbouwing met duidelijke planning en vaste afspraken"
+msgstr "Przebudowa z jasnym harmonogramem i stałymi ustaleniami"
+
+msgid "Bij een verbouwing draait het niet alleen om het eindresultaat, maar ook om rust tijdens het werk. Daarom werken wij met duidelijke afspraken, korte lijnen en een planning die helder is voor u."
+msgstr "W przebudowie liczy się nie tylko efekt końcowy, ale także spokój podczas prac. Dlatego działamy według jasnych ustaleń, z krótką ścieżką kontaktu i planem zrozumiałym dla klienta."
+
+msgid "MaxCze Services helpt klanten in Goor en Twente bij kleine en grote verbouwingen, van het aanpassen van een ruimte tot het compleet vernieuwen van een verdieping."
+msgstr "MaxCze Services pomaga klientom w Goor i Twente przy małych i dużych przebudowach, od dostosowania pomieszczenia po całkowite odnowienie piętra."
+
+msgid "Waarmee wij helpen"
+msgstr "W czym pomagamy"
+
+msgid "Veelgevraagde verbouwingen"
+msgstr "Najczęściej wybierane przebudowy"
+
+msgid "Wij verzorgen verbouwingen die praktisch, netjes en duurzaam worden uitgevoerd."
+msgstr "Realizujemy przebudowy w sposób praktyczny, estetyczny i trwały."
+
+msgid "Uitbouw en indelingswijziging"
+msgstr "Rozbudowa i zmiana układu"
+
+msgid "Meer leefruimte creëren door een aanbouw, nieuwe indeling of aangepaste doorloop in huis."
+msgstr "Stworzenie większej przestrzeni życiowej dzięki dobudowie, nowemu układowi lub lepszej komunikacji w domu."
+
+msgid "Badkamer en keuken verbouwing"
+msgstr "Przebudowa łazienki i kuchni"
+
+msgid "Strakke afwerking, degelijk voorbereid timmerwerk en aandacht voor praktische details in dagelijks gebruik."
+msgstr "Starannie wykonane wykończenie, dobrze przygotowane prace stolarskie i uwaga poświęcona praktycznym detalom codziennego użytkowania."
+
+msgid "Zolder en extra kamers"
+msgstr "Poddasze i dodatkowe pokoje"
+
+msgid "Slim gebruik van bestaande ruimte voor een extra slaapkamer, werkruimte of berging."
+msgstr "Sprytne wykorzystanie istniejącej przestrzeni na dodatkową sypialnię, miejsce do pracy lub schowek."
+
+msgid "Werkgebied"
+msgstr "Obszar działania"
+
+msgid "Verbouwingen voor klanten in Goor, Twente en omgeving"
+msgstr "Przebudowy dla klientów w Goor, Twente i okolicy"
+
+msgid "Wij werken onder meer in Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, Borne en Enschede."
+msgstr "Pracujemy między innymi w Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, Borne i Enschede."
+
+msgid "Ook renovatie nodig?"
+msgstr "Potrzebujesz też renowacji?"
+
+msgid "Bekijk onze aanpak voor renovaties van bestaande ruimtes en woningen."
+msgstr "Zobacz nasze podejście do renowacji istniejących pomieszczeń i domów."
+
+msgid "Vraag een vrijblijvende offerte aan voor uw verbouwing in Goor of Twente."
+msgstr "Poproś o niezobowiązującą wycenę przebudowy w Goor lub Twente."
+
+msgid "Renovaties in Goor | MaxCze Services"
+msgstr "Renowacje w Goor | MaxCze Services"
+
+msgid "MaxCze Services verzorgt renovaties in Goor en Twente. Voor woningen, houtwerk en ruimtes die vakkundig en netjes vernieuwd moeten worden."
+msgstr "MaxCze Services wykonuje renowacje w Goor i Twente dla domów, elementów drewnianych i przestrzeni, które trzeba fachowo i estetycznie odnowić."
+
+msgid "Renovaties in Goor en regio Twente"
+msgstr "Renowacje w Goor i regionie Twente"
+
+msgid "Voor het opknappen, herstellen en vernieuwen van bestaande ruimtes levert MaxCze Services renovatiewerk met oog voor detail en duurzaamheid."
+msgstr "Przy odświeżaniu, naprawie i odnawianiu istniejących przestrzeni MaxCze Services wykonuje renowacje z dbałością o szczegóły i trwałość."
+
+msgid "Renoveren zonder gedoe"
+msgstr "Renowacja bez problemów"
+
+msgid "Uw woning of ruimte weer netjes en toekomstbestendig"
+msgstr "Twój dom lub przestrzeń znowu estetyczna i gotowa na przyszłość"
+
+msgid "Een renovatie vraagt om nauwkeurig werk en een goede afstemming op de bestaande situatie. Wij kijken daarom niet alleen naar wat nieuw moet worden, maar ook naar wat behouden kan blijven."
+msgstr "Renowacja wymaga precyzyjnej pracy i dobrego dopasowania do istniejącej sytuacji. Dlatego patrzymy nie tylko na to, co trzeba odnowić, ale również na to, co warto zachować."
+
+msgid "Of het nu gaat om houtwerk, afwerking of een complete ruimte, MaxCze Services pakt renovaties praktisch en zorgvuldig aan."
+msgstr "Niezależnie od tego, czy chodzi o stolarkę, wykończenie czy całe pomieszczenie, MaxCze Services podchodzi do renowacji praktycznie i starannie."
+
+msgid "Renovatiewerk"
+msgstr "Prace renowacyjne"
+
+msgid "Waaruit een renovatie kan bestaan"
+msgstr "Co może obejmować renowacja"
+
+msgid "Wij voeren renovaties uit die passen bij de bestaande woning en uw wensen voor gebruik en uitstraling."
+msgstr "Wykonujemy renowacje dopasowane do istniejącego domu oraz Twoich oczekiwań co do użytkowania i wyglądu."
+
+msgid "Herstel van houtwerk"
+msgstr "Naprawa elementów drewnianych"
+
+msgid "Reparatie en vervanging van onderdelen die versleten, beschadigd of verouderd zijn."
+msgstr "Naprawa i wymiana elementów zużytych, uszkodzonych lub przestarzałych."
+
+msgid "Renovatie van kamers"
+msgstr "Renowacja pomieszczeń"
+
+msgid "Slaapkamers, woonkamers, zolders en andere ruimtes die opnieuw moeten worden ingericht of afgewerkt."
+msgstr "Sypialnie, salony, poddasza i inne pomieszczenia, które trzeba na nowo urządzić lub wykończyć."
+
+msgid "Praktische verbeteringen"
+msgstr "Praktyczne ulepszenia"
+
+msgid "Verbeteringen in indeling, gebruiksgemak en uitstraling zonder onnodig ingrijpende werkzaamheden."
+msgstr "Ulepszenia układu, wygody użytkowania i wyglądu bez niepotrzebnie dużych prac."
+
+msgid "Kozijnen en deuren vernieuwen"
+msgstr "Odnowienie okien i drzwi"
+
+msgid "Bekijk ook onze dienst voor het plaatsen en vervangen van kozijnen en deuren."
+msgstr "Zobacz też naszą usługę montażu i wymiany okien oraz drzwi."
+
+msgid "Renovatie bespreken"
+msgstr "Omów renowację"
+
+msgid "Neem contact op voor advies of een offerte voor uw renovatieproject."
+msgstr "Skontaktuj się z nami po poradę lub wycenę swojego projektu renowacyjnego."
+
+msgid "Kozijnen en deuren in Goor | MaxCze Services"
+msgstr "Okna i drzwi w Goor | MaxCze Services"
+
+msgid "MaxCze Services plaatst en vervangt kozijnen en deuren in Goor en Twente. Nette afwerking, passend maatwerk en betrouwbare montage."
+msgstr "MaxCze Services montuje i wymienia okna oraz drzwi w Goor i Twente. Starannie wykonane wykończenie, odpowiednie rozwiązania na wymiar i niezawodny montaż."
+
+msgid "Kozijnen en deuren plaatsen in Goor en Twente"
+msgstr "Montaż okien i drzwi w Goor i Twente"
+
+msgid "MaxCze Services helpt bij het vervangen, herstellen en plaatsen van kozijnen en deuren met aandacht voor maatvoering, uitstraling en duurzaamheid."
+msgstr "MaxCze Services pomaga w wymianie, naprawie i montażu okien oraz drzwi, dbając o wymiary, wygląd i trwałość."
+
+msgid "Strak en passend werk"
+msgstr "Precyzyjna i dobrze dopasowana praca"
+
+msgid "Nieuwe kozijnen en deuren die goed aansluiten op uw woning"
+msgstr "Nowe okna i drzwi dobrze dopasowane do Twojego domu"
+
+msgid "Goed geplaatste kozijnen en deuren verbeteren niet alleen de uitstraling van een woning, maar ook het comfort en de levensduur van het geheel."
+msgstr "Dobrze zamontowane okna i drzwi poprawiają nie tylko wygląd domu, ale także komfort i trwałość całości."
+
+msgid "Wij verzorgen maatwerk en vervanging in bestaande situaties, met zorg voor nette aansluiting en een afwerking die past bij de rest van het pand."
+msgstr "Wykonujemy rozwiązania na wymiar i wymiany w istniejących sytuacjach, dbając o staranne dopasowanie i wykończenie pasujące do reszty budynku."
+
+msgid "Mogelijkheden"
+msgstr "Możliwości"
+
+msgid "Werkzaamheden aan kozijnen en deuren"
+msgstr "Prace przy oknach i drzwiach"
+
+msgid "Wij helpen zowel bij vervanging als bij herstel van bestaande onderdelen."
+msgstr "Pomagamy zarówno przy wymianie, jak i naprawie istniejących elementów."
+
+msgid "Houten kozijnen vervangen"
+msgstr "Wymiana drewnianych okien"
+
+msgid "Vervanging van verouderde of beschadigde kozijnen met aandacht voor uitstraling en aansluiting."
+msgstr "Wymiana starych lub uszkodzonych okien z dbałością o wygląd i dopasowanie."
+
+msgid "Binnendeuren en buitendeuren"
+msgstr "Drzwi wewnętrzne i zewnętrzne"
+
+msgid "Plaatsing van deuren die passen bij het gebruik van de ruimte en de stijl van de woning."
+msgstr "Montaż drzwi dopasowanych do funkcji pomieszczenia i stylu domu."
+
+msgid "Herstel en afwerking"
+msgstr "Naprawa i wykończenie"
+
+msgid "Aanpassingen, herstelwerk en afwerking voor een verzorgd en duurzaam resultaat."
+msgstr "Dostosowania, naprawy i wykończenie dla estetycznego i trwałego efektu."
+
+msgid "Meer timmerwerk nodig?"
+msgstr "Potrzebujesz więcej prac stolarskich?"
+
+msgid "Bekijk ook onze pagina over allround timmerwerk en maatwerkoplossingen."
+msgstr "Zobacz również naszą stronę o wszechstronnych pracach stolarskich i rozwiązaniach na wymiar."
+
+msgid "Neem contact op voor kozijnen en deuren in Goor, Twente en omgeving."
+msgstr "Skontaktuj się z nami w sprawie okien i drzwi w Goor, Twente i okolicy."
+
+msgid "Timmerwerk in Goor | MaxCze Services"
+msgstr "Stolarstwo w Goor | MaxCze Services"
+
+msgid "MaxCze Services levert timmerwerk in Goor en Twente. Voor maatwerk, houtconstructies, aftimmering en praktische oplossingen in en om de woning."
+msgstr "MaxCze Services wykonuje prace stolarskie w Goor i Twente. Oferujemy rozwiązania na wymiar, konstrukcje drewniane, zabudowy oraz praktyczne rozwiązania w domu i wokół niego."
+
+msgid "Timmerwerk"
+msgstr "Stolarstwo"
+
+msgid "Allround timmerwerk in Goor en regio Twente"
+msgstr "Wszechstronne stolarstwo w Goor i regionie Twente"
+
+msgid "Voor maatwerk in hout, aftimmering en praktische timmeroplossingen levert MaxCze Services degelijk werk dat past bij uw woning en wensen."
+msgstr "W zakresie stolarki na wymiar, zabudowy i praktycznych rozwiązań stolarskich MaxCze Services wykonuje solidną pracę dopasowaną do Twojego domu i oczekiwań."
+
+msgid "Maatwerk"
+msgstr "Na wymiar"
+
+msgid "Timmerwerk dat functioneel en netjes wordt uitgevoerd"
+msgstr "Prace stolarskie wykonane funkcjonalnie i estetycznie"
+
+msgid "Niet ieder project valt onder een complete verbouwing of renovatie. Juist voor timmerwerk op maat is ervaring belangrijk, zodat alles goed aansluit, stevig is en netjes oogt."
+msgstr "Nie każdy projekt oznacza pełną przebudowę lub renowację. Właśnie przy stolarce na wymiar doświadczenie jest kluczowe, aby wszystko dobrze pasowało, było solidne i estetyczne."
+
+msgid "Wij helpen met uiteenlopende timmerwerkzaamheden voor woningen en kleinere zakelijke projecten in Goor en Twente."
+msgstr "Pomagamy przy różnych pracach stolarskich dla domów i mniejszych projektów firmowych w Goor i Twente."
+
+msgid "Voorbeelden"
+msgstr "Przykłady"
+
+msgid "Veelvoorkomend timmerwerk"
+msgstr "Najczęstsze prace stolarskie"
+
+msgid "Wij voeren timmerwerk uit dat praktisch toepasbaar is en netjes wordt afgewerkt."
+msgstr "Wykonujemy prace stolarskie, które są praktyczne i starannie wykończone."
+
+msgid "Aftimmering en afwerking"
+msgstr "Zabudowa i wykończenie"
+
+msgid "Aftimmerwerk voor plafonds, wanden, hoeken en aansluitingen die strak afgewerkt moeten worden."
+msgstr "Prace wykończeniowe przy sufitach, ścianach, narożnikach i połączeniach, które wymagają estetycznego efektu."
+
+msgid "Maatwerk oplossingen"
+msgstr "Rozwiązania na wymiar"
+
+msgid "Kasten, ombouwen en houtoplossingen die passend worden gemaakt voor uw ruimte."
+msgstr "Szafy, zabudowy i rozwiązania drewniane wykonywane tak, aby pasowały do Twojej przestrzeni."
+
+msgid "Kleine constructieve aanpassingen"
+msgstr "Małe zmiany konstrukcyjne"
+
+msgid "Praktisch timmerwerk dat helpt bij het verbeteren of aanpassen van bestaande ruimtes."
+msgstr "Praktyczne prace stolarskie pomagające ulepszyć lub dopasować istniejące przestrzenie."
+
+msgid "Ook een grotere verbouwing?"
+msgstr "Planujesz też większą przebudowę?"
+
+msgid "Bekijk onze pagina over complete verbouwingen in Goor en Twente."
+msgstr "Zobacz naszą stronę o kompleksowych przebudowach w Goor i Twente."
+
+msgid "Timmerwerk aanvragen"
+msgstr "Zamów prace stolarskie"
+
+msgid "Bespreek uw klus of maatwerkvraag direct met MaxCze Services."
+msgstr "Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar bezpośrednio z MaxCze Services."
 
 #~ msgid "0%"
 #~ msgstr ""

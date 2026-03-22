@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}{{ _('Kozijnen en deuren in Goor | MaxCze Services') }}{% endblock %}
+{% block description %}{{ _('MaxCze Services plaatst en vervangt kozijnen en deuren in Goor en Twente. Nette afwerking, passend maatwerk en betrouwbare montage.') }}{% endblock %}
+
+{% block content %}
+<header class="pagina-hero">
+  <div class="pagina-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600&q=80');"></div>
+  <div class="container">
+    <div class="pagina-hero-content">
+      <nav class="breadcrumb">
+        <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span>{{ _('Kozijnen en deuren') }}</span>
+      </nav>
+      <div class="sectie-label" style="color:var(--goud)">{{ _('Onze dienst') }}</div>
+      <h1>{{ _('Kozijnen en deuren plaatsen in Goor en Twente') }}</h1>
+      <p>{{ _('MaxCze Services helpt bij het vervangen, herstellen en plaatsen van kozijnen en deuren met aandacht voor maatvoering, uitstraling en duurzaamheid.') }}</p>
+    </div>
+  </div>
+</header>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-grid">
+      <div class="service-copy">
+        <div class="sectie-label">{{ _('Strak en passend werk') }}</div>
+        <h2>{{ _('Nieuwe kozijnen en deuren die goed aansluiten op uw woning') }}</h2>
+        <p>{{ _('Goed geplaatste kozijnen en deuren verbeteren niet alleen de uitstraling van een woning, maar ook het comfort en de levensduur van het geheel.') }}</p>
+        <p>{{ _('Wij verzorgen maatwerk en vervanging in bestaande situaties, met zorg voor nette aansluiting en een afwerking die past bij de rest van het pand.') }}</p>
+      </div>
+      <div class="service-media fade-in">
+        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=900&q=80" alt="Nieuwe deur en kozijn geplaatst in woning" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service-section service-section-alt">
+  <div class="container">
+    <div class="sectie-header fade-in">
+      <div class="sectie-label">{{ _('Mogelijkheden') }}</div>
+      <h2>{{ _('Werkzaamheden aan kozijnen en deuren') }}</h2>
+      <p>{{ _('Wij helpen zowel bij vervanging als bij herstel van bestaande onderdelen.') }}</p>
+    </div>
+    <div class="service-card-grid">
+      <article class="service-detail-card fade-in">
+        <h3>{{ _('Houten kozijnen vervangen') }}</h3>
+        <p>{{ _('Vervanging van verouderde of beschadigde kozijnen met aandacht voor uitstraling en aansluiting.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-1">
+        <h3>{{ _('Binnendeuren en buitendeuren') }}</h3>
+        <p>{{ _('Plaatsing van deuren die passen bij het gebruik van de ruimte en de stijl van de woning.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-2">
+        <h3>{{ _('Herstel en afwerking') }}</h3>
+        <p>{{ _('Aanpassingen, herstelwerk en afwerking voor een verzorgd en duurzaam resultaat.') }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-links-grid">
+      <a href="{{ localized_url('timmerwerk') }}" class="service-link-card">
+        <h3>{{ _('Meer timmerwerk nodig?') }}</h3>
+        <p>{{ _('Bekijk ook onze pagina over allround timmerwerk en maatwerkoplossingen.') }}</p>
+      </a>
+      <a href="{{ localized_url('contact') }}" class="service-link-card">
+        <h3>{{ _('Vraag een offerte aan') }}</h3>
+        <p>{{ _('Neem contact op voor kozijnen en deuren in Goor, Twente en omgeving.') }}</p>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash, redirect
+from flask import Flask, render_template, request, flash, redirect, Response, url_for
 from flask_babel import Babel, _
 from flask_mail import Mail as FlaskMail, Message as FlaskMessage
 from dotenv import load_dotenv
@@ -18,6 +18,15 @@ load_dotenv()
 app = Flask(__name__)
 logging.basicConfig(level=os.getenv('LOG_LEVEL', 'INFO').upper())
 logger = logging.getLogger(__name__)
+
+SITE_NAME = 'MaxCze Services'
+SITE_LOCATION = 'Goor, Overijssel'
+DEFAULT_META_DESCRIPTION = 'MaxCze Services uit Goor verzorgt verbouwingen, renovaties, kozijnen, deuren en allround timmerwerk in Twente.'
+LOCALE_CODES = {
+    'nl': 'nl_NL',
+    'en': 'en_GB',
+    'pl': 'pl_PL',
+}
 
 app.secret_key = os.getenv('SECRET_KEY')
 if not app.secret_key:
@@ -89,6 +98,10 @@ ROUTE_MAP = {
     'home': {'nl': '/', 'en': '/en', 'pl': '/pl'},
     'over_ons': {'nl': '/over-ons', 'en': '/en/about-us', 'pl': '/pl/o-nas'},
     'projecten': {'nl': '/projecten', 'en': '/en/projects', 'pl': '/pl/projekty'},
+    'verbouwingen': {'nl': '/verbouwingen', 'en': '/en/remodeling', 'pl': '/pl/przebudowy'},
+    'renovaties': {'nl': '/renovaties', 'en': '/en/renovations', 'pl': '/pl/remonty'},
+    'kozijnen_deuren': {'nl': '/kozijnen-en-deuren', 'en': '/en/windows-and-doors', 'pl': '/pl/okna-i-drzwi'},
+    'timmerwerk': {'nl': '/timmerwerk', 'en': '/en/carpentry', 'pl': '/pl/stolarka'},
     'contact': {'nl': '/contact', 'en': '/en/contact', 'pl': '/pl/contact'},
     'privacy': {'nl': '/privacy', 'en': '/en/privacy', 'pl': '/pl/prywatnosc'},
 }
@@ -136,6 +149,77 @@ def translate(message):
     if lang == 'nl':
         return message
     return TRANSLATIONS.get(lang, {}).get(message, message)
+
+
+def _absolute_url(path=''):
+    base_url = request.url_root.rstrip('/')
+    if not path:
+        return base_url
+    if path.startswith(('http://', 'https://')):
+        return path
+    normalized_path = path if path.startswith('/') else f'/{path}'
+    return f'{base_url}{normalized_path}'
+
+
+def _alternate_urls(page=None):
+    resolved_page = page or request.endpoint
+    if resolved_page not in ROUTE_MAP:
+        return {}
+    return {
+        lang: _absolute_url(path)
+        for lang, path in ROUTE_MAP[resolved_page].items()
+    }
+
+
+def _business_schema():
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        'name': SITE_NAME,
+        'image': url_for('static', filename='img/maxcze_logo_zwart.png', _external=True),
+        'url': request.base_url,
+        'telephone': '+31633649552',
+        'email': 'maxcze@hotmail.com',
+        'description': translate(DEFAULT_META_DESCRIPTION),
+        'address': {
+            '@type': 'PostalAddress',
+            'streetAddress': 'Het Jannink 23',
+            'postalCode': '7471 VB',
+            'addressLocality': 'Goor',
+            'addressRegion': 'Overijssel',
+            'addressCountry': 'NL',
+        },
+        'areaServed': [
+            {'@type': 'City', 'name': 'Goor'},
+            {'@type': 'AdministrativeArea', 'name': 'Twente'},
+        ],
+        'serviceType': [
+            translate('Complete verbouwingen'),
+            translate('Renovaties'),
+            translate('Kozijnen en deuren'),
+            translate('Overig timmerwerk'),
+        ],
+        'openingHoursSpecification': [
+            {
+                '@type': 'OpeningHoursSpecification',
+                'dayOfWeek': [
+                    'Monday',
+                    'Tuesday',
+                    'Wednesday',
+                    'Thursday',
+                    'Friday',
+                ],
+                'opens': '07:30',
+                'closes': '17:00',
+            },
+            {
+                '@type': 'OpeningHoursSpecification',
+                'dayOfWeek': 'Saturday',
+                'opens': '08:00',
+                'closes': '12:00',
+            },
+        ],
+    }
 
 
 def _clean_value(value, fallback='Niet opgegeven'):
@@ -303,6 +387,13 @@ def inject_locale():
         'localized_url': localized_url,
         'switch_language_url': switch_language_url,
         'is_current': is_current,
+        'alternate_urls': _alternate_urls,
+        'locale_code': lambda lang=None: LOCALE_CODES.get(lang or get_locale(), LOCALE_CODES['nl']),
+        'site_name': SITE_NAME,
+        'site_location': SITE_LOCATION,
+        'default_meta_description': translate(DEFAULT_META_DESCRIPTION),
+        'route_map': ROUTE_MAP,
+        'business_schema': _business_schema,
         '_': translate,
     }
 
@@ -323,6 +414,34 @@ def over_ons(lang='nl'):
 @app.route('/pl/projekty', defaults={'lang': 'pl'})
 def projecten(lang='nl'):
     return render_template('projecten.html')
+
+
+@app.route('/verbouwingen', defaults={'lang': 'nl'})
+@app.route('/en/remodeling', defaults={'lang': 'en'})
+@app.route('/pl/przebudowy', defaults={'lang': 'pl'})
+def verbouwingen(lang='nl'):
+    return render_template('verbouwingen.html')
+
+
+@app.route('/renovaties', defaults={'lang': 'nl'})
+@app.route('/en/renovations', defaults={'lang': 'en'})
+@app.route('/pl/remonty', defaults={'lang': 'pl'})
+def renovaties(lang='nl'):
+    return render_template('renovaties.html')
+
+
+@app.route('/kozijnen-en-deuren', defaults={'lang': 'nl'})
+@app.route('/en/windows-and-doors', defaults={'lang': 'en'})
+@app.route('/pl/okna-i-drzwi', defaults={'lang': 'pl'})
+def kozijnen_deuren(lang='nl'):
+    return render_template('kozijnen-deuren.html')
+
+
+@app.route('/timmerwerk', defaults={'lang': 'nl'})
+@app.route('/en/carpentry', defaults={'lang': 'en'})
+@app.route('/pl/stolarka', defaults={'lang': 'pl'})
+def timmerwerk(lang='nl'):
+    return render_template('timmerwerk.html')
 
 @app.route('/contact', defaults={'lang': 'nl'}, methods=['GET', 'POST'])
 @app.route('/en/contact', defaults={'lang': 'en'}, methods=['GET', 'POST'])
@@ -369,6 +488,36 @@ def contact(lang='nl'):
 @app.route('/pl/prywatnosc', defaults={'lang': 'pl'})
 def privacy(lang='nl'):
     return render_template('privacy.html')
+
+
+@app.route('/robots.txt')
+def robots():
+    content = '\n'.join([
+        'User-agent: *',
+        'Allow: /',
+        f'Sitemap: {_absolute_url("/sitemap.xml")}',
+    ])
+    return Response(content, mimetype='text/plain')
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    pages = []
+    last_modified = datetime.utcnow().date().isoformat()
+
+    for paths in ROUTE_MAP.values():
+        for lang, path in paths.items():
+            pages.append({
+                'loc': _absolute_url(path),
+                'lastmod': last_modified,
+                'hreflang': lang,
+                'alternates': {
+                    alt_lang: _absolute_url(alt_path)
+                    for alt_lang, alt_path in paths.items()
+                },
+            })
+
+    return Response(render_template('sitemap.xml', pages=pages), mimetype='application/xml')
 
 @app.route('/set-language/<lang>')
 def set_language(lang):

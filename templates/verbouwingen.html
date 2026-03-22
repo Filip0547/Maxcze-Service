@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}{{ _('Verbouwingen in Goor | MaxCze Services') }}{% endblock %}
+{% block description %}{{ _('MaxCze Services verzorgt complete verbouwingen in Goor en Twente. Van voorbereiding tot oplevering met duidelijke afspraken en degelijk vakmanschap.') }}{% endblock %}
+
+{% block content %}
+<header class="pagina-hero">
+  <div class="pagina-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80');"></div>
+  <div class="container">
+    <div class="pagina-hero-content">
+      <nav class="breadcrumb">
+        <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span>{{ _('Verbouwingen') }}</span>
+      </nav>
+      <div class="sectie-label" style="color:var(--goud)">{{ _('Onze dienst') }}</div>
+      <h1>{{ _('Complete verbouwingen in Goor en Twente') }}</h1>
+      <p>{{ _('Voor een uitbouw, zolderverbouwing, badkamerverbouwing of complete woningaanpassing zorgt MaxCze Services voor een nette uitvoering van begin tot eind.') }}</p>
+    </div>
+  </div>
+</header>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-grid">
+      <div class="service-copy">
+        <div class="sectie-label">{{ _('Verbouwen met overzicht') }}</div>
+        <h2>{{ _('Een verbouwing met duidelijke planning en vaste afspraken') }}</h2>
+        <p>{{ _('Bij een verbouwing draait het niet alleen om het eindresultaat, maar ook om rust tijdens het werk. Daarom werken wij met duidelijke afspraken, korte lijnen en een planning die helder is voor u.') }}</p>
+        <p>{{ _('MaxCze Services helpt klanten in Goor en Twente bij kleine en grote verbouwingen, van het aanpassen van een ruimte tot het compleet vernieuwen van een verdieping.') }}</p>
+      </div>
+      <div class="service-media fade-in">
+        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=900&q=80" alt="Verbouwing van woning in uitvoering" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service-section service-section-alt">
+  <div class="container">
+    <div class="sectie-header fade-in">
+      <div class="sectie-label">{{ _('Waarmee wij helpen') }}</div>
+      <h2>{{ _('Veelgevraagde verbouwingen') }}</h2>
+      <p>{{ _('Wij verzorgen verbouwingen die praktisch, netjes en duurzaam worden uitgevoerd.') }}</p>
+    </div>
+    <div class="service-card-grid">
+      <article class="service-detail-card fade-in">
+        <h3>{{ _('Uitbouw en indelingswijziging') }}</h3>
+        <p>{{ _('Meer leefruimte creëren door een aanbouw, nieuwe indeling of aangepaste doorloop in huis.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-1">
+        <h3>{{ _('Badkamer en keuken verbouwing') }}</h3>
+        <p>{{ _('Strakke afwerking, degelijk voorbereid timmerwerk en aandacht voor praktische details in dagelijks gebruik.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-2">
+        <h3>{{ _('Zolder en extra kamers') }}</h3>
+        <p>{{ _('Slim gebruik van bestaande ruimte voor een extra slaapkamer, werkruimte of berging.') }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="service-section">
+  <div class="container">
+    <div class="sectie-header fade-in">
+      <div class="sectie-label">{{ _('Werkgebied') }}</div>
+      <h2>{{ _('Verbouwingen voor klanten in Goor, Twente en omgeving') }}</h2>
+      <p>{{ _('Wij werken onder meer in Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, Borne en Enschede.') }}</p>
+    </div>
+    <div class="service-links-grid">
+      <a href="{{ localized_url('renovaties') }}" class="service-link-card">
+        <h3>{{ _('Ook renovatie nodig?') }}</h3>
+        <p>{{ _('Bekijk onze aanpak voor renovaties van bestaande ruimtes en woningen.') }}</p>
+      </a>
+      <a href="{{ localized_url('contact') }}" class="service-link-card">
+        <h3>{{ _('Offerte aanvragen') }}</h3>
+        <p>{{ _('Vraag een vrijblijvende offerte aan voor uw verbouwing in Goor of Twente.') }}</p>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

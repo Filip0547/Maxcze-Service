@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}{{ _('Renovaties in Goor | MaxCze Services') }}{% endblock %}
+{% block description %}{{ _('MaxCze Services verzorgt renovaties in Goor en Twente. Voor woningen, houtwerk en ruimtes die vakkundig en netjes vernieuwd moeten worden.') }}{% endblock %}
+
+{% block content %}
+<header class="pagina-hero">
+  <div class="pagina-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?w=1600&q=80');"></div>
+  <div class="container">
+    <div class="pagina-hero-content">
+      <nav class="breadcrumb">
+        <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span>{{ _('Renovaties') }}</span>
+      </nav>
+      <div class="sectie-label" style="color:var(--goud)">{{ _('Onze dienst') }}</div>
+      <h1>{{ _('Renovaties in Goor en regio Twente') }}</h1>
+      <p>{{ _('Voor het opknappen, herstellen en vernieuwen van bestaande ruimtes levert MaxCze Services renovatiewerk met oog voor detail en duurzaamheid.') }}</p>
+    </div>
+  </div>
+</header>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-grid">
+      <div class="service-copy">
+        <div class="sectie-label">{{ _('Renoveren zonder gedoe') }}</div>
+        <h2>{{ _('Uw woning of ruimte weer netjes en toekomstbestendig') }}</h2>
+        <p>{{ _('Een renovatie vraagt om nauwkeurig werk en een goede afstemming op de bestaande situatie. Wij kijken daarom niet alleen naar wat nieuw moet worden, maar ook naar wat behouden kan blijven.') }}</p>
+        <p>{{ _('Of het nu gaat om houtwerk, afwerking of een complete ruimte, MaxCze Services pakt renovaties praktisch en zorgvuldig aan.') }}</p>
+      </div>
+      <div class="service-media fade-in">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&q=80" alt="Renovatie van woonruimte door vakman" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service-section service-section-alt">
+  <div class="container">
+    <div class="sectie-header fade-in">
+      <div class="sectie-label">{{ _('Renovatiewerk') }}</div>
+      <h2>{{ _('Waaruit een renovatie kan bestaan') }}</h2>
+      <p>{{ _('Wij voeren renovaties uit die passen bij de bestaande woning en uw wensen voor gebruik en uitstraling.') }}</p>
+    </div>
+    <div class="service-card-grid">
+      <article class="service-detail-card fade-in">
+        <h3>{{ _('Herstel van houtwerk') }}</h3>
+        <p>{{ _('Reparatie en vervanging van onderdelen die versleten, beschadigd of verouderd zijn.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-1">
+        <h3>{{ _('Renovatie van kamers') }}</h3>
+        <p>{{ _('Slaapkamers, woonkamers, zolders en andere ruimtes die opnieuw moeten worden ingericht of afgewerkt.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-2">
+        <h3>{{ _('Praktische verbeteringen') }}</h3>
+        <p>{{ _('Verbeteringen in indeling, gebruiksgemak en uitstraling zonder onnodig ingrijpende werkzaamheden.') }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-links-grid">
+      <a href="{{ localized_url('kozijnen_deuren') }}" class="service-link-card">
+        <h3>{{ _('Kozijnen en deuren vernieuwen') }}</h3>
+        <p>{{ _('Bekijk ook onze dienst voor het plaatsen en vervangen van kozijnen en deuren.') }}</p>
+      </a>
+      <a href="{{ localized_url('contact') }}" class="service-link-card">
+        <h3>{{ _('Renovatie bespreken') }}</h3>
+        <p>{{ _('Neem contact op voor advies of een offerte voor uw renovatieproject.') }}</p>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

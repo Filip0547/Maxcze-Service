@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}{{ _('Timmerwerk in Goor | MaxCze Services') }}{% endblock %}
+{% block description %}{{ _('MaxCze Services levert timmerwerk in Goor en Twente. Voor maatwerk, houtconstructies, aftimmering en praktische oplossingen in en om de woning.') }}{% endblock %}
+
+{% block content %}
+<header class="pagina-hero">
+  <div class="pagina-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1588854337236-6889d631faa8?w=1600&q=80');"></div>
+  <div class="container">
+    <div class="pagina-hero-content">
+      <nav class="breadcrumb">
+        <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <span>{{ _('Timmerwerk') }}</span>
+      </nav>
+      <div class="sectie-label" style="color:var(--goud)">{{ _('Onze dienst') }}</div>
+      <h1>{{ _('Allround timmerwerk in Goor en regio Twente') }}</h1>
+      <p>{{ _('Voor maatwerk in hout, aftimmering en praktische timmeroplossingen levert MaxCze Services degelijk werk dat past bij uw woning en wensen.') }}</p>
+    </div>
+  </div>
+</header>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-grid">
+      <div class="service-copy">
+        <div class="sectie-label">{{ _('Maatwerk') }}</div>
+        <h2>{{ _('Timmerwerk dat functioneel en netjes wordt uitgevoerd') }}</h2>
+        <p>{{ _('Niet ieder project valt onder een complete verbouwing of renovatie. Juist voor timmerwerk op maat is ervaring belangrijk, zodat alles goed aansluit, stevig is en netjes oogt.') }}</p>
+        <p>{{ _('Wij helpen met uiteenlopende timmerwerkzaamheden voor woningen en kleinere zakelijke projecten in Goor en Twente.') }}</p>
+      </div>
+      <div class="service-media fade-in">
+        <img src="https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=900&q=80" alt="Timmerwerk op maat in werkplaats" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service-section service-section-alt">
+  <div class="container">
+    <div class="sectie-header fade-in">
+      <div class="sectie-label">{{ _('Voorbeelden') }}</div>
+      <h2>{{ _('Veelvoorkomend timmerwerk') }}</h2>
+      <p>{{ _('Wij voeren timmerwerk uit dat praktisch toepasbaar is en netjes wordt afgewerkt.') }}</p>
+    </div>
+    <div class="service-card-grid">
+      <article class="service-detail-card fade-in">
+        <h3>{{ _('Aftimmering en afwerking') }}</h3>
+        <p>{{ _('Aftimmerwerk voor plafonds, wanden, hoeken en aansluitingen die strak afgewerkt moeten worden.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-1">
+        <h3>{{ _('Maatwerk oplossingen') }}</h3>
+        <p>{{ _('Kasten, ombouwen en houtoplossingen die passend worden gemaakt voor uw ruimte.') }}</p>
+      </article>
+      <article class="service-detail-card fade-in vertraging-2">
+        <h3>{{ _('Kleine constructieve aanpassingen') }}</h3>
+        <p>{{ _('Praktisch timmerwerk dat helpt bij het verbeteren of aanpassen van bestaande ruimtes.') }}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="service-section">
+  <div class="container">
+    <div class="service-links-grid">
+      <a href="{{ localized_url('verbouwingen') }}" class="service-link-card">
+        <h3>{{ _('Ook een grotere verbouwing?') }}</h3>
+        <p>{{ _('Bekijk onze pagina over complete verbouwingen in Goor en Twente.') }}</p>
+      </a>
+      <a href="{{ localized_url('contact') }}" class="service-link-card">
+        <h3>{{ _('Timmerwerk aanvragen') }}</h3>
+        <p>{{ _('Bespreek uw klus of maatwerkvraag direct met MaxCze Services.') }}</p>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

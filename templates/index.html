@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ _('MaxCze Services | Vakmanschap in hout – Goor, Overijssel') }}{% endblock %}
-{% block description %}{{ _('MaxCze Services - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, deuren en maatwerk in Goor en omgeving.') }}{% endblock %}
+{% block title %}{{ _('Verbouwingen, renovatie en timmerwerk in Goor | MaxCze Services') }}{% endblock %}
+{% block description %}{{ _('MaxCze Services uit Goor helpt particulieren en bedrijven met verbouwingen, renovaties, kozijnen, deuren en allround timmerwerk in Twente.') }}{% endblock %}
 
 {% block content %}
 
@@ -13,8 +13,8 @@
         <span></span>{{ _('
         Gevestigd in Goor, Overijssel
       ') }}</div>
-      <h1>{{ _('Vakmanschap voor complete verbouwingen en maatwerk') }}</h1>
-      <p>{{ _('Meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. Wij helpen u uw woonwensen werkelijkheid te maken.') }}</p>
+      <h1>{{ _('Verbouwingen, renovatie en timmerwerk in Goor') }}</h1>
+      <p>{{ _('MaxCze Services biedt meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk voor woningen en bedrijfspanden in Goor en regio Twente.') }}</p>
       <div class="hero-knoppen">
         <a href="{{ localized_url('contact') }}" class="btn btn-primair">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>{{ _('
@@ -66,6 +66,7 @@
         </div>
         <h3>{{ _('Complete verbouwingen') }}</h3>
         <p>{{ _('Van voorbereiding tot afwerking verzorgen wij complete verbouwingen voor woningen en bedrijfspanden.') }}</p>
+        <a href="{{ localized_url('verbouwingen') }}" class="dienst-link">{{ _('Meer over verbouwingen') }}</a>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-1">
@@ -76,6 +77,7 @@
         </div>
         <h3>{{ _('Kozijnen en deuren') }}</h3>
         <p>{{ _('Plaatsing, vervanging en herstel van kozijnen en deuren met oog voor duurzaamheid en afwerking.') }}</p>
+        <a href="{{ localized_url('kozijnen_deuren') }}" class="dienst-link">{{ _('Meer over kozijnen en deuren') }}</a>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-2">
@@ -88,6 +90,7 @@
         </div>
         <h3>{{ _('Renovaties') }}</h3>
         <p>{{ _('Praktische en nette renovaties voor binnen en buiten, afgestemd op uw wensen en bestaande situatie.') }}</p>
+        <a href="{{ localized_url('renovaties') }}" class="dienst-link">{{ _('Meer over renovaties') }}</a>
       </div>
 
       <div class="dienst-kaart fade-in vertraging-3">
@@ -98,7 +101,13 @@
         </div>
         <h3>{{ _('Overig timmerwerk') }}</h3>
         <p>{{ _('Voor alle overige timmerwerken bieden wij een betrouwbare, vakkundige en flexibele oplossing.') }}</p>
+        <a href="{{ localized_url('timmerwerk') }}" class="dienst-link">{{ _('Meer over timmerwerk') }}</a>
       </div>
+    </div>
+
+    <div class="sectie-header seo-intro fade-in">
+      <h3>{{ _('Lokale vakman voor Goor en Twente') }}</h3>
+      <p>{{ _('Zoekt u een betrouwbare vakman voor verbouwing, renovatie, kozijnen, deuren of timmerwerk in Goor en Twente, dan bent u bij MaxCze Services aan het juiste adres. Wij combineren persoonlijke service met degelijk vakmanschap en heldere afspraken.') }}</p>
     </div>
   </div>
 </section>
@@ -111,7 +120,7 @@
         <img
           class="intro-foto"
           src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
-          alt="Vakman aan het werk in de werkplaats"
+          alt="Vakman van MaxCze Services aan het werk in de werkplaats"
           loading="lazy"
         />
         <div class="intro-badge-foto">
@@ -209,7 +218,7 @@
 
     <div class="projecten-preview-grid">
       <div class="project-kaart fade-in">
-        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Maatwerk keuken" loading="lazy" />
+        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Maatwerk keuken door MaxCze Services" loading="lazy" />
         <div class="project-kaart-overlay">
           <span class="project-tag">{{ _('Maatwerk') }}</span>
           <h3>{{ _('Keuken op maat – Almelo') }}</h3>
@@ -218,7 +227,7 @@
       </div>
 
       <div class="project-kaart fade-in vertraging-1">
-        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Renovatie houten trap" loading="lazy" />
+        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Traprenovatie project in Twente" loading="lazy" />
         <div class="project-kaart-overlay">
           <span class="project-tag">{{ _('Renovatie') }}</span>
           <h3>{{ _('Trap renovatie – Enschede') }}</h3>
@@ -227,7 +236,7 @@
       </div>
 
       <div class="project-kaart fade-in vertraging-2">
-        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80" alt="Houten kozijnen" loading="lazy" />
+        <img class="project-kaart-foto" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80" alt="Houten kozijnen geplaatst door MaxCze Services" loading="lazy" />
         <div class="project-kaart-overlay">
           <span class="project-tag">{{ _('Kozijnen') }}</span>
           <h3>{{ _('Kozijnen plaatsing – Hengelo') }}</h3>
@@ -265,7 +274,7 @@
         </div>
         <blockquote>{{ _('"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. Fijne communicatie, heldere afspraken en een prachtig eindresultaat."') }}</blockquote>
         <div class="review-auteur">
-          <img class="review-avatar" src="https://i.pravatar.cc/46?img=12" alt="Klant" />
+          <img class="review-avatar" src="https://i.pravatar.cc/46?img=12" alt="Profielfoto van klant Marieke de Boer" />
           <div>
             <div class="review-auteur-naam">{{ _('Marieke de Boer') }}</div>
             <div class="review-auteur-plaats">{{ _('Almelo') }}</div>
@@ -283,7 +292,7 @@
         </div>
         <blockquote>{{ _('"Voor het vervangen van kozijnen en deuren kozen wij voor MaxCze Services. Alles is zorgvuldig afgewerkt en exact volgens planning opgeleverd."') }}</blockquote>
         <div class="review-auteur">
-          <img class="review-avatar" src="https://i.pravatar.cc/46?img=33" alt="Klant" />
+          <img class="review-avatar" src="https://i.pravatar.cc/46?img=33" alt="Profielfoto van klant Peter Jansen" />
           <div>
             <div class="review-auteur-naam">{{ _('Peter Jansen') }}</div>
             <div class="review-auteur-plaats">{{ _('Hengelo') }}</div>
@@ -301,7 +310,7 @@
         </div>
         <blockquote>{{ _('"Onze renovatie is professioneel aangepakt. Van de eerste opname tot de laatste afwerking verliep alles soepel. Zeker een aanrader in Twente."') }}</blockquote>
         <div class="review-auteur">
-          <img class="review-avatar" src="https://i.pravatar.cc/46?img=47" alt="Klant" />
+          <img class="review-avatar" src="https://i.pravatar.cc/46?img=47" alt="Profielfoto van klant Sandra Visscher" />
           <div>
             <div class="review-auteur-naam">{{ _('Sandra Visscher') }}</div>
             <div class="review-auteur-plaats">{{ _('Goor') }}</div>

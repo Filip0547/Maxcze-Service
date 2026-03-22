@@ -2,8 +2,6 @@
    MaxCze Services — Hoofdstylesheet
    ============================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap');
-
 /* ─── CSS Variabelen ─── */
 :root {
   --donker:     #160D06;
@@ -48,9 +46,29 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  display: block;
+}
+
 img { display: block; max-width: 100%; height: auto; }
 a  { text-decoration: none; color: inherit; }
 ul { list-style: none; }
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 2001;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: var(--donker);
+  color: var(--wit);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
 
 /* ─── Typografie ─── */
 h1, h2, h3, h4 {
@@ -74,6 +92,22 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 .sectie p {
   margin-bottom: 1.5rem;
+}
+
+.sectie h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.sectie ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sectie li {
+  color: var(--grijs);
+  margin-bottom: 0.45rem;
 }
 
 /* ─── Utility ─── */
@@ -114,6 +148,15 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .sectie-header p {
   margin-top: 1rem;
   font-size: 1.1rem;
+}
+
+.seo-intro {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.seo-intro h3 {
+  margin-bottom: 0.75rem;
 }
 
 /* ─── Knoppen ─── */
@@ -401,6 +444,96 @@ p { color: var(--grijs); font-size: 1.05rem; }
     #012169;
 }
 
+/* Nav Diensten dropdown */
+.nav-diensten-wrapper {
+  list-style: none;
+  position: relative;
+}
+.nav-diensten {
+  position: relative;
+}
+.nav-diensten-trigger {
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--overgang);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  user-select: none;
+  position: relative;
+}
+.nav-diensten-trigger::-webkit-details-marker { display: none; }
+.nav-diensten-trigger::after {
+  content: '▾';
+  font-size: 0.75rem;
+  opacity: 0.8;
+  transition: transform 0.2s;
+}
+.nav-diensten[open] .nav-diensten-trigger::after { transform: rotate(180deg); }
+.nav-diensten-trigger:hover,
+.nav-diensten[open] .nav-diensten-trigger { color: var(--wit); }
+.nav-diensten-trigger.actief { color: var(--wit); }
+.nav-diensten-trigger::before {
+  content: '';
+  position: absolute;
+  bottom: 2px; left: 1rem; right: 1rem;
+  height: 2px;
+  background: var(--goud);
+  border-radius: 2px;
+  opacity: 0;
+  transition: var(--overgang);
+}
+.nav-diensten-trigger.actief::before { opacity: 1; }
+.nav-diensten-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 210px;
+  background: var(--wit);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-medium);
+  padding: 0.35rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: var(--overgang);
+  z-index: 1100;
+}
+.nav-diensten[open] .nav-diensten-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.nav-diensten-menu a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  color: var(--donker);
+  transition: var(--overgang);
+}
+.nav-diensten-menu a:hover,
+.nav-diensten-menu a.actief {
+  background: var(--lichtgrijs);
+  color: var(--donker);
+}
+.mobiel-sectie-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--goud);
+  padding: 0.75rem 1.5rem 0.1rem;
+  pointer-events: none;
+}
+
 /* Hamburger */
 .hamburger {
   display: none;
@@ -430,7 +563,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
   display: none;
   position: fixed;
   inset: 0;
-  z-index: 999;
+  z-index: 1001;
   background: var(--donker);
   padding: 5rem 2rem 2rem;
   flex-direction: column;
@@ -721,6 +854,19 @@ p { color: var(--grijs); font-size: 1.05rem; }
   color: var(--donker);
 }
 .dienst-kaart p { font-size: 0.95rem; line-height: 1.65; }
+
+.dienst-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: var(--warm);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.dienst-link:hover {
+  color: var(--goud);
+}
 
 /* ═══════════════════════════════════════════
    SECTIE: OVER ONS (snippet homepage)
@@ -1204,6 +1350,78 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .team-functie { font-size: 0.82rem; color: var(--goud); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.75rem; }
 .team-info p { font-size: 0.9rem; }
 
+.service-section {
+  padding: 5rem 0;
+  background: var(--wit);
+}
+
+.service-section-alt {
+  background: var(--room);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.service-copy h2 {
+  margin-bottom: 1rem;
+}
+
+.service-copy p + p {
+  margin-top: 1rem;
+}
+
+.service-media img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium);
+}
+
+.service-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.service-detail-card,
+.service-link-card {
+  display: block;
+  padding: 1.75rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--wit);
+  box-shadow: var(--shadow-zacht);
+  transition: var(--overgang);
+}
+
+.service-detail-card:hover,
+.service-link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-medium);
+}
+
+.service-detail-card h3,
+.service-link-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.service-detail-card p,
+.service-link-card p {
+  font-size: 0.92rem;
+}
+
+.service-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
 /* ═══════════════════════════════════════════
    PROJECTEN PAGINA
 ═══════════════════════════════════════════ */
@@ -1684,6 +1902,25 @@ p { color: var(--grijs); font-size: 1.05rem; }
   50%       { opacity: 1;   transform: translateY(6px); }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .hero-bg,
+  .portfolio-foto,
+  .project-kaart-foto,
+  .fade-in {
+    transform: none !important;
+  }
+}
+
 .fade-in {
   opacity: 0;
   transform: translateY(28px);
@@ -1707,13 +1944,17 @@ p { color: var(--grijs); font-size: 1.05rem; }
 @media (max-width: 1024px) {
   .intro-grid,
   .verhaal-grid,
-  .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .contact-grid,
+  .service-grid { grid-template-columns: 1fr; gap: 3rem; }
 
   .intro-badge-foto { right: 0; }
 
   .projecten-preview-grid,
   .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
   .portfolio-item-groot { grid-column: span 1; }
+
+  .service-card-grid,
+  .service-links-grid { grid-template-columns: 1fr 1fr; }
 
   .werkproces-stappen { grid-template-columns: repeat(2, 1fr); }
   .werkproces-stappen::before { display: none; }
@@ -1734,6 +1975,9 @@ p { color: var(--grijs); font-size: 1.05rem; }
 
   .projecten-preview-grid,
   .portfolio-grid { grid-template-columns: 1fr; }
+
+  .service-card-grid,
+  .service-links-grid { grid-template-columns: 1fr; }
 
   .verhaal-afbeeldingen { height: 320px; }
   .verhaal-foto-groot { width: 85%; height: 280px; }
@@ -1757,6 +2001,10 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .cookie-banner-inner {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .seo-intro {
+    margin-top: 2rem;
   }
 
   .cookie-banner-acties {
@@ -1783,4 +2031,5 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .hero-knoppen .btn { width: 100%; justify-content: center; }
   .werkproces-stappen { grid-template-columns: 1fr; }
   .cta-knoppen { flex-direction: column; align-items: center; }
+  .contact-formulier { padding: 1.5rem; }
 }
