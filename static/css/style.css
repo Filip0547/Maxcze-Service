@@ -795,6 +795,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 .scroll-hint-pijl::after {
   content: '';
+  display: block;
   width: 4px;
   height: 8px;
   background: rgba(255,255,255,0.6);
@@ -1965,6 +1966,10 @@ p { color: var(--grijs); font-size: 1.05rem; }
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .scroll-hint-pijl::after {
+    animation: scrollHint 1.8s infinite !important;
   }
 
   .hero-bg,
