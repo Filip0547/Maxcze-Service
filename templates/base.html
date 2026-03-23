@@ -91,11 +91,15 @@
 <nav class="mobiel-menu" id="mobiel-menu" aria-label="{{ _('Mobiele navigatie') }}">
   <a href="{{ localized_url('home') }}">{{ _('Home') }}</a>
   <a href="{{ localized_url('over_ons') }}">{{ _('Over ons') }}</a>
-  <span class="mobiel-sectie-label">{{ _('Diensten') }}</span>
-  <a href="{{ localized_url('verbouwingen') }}">{{ _('Verbouwingen') }}</a>
-  <a href="{{ localized_url('renovaties') }}">{{ _('Renovaties') }}</a>
-  <a href="{{ localized_url('kozijnen_deuren') }}">{{ _('Kozijnen en deuren') }}</a>
-  <a href="{{ localized_url('timmerwerk') }}">{{ _('Timmerwerk') }}</a>
+  <details class="mobiel-diensten" {% if is_current('verbouwingen') or is_current('renovaties') or is_current('kozijnen_deuren') or is_current('timmerwerk') %}open{% endif %}>
+    <summary class="mobiel-diensten-trigger">{{ _('Diensten') }}</summary>
+    <div class="mobiel-diensten-lijst">
+      <a href="{{ localized_url('verbouwingen') }}" class="{% if is_current('verbouwingen') %}actief{% endif %}">{{ _('Verbouwingen') }}</a>
+      <a href="{{ localized_url('renovaties') }}" class="{% if is_current('renovaties') %}actief{% endif %}">{{ _('Renovaties') }}</a>
+      <a href="{{ localized_url('kozijnen_deuren') }}" class="{% if is_current('kozijnen_deuren') %}actief{% endif %}">{{ _('Kozijnen en deuren') }}</a>
+      <a href="{{ localized_url('timmerwerk') }}" class="{% if is_current('timmerwerk') %}actief{% endif %}">{{ _('Timmerwerk') }}</a>
+    </div>
+  </details>
   <a href="{{ localized_url('projecten') }}">{{ _('Projecten') }}</a>
   <a href="{{ localized_url('contact') }}">{{ _('Contact & Offerte') }}</a>
 </nav>

@@ -580,6 +580,60 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 .mobiel-menu a:hover { color: var(--goud); padding-left: 0.75rem; }
 
+.mobiel-diensten {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.mobiel-diensten-trigger {
+  list-style: none;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: rgba(255,255,255,0.88);
+  padding: 0.75rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--overgang);
+}
+
+.mobiel-diensten-trigger::-webkit-details-marker {
+  display: none;
+}
+
+.mobiel-diensten-trigger::after {
+  content: '▾';
+  font-family: var(--font-body);
+  font-size: 1rem;
+  opacity: 0.9;
+  transition: transform 0.2s ease;
+}
+
+.mobiel-diensten[open] .mobiel-diensten-trigger {
+  color: var(--goud);
+}
+
+.mobiel-diensten[open] .mobiel-diensten-trigger::after {
+  transform: rotate(180deg);
+}
+
+.mobiel-diensten-lijst {
+  padding-bottom: 0.55rem;
+}
+
+.mobiel-diensten-lijst a {
+  border-bottom: none;
+  font-size: 1.55rem;
+  color: rgba(255,255,255,0.78);
+  padding: 0.5rem 0 0.5rem 1.8rem;
+}
+
+.mobiel-diensten-lijst a.actief,
+.mobiel-diensten-lijst a:hover {
+  color: var(--wit);
+  padding-left: 2.2rem;
+}
+
 /* ═══════════════════════════════════════════
    HERO — HOMEPAGE
 ═══════════════════════════════════════════ */

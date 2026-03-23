@@ -96,12 +96,16 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ─── Hamburger menu ─── */
   const hamburger   = document.querySelector('.hamburger');
   const mobielMenu  = document.querySelector('.mobiel-menu');
+  const mobielDiensten = document.querySelector('.mobiel-diensten');
   if (hamburger && mobielMenu) {
     hamburger.addEventListener('click', () => {
       const open = hamburger.classList.toggle('open');
       mobielMenu.classList.toggle('open', open);
       hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
       document.body.style.overflow = open ? 'hidden' : '';
+      if (!open && mobielDiensten) {
+        mobielDiensten.open = false;
+      }
     });
     mobielMenu.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
@@ -109,6 +113,9 @@ document.addEventListener('DOMContentLoaded', () => {
         mobielMenu.classList.remove('open');
         hamburger.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
+        if (mobielDiensten) {
+          mobielDiensten.open = false;
+        }
       });
     });
   }

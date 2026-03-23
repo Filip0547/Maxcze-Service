@@ -543,10 +543,12 @@ def set_language(lang):
 
     return redirect(ROUTE_MAP['home'][lang])
 
+
+@app.route('/health')
+@app.route('/healthz')
+def health():
+    return Response('OK', status=200, mimetype='text/plain')
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
-
-@app.route('/health')
-def health():
-    return "OK", 200
