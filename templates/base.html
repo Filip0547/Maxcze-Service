@@ -20,7 +20,7 @@
   <meta property="og:url" content="{{ request.base_url }}" />
   <meta property="og:site_name" content="{{ site_name }}" />
   <meta property="og:locale" content="{{ locale_code() }}" />
-  {% for lang in ['nl', 'en', 'pl'] if lang != get_locale() %}
+  {% for lang in ['nl', 'en', 'pl', 'uk'] if lang != get_locale() %}
     <meta property="og:locale:alternate" content="{{ locale_code(lang) }}" />
   {% endfor %}
   <meta property="og:image" content="{{ url_for('static', filename='img/maxcze_logo_zwart.png', _external=True) }}" />
@@ -68,6 +68,8 @@
         <summary class="lang-current">
           {% if get_locale() == 'en' %}
             <img class="lang-flag" src="https://flagcdn.com/gb.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />English
+          {% elif get_locale() == 'uk' %}
+            <img class="lang-flag" src="https://flagcdn.com/ua.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />Українська
           {% elif get_locale() == 'pl' %}
             <img class="lang-flag" src="https://flagcdn.com/pl.svg" alt="" aria-hidden="true" loading="eager" decoding="async" />Polski
           {% else %}
@@ -78,6 +80,7 @@
           <a href="{{ switch_language_url('nl') }}" class="{% if get_locale() == 'nl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/nl.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Nederlands</a>
           <a href="{{ switch_language_url('en') }}" class="{% if get_locale() == 'en' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/gb.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />English</a>
           <a href="{{ switch_language_url('pl') }}" class="{% if get_locale() == 'pl' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/pl.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Polski</a>
+          <a href="{{ switch_language_url('uk') }}" class="{% if get_locale() == 'uk' %}actief{% endif %}"><img class="lang-flag" src="https://flagcdn.com/ua.svg" alt="" aria-hidden="true" loading="lazy" decoding="async" />Українська</a>
         </div>
       </details>
 
@@ -121,7 +124,7 @@
     <div class="footer-grid">
       <div>
         <img src="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260316-flagcdn') }}" alt="MaxCze Services" class="site-logo site-logo-footer" />
-        <p class="footer-beschrijving">{{ _('MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30 jaar ervaring in Goor en regio Twente.') }}</p>
+        <p class="footer-beschrijving">{{ _('MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. 25+ jaar ervaring in Goor en regio Twente.') }}</p>
         <div class="footer-sociaal">
           <!-- icons omitted for brevity -->
         </div>

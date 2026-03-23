@@ -46,7 +46,7 @@ msgstr ""
 #: templates/base.html:65
 msgid ""
 "MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk."
-" 30 jaar ervaring in Goor en regio Twente."
+" 25+ jaar ervaring in Goor en regio Twente."
 msgstr ""
 
 #: templates/base.html:71
@@ -293,7 +293,7 @@ msgstr ""
 
 #: templates/index.html:3
 msgid ""
-"MaxCze Services - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
+"MaxCze Services - 25+ jaar vakmanschap in verbouwingen, kozijnen, "
 "deuren en maatwerk in Goor en omgeving."
 msgstr ""
 
@@ -310,7 +310,7 @@ msgstr ""
 
 #: templates/index.html:17
 msgid ""
-"Meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. "
+"25+ jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. "
 "Wij helpen u uw woonwensen werkelijkheid te maken."
 msgstr ""
 
@@ -395,7 +395,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:118
-msgid "30+"
+msgid "25+"
 msgstr ""
 
 #: templates/index.html:119
@@ -418,7 +418,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:134
-msgid "30 jaar ervaring"
+msgid "25+ jaar ervaring"
 msgstr ""
 
 #: templates/index.html:135
@@ -659,7 +659,7 @@ msgstr ""
 
 #: templates/over-ons.html:3
 msgid ""
-"Leer meer over MaxCze Services. Een eenmanszaak met meer dan 30 jaar "
+"Leer meer over MaxCze Services. Een eenmanszaak met 25+ jaar "
 "ervaring in verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
 
@@ -695,7 +695,7 @@ msgstr ""
 
 #: templates/over-ons.html:41
 msgid ""
-"Met meer dan 30 jaar ervaring in het timmervak helpt hij klanten met "
+"Met 25+ jaar ervaring in het timmervak helpt hij klanten met "
 "verbouwingen, renovaties en maatwerkprojecten in Goor en de regio Twente."
 msgstr ""
 
@@ -777,7 +777,7 @@ msgid "Onze geschiedenis"
 msgstr ""
 
 #: templates/over-ons.html:126
-msgid "Meer dan 30 jaar"
+msgid "25+ jaar"
 msgstr ""
 
 #: templates/over-ons.html:132
@@ -846,7 +846,7 @@ msgstr ""
 
 #: templates/over-ons.html:174
 msgid ""
-"Met meer dan 30 jaar ervaring blijft MaxCze Services klanten helpen met "
+"Met 25+ jaar ervaring blijft MaxCze Services klanten helpen met "
 "verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
 
@@ -884,7 +884,7 @@ msgstr ""
 
 #: templates/over-ons.html:208
 msgid ""
-"Meer dan 30 jaar vakkennis in verbouwingen, renovaties en allround "
+"25+ jaar vakkennis in verbouwingen, renovaties en allround "
 "timmerwerk. Altijd persoonlijk contact en een betrouwbare uitvoering."
 msgstr ""
 

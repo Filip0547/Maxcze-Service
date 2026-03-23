@@ -22,7 +22,7 @@ msgstr ""
 #: templates/contact.html:13 templates/over-ons.html:13
 #: templates/privacy.html:13 templates/projecten.html:13
 msgid "Home"
-msgstr "Strona glowna"
+msgstr "Strona główna"
 
 #: templates/base.html:24 templates/base.html:52 templates/base.html:74
 #: templates/index.html:124 templates/over-ons.html:2
@@ -37,7 +37,7 @@ msgstr "Realizacje"
 
 #: templates/base.html:26
 msgid "Offerte aanvragen"
-msgstr "Popros o wycene"
+msgstr "Poproś o wycenę"
 
 #: templates/base.html:54 templates/contact.html:2
 msgid "Contact & Offerte"
@@ -45,10 +45,10 @@ msgstr "Kontakt i wycena"
 
 #: templates/base.html:65
 msgid ""
-"MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. 30"
-" jaar ervaring in Goor en regio Twente."
+"MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. "
+"25+ jaar ervaring in Goor en regio Twente."
 msgstr ""
-"MaxCze Services - rzemiosło dla remontów, renowacji i stolarki. 30 lat "
+"MaxCze Services - rzemiosło dla remontów, renowacji i stolarki. 25+ lat "
 "doświadczenia w Goor i regionie Twente."
 
 #: templates/base.html:71
@@ -77,7 +77,7 @@ msgstr "Renowacje"
 
 #: templates/base.html:85 templates/index.html:99
 msgid "Overig timmerwerk"
-msgstr "Pozostale prace stolarskie"
+msgstr "Pozostałe prace stolarskie"
 
 #: templates/base.html:90
 msgid "Goor en regio Twente"
@@ -101,11 +101,11 @@ msgstr "Polityka prywatności"
 
 #: templates/contact.html:3
 msgid ""
-"Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of "
-"plan een vrijblijvend gesprek."
+"Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"
+" plan een vrijblijvend gesprek."
 msgstr ""
-"Skontaktuj się z serwisem MaxCze w Goor. Poproś o bezpłatną wycenę lub umów "
-"siÄ™ na niezobowiÄ…zujÄ…cÄ… konsultacjÄ™."
+"Skontaktuj się z MaxCze Services w Goor. Poproś o bezpłatną wycenę lub umów "
+"się na niezobowiązującą konsultację."
 
 #: templates/contact.html:17
 msgid "Laten we praten"
@@ -221,15 +221,19 @@ msgstr ""
 
 #: templates/contact.html:105
 msgid "Velden met * zijn verplicht."
-msgstr "Pola oznaczone * sÄ… obowiÄ…zkowe."
+msgstr "Pola oznaczone * są obowiązkowe."
 
 #: templates/contact.html:117 app.py:337
-msgid "Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw."
-msgstr "Nie wszystkie wymagane pola zostały wypełnione. Sprawdź pola oznaczone * i spróbuj ponownie."
+msgid ""
+"Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en"
+" probeer opnieuw."
+msgstr ""
+"Nie wszystkie wymagane pola zostały wypełnione. Sprawdź pola oznaczone * i "
+"spróbuj ponownie."
 
 #: templates/contact.html:118
 msgid "Voornaam"
-msgstr "Imie"
+msgstr "Imię"
 
 #: templates/contact.html:119
 msgid "Jan"
@@ -273,7 +277,7 @@ msgstr "Wybierz opcje"
 
 #: templates/contact.html:141
 msgid "Offerte aanvraag"
-msgstr "Zapytanie o wycene"
+msgstr "Zapytanie o wycenę"
 
 #: templates/contact.html:142
 msgid "Vraag"
@@ -294,8 +298,14 @@ msgid "Wij gebruiken cookies"
 msgstr "Używamy plików cookie"
 
 #: templates/base.html:59
-msgid "We gebruiken noodzakelijke cookies om de website goed te laten werken. Met uw toestemming plaatsen we ook aanvullende cookies. U kunt uw keuze altijd aanpassen."
-msgstr "Używamy niezbędnych plików cookie, aby strona działała prawidłowo. Za Twoją zgodą możemy też zapisywać dodatkowe pliki cookie. Swój wybór możesz zmienić w każdej chwili."
+msgid ""
+"We gebruiken noodzakelijke cookies om de website goed te laten werken. Met "
+"uw toestemming plaatsen we ook aanvullende cookies. U kunt uw keuze altijd "
+"aanpassen."
+msgstr ""
+"Używamy niezbędnych plików cookie, aby strona działała prawidłowo. Za Twoją "
+"zgodą możemy też zapisywać dodatkowe pliki cookie. Swój wybór możesz zmienić"
+" w każdej chwili."
 
 #: templates/base.html:60
 msgid "Meer informatie"
@@ -316,28 +326,56 @@ msgstr "Ustawienia cookie"
 msgid "Aanvraag ontvangen!"
 msgstr "Wniosek otrzymany!"
 
-msgid "Bedankt voor uw bericht. Wij nemen binnen één werkdag contact met u op om uw aanvraag te bespreken."
-msgstr "Dziękujemy za wiadomość. Skontaktujemy się z Tobą w ciągu jednego dnia roboczego, aby omówić Twoje zgłoszenie."
+msgid ""
+"Bedankt voor uw bericht. Wij nemen binnen één werkdag contact met u op om uw"
+" aanvraag te bespreken."
+msgstr ""
+"Dziękujemy za wiadomość. Skontaktujemy się z Tobą w ciągu jednego dnia "
+"roboczego, aby omówić Twoje zgłoszenie."
 
 #: templates/privacy.html:79
-msgid "Op dit moment gebruiken wij alleen noodzakelijke en functionele cookies om de website goed te laten werken (zoals taalvoorkeuren en cookiekeuzes)."
-msgstr "Obecnie używamy wyłącznie niezbędnych i funkcjonalnych plików cookie, aby strona działała poprawnie (np. wybór języka i ustawienia cookies)."
+msgid ""
+"Op dit moment gebruiken wij alleen noodzakelijke en functionele cookies om "
+"de website goed te laten werken (zoals taalvoorkeuren en cookiekeuzes)."
+msgstr ""
+"Obecnie używamy wyłącznie niezbędnych i funkcjonalnych plików cookie, aby "
+"strona działała poprawnie (np. wybór języka i ustawienia cookies)."
 
 #: templates/privacy.html:80
-msgid "Bij ieder nieuw websitebezoek (nieuwe browsersessie) tonen wij de cookiebanner eenmalig. Tijdens hetzelfde bezoek tonen wij deze niet opnieuw op elke pagina."
-msgstr "Przy każdej nowej wizycie na stronie (nowa sesja przeglądarki) pokazujemy baner cookie tylko raz. W trakcie tej samej wizyty nie pokazujemy go ponownie na każdej podstronie."
+msgid ""
+"Bij ieder nieuw websitebezoek (nieuwe browsersessie) tonen wij de "
+"cookiebanner eenmalig. Tijdens hetzelfde bezoek tonen wij deze niet opnieuw "
+"op elke pagina."
+msgstr ""
+"Przy każdej nowej wizycie na stronie (nowa sesja przeglądarki) pokazujemy "
+"baner cookie tylko raz. W trakcie tej samej wizyty nie pokazujemy go "
+"ponownie na każdej podstronie."
 
 #: templates/privacy.html:81
-msgid "Wij plaatsen geen analytics- of marketingcookies zonder uw toestemming. Als wij dat in de toekomst veranderen, vragen wij u eerst expliciet om toestemming via de cookiebanner."
-msgstr "Nie zapisujemy analitycznych ani marketingowych plików cookie bez Twojej zgody. Jeśli to się zmieni w przyszłości, najpierw poprosimy o wyraźną zgodę w banerze cookie."
+msgid ""
+"Wij plaatsen geen analytics- of marketingcookies zonder uw toestemming. Als "
+"wij dat in de toekomst veranderen, vragen wij u eerst expliciet om "
+"toestemming via de cookiebanner."
+msgstr ""
+"Nie zapisujemy analitycznych ani marketingowych plików cookie bez Twojej "
+"zgody. Jeśli to się zmieni w przyszłości, najpierw poprosimy o wyraźną zgodę"
+" w banerze cookie."
 
 #: templates/privacy.html:82
-msgid "Voor bezoekers uit de EU/EER volgen wij de AVG (GDPR) en de ePrivacy-regels: niet-noodzakelijke cookies plaatsen wij alleen na een actieve toestemming."
-msgstr "Dla odwiedzających z UE/EOG stosujemy zasady RODO (GDPR) i ePrivacy: nieniezbędne pliki cookie zapisujemy wyłącznie po aktywnej zgodzie."
+msgid ""
+"Voor bezoekers uit de EU/EER volgen wij de AVG (GDPR) en de ePrivacy-regels:"
+" niet-noodzakelijke cookies plaatsen wij alleen na een actieve toestemming."
+msgstr ""
+"Dla odwiedzających z UE/EOG stosujemy zasady RODO (GDPR) i ePrivacy: "
+"nieniezbędne pliki cookie zapisujemy wyłącznie po aktywnej zgodzie."
 
 #: templates/privacy.html:83
-msgid "U kunt uw cookiekeuze op elk moment aanpassen via de knop Cookie-instellingen onderaan de website."
-msgstr "Swój wybór dotyczący cookies możesz w każdej chwili zmienić przyciskiem Ustawienia cookie na dole strony."
+msgid ""
+"U kunt uw cookiekeuze op elk moment aanpassen via de knop Cookie-"
+"instellingen onderaan de website."
+msgstr ""
+"Swój wybór dotyczący cookies możesz w każdej chwili zmienić przyciskiem "
+"Ustawienia cookie na dole strony."
 
 #: templates/contact.html:145
 msgid "Overig"
@@ -345,7 +383,7 @@ msgstr "Inne"
 
 #: templates/contact.html:150
 msgid "Bericht"
-msgstr "Wiadomosc"
+msgstr "Wiadomość"
 
 #: templates/contact.html:151
 msgid "Omschrijf uw aanvraag"
@@ -353,15 +391,15 @@ msgstr "Opisz swoją prośbę"
 
 #: templates/contact.html:157
 msgid "Ik ga akkoord met het"
-msgstr "Akceptuje"
+msgstr "Akceptuję"
 
 #: templates/contact.html:157
 msgid "privacybeleid"
-msgstr "polityke prywatnosci"
+msgstr "politykę prywatności"
 
 #: templates/contact.html:163
 msgid "Aanvraag versturen"
-msgstr "Wyslij zapytanie"
+msgstr "Wyślij zapytanie"
 
 #: templates/contact.html:172
 msgid "Request received!"
@@ -381,10 +419,10 @@ msgstr "Serwis MaxCze | Rzemiosło w drewnie – Goor, Overijssel"
 
 #: templates/index.html:3
 msgid ""
-"MaxCze Services - meer dan 30 jaar vakmanschap in verbouwingen, kozijnen, "
+"MaxCze Services - 25+ jaar vakmanschap in verbouwingen, kozijnen, "
 "deuren en maatwerk in Goor en omgeving."
 msgstr ""
-"MaxCze Services - ponad 30 lat rzemiosła w zakresie renowacji, ościeżnic, "
+"MaxCze Services - 25+ lat rzemiosła w zakresie renowacji, ościeżnic, "
 "drzwi i prac na zamówienie w Goor i okolicach."
 
 #: templates/index.html:13
@@ -394,20 +432,20 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        Znajduje siÄ™ w Goor, Overijssel\n"
+"        Siedziba w Goor, Overijssel\n"
 "      "
 
 #: templates/index.html:16
 msgid "Vakmanschap voor complete verbouwingen en maatwerk"
-msgstr "Rzemioslo dla kompleksowych przebudow i stolarki na wymiar"
+msgstr "Rzemiosło w kompleksowych przebudowach i stolarce na wymiar"
 
 #: templates/index.html:17
 msgid ""
-"Meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. Wij"
+"25+ jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. Wij"
 " helpen u uw woonwensen werkelijkheid te maken."
 msgstr ""
-"Ponad 30 lat doswiadczenia w przebudowach, oknach, drzwiach i stolarce na "
-"wymiar. Pomagamy zamienic potrzeby mieszkaniowe w rzeczywistosc."
+"25+ lat doświadczenia w przebudowach, oknach, drzwiach i stolarce na "
+"wymiar. Pomagamy wcielać potrzeby mieszkaniowe w życie."
 
 #: templates/index.html:20
 msgid ""
@@ -416,7 +454,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          Popros o bezplatna wycene\n"
+"          Poproś o bezpłatną wycenę\n"
 "        "
 
 #: templates/index.html:24
@@ -457,7 +495,7 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"    Zwój\n"
+"    Przewiń\n"
 "  "
 
 #: templates/index.html:55
@@ -497,20 +535,20 @@ msgid ""
 "Praktische en nette renovaties voor binnen en buiten, afgestemd op uw wensen"
 " en bestaande situatie."
 msgstr ""
-"Praktyczne i schludne renowacje wewnÄ…trz i na zewnÄ…trz, dostosowane do "
-"Twoich życzeń i istniejącej sytuacji."
+"Praktyczne i schludne renowacje wewnątrz i na zewnątrz, dostosowane do "
+"Twoich potrzeb i istniejącej sytuacji."
 
 #: templates/index.html:100
 msgid ""
 "Voor alle overige timmerwerken bieden wij een betrouwbare, vakkundige en "
 "flexibele oplossing."
 msgstr ""
-"Oferujemy niezawodne, profesjonalne i elastyczne rozwiÄ…zanie dla wszelkich "
+"Oferujemy niezawodne, profesjonalne i elastyczne rozwiązanie dla wszelkich "
 "innych prac stolarskich."
 
 #: templates/index.html:118
-msgid "30+"
-msgstr "30+"
+msgid "25+"
+msgstr "25+"
 
 #: templates/index.html:119
 msgid "jaar"
@@ -530,13 +568,13 @@ msgid ""
 "klanten met verbouwingen, renovaties en timmerwerk in Goor en de regio "
 "Twente."
 msgstr ""
-"MaxCze Services jest jednoosobowÄ… firmÄ… Maxa Czepelki. Od 2016 roku pomaga "
-"klientom przy remontach, remontach i stolarstwie na terenie Goor i regionu "
-"Twente."
+"MaxCze Services to jednoosobowa firma Maxa Czepelki. Od 2016 roku pomaga "
+"klientom przy przebudowach, renowacjach i pracach stolarskich na terenie "
+"Goor i regionu Twente."
 
 #: templates/index.html:134
-msgid "30 jaar ervaring"
-msgstr "30 lat doświadczenia"
+msgid "25+ jaar ervaring"
+msgstr "25+ lat doświadczenia"
 
 #: templates/index.html:135
 msgid ""
@@ -597,7 +635,7 @@ msgstr "1"
 
 #: templates/index.html:179
 msgid "Kennismaken"
-msgstr "Poznajemy CiÄ™"
+msgstr "Poznajmy się"
 
 #: templates/index.html:180
 msgid ""
@@ -613,15 +651,15 @@ msgstr "2"
 
 #: templates/index.html:184
 msgid "Offerte &amp; ontwerp"
-msgstr "Cytaty &amp; projekt"
+msgstr "Wycena i projekt"
 
 #: templates/index.html:185
 msgid ""
 "Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of "
 "3D-visualisatie."
 msgstr ""
-"Wykonujemy szczegółową wycenę oraz w razie potrzeby szkic projektu lub "
-"wizualizacjÄ™ 3D."
+"Przygotowujemy szczegółową wycenę oraz, w razie potrzeby, szkic projektu lub"
+" wizualizację 3D."
 
 #: templates/index.html:188
 msgid "3"
@@ -644,7 +682,7 @@ msgstr "4"
 
 #: templates/index.html:194
 msgid "Oplevering"
-msgstr "Dostawa"
+msgstr "Odbiór"
 
 #: templates/index.html:195
 msgid ""
@@ -676,8 +714,8 @@ msgstr "Kuchnia na wymiar – Almelo"
 msgid ""
 "Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur."
 msgstr ""
-"Całkowicie wykonana na wymiar kuchnia z białego dębu, łącznie z wyspą "
-"kuchennÄ… i urzÄ…dzeniami do zabudowy."
+"W pełni wykonana na wymiar kuchnia z białego dębu, w tym wyspa kuchenna i "
+"sprzęt do zabudowy."
 
 #: templates/index.html:224
 msgid "Trap renovatie – Enschede"
@@ -690,7 +728,7 @@ msgstr "Kompletny remont schodów z nowymi stopniami i kratami z litego dębu."
 #: templates/index.html:232 templates/projecten.html:71
 #: templates/projecten.html:143
 msgid "Kozijnen"
-msgstr "Ramki"
+msgstr "Okna"
 
 #: templates/index.html:233
 msgid "Kozijnen plaatsing – Hengelo"
@@ -698,7 +736,7 @@ msgstr "Montaż stolarki okiennej – Hengelo"
 
 #: templates/index.html:234
 msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
-msgstr "Wymiana 14 stolarki okiennej z drewna meranti na szybÄ™ zespolonÄ…."
+msgstr "Wymiana 14 okien z drewna meranti z podwójnym przeszkleniem."
 
 #: templates/index.html:240
 msgid ""
@@ -728,8 +766,8 @@ msgstr ""
 
 #: templates/index.html:266
 msgid ""
-"\"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. Fijne"
-" communicatie, heldere afspraken en een prachtig eindresultaat.\""
+"\"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. "
+"Fijne communicatie, heldere afspraken en een prachtig eindresultaat.\""
 msgstr ""
 "\"Serwis MaxCze przeprowadził nasz remont solidnie i profesjonalnie. Dobra "
 "komunikacja, jasne umowy i piękny efekt końcowy.\""
@@ -752,7 +790,7 @@ msgstr ""
 
 #: templates/index.html:288
 msgid "Peter Jansen"
-msgstr "Petera Jansena"
+msgstr "Peter Jansen"
 
 #: templates/index.html:289
 msgid "Hengelo"
@@ -763,9 +801,9 @@ msgid ""
 "\"Onze renovatie is professioneel aangepakt. Van de eerste opname tot de "
 "laatste afwerking verliep alles soepel. Zeker een aanrader in Twente.\""
 msgstr ""
-"\"Nasz remont został przeprowadzony profesjonalnie. Od pierwszego nagrania do"
-" finalnego wykończenia wszystko przebiegło sprawnie. Zdecydowanie polecamy w"
-" Twente.\""
+"\"Nasz remont został przeprowadzony profesjonalnie. Od pierwszego nagrania "
+"do finalnego wykończenia wszystko przebiegło sprawnie. Zdecydowanie polecamy"
+" w Twente.\""
 
 #: templates/index.html:306
 msgid "Sandra Visscher"
@@ -773,7 +811,7 @@ msgstr "Sandra Visscher"
 
 #: templates/index.html:307
 msgid "Goor"
-msgstr "Gdy"
+msgstr "Goor"
 
 #: templates/index.html:319
 msgid "Klaar om te beginnen?"
@@ -799,7 +837,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          PoproÅ› o wycenÄ™\n"
+"          Poproś o wycenę\n"
 "        "
 
 #: templates/index.html:328
@@ -814,10 +852,10 @@ msgstr ""
 
 #: templates/over-ons.html:3
 msgid ""
-"Leer meer over MaxCze Services. Een eenmanszaak met meer dan 30 jaar ervaring"
-" in verbouwingen, renovaties en timmerwerk in Twente."
+"Leer meer over MaxCze Services. Een eenmanszaak met 25+ jaar "
+"ervaring in verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
-"Dowiedz się więcej o serwisie MaxCze. Firma jednoosobowa z ponad 30-letnim "
+"Dowiedz się więcej o serwisie MaxCze. Firma jednoosobowa z 25+-letnim "
 "doświadczeniem w remontach, remontach i stolarce w Twente."
 
 #: templates/over-ons.html:17
@@ -854,10 +892,10 @@ msgstr "Serwis MaxCze został założony w 2016 roku przez Maxa Czepelkę."
 
 #: templates/over-ons.html:41
 msgid ""
-"Met meer dan 30 jaar ervaring in het timmervak helpt hij klanten met "
+"Met 25+ jaar ervaring in het timmervak helpt hij klanten met "
 "verbouwingen, renovaties en maatwerkprojecten in Goor en de regio Twente."
 msgstr ""
-"Dzięki ponad 30-letniemu doświadczeniu w branży stolarskiej pomaga klientom "
+"Dzięki 25+-letniemu doświadczeniu w branży stolarskiej pomaga klientom "
 "przy remontach, renowacjach i projektach niestandardowych w regionie Goor i "
 "Twente."
 
@@ -952,8 +990,8 @@ msgid "Onze geschiedenis"
 msgstr "Nasza historia"
 
 #: templates/over-ons.html:126
-msgid "Meer dan 30 jaar"
-msgstr "Ponad 30 lat"
+msgid "25+ jaar"
+msgstr "25+ lat"
 
 #: templates/over-ons.html:132
 msgid "2016"
@@ -1029,11 +1067,11 @@ msgstr "Niezawodny partner"
 
 #: templates/over-ons.html:174
 msgid ""
-"Met meer dan 30 jaar ervaring blijft MaxCze Services klanten helpen met "
+"Met 25+ jaar ervaring blijft MaxCze Services klanten helpen met "
 "verbouwingen, renovaties en timmerwerk in Twente."
 msgstr ""
-"Dzięki ponad 30-letniemu doświadczeniu MaxCze Services nadal pomaga klientom "
-"przy remontach, remontach i stolarstwie w Twente."
+"Dzięki 25+-letniemu doświadczeniu MaxCze Services nadal pomaga klientom"
+" przy remontach, remontach i stolarstwie w Twente."
 
 #: templates/over-ons.html:184
 msgid "Toekomst"
@@ -1041,15 +1079,15 @@ msgstr "Przyszły"
 
 #: templates/over-ons.html:185
 msgid "Blijven verbeteren"
-msgstr "Udoskonalaj siÄ™"
+msgstr "Ciągłe doskonalenie"
 
 #: templates/over-ons.html:186
 msgid ""
 "Ook in de komende jaren blijft persoonlijke service en degelijk vakwerk de "
 "basis van ieder project."
 msgstr ""
-"Indywidualna obsługa i solidne rzemiosło pozostaną podstawą każdego projektu"
-" w nadchodzÄ…cych latach."
+"Również w kolejnych latach osobista obsługa i solidne rzemiosło pozostaną "
+"podstawą każdego projektu."
 
 #: templates/over-ons.html:198
 msgid "Eén aanspreekpunt, van begin tot eind"
@@ -1057,11 +1095,11 @@ msgstr "Jeden punkt kontaktowy od początku do końca"
 
 #: templates/over-ons.html:199
 msgid ""
-"Bij MaxCze Services wordt elk project persoonlijk uitgevoerd en begeleid door"
-" de eigenaar."
+"Bij MaxCze Services wordt elk project persoonlijk uitgevoerd en begeleid "
+"door de eigenaar."
 msgstr ""
-"W MaxCze Services każdy projekt jest wykonywany osobiście i nadzorowany przez"
-" właściciela."
+"W MaxCze Services każdy projekt jest wykonywany osobiście i nadzorowany "
+"przez właściciela."
 
 #: templates/over-ons.html:206
 msgid "Max Czepelka"
@@ -1073,10 +1111,10 @@ msgstr "Właściciel &amp; Rzemieślnik"
 
 #: templates/over-ons.html:208
 msgid ""
-"Meer dan 30 jaar vakkennis in verbouwingen, renovaties en allround "
+"25+ jaar vakkennis in verbouwingen, renovaties en allround "
 "timmerwerk. Altijd persoonlijk contact en een betrouwbare uitvoering."
 msgstr ""
-"Ponad 30 lat doświadczenia w remontach, renowacjach i wszechstronnej "
+"25+ lat doświadczenia w remontach, renowacjach i wszechstronnej "
 "stolarce. Zawsze osobisty kontakt i rzetelna realizacja."
 
 #: templates/over-ons.html:219
@@ -1085,15 +1123,15 @@ msgstr "Współpracować?"
 
 #: templates/over-ons.html:220
 msgid "Klaar om kennis te maken?"
-msgstr "Gotowy na zapoznanie siÄ™?"
+msgstr "Gotowy, aby nas poznać?"
 
 #: templates/over-ons.html:221
 msgid ""
 "Plan een vrijblijvend gesprek in op onze locatie in Goor, of vraag direct "
 "een offerte aan voor uw project."
 msgstr ""
-"Umów się na niezobowiązującą konsultację w naszej lokalizacji w Goor lub "
-"natychmiast poproÅ› o wycenÄ™ swojego projektu."
+"Umów niezobowiązującą konsultację w naszej siedzibie w Goor albo od razu "
+"poproś o wycenę swojego projektu."
 
 #: templates/privacy.html:2 templates/privacy.html:15
 #: templates/privacy.html:18
@@ -1176,7 +1214,7 @@ msgid ""
 "Wanneer u gebruik maakt van onze website of contact met ons opneemt, kunnen "
 "wij de volgende gegevens verwerken:"
 msgstr ""
-"Gdy korzystasz z naszej strony internetowej lub kontaktujesz siÄ™ z nami, "
+"Gdy korzystasz z naszej strony internetowej lub kontaktujesz się z nami, "
 "możemy przetwarzać następujące dane:"
 
 #: templates/privacy.html:41
@@ -1248,9 +1286,9 @@ msgid ""
 " uitvoering van onze diensten of wanneer wij hier wettelijk toe verplicht "
 "zijn. Wij verkopen uw gegevens nooit aan derden."
 msgstr ""
-"Twoje dane osobowe udostępniamy podmiotom trzecim tylko wtedy, gdy jest to "
-"konieczne do świadczenia naszych usług lub gdy jesteśmy do tego prawnie "
-"zobowiÄ…zani. Nigdy nie sprzedajemy Twoich danych osobom trzecim."
+"Udostępniamy Twoje dane osobowe podmiotom trzecim wyłącznie wtedy, gdy jest "
+"to konieczne do realizacji naszych usług albo gdy wymagają tego przepisy "
+"prawa. Nigdy nie sprzedajemy Twoich danych osobowych."
 
 #: templates/privacy.html:64
 msgid "7. Beveiliging van gegevens"
@@ -1334,9 +1372,8 @@ msgid ""
 "Heeft u vragen over deze privacyverklaring of over hoe wij met uw gegevens "
 "omgaan? Neem dan contact met ons op via:"
 msgstr ""
-"Czy masz pytania dotyczące niniejszego oświadczenia o ochronie prywatności "
-"lub sposobu, w jaki obchodzimy siÄ™ z Twoimi danymi? Skontaktuj siÄ™ z nami "
-"poprzez:"
+"Masz pytania dotyczące niniejszej polityki prywatności albo sposobu, w jaki "
+"przetwarzamy Twoje dane? Skontaktuj się z nami:"
 
 #: templates/privacy.html:86
 msgid "Telefoon: +31 6 33649552."
@@ -1351,8 +1388,8 @@ msgid ""
 "Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, "
 "verbouwingen en meer. Vakmanschap dat spreekt voor zich."
 msgstr ""
-"Zobacz nasze zrealizowane projekty: meble na wymiar, stolarkÄ™ okiennÄ…, "
-"drzwi, renowacje i wiele innych. Rzemiosło mówi samo za siebie."
+"Zobacz nasze zrealizowane projekty: meble na wymiar, okna, drzwi, przebudowy"
+" i wiele więcej. Rzemiosło, które broni się samo."
 
 #: templates/projecten.html:17
 msgid "Ons portfolio"
@@ -1489,8 +1526,8 @@ msgid ""
 "Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige "
 "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
 msgstr ""
-"Od surowych, gołych ścian po stylowy salon z piękną dębową podłogą, wnęką na"
-" kominek i wbudowanÄ… szafkÄ… pod telewizor."
+"Od surowych, pustych ścian do stylowego salonu z piękną dębową podłogą, "
+"wnęką kominkową i wbudowaną szafką RTV."
 
 #: templates/projecten.html:144
 msgid "Dakkapel kozijnen – Wierden"
@@ -1501,8 +1538,8 @@ msgid ""
 "Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting "
 "op de bestaande constructie."
 msgstr ""
-"Montaż ościeżnic drewnianych w nowej lukarnie. Idealne połączenie z "
-"istniejÄ…cÄ… konstrukcjÄ…."
+"Montaż drewnianych ościeżnic w nowej lukarnie. Idealne dopasowanie do "
+"istniejącej konstrukcji."
 
 #: templates/projecten.html:163
 msgid "Uw project"
@@ -1539,14 +1576,23 @@ msgstr "Nawigacja mobilna"
 msgid "Contact met MaxCze Services | Goor, Overijssel"
 msgstr "Kontakt z MaxCze Services | Goor, Overijssel"
 
-msgid "Neem contact op met MaxCze Services in Goor voor een offerte, advies of vragen over verbouwing, renovatie, kozijnen, deuren en timmerwerk."
-msgstr "Skontaktuj się z MaxCze Services w Goor, aby uzyskać wycenę, poradę lub zadać pytania dotyczące przebudowy, renowacji, okien, drzwi i prac stolarskich."
+msgid ""
+"Neem contact op met MaxCze Services in Goor voor een offerte, advies of "
+"vragen over verbouwing, renovatie, kozijnen, deuren en timmerwerk."
+msgstr ""
+"Skontaktuj się z MaxCze Services w Goor, aby uzyskać wycenę, poradę lub "
+"zadać pytania dotyczące przebudowy, renowacji, okien, drzwi i prac "
+"stolarskich."
 
 msgid "Contact voor verbouwing, renovatie en timmerwerk in Goor"
 msgstr "Kontakt w sprawie przebudowy, renowacji i prac stolarskich w Goor"
 
-msgid "Vraag een gratis offerte aan voor uw project in Goor of Twente. Wij reageren binnen één werkdag op uw aanvraag."
-msgstr "Poproś o bezpłatną wycenę swojego projektu w Goor lub Twente. Odpowiadamy w ciągu jednego dnia roboczego."
+msgid ""
+"Vraag een gratis offerte aan voor uw project in Goor of Twente. Wij reageren"
+" binnen één werkdag op uw aanvraag."
+msgstr ""
+"Poproś o bezpłatną wycenę swojego projektu w Goor lub Twente. Odpowiadamy w "
+"ciągu jednego dnia roboczego."
 
 msgid "Uw lokale servicepartner in Goor"
 msgstr "Twój lokalny partner usługowy w Goor"
@@ -1557,14 +1603,24 @@ msgstr "Wyślij zapytanie ofertowe lub pytanie dotyczące swojego projektu"
 msgid "Verbouwingen, renovatie en timmerwerk in Goor | MaxCze Services"
 msgstr "Przebudowy, renowacje i stolarstwo w Goor | MaxCze Services"
 
-msgid "MaxCze Services uit Goor helpt particulieren en bedrijven met verbouwingen, renovaties, kozijnen, deuren en allround timmerwerk in Twente."
-msgstr "MaxCze Services z Goor pomaga osobom prywatnym i firmom w przebudowach, renowacjach, montażu okien, drzwi oraz we wszechstronnych pracach stolarskich w Twente."
+msgid ""
+"MaxCze Services uit Goor helpt particulieren en bedrijven met verbouwingen, "
+"renovaties, kozijnen, deuren en allround timmerwerk in Twente."
+msgstr ""
+"MaxCze Services z Goor pomaga osobom prywatnym i firmom w przebudowach, "
+"renowacjach, montażu okien, drzwi oraz we wszechstronnych pracach "
+"stolarskich w Twente."
 
 msgid "Verbouwingen, renovatie en timmerwerk in Goor"
 msgstr "Przebudowy, renowacje i stolarstwo w Goor"
 
-msgid "MaxCze Services biedt meer dan 30 jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk voor woningen en bedrijfspanden in Goor en regio Twente."
-msgstr "MaxCze Services oferuje ponad 30 lat doświadczenia w przebudowach, oknach, drzwiach i pracach na wymiar dla domów oraz budynków firmowych w Goor i regionie Twente."
+msgid ""
+"MaxCze Services biedt 25+ jaar ervaring in verbouwingen, kozijnen, "
+"deuren en maatwerk voor woningen en bedrijfspanden in Goor en regio Twente."
+msgstr ""
+"MaxCze Services oferuje 25+ lat doświadczenia w przebudowach, oknach, "
+"drzwiach i pracach na wymiar dla domów oraz budynków firmowych w Goor i "
+"regionie Twente."
 
 msgid "Meer over verbouwingen"
 msgstr "Więcej o przebudowach"
@@ -1581,50 +1637,85 @@ msgstr "Więcej o stolarstwie"
 msgid "Lokale vakman voor Goor en Twente"
 msgstr "Lokalny fachowiec dla Goor i Twente"
 
-msgid "Zoekt u een betrouwbare vakman voor verbouwing, renovatie, kozijnen, deuren of timmerwerk in Goor en Twente, dan bent u bij MaxCze Services aan het juiste adres. Wij combineren persoonlijke service met degelijk vakmanschap en heldere afspraken."
-msgstr "Jeśli szukasz rzetelnego fachowca do przebudowy, renowacji, montażu okien, drzwi lub prac stolarskich w Goor i Twente, MaxCze Services jest właściwym wyborem. Łączymy osobiste podejście z solidnym rzemiosłem i jasnymi ustaleniami."
+msgid ""
+"Zoekt u een betrouwbare vakman voor verbouwing, renovatie, kozijnen, deuren "
+"of timmerwerk in Goor en Twente, dan bent u bij MaxCze Services aan het "
+"juiste adres. Wij combineren persoonlijke service met degelijk vakmanschap "
+"en heldere afspraken."
+msgstr ""
+"Jeśli szukasz rzetelnego fachowca do przebudowy, renowacji, montażu okien, "
+"drzwi lub prac stolarskich w Goor i Twente, MaxCze Services jest właściwym "
+"wyborem. Łączymy osobiste podejście z solidnym rzemiosłem i jasnymi "
+"ustaleniami."
 
 msgid "Over MaxCze Services in Goor | Vakmanschap en service"
 msgstr "O MaxCze Services w Goor | Rzemiosło i obsługa"
 
-msgid "Lees meer over MaxCze Services uit Goor, de werkwijze, ervaring en persoonlijke aanpak voor verbouwingen, renovaties en timmerwerk in Twente."
-msgstr "Dowiedz się więcej o MaxCze Services z Goor, sposobie pracy, doświadczeniu i osobistym podejściu do przebudów, renowacji i stolarstwa w Twente."
+msgid ""
+"Lees meer over MaxCze Services uit Goor, de werkwijze, ervaring en "
+"persoonlijke aanpak voor verbouwingen, renovaties en timmerwerk in Twente."
+msgstr ""
+"Dowiedz się więcej o MaxCze Services z Goor, sposobie pracy, doświadczeniu i"
+" osobistym podejściu do przebudów, renowacji i stolarstwa w Twente."
 
 msgid "Over MaxCze Services voor verbouwing en timmerwerk in Goor"
 msgstr "O MaxCze Services dla przebudów i stolarstwa w Goor"
 
-msgid "MaxCze Services is een eenmanszaak uit Goor, opgericht in 2016 door Max Czepelka. Persoonlijk contact, heldere service en degelijk vakmanschap staan centraal."
-msgstr "MaxCze Services to jednoosobowa firma z Goor, założona w 2016 roku przez Maxa Czepelkę. W centrum stoją bezpośredni kontakt, jasna obsługa i solidne rzemiosło."
+msgid ""
+"MaxCze Services is een eenmanszaak uit Goor, opgericht in 2016 door Max "
+"Czepelka. Persoonlijk contact, heldere service en degelijk vakmanschap staan"
+" centraal."
+msgstr ""
+"MaxCze Services to jednoosobowa firma z Goor, założona w 2016 roku przez "
+"Maxa Czepelkę. W centrum stoją bezpośredni kontakt, jasna obsługa i solidne "
+"rzemiosło."
 
 msgid "Persoonlijk vakmanschap en betrouwbare service"
 msgstr "Osobiste rzemiosło i niezawodna obsługa"
 
-msgid "Meer dan 30 jaar vakmanschap in Goor en Twente"
-msgstr "Ponad 30 lat rzemiosła w Goor i Twente"
+msgid "25+ jaar vakmanschap in Goor en Twente"
+msgstr "25+ lat rzemiosła w Goor i Twente"
 
 msgid "Projecten van MaxCze Services | Goor, Overijssel"
 msgstr "Realizacje MaxCze Services | Goor, Overijssel"
 
-msgid "Bekijk projecten van MaxCze Services uit Goor: verbouwingen, renovaties, kozijnen, deuren en timmerwerk voor klanten in Twente."
-msgstr "Zobacz realizacje MaxCze Services z Goor: przebudowy, renowacje, okna, drzwi i stolarstwo dla klientów w Twente."
+msgid ""
+"Bekijk projecten van MaxCze Services uit Goor: verbouwingen, renovaties, "
+"kozijnen, deuren en timmerwerk voor klanten in Twente."
+msgstr ""
+"Zobacz realizacje MaxCze Services z Goor: przebudowy, renowacje, okna, drzwi"
+" i stolarstwo dla klientów w Twente."
 
 msgid "Projecten in verbouwing, renovatie en timmerwerk in Goor en Twente"
-msgstr "Realizacje z zakresu przebudowy, renowacji i stolarstwa w Goor i Twente"
+msgstr ""
+"Realizacje z zakresu przebudowy, renowacji i stolarstwa w Goor i Twente"
 
-msgid "Een selectie van recente opdrachten van MaxCze Services in Goor, Twente en omliggende plaatsen."
-msgstr "Wybór ostatnich realizacji MaxCze Services w Goor, Twente i okolicznych miejscowościach."
+msgid ""
+"Een selectie van recente opdrachten van MaxCze Services in Goor, Twente en "
+"omliggende plaatsen."
+msgstr ""
+"Wybór ostatnich realizacji MaxCze Services w Goor, Twente i okolicznych "
+"miejscowościach."
 
 msgid "Privacyverklaring MaxCze Services | Goor, Overijssel"
 msgstr "Polityka prywatności MaxCze Services | Goor, Overijssel"
 
-msgid "Lees de privacyverklaring van MaxCze Services uit Goor en bekijk hoe wij persoonsgegevens verwerken, beveiligen en bewaren."
-msgstr "Przeczytaj politykę prywatności MaxCze Services z Goor i zobacz, jak przetwarzamy, zabezpieczamy i przechowujemy dane osobowe."
+msgid ""
+"Lees de privacyverklaring van MaxCze Services uit Goor en bekijk hoe wij "
+"persoonsgegevens verwerken, beveiligen en bewaren."
+msgstr ""
+"Przeczytaj politykę prywatności MaxCze Services z Goor i zobacz, jak "
+"przetwarzamy, zabezpieczamy i przechowujemy dane osobowe."
 
 msgid "Privacyverklaring van MaxCze Services in Goor"
 msgstr "Polityka prywatności MaxCze Services w Goor"
 
-msgid "Onderstaand leest u hoe wij omgaan met persoonsgegevens, websitegebruik en contactaanvragen via onze website."
-msgstr "Poniżej przeczytasz, jak postępujemy z danymi osobowymi, korzystaniem ze strony i zapytaniami kontaktowymi przez naszą witrynę."
+msgid ""
+"Onderstaand leest u hoe wij omgaan met persoonsgegevens, websitegebruik en "
+"contactaanvragen via onze website."
+msgstr ""
+"Poniżej przeczytasz, jak postępujemy z danymi osobowymi, korzystaniem ze "
+"strony i zapytaniami kontaktowymi przez naszą witrynę."
 
 msgid "Contactgegevens van de onderneming"
 msgstr "Dane kontaktowe firmy"
@@ -1638,8 +1729,13 @@ msgstr "Wgląd, poprawianie i usuwanie"
 msgid "Verbouwingen in Goor | MaxCze Services"
 msgstr "Przebudowy w Goor | MaxCze Services"
 
-msgid "MaxCze Services verzorgt complete verbouwingen in Goor en Twente. Van voorbereiding tot oplevering met duidelijke afspraken en degelijk vakmanschap."
-msgstr "MaxCze Services realizuje kompletne przebudowy w Goor i Twente. Od przygotowania po oddanie prac z jasnymi ustaleniami i solidnym rzemiosłem."
+msgid ""
+"MaxCze Services verzorgt complete verbouwingen in Goor en Twente. Van "
+"voorbereiding tot oplevering met duidelijke afspraken en degelijk "
+"vakmanschap."
+msgstr ""
+"MaxCze Services realizuje kompletne przebudowy w Goor i Twente. Od "
+"przygotowania po oddanie prac z jasnymi ustaleniami i solidnym rzemiosłem."
 
 msgid "Verbouwingen"
 msgstr "Przebudowy"
@@ -1650,8 +1746,14 @@ msgstr "Nasza usługa"
 msgid "Complete verbouwingen in Goor en Twente"
 msgstr "Kompletne przebudowy w Goor i Twente"
 
-msgid "Voor een uitbouw, zolderverbouwing, badkamerverbouwing of complete woningaanpassing zorgt MaxCze Services voor een nette uitvoering van begin tot eind."
-msgstr "W przypadku rozbudowy, adaptacji poddasza, remontu łazienki lub pełnej przebudowy domu MaxCze Services zapewnia staranne wykonanie od początku do końca."
+msgid ""
+"Voor een uitbouw, zolderverbouwing, badkamerverbouwing of complete "
+"woningaanpassing zorgt MaxCze Services voor een nette uitvoering van begin "
+"tot eind."
+msgstr ""
+"W przypadku rozbudowy, adaptacji poddasza, remontu łazienki lub pełnej "
+"przebudowy domu MaxCze Services zapewnia staranne wykonanie od początku do "
+"końca."
 
 msgid "Verbouwen met overzicht"
 msgstr "Przebudowa pod kontrolą"
@@ -1659,11 +1761,22 @@ msgstr "Przebudowa pod kontrolą"
 msgid "Een verbouwing met duidelijke planning en vaste afspraken"
 msgstr "Przebudowa z jasnym harmonogramem i stałymi ustaleniami"
 
-msgid "Bij een verbouwing draait het niet alleen om het eindresultaat, maar ook om rust tijdens het werk. Daarom werken wij met duidelijke afspraken, korte lijnen en een planning die helder is voor u."
-msgstr "W przebudowie liczy się nie tylko efekt końcowy, ale także spokój podczas prac. Dlatego działamy według jasnych ustaleń, z krótką ścieżką kontaktu i planem zrozumiałym dla klienta."
+msgid ""
+"Bij een verbouwing draait het niet alleen om het eindresultaat, maar ook om "
+"rust tijdens het werk. Daarom werken wij met duidelijke afspraken, korte "
+"lijnen en een planning die helder is voor u."
+msgstr ""
+"W przebudowie liczy się nie tylko efekt końcowy, ale także spokój podczas "
+"prac. Dlatego działamy według jasnych ustaleń, z krótką ścieżką kontaktu i "
+"planem zrozumiałym dla klienta."
 
-msgid "MaxCze Services helpt klanten in Goor en Twente bij kleine en grote verbouwingen, van het aanpassen van een ruimte tot het compleet vernieuwen van een verdieping."
-msgstr "MaxCze Services pomaga klientom w Goor i Twente przy małych i dużych przebudowach, od dostosowania pomieszczenia po całkowite odnowienie piętra."
+msgid ""
+"MaxCze Services helpt klanten in Goor en Twente bij kleine en grote "
+"verbouwingen, van het aanpassen van een ruimte tot het compleet vernieuwen "
+"van een verdieping."
+msgstr ""
+"MaxCze Services pomaga klientom w Goor i Twente przy małych i dużych "
+"przebudowach, od dostosowania pomieszczenia po całkowite odnowienie piętra."
 
 msgid "Waarmee wij helpen"
 msgstr "W czym pomagamy"
@@ -1671,26 +1784,40 @@ msgstr "W czym pomagamy"
 msgid "Veelgevraagde verbouwingen"
 msgstr "Najczęściej wybierane przebudowy"
 
-msgid "Wij verzorgen verbouwingen die praktisch, netjes en duurzaam worden uitgevoerd."
+msgid ""
+"Wij verzorgen verbouwingen die praktisch, netjes en duurzaam worden "
+"uitgevoerd."
 msgstr "Realizujemy przebudowy w sposób praktyczny, estetyczny i trwały."
 
 msgid "Uitbouw en indelingswijziging"
 msgstr "Rozbudowa i zmiana układu"
 
-msgid "Meer leefruimte creëren door een aanbouw, nieuwe indeling of aangepaste doorloop in huis."
-msgstr "Stworzenie większej przestrzeni życiowej dzięki dobudowie, nowemu układowi lub lepszej komunikacji w domu."
+msgid ""
+"Meer leefruimte creëren door een aanbouw, nieuwe indeling of aangepaste "
+"doorloop in huis."
+msgstr ""
+"Stworzenie większej przestrzeni życiowej dzięki dobudowie, nowemu układowi "
+"lub lepszej komunikacji w domu."
 
 msgid "Badkamer en keuken verbouwing"
 msgstr "Przebudowa łazienki i kuchni"
 
-msgid "Strakke afwerking, degelijk voorbereid timmerwerk en aandacht voor praktische details in dagelijks gebruik."
-msgstr "Starannie wykonane wykończenie, dobrze przygotowane prace stolarskie i uwaga poświęcona praktycznym detalom codziennego użytkowania."
+msgid ""
+"Strakke afwerking, degelijk voorbereid timmerwerk en aandacht voor "
+"praktische details in dagelijks gebruik."
+msgstr ""
+"Starannie wykonane wykończenie, dobrze przygotowane prace stolarskie i uwaga"
+" poświęcona praktycznym detalom codziennego użytkowania."
 
 msgid "Zolder en extra kamers"
 msgstr "Poddasze i dodatkowe pokoje"
 
-msgid "Slim gebruik van bestaande ruimte voor een extra slaapkamer, werkruimte of berging."
-msgstr "Sprytne wykorzystanie istniejącej przestrzeni na dodatkową sypialnię, miejsce do pracy lub schowek."
+msgid ""
+"Slim gebruik van bestaande ruimte voor een extra slaapkamer, werkruimte of "
+"berging."
+msgstr ""
+"Sprytne wykorzystanie istniejącej przestrzeni na dodatkową sypialnię, "
+"miejsce do pracy lub schowek."
 
 msgid "Werkgebied"
 msgstr "Obszar działania"
@@ -1698,8 +1825,12 @@ msgstr "Obszar działania"
 msgid "Verbouwingen voor klanten in Goor, Twente en omgeving"
 msgstr "Przebudowy dla klientów w Goor, Twente i okolicy"
 
-msgid "Wij werken onder meer in Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, Borne en Enschede."
-msgstr "Pracujemy między innymi w Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, Borne i Enschede."
+msgid ""
+"Wij werken onder meer in Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, "
+"Borne en Enschede."
+msgstr ""
+"Pracujemy między innymi w Goor, Markelo, Delden, Rijssen, Almelo, Hengelo, "
+"Borne i Enschede."
 
 msgid "Ook renovatie nodig?"
 msgstr "Potrzebujesz też renowacji?"
@@ -1707,20 +1838,29 @@ msgstr "Potrzebujesz też renowacji?"
 msgid "Bekijk onze aanpak voor renovaties van bestaande ruimtes en woningen."
 msgstr "Zobacz nasze podejście do renowacji istniejących pomieszczeń i domów."
 
-msgid "Vraag een vrijblijvende offerte aan voor uw verbouwing in Goor of Twente."
+msgid ""
+"Vraag een vrijblijvende offerte aan voor uw verbouwing in Goor of Twente."
 msgstr "Poproś o niezobowiązującą wycenę przebudowy w Goor lub Twente."
 
 msgid "Renovaties in Goor | MaxCze Services"
 msgstr "Renowacje w Goor | MaxCze Services"
 
-msgid "MaxCze Services verzorgt renovaties in Goor en Twente. Voor woningen, houtwerk en ruimtes die vakkundig en netjes vernieuwd moeten worden."
-msgstr "MaxCze Services wykonuje renowacje w Goor i Twente dla domów, elementów drewnianych i przestrzeni, które trzeba fachowo i estetycznie odnowić."
+msgid ""
+"MaxCze Services verzorgt renovaties in Goor en Twente. Voor woningen, "
+"houtwerk en ruimtes die vakkundig en netjes vernieuwd moeten worden."
+msgstr ""
+"MaxCze Services wykonuje renowacje w Goor i Twente dla domów, elementów "
+"drewnianych i przestrzeni, które trzeba fachowo i estetycznie odnowić."
 
 msgid "Renovaties in Goor en regio Twente"
 msgstr "Renowacje w Goor i regionie Twente"
 
-msgid "Voor het opknappen, herstellen en vernieuwen van bestaande ruimtes levert MaxCze Services renovatiewerk met oog voor detail en duurzaamheid."
-msgstr "Przy odświeżaniu, naprawie i odnawianiu istniejących przestrzeni MaxCze Services wykonuje renowacje z dbałością o szczegóły i trwałość."
+msgid ""
+"Voor het opknappen, herstellen en vernieuwen van bestaande ruimtes levert "
+"MaxCze Services renovatiewerk met oog voor detail en duurzaamheid."
+msgstr ""
+"Przy odświeżaniu, naprawie i odnawianiu istniejących przestrzeni MaxCze "
+"Services wykonuje renowacje z dbałością o szczegóły i trwałość."
 
 msgid "Renoveren zonder gedoe"
 msgstr "Renowacja bez problemów"
@@ -1728,11 +1868,22 @@ msgstr "Renowacja bez problemów"
 msgid "Uw woning of ruimte weer netjes en toekomstbestendig"
 msgstr "Twój dom lub przestrzeń znowu estetyczna i gotowa na przyszłość"
 
-msgid "Een renovatie vraagt om nauwkeurig werk en een goede afstemming op de bestaande situatie. Wij kijken daarom niet alleen naar wat nieuw moet worden, maar ook naar wat behouden kan blijven."
-msgstr "Renowacja wymaga precyzyjnej pracy i dobrego dopasowania do istniejącej sytuacji. Dlatego patrzymy nie tylko na to, co trzeba odnowić, ale również na to, co warto zachować."
+msgid ""
+"Een renovatie vraagt om nauwkeurig werk en een goede afstemming op de "
+"bestaande situatie. Wij kijken daarom niet alleen naar wat nieuw moet "
+"worden, maar ook naar wat behouden kan blijven."
+msgstr ""
+"Renowacja wymaga precyzyjnej pracy i dobrego dopasowania do istniejącej "
+"sytuacji. Dlatego patrzymy nie tylko na to, co trzeba odnowić, ale również "
+"na to, co warto zachować."
 
-msgid "Of het nu gaat om houtwerk, afwerking of een complete ruimte, MaxCze Services pakt renovaties praktisch en zorgvuldig aan."
-msgstr "Niezależnie od tego, czy chodzi o stolarkę, wykończenie czy całe pomieszczenie, MaxCze Services podchodzi do renowacji praktycznie i starannie."
+msgid ""
+"Of het nu gaat om houtwerk, afwerking of een complete ruimte, MaxCze "
+"Services pakt renovaties praktisch en zorgvuldig aan."
+msgstr ""
+"Niezależnie od tego, czy chodzi o stolarkę, wykończenie czy całe "
+"pomieszczenie, MaxCze Services podchodzi do renowacji praktycznie i "
+"starannie."
 
 msgid "Renovatiewerk"
 msgstr "Prace renowacyjne"
@@ -1740,50 +1891,77 @@ msgstr "Prace renowacyjne"
 msgid "Waaruit een renovatie kan bestaan"
 msgstr "Co może obejmować renowacja"
 
-msgid "Wij voeren renovaties uit die passen bij de bestaande woning en uw wensen voor gebruik en uitstraling."
-msgstr "Wykonujemy renowacje dopasowane do istniejącego domu oraz Twoich oczekiwań co do użytkowania i wyglądu."
+msgid ""
+"Wij voeren renovaties uit die passen bij de bestaande woning en uw wensen "
+"voor gebruik en uitstraling."
+msgstr ""
+"Wykonujemy renowacje dopasowane do istniejącego domu oraz Twoich oczekiwań "
+"co do użytkowania i wyglądu."
 
 msgid "Herstel van houtwerk"
 msgstr "Naprawa elementów drewnianych"
 
-msgid "Reparatie en vervanging van onderdelen die versleten, beschadigd of verouderd zijn."
-msgstr "Naprawa i wymiana elementów zużytych, uszkodzonych lub przestarzałych."
+msgid ""
+"Reparatie en vervanging van onderdelen die versleten, beschadigd of "
+"verouderd zijn."
+msgstr ""
+"Naprawa i wymiana elementów zużytych, uszkodzonych lub przestarzałych."
 
 msgid "Renovatie van kamers"
 msgstr "Renowacja pomieszczeń"
 
-msgid "Slaapkamers, woonkamers, zolders en andere ruimtes die opnieuw moeten worden ingericht of afgewerkt."
-msgstr "Sypialnie, salony, poddasza i inne pomieszczenia, które trzeba na nowo urządzić lub wykończyć."
+msgid ""
+"Slaapkamers, woonkamers, zolders en andere ruimtes die opnieuw moeten worden"
+" ingericht of afgewerkt."
+msgstr ""
+"Sypialnie, salony, poddasza i inne pomieszczenia, które trzeba na nowo "
+"urządzić lub wykończyć."
 
 msgid "Praktische verbeteringen"
 msgstr "Praktyczne ulepszenia"
 
-msgid "Verbeteringen in indeling, gebruiksgemak en uitstraling zonder onnodig ingrijpende werkzaamheden."
-msgstr "Ulepszenia układu, wygody użytkowania i wyglądu bez niepotrzebnie dużych prac."
+msgid ""
+"Verbeteringen in indeling, gebruiksgemak en uitstraling zonder onnodig "
+"ingrijpende werkzaamheden."
+msgstr ""
+"Ulepszenia układu, wygody użytkowania i wyglądu bez niepotrzebnie dużych "
+"prac."
 
 msgid "Kozijnen en deuren vernieuwen"
 msgstr "Odnowienie okien i drzwi"
 
-msgid "Bekijk ook onze dienst voor het plaatsen en vervangen van kozijnen en deuren."
+msgid ""
+"Bekijk ook onze dienst voor het plaatsen en vervangen van kozijnen en "
+"deuren."
 msgstr "Zobacz też naszą usługę montażu i wymiany okien oraz drzwi."
 
 msgid "Renovatie bespreken"
 msgstr "Omów renowację"
 
 msgid "Neem contact op voor advies of een offerte voor uw renovatieproject."
-msgstr "Skontaktuj się z nami po poradę lub wycenę swojego projektu renowacyjnego."
+msgstr ""
+"Skontaktuj się z nami po poradę lub wycenę swojego projektu renowacyjnego."
 
 msgid "Kozijnen en deuren in Goor | MaxCze Services"
 msgstr "Okna i drzwi w Goor | MaxCze Services"
 
-msgid "MaxCze Services plaatst en vervangt kozijnen en deuren in Goor en Twente. Nette afwerking, passend maatwerk en betrouwbare montage."
-msgstr "MaxCze Services montuje i wymienia okna oraz drzwi w Goor i Twente. Starannie wykonane wykończenie, odpowiednie rozwiązania na wymiar i niezawodny montaż."
+msgid ""
+"MaxCze Services plaatst en vervangt kozijnen en deuren in Goor en Twente. "
+"Nette afwerking, passend maatwerk en betrouwbare montage."
+msgstr ""
+"MaxCze Services montuje i wymienia okna oraz drzwi w Goor i Twente. "
+"Starannie wykonane wykończenie, odpowiednie rozwiązania na wymiar i "
+"niezawodny montaż."
 
 msgid "Kozijnen en deuren plaatsen in Goor en Twente"
 msgstr "Montaż okien i drzwi w Goor i Twente"
 
-msgid "MaxCze Services helpt bij het vervangen, herstellen en plaatsen van kozijnen en deuren met aandacht voor maatvoering, uitstraling en duurzaamheid."
-msgstr "MaxCze Services pomaga w wymianie, naprawie i montażu okien oraz drzwi, dbając o wymiary, wygląd i trwałość."
+msgid ""
+"MaxCze Services helpt bij het vervangen, herstellen en plaatsen van kozijnen"
+" en deuren met aandacht voor maatvoering, uitstraling en duurzaamheid."
+msgstr ""
+"MaxCze Services pomaga w wymianie, naprawie i montażu okien oraz drzwi, "
+"dbając o wymiary, wygląd i trwałość."
 
 msgid "Strak en passend werk"
 msgstr "Precyzyjna i dobrze dopasowana praca"
@@ -1791,11 +1969,19 @@ msgstr "Precyzyjna i dobrze dopasowana praca"
 msgid "Nieuwe kozijnen en deuren die goed aansluiten op uw woning"
 msgstr "Nowe okna i drzwi dobrze dopasowane do Twojego domu"
 
-msgid "Goed geplaatste kozijnen en deuren verbeteren niet alleen de uitstraling van een woning, maar ook het comfort en de levensduur van het geheel."
-msgstr "Dobrze zamontowane okna i drzwi poprawiają nie tylko wygląd domu, ale także komfort i trwałość całości."
+msgid ""
+"Goed geplaatste kozijnen en deuren verbeteren niet alleen de uitstraling van"
+" een woning, maar ook het comfort en de levensduur van het geheel."
+msgstr ""
+"Dobrze zamontowane okna i drzwi poprawiają nie tylko wygląd domu, ale także "
+"komfort i trwałość całości."
 
-msgid "Wij verzorgen maatwerk en vervanging in bestaande situaties, met zorg voor nette aansluiting en een afwerking die past bij de rest van het pand."
-msgstr "Wykonujemy rozwiązania na wymiar i wymiany w istniejących sytuacjach, dbając o staranne dopasowanie i wykończenie pasujące do reszty budynku."
+msgid ""
+"Wij verzorgen maatwerk en vervanging in bestaande situaties, met zorg voor "
+"nette aansluiting en een afwerking die past bij de rest van het pand."
+msgstr ""
+"Wykonujemy rozwiązania na wymiar i wymiany w istniejących sytuacjach, dbając"
+" o staranne dopasowanie i wykończenie pasujące do reszty budynku."
 
 msgid "Mogelijkheden"
 msgstr "Możliwości"
@@ -1803,41 +1989,60 @@ msgstr "Możliwości"
 msgid "Werkzaamheden aan kozijnen en deuren"
 msgstr "Prace przy oknach i drzwiach"
 
-msgid "Wij helpen zowel bij vervanging als bij herstel van bestaande onderdelen."
-msgstr "Pomagamy zarówno przy wymianie, jak i naprawie istniejących elementów."
+msgid ""
+"Wij helpen zowel bij vervanging als bij herstel van bestaande onderdelen."
+msgstr ""
+"Pomagamy zarówno przy wymianie, jak i naprawie istniejących elementów."
 
 msgid "Houten kozijnen vervangen"
 msgstr "Wymiana drewnianych okien"
 
-msgid "Vervanging van verouderde of beschadigde kozijnen met aandacht voor uitstraling en aansluiting."
-msgstr "Wymiana starych lub uszkodzonych okien z dbałością o wygląd i dopasowanie."
+msgid ""
+"Vervanging van verouderde of beschadigde kozijnen met aandacht voor "
+"uitstraling en aansluiting."
+msgstr ""
+"Wymiana starych lub uszkodzonych okien z dbałością o wygląd i dopasowanie."
 
 msgid "Binnendeuren en buitendeuren"
 msgstr "Drzwi wewnętrzne i zewnętrzne"
 
-msgid "Plaatsing van deuren die passen bij het gebruik van de ruimte en de stijl van de woning."
+msgid ""
+"Plaatsing van deuren die passen bij het gebruik van de ruimte en de stijl "
+"van de woning."
 msgstr "Montaż drzwi dopasowanych do funkcji pomieszczenia i stylu domu."
 
 msgid "Herstel en afwerking"
 msgstr "Naprawa i wykończenie"
 
-msgid "Aanpassingen, herstelwerk en afwerking voor een verzorgd en duurzaam resultaat."
-msgstr "Dostosowania, naprawy i wykończenie dla estetycznego i trwałego efektu."
+msgid ""
+"Aanpassingen, herstelwerk en afwerking voor een verzorgd en duurzaam "
+"resultaat."
+msgstr ""
+"Dostosowania, naprawy i wykończenie dla estetycznego i trwałego efektu."
 
 msgid "Meer timmerwerk nodig?"
 msgstr "Potrzebujesz więcej prac stolarskich?"
 
-msgid "Bekijk ook onze pagina over allround timmerwerk en maatwerkoplossingen."
-msgstr "Zobacz również naszą stronę o wszechstronnych pracach stolarskich i rozwiązaniach na wymiar."
+msgid ""
+"Bekijk ook onze pagina over allround timmerwerk en maatwerkoplossingen."
+msgstr ""
+"Zobacz również naszą stronę o wszechstronnych pracach stolarskich i "
+"rozwiązaniach na wymiar."
 
 msgid "Neem contact op voor kozijnen en deuren in Goor, Twente en omgeving."
-msgstr "Skontaktuj się z nami w sprawie okien i drzwi w Goor, Twente i okolicy."
+msgstr ""
+"Skontaktuj się z nami w sprawie okien i drzwi w Goor, Twente i okolicy."
 
 msgid "Timmerwerk in Goor | MaxCze Services"
 msgstr "Stolarstwo w Goor | MaxCze Services"
 
-msgid "MaxCze Services levert timmerwerk in Goor en Twente. Voor maatwerk, houtconstructies, aftimmering en praktische oplossingen in en om de woning."
-msgstr "MaxCze Services wykonuje prace stolarskie w Goor i Twente. Oferujemy rozwiązania na wymiar, konstrukcje drewniane, zabudowy oraz praktyczne rozwiązania w domu i wokół niego."
+msgid ""
+"MaxCze Services levert timmerwerk in Goor en Twente. Voor maatwerk, "
+"houtconstructies, aftimmering en praktische oplossingen in en om de woning."
+msgstr ""
+"MaxCze Services wykonuje prace stolarskie w Goor i Twente. Oferujemy "
+"rozwiązania na wymiar, konstrukcje drewniane, zabudowy oraz praktyczne "
+"rozwiązania w domu i wokół niego."
 
 msgid "Timmerwerk"
 msgstr "Stolarstwo"
@@ -1845,8 +2050,13 @@ msgstr "Stolarstwo"
 msgid "Allround timmerwerk in Goor en regio Twente"
 msgstr "Wszechstronne stolarstwo w Goor i regionie Twente"
 
-msgid "Voor maatwerk in hout, aftimmering en praktische timmeroplossingen levert MaxCze Services degelijk werk dat past bij uw woning en wensen."
-msgstr "W zakresie stolarki na wymiar, zabudowy i praktycznych rozwiązań stolarskich MaxCze Services wykonuje solidną pracę dopasowaną do Twojego domu i oczekiwań."
+msgid ""
+"Voor maatwerk in hout, aftimmering en praktische timmeroplossingen levert "
+"MaxCze Services degelijk werk dat past bij uw woning en wensen."
+msgstr ""
+"W zakresie stolarki na wymiar, zabudowy i praktycznych rozwiązań stolarskich"
+" MaxCze Services wykonuje solidną pracę dopasowaną do Twojego domu i "
+"oczekiwań."
 
 msgid "Maatwerk"
 msgstr "Na wymiar"
@@ -1854,11 +2064,21 @@ msgstr "Na wymiar"
 msgid "Timmerwerk dat functioneel en netjes wordt uitgevoerd"
 msgstr "Prace stolarskie wykonane funkcjonalnie i estetycznie"
 
-msgid "Niet ieder project valt onder een complete verbouwing of renovatie. Juist voor timmerwerk op maat is ervaring belangrijk, zodat alles goed aansluit, stevig is en netjes oogt."
-msgstr "Nie każdy projekt oznacza pełną przebudowę lub renowację. Właśnie przy stolarce na wymiar doświadczenie jest kluczowe, aby wszystko dobrze pasowało, było solidne i estetyczne."
+msgid ""
+"Niet ieder project valt onder een complete verbouwing of renovatie. Juist "
+"voor timmerwerk op maat is ervaring belangrijk, zodat alles goed aansluit, "
+"stevig is en netjes oogt."
+msgstr ""
+"Nie każdy projekt oznacza pełną przebudowę lub renowację. Właśnie przy "
+"stolarce na wymiar doświadczenie jest kluczowe, aby wszystko dobrze "
+"pasowało, było solidne i estetyczne."
 
-msgid "Wij helpen met uiteenlopende timmerwerkzaamheden voor woningen en kleinere zakelijke projecten in Goor en Twente."
-msgstr "Pomagamy przy różnych pracach stolarskich dla domów i mniejszych projektów firmowych w Goor i Twente."
+msgid ""
+"Wij helpen met uiteenlopende timmerwerkzaamheden voor woningen en kleinere "
+"zakelijke projecten in Goor en Twente."
+msgstr ""
+"Pomagamy przy różnych pracach stolarskich dla domów i mniejszych projektów "
+"firmowych w Goor i Twente."
 
 msgid "Voorbeelden"
 msgstr "Przykłady"
@@ -1866,26 +2086,41 @@ msgstr "Przykłady"
 msgid "Veelvoorkomend timmerwerk"
 msgstr "Najczęstsze prace stolarskie"
 
-msgid "Wij voeren timmerwerk uit dat praktisch toepasbaar is en netjes wordt afgewerkt."
-msgstr "Wykonujemy prace stolarskie, które są praktyczne i starannie wykończone."
+msgid ""
+"Wij voeren timmerwerk uit dat praktisch toepasbaar is en netjes wordt "
+"afgewerkt."
+msgstr ""
+"Wykonujemy prace stolarskie, które są praktyczne i starannie wykończone."
 
 msgid "Aftimmering en afwerking"
 msgstr "Zabudowa i wykończenie"
 
-msgid "Aftimmerwerk voor plafonds, wanden, hoeken en aansluitingen die strak afgewerkt moeten worden."
-msgstr "Prace wykończeniowe przy sufitach, ścianach, narożnikach i połączeniach, które wymagają estetycznego efektu."
+msgid ""
+"Aftimmerwerk voor plafonds, wanden, hoeken en aansluitingen die strak "
+"afgewerkt moeten worden."
+msgstr ""
+"Prace wykończeniowe przy sufitach, ścianach, narożnikach i połączeniach, "
+"które wymagają estetycznego efektu."
 
 msgid "Maatwerk oplossingen"
 msgstr "Rozwiązania na wymiar"
 
-msgid "Kasten, ombouwen en houtoplossingen die passend worden gemaakt voor uw ruimte."
-msgstr "Szafy, zabudowy i rozwiązania drewniane wykonywane tak, aby pasowały do Twojej przestrzeni."
+msgid ""
+"Kasten, ombouwen en houtoplossingen die passend worden gemaakt voor uw "
+"ruimte."
+msgstr ""
+"Szafy, zabudowy i rozwiązania drewniane wykonywane tak, aby pasowały do "
+"Twojej przestrzeni."
 
 msgid "Kleine constructieve aanpassingen"
 msgstr "Małe zmiany konstrukcyjne"
 
-msgid "Praktisch timmerwerk dat helpt bij het verbeteren of aanpassen van bestaande ruimtes."
-msgstr "Praktyczne prace stolarskie pomagające ulepszyć lub dopasować istniejące przestrzenie."
+msgid ""
+"Praktisch timmerwerk dat helpt bij het verbeteren of aanpassen van bestaande"
+" ruimtes."
+msgstr ""
+"Praktyczne prace stolarskie pomagające ulepszyć lub dopasować istniejące "
+"przestrzenie."
 
 msgid "Ook een grotere verbouwing?"
 msgstr "Planujesz też większą przebudowę?"
@@ -1897,7 +2132,9 @@ msgid "Timmerwerk aanvragen"
 msgstr "Zamów prace stolarskie"
 
 msgid "Bespreek uw klus of maatwerkvraag direct met MaxCze Services."
-msgstr "Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar bezpośrednio z MaxCze Services."
+msgstr ""
+"Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar "
+"bezpośrednio z MaxCze Services."
 
 #~ msgid "0%"
 #~ msgstr ""
@@ -1985,8 +2222,8 @@ msgstr "Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar bezpo
 #~ msgstr "Polityka prywatnosci"
 
 #~ msgid ""
-#~ "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of "
-#~ "plan een vrijblijvend gesprek."
+#~ "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"
+#~ " plan een vrijblijvend gesprek."
 #~ msgstr ""
 
 #~ msgid "Laten we praten"
@@ -2111,8 +2348,8 @@ msgstr "Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar bezpo
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Services – meer dan 25 jaar vakmanschap in maatwerk meubels, kozijnen,"
-#~ " deuren en verbouwingen in Goor en omgeving."
+#~ "MaxCze Services – meer dan 25 jaar vakmanschap in maatwerk meubels, "
+#~ "kozijnen, deuren en verbouwingen in Goor en omgeving."
 #~ msgstr ""
 
 #~ msgid ""
@@ -2451,8 +2688,8 @@ msgstr "Omów swoje zlecenie lub zapotrzebowanie na rozwiązanie na wymiar bezpo
 #~ msgstr ""
 
 #~ msgid ""
-#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding "
-#~ "aan de vakschool in Almelo en tien jaar ervaring bij een groot "
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding"
+#~ " aan de vakschool in Almelo en tien jaar ervaring bij een groot "
 #~ "aannemersbedrijf, besloot Henk zijn eigen bedrijf te starten vanuit zijn "
 #~ "liefde voor ambachtelijk houtwerk."
 #~ msgstr ""
