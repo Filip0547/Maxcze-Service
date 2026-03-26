@@ -474,6 +474,9 @@ p { color: var(--grijs); font-size: 1.05rem; }
   opacity: 0.8;
   transition: transform 0.2s;
 }
+.nav-diensten:hover .nav-diensten-trigger::after {
+  transform: rotate(180deg);
+}
 .nav-diensten[open] .nav-diensten-trigger::after { transform: rotate(180deg); }
 .nav-diensten-trigger:hover,
 .nav-diensten[open] .nav-diensten-trigger { color: var(--wit); }
@@ -491,37 +494,58 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .nav-diensten-trigger.actief::before { opacity: 1; }
 .nav-diensten-menu {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 10px);
   left: 0;
-  min-width: 210px;
+  min-width: 250px;
   background: var(--wit);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  box-shadow: var(--shadow-medium);
-  padding: 0.35rem;
+  border: 1px solid rgba(200, 148, 42, 0.25);
+  border-radius: 14px;
+  box-shadow: 0 18px 36px rgba(22, 13, 6, 0.2);
+  padding: 0.55rem;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-4px);
+  transform: translateY(-8px);
   transition: var(--overgang);
   z-index: 1100;
 }
+.nav-diensten:hover .nav-diensten-menu,
 .nav-diensten[open] .nav-diensten-menu {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
 }
 .nav-diensten-menu a {
-  display: block;
-  padding: 0.5rem 0.75rem;
-  border-radius: 8px;
-  font-size: 0.86rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.62rem 0.75rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
   color: var(--donker);
   transition: var(--overgang);
+  position: relative;
+}
+.nav-diensten-menu a::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(200, 148, 42, 0.7);
+  flex-shrink: 0;
 }
 .nav-diensten-menu a:hover,
 .nav-diensten-menu a.actief {
-  background: var(--lichtgrijs);
+  background: linear-gradient(90deg, rgba(200, 148, 42, 0.2), rgba(200, 148, 42, 0.06));
   color: var(--donker);
+  transform: translateX(4px);
+}
+
+/* Keep keyboard accessibility: focus opens submenu like hover. */
+.nav-diensten:focus-within .nav-diensten-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
 }
 .mobiel-sectie-label {
   display: block;
@@ -1794,7 +1818,11 @@ p { color: var(--grijs); font-size: 1.05rem; }
   object-fit: contain;
   margin-bottom: 1rem;
 }
-.footer-beschrijving { font-size: 0.9rem; line-height: 1.7; }
+.footer-beschrijving {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.9);
+}
 
 .footer-sociaal {
   display: flex;

@@ -32,8 +32,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" />
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='20260316-flagcdn') }}" />
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='../favicon.ico', v='20260326-favicon') }}" sizes="any" />
+  <link rel="shortcut icon" href="{{ url_for('static', filename='../favicon.ico', v='20260326-favicon') }}" />
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260326-favicon') }}" />
   <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260316-flagcdn') }}" media="(prefers-color-scheme: light)" />
   <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_wit.png', v='20260316-flagcdn') }}" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260326-favicon') }}" sizes="192x192" />
   <link rel="icon" href="{{ url_for('static', filename='img/maxcze_logo_zwart.png', v='20260316-flagcdn') }}" />
   <script type="application/ld+json">{{ business_schema()|tojson }}</script>
 </head>
@@ -159,7 +163,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>{{ _('© 2026 MaxCze Services |') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
+      <span>{{ _('© 2026 MaxCze Services | ') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
       <button type="button" id="cookie-settings-btn" class="cookie-settings-btn">{{ _('Cookie-instellingen') }}</button>
     </div>
   </div>
