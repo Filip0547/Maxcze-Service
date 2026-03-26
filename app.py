@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 SITE_NAME = 'MaxCze Services'
 SITE_LOCATION = 'Goor, Overijssel'
-DEFAULT_META_DESCRIPTION = 'MaxCze Services uit Goor verzorgt verbouwingen, renovaties, kozijnen, deuren en allround timmerwerk in Twente.'
+DEFAULT_META_DESCRIPTION = 'MaxCze Services uit Goor is uw aanneem timmerman voor verbouwingen, renovaties, reparaties, kozijnen, deuren en vakmanschap in Twente, Overijssel en Gelderland.'
 LOCALE_CODES = {
     'nl': 'nl_NL',
     'en': 'en_GB',
@@ -194,8 +194,12 @@ def _business_schema():
         'areaServed': [
             {'@type': 'City', 'name': 'Goor'},
             {'@type': 'AdministrativeArea', 'name': 'Twente'},
+            {'@type': 'AdministrativeArea', 'name': 'Overijssel'},
+            {'@type': 'AdministrativeArea', 'name': 'Gelderland'},
         ],
         'serviceType': [
+            translate('Aanneem timmerman'),
+            translate('Vakmanschap en reparaties'),
             translate('Complete verbouwingen'),
             translate('Renovaties'),
             translate('Kozijnen en deuren'),
