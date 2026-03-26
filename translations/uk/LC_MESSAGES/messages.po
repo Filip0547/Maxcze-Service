@@ -69,6 +69,15 @@ msgstr "© 2026 MaxCze Services |"
 msgid "Privacy Policy"
 msgstr "Політика конфіденційності"
 
+msgid "Dark mode"
+msgstr "Темний режим"
+
+msgid "Volgt automatisch uw toestel, maar u kunt dit hier zelf aanpassen."
+msgstr "Автоматично підлаштовується під ваш пристрій, але тут ви можете змінити це вручну."
+
+msgid "Bewaar uw voorkeur voor een donkere of lichte weergave."
+msgstr "Зберігайте свій вибір темного або світлого вигляду сайту."
+
 msgid "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of plan een vrijblijvend gesprek."
 msgstr "Зв'яжіться з MaxCze Services у Горі. Запросіть безкоштовний кошторис або домовтеся про консультацію без зобов'язань."
 

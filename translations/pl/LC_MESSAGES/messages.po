@@ -99,6 +99,15 @@ msgstr "© 2026 Serwis MaxCze |"
 msgid "Privacy Policy"
 msgstr "Polityka prywatności"
 
+msgid "Dark mode"
+msgstr "Tryb ciemny"
+
+msgid "Volgt automatisch uw toestel, maar u kunt dit hier zelf aanpassen."
+msgstr "Automatycznie dopasowuje się do ustawień urządzenia, ale możesz to zmienić tutaj ręcznie."
+
+msgid "Bewaar uw voorkeur voor een donkere of lichte weergave."
+msgstr "Zapisz swoje ustawienie jasnego lub ciemnego wyglądu."
+
 #: templates/contact.html:3
 msgid ""
 "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"

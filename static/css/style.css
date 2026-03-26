@@ -28,6 +28,41 @@
   --radius-lg: 18px;
 
   --overgang: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --page-bg: var(--room);
+  --surface: var(--wit);
+  --surface-2: var(--lichtgrijs);
+  --text-main: var(--tekst);
+  --text-soft: var(--grijs);
+  --line-soft: var(--border);
+  --menu-panel: var(--donker);
+  --footer-bg: var(--donker);
+  --footer-text: rgba(255,255,255,0.6);
+  --footer-heading: var(--wit);
+  --footer-link: rgba(255,255,255,0.55);
+  --cookie-panel: #111111;
+  --toggle-track: rgba(255,255,255,0.18);
+  --toggle-thumb: #ffffff;
+}
+
+:root[data-theme='dark'] {
+  --page-bg: #120f0d;
+  --surface: #1b1714;
+  --surface-2: #241f1b;
+  --text-main: #f4ede4;
+  --text-soft: #cabfab;
+  --line-soft: rgba(255,255,255,0.12);
+  --menu-panel: #130f0c;
+  --footer-bg: #0f0c0a;
+  --footer-text: rgba(255,255,255,0.74);
+  --footer-heading: #fffaf5;
+  --footer-link: rgba(255,255,255,0.72);
+  --cookie-panel: #181411;
+  --toggle-track: rgba(232,184,75,0.28);
+  --toggle-thumb: #f7d278;
+  --hero-glass: rgba(255,255,255,0.08);
+  --section-muted: #171311;
+  --section-soft: #1e1916;
 }
 
 /* ─── Reset & Basis ─── */
@@ -40,10 +75,11 @@ html {
 
 body {
   font-family: var(--font-body);
-  color: var(--tekst);
-  background: var(--room);
+  color: var(--text-main);
+  background: var(--page-bg);
   line-height: 1.7;
   overflow-x: hidden;
+  transition: background var(--overgang), color var(--overgang);
 }
 
 main {
@@ -75,7 +111,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-display);
   line-height: 1.2;
   font-weight: 700;
-  color: var(--donker);
+  color: var(--text-main);
 }
 
 h1 { font-size: clamp(2.4rem, 6vw, 5rem); }
@@ -83,7 +119,7 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); }
 h3 { font-size: clamp(1.3rem, 2.5vw, 1.75rem); }
 h4 { font-size: 1.15rem; }
 
-p { color: var(--grijs); font-size: 1.05rem; }
+p { color: var(--text-soft); font-size: 1.05rem; }
 
 /* extra spacing for long content pages like privacybeleid */
 .sectie h2 {
@@ -106,8 +142,20 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 
 .sectie li {
-  color: var(--grijs);
+  color: var(--text-soft);
   margin-bottom: 0.45rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ─── Utility ─── */
@@ -588,7 +636,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
   position: fixed;
   inset: 0;
   z-index: 1001;
-  background: var(--donker);
+  background: var(--menu-panel);
   padding: 5rem 2rem 2rem;
   flex-direction: column;
   gap: 0.5rem;
@@ -656,6 +704,84 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .mobiel-diensten-lijst a:hover {
   color: var(--wit);
   padding-left: 2.2rem;
+}
+
+.mobiel-menu-bottom {
+  margin-top: auto;
+  padding-top: 1.5rem;
+}
+
+.theme-switch-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.05);
+}
+
+.theme-switch-card strong {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--wit);
+}
+
+.theme-switch-card p {
+  font-size: 0.82rem;
+  margin-top: 0.2rem;
+  color: rgba(255,255,255,0.68);
+}
+
+.theme-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.theme-switch-slider {
+  position: relative;
+  width: 58px;
+  height: 32px;
+  border-radius: 999px;
+  background: var(--toggle-track);
+  border: 1px solid rgba(255,255,255,0.14);
+  transition: var(--overgang);
+}
+
+.theme-switch-slider::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--toggle-thumb);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+  transition: transform var(--overgang), background var(--overgang);
+}
+
+.theme-toggle:checked + .theme-switch-slider {
+  background: rgba(200,148,42,0.42);
+}
+
+.theme-toggle:checked + .theme-switch-slider::before {
+  transform: translateX(26px);
+}
+
+.theme-toggle:focus-visible + .theme-switch-slider {
+  outline: 2px solid var(--goud);
+  outline-offset: 2px;
 }
 
 /* ═══════════════════════════════════════════
@@ -1785,9 +1911,10 @@ p { color: var(--grijs); font-size: 1.05rem; }
    FOOTER
 ═══════════════════════════════════════════ */
 .footer {
-  background: var(--donker);
-  color: rgba(255,255,255,0.6);
+  background: var(--footer-bg);
+  color: var(--footer-text);
   padding: 5rem 0 0;
+  transition: background var(--overgang), color var(--overgang);
 }
 
 .footer-grid {
@@ -1821,7 +1948,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .footer-beschrijving {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: rgba(255,255,255,0.9);
+  color: var(--footer-heading);
 }
 
 .footer-sociaal {
@@ -1846,7 +1973,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--wit);
+  color: var(--footer-heading);
   margin-bottom: 1.25rem;
 }
 
@@ -1857,7 +1984,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 .footer-links a {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.55);
+  color: var(--footer-link);
   transition: var(--overgang);
 }
 .footer-links a:hover { color: var(--goud); padding-left: 4px; }
@@ -1880,6 +2007,23 @@ p { color: var(--grijs); font-size: 1.05rem; }
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.82rem;
+}
+
+.footer-bottom-acties {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.footer-theme-switch-card {
+  min-width: min(100%, 360px);
+  background: rgba(255,255,255,0.04);
+}
+
+.footer-theme-switch-card p {
+  max-width: 230px;
 }
 
 .footer-bottom-links {
@@ -1924,7 +2068,7 @@ p { color: var(--grijs); font-size: 1.05rem; }
 }
 
 .cookie-banner-inner {
-  background: #111111;
+  background: var(--cookie-panel);
   border: 1px solid rgba(255,255,255,0.16);
   border-radius: 14px;
   box-shadow: 0 16px 42px rgba(0,0,0,0.35);
@@ -1933,6 +2077,34 @@ p { color: var(--grijs); font-size: 1.05rem; }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+:root[data-theme='dark'] .lang-menu {
+  background: var(--surface);
+  border-color: var(--line-soft);
+}
+
+:root[data-theme='dark'] .lang-menu a {
+  color: var(--text-main);
+}
+
+:root[data-theme='dark'] .lang-menu a:hover,
+:root[data-theme='dark'] .lang-menu a.actief {
+  background: var(--surface-2);
+}
+
+:root[data-theme='dark'] .nav-diensten-menu {
+  background: var(--surface);
+  border-color: var(--line-soft);
+}
+
+:root[data-theme='dark'] .nav-diensten-menu a {
+  color: var(--text-main);
+}
+
+:root[data-theme='dark'] .nav-diensten-menu a:hover,
+:root[data-theme='dark'] .nav-diensten-menu a.actief {
+  background: var(--surface-2);
 }
 
 .cookie-banner-tekst h3 {
@@ -1970,6 +2142,137 @@ p { color: var(--grijs); font-size: 1.05rem; }
 .cookie-btn-noodzakelijk {
   color: var(--wit);
   border-color: rgba(255,255,255,0.42);
+}
+
+:root[data-theme='dark'] .sectie-diensten,
+:root[data-theme='dark'] .sectie-werkproces,
+:root[data-theme='dark'] .sectie-verhaal,
+:root[data-theme='dark'] .service-section {
+  background: var(--section-soft);
+}
+
+:root[data-theme='dark'] .sectie-intro,
+:root[data-theme='dark'] .sectie-reviews,
+:root[data-theme='dark'] .waarden-grid,
+:root[data-theme='dark'] .sectie-team,
+:root[data-theme='dark'] .sectie-portfolio,
+:root[data-theme='dark'] .sectie-contact,
+:root[data-theme='dark'] .service-section-alt,
+:root[data-theme='dark'] .tijdlijn-content {
+  background: var(--section-muted);
+}
+
+:root[data-theme='dark'] .dienst-kaart,
+:root[data-theme='dark'] .review-kaart,
+:root[data-theme='dark'] .waarde-kaart,
+:root[data-theme='dark'] .team-kaart,
+:root[data-theme='dark'] .service-detail-card,
+:root[data-theme='dark'] .service-link-card,
+:root[data-theme='dark'] .portfolio-item,
+:root[data-theme='dark'] .contact-formulier,
+:root[data-theme='dark'] .formulier-succes,
+:root[data-theme='dark'] .openingstijden-kaart,
+:root[data-theme='dark'] .contact-item-icoon,
+:root[data-theme='dark'] .contact-map-placeholder,
+:root[data-theme='dark'] .dag,
+:root[data-theme='dark'] .tijdlijn-content {
+  background: var(--surface);
+  border-color: var(--line-soft);
+}
+
+:root[data-theme='dark'] .dienst-kaart h3,
+:root[data-theme='dark'] .review-kaart blockquote,
+:root[data-theme='dark'] .review-auteur-naam,
+:root[data-theme='dark'] .portfolio-info h3,
+:root[data-theme='dark'] .contact-item-tekst h4,
+:root[data-theme='dark'] .formulier-succes h3,
+:root[data-theme='dark'] .team-info h4,
+:root[data-theme='dark'] .service-detail-card h3,
+:root[data-theme='dark'] .service-link-card h3,
+:root[data-theme='dark'] .stap h4,
+:root[data-theme='dark'] .tijdlijn-content h4 {
+  color: var(--text-main);
+}
+
+:root[data-theme='dark'] .filter-btn {
+  background: var(--surface);
+  color: var(--text-soft);
+  border-color: var(--line-soft);
+}
+
+:root[data-theme='dark'] .filter-btn:hover,
+:root[data-theme='dark'] .filter-btn.actief {
+  background: var(--goud);
+  color: var(--donker);
+  border-color: var(--goud);
+}
+
+:root[data-theme='dark'] .hero-stats {
+  background: var(--hero-glass);
+}
+
+:root[data-theme='dark'] .hero-stat {
+  background: rgba(12, 9, 7, 0.6);
+}
+
+:root[data-theme='dark'] .kenmerk-icoon,
+:root[data-theme='dark'] .portfolio-tag,
+:root[data-theme='dark'] .dienst-icoon {
+  background: rgba(200,148,42,0.14);
+}
+
+:root[data-theme='dark'] .contact-item-label,
+:root[data-theme='dark'] .review-auteur-plaats,
+:root[data-theme='dark'] .footer-bottom,
+:root[data-theme='dark'] .footer-contact-item span,
+:root[data-theme='dark'] .footer-bottom-links a,
+:root[data-theme='dark'] .dag,
+:root[data-theme='dark'] .breadcrumb,
+:root[data-theme='dark'] .breadcrumb a,
+:root[data-theme='dark'] .hero-stat-label,
+:root[data-theme='dark'] .project-kaart-overlay p,
+:root[data-theme='dark'] .sectie-projecten-preview .sectie-header p,
+:root[data-theme='dark'] .sectie-cta p {
+  color: var(--text-soft);
+}
+
+:root[data-theme='dark'] .verhaal-foto-klein {
+  border-color: var(--surface);
+}
+
+:root[data-theme='dark'] .tijdlijn-dot {
+  border-color: var(--surface);
+}
+
+:root[data-theme='dark'] input,
+:root[data-theme='dark'] textarea,
+:root[data-theme='dark'] select {
+  background: #15110f;
+  color: var(--text-main);
+  border-color: var(--line-soft);
+}
+
+:root[data-theme='dark'] input::placeholder,
+:root[data-theme='dark'] textarea::placeholder {
+  color: #9f9588;
+}
+
+:root[data-theme='dark'] .cookie-settings-btn {
+  color: var(--footer-heading);
+}
+
+:root[data-theme='dark'] .footer-theme-switch-card,
+:root[data-theme='dark'] .theme-switch-card {
+  background: rgba(255,255,255,0.03);
+}
+
+:root[data-theme='dark'] .cookie-banner-inner {
+  border-color: rgba(255,255,255,0.1);
+}
+
+:root[data-theme='dark'] .lightbox-sluit:hover,
+:root[data-theme='dark'] .project-tag {
+  color: var(--donker);
 }
 
 /* ═══════════════════════════════════════════
@@ -2085,6 +2388,15 @@ p { color: var(--grijs); font-size: 1.05rem; }
 
   .footer-bottom { flex-direction: column; text-align: center; }
 
+  .footer-bottom-acties {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-theme-switch-card {
+    min-width: 100%;
+  }
+
   .cookie-banner-inner {
     flex-direction: column;
     align-items: stretch;
@@ -2119,4 +2431,12 @@ p { color: var(--grijs); font-size: 1.05rem; }
   .werkproces-stappen { grid-template-columns: 1fr; }
   .cta-knoppen { flex-direction: column; align-items: center; }
   .contact-formulier { padding: 1.5rem; }
+
+  .theme-switch-card {
+    align-items: flex-start;
+  }
+
+  .theme-switch-card p {
+    max-width: 100%;
+  }
 }

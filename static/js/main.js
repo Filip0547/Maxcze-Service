@@ -3,6 +3,69 @@
    ============================================= */
 
 document.addEventListener('DOMContentLoaded', () => {
+  const THEME_STORAGE_KEY = 'maxcze_theme_preference_v1';
+  const themeToggles = Array.from(document.querySelectorAll('.theme-toggle'));
+  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+  const setTheme = (theme, persist = true) => {
+    const resolvedTheme = theme === 'dark' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = resolvedTheme;
+    document.body.classList.toggle('theme-dark', resolvedTheme === 'dark');
+    themeToggles.forEach((toggle) => {
+      toggle.checked = resolvedTheme === 'dark';
+      toggle.setAttribute('aria-checked', resolvedTheme === 'dark' ? 'true' : 'false');
+    });
+
+    if (!persist) {
+      return;
+    }
+
+    try {
+      localStorage.setItem(THEME_STORAGE_KEY, resolvedTheme);
+    } catch {
+      // Ignore storage failures and continue with in-memory theme state.
+    }
+  };
+
+  const getStoredTheme = () => {
+    try {
+      const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+      return storedTheme === 'dark' || storedTheme === 'light' ? storedTheme : '';
+    } catch {
+      return '';
+    }
+  };
+
+  const applyInitialTheme = () => {
+    const storedTheme = getStoredTheme();
+    if (storedTheme) {
+      setTheme(storedTheme, false);
+      return;
+    }
+
+    setTheme(systemPrefersDark.matches ? 'dark' : 'light', false);
+  };
+
+  applyInitialTheme();
+
+  themeToggles.forEach((toggle) => {
+    toggle.addEventListener('change', () => {
+      setTheme(toggle.checked ? 'dark' : 'light');
+    });
+  });
+
+  const handleSystemThemeChange = (event) => {
+    if (getStoredTheme()) {
+      return;
+    }
+    setTheme(event.matches ? 'dark' : 'light', false);
+  };
+
+  if (typeof systemPrefersDark.addEventListener === 'function') {
+    systemPrefersDark.addEventListener('change', handleSystemThemeChange);
+  } else if (typeof systemPrefersDark.addListener === 'function') {
+    systemPrefersDark.addListener(handleSystemThemeChange);
+  }
 
   /* ─── Cookie consent ─── */
   const COOKIE_CONSENT_KEY = 'maxcze_cookie_consent_v2';

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
   <title>{% block title %}{{ site_name }} | {{ site_location }}{% endblock %}</title>
   <meta name="description" content="{% block description %}{{ default_meta_description }}{% endblock %}" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -106,6 +107,19 @@
   </details>
   <a href="{{ localized_url('projecten') }}">{{ _('Projecten') }}</a>
   <a href="{{ localized_url('contact') }}">{{ _('Contact & Offerte') }}</a>
+  <div class="mobiel-menu-bottom">
+    <div class="theme-switch-card">
+      <div>
+        <strong>{{ _('Dark mode') }}</strong>
+        <p>{{ _('Volgt automatisch uw toestel, maar u kunt dit hier zelf aanpassen.') }}</p>
+      </div>
+      <label class="theme-switch" for="theme-toggle-mobile">
+        <input type="checkbox" id="theme-toggle-mobile" class="theme-toggle" />
+        <span class="theme-switch-slider" aria-hidden="true"></span>
+        <span class="sr-only">{{ _('Dark mode') }}</span>
+      </label>
+    </div>
+  </div>
 </nav>
 
 <main id="main-content">
@@ -164,11 +178,24 @@
     </div>
     <div class="footer-bottom">
       <span>{{ _('© 2026 MaxCze Services | ') }}<a href="{{ localized_url('privacy') }}">{{ _('Privacy Policy') }}</a></span>
-      <button type="button" id="cookie-settings-btn" class="cookie-settings-btn">{{ _('Cookie-instellingen') }}</button>
+      <div class="footer-bottom-acties">
+        <div class="theme-switch-card footer-theme-switch-card">
+          <div>
+            <strong>{{ _('Dark mode') }}</strong>
+            <p>{{ _('Bewaar uw voorkeur voor een donkere of lichte weergave.') }}</p>
+          </div>
+          <label class="theme-switch" for="theme-toggle-desktop">
+            <input type="checkbox" id="theme-toggle-desktop" class="theme-toggle" />
+            <span class="theme-switch-slider" aria-hidden="true"></span>
+            <span class="sr-only">{{ _('Dark mode') }}</span>
+          </label>
+        </div>
+        <button type="button" id="cookie-settings-btn" class="cookie-settings-btn">{{ _('Cookie-instellingen') }}</button>
+      </div>
     </div>
   </div>
 </footer>
 
-<script src="{{ url_for('static', filename='js/main.js', v='20260322-seo-accessibility') }}" defer></script>
+<script src="{{ url_for('static', filename='js/main.js', v='20260326-darkmode') }}" defer></script>
 </body>
 </html>
