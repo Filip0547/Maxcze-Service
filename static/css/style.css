@@ -522,7 +522,7 @@ p { color: var(--text-soft); font-size: 1.05rem; }
   opacity: 0.8;
   transition: transform 0.2s;
 }
-.nav-diensten:hover .nav-diensten-trigger::after {
+.nav-diensten-wrapper:hover .nav-diensten-trigger::after {
   transform: rotate(180deg);
 }
 .nav-diensten[open] .nav-diensten-trigger::after { transform: rotate(180deg); }
@@ -556,7 +556,7 @@ p { color: var(--text-soft); font-size: 1.05rem; }
   transition: var(--overgang);
   z-index: 1100;
 }
-.nav-diensten:hover .nav-diensten-menu,
+.nav-diensten-wrapper:hover .nav-diensten-menu,
 .nav-diensten[open] .nav-diensten-menu {
   opacity: 1;
   pointer-events: auto;
@@ -590,7 +590,7 @@ p { color: var(--text-soft); font-size: 1.05rem; }
 }
 
 /* Keep keyboard accessibility: focus opens submenu like hover. */
-.nav-diensten:focus-within .nav-diensten-menu {
+.nav-diensten-wrapper:focus-within .nav-diensten-menu {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);

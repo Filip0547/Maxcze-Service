@@ -183,6 +183,56 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ─── Desktop hover fallback voor diensten dropdown ─── */
+  const navDiensten = document.querySelector('.nav-diensten');
+  const desktopHoverQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+
+  if (navDiensten && desktopHoverQuery) {
+    const openDiensten = () => {
+      navDiensten.open = true;
+    };
+
+    const closeDiensten = () => {
+      navDiensten.open = false;
+    };
+
+    let hoverListenersAttached = false;
+
+    const attachHoverListeners = () => {
+      if (hoverListenersAttached) {
+        return;
+      }
+      navDiensten.addEventListener('mouseenter', openDiensten);
+      navDiensten.addEventListener('mouseleave', closeDiensten);
+      hoverListenersAttached = true;
+    };
+
+    const detachHoverListeners = () => {
+      if (!hoverListenersAttached) {
+        return;
+      }
+      navDiensten.removeEventListener('mouseenter', openDiensten);
+      navDiensten.removeEventListener('mouseleave', closeDiensten);
+      hoverListenersAttached = false;
+      closeDiensten();
+    };
+
+    const syncDienstenHoverMode = (event) => {
+      if (event.matches) {
+        attachHoverListeners();
+      } else {
+        detachHoverListeners();
+      }
+    };
+
+    syncDienstenHoverMode(desktopHoverQuery);
+    if (typeof desktopHoverQuery.addEventListener === 'function') {
+      desktopHoverQuery.addEventListener('change', syncDienstenHoverMode);
+    } else if (typeof desktopHoverQuery.addListener === 'function') {
+      desktopHoverQuery.addListener(syncDienstenHoverMode);
+    }
+  }
+
   /* ─── Hero achtergrond zoom ─── */
   const heroBg = document.querySelector('.hero-bg');
   if (heroBg) {
