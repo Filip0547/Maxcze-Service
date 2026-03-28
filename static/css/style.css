@@ -497,6 +497,14 @@ p { color: var(--text-soft); font-size: 1.05rem; }
   list-style: none;
   position: relative;
 }
+.nav-diensten-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  height: 12px;
+}
 .nav-diensten {
   position: relative;
 }

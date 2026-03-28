@@ -659,7 +659,7 @@ msgid "2"
 msgstr "2"
 
 #: templates/index.html:184
-msgid "Offerte &amp; ontwerp"
+msgid "Offerte & ontwerp"
 msgstr "Wycena i projekt"
 
 #: templates/index.html:185
@@ -1115,8 +1115,8 @@ msgid "Max Czepelka"
 msgstr "Maks Czepelka"
 
 #: templates/over-ons.html:207
-msgid "Eigenaar &amp; Vakman"
-msgstr "Właściciel &amp; Rzemieślnik"
+msgid "Eigenaar & Vakman"
+msgstr "Właściciel & Rzemieślnik"
 
 #: templates/over-ons.html:208
 msgid ""
@@ -1428,8 +1428,8 @@ msgid "Maatwerk meubels"
 msgstr "Meble na wymiar"
 
 #: templates/projecten.html:32
-msgid "Kozijnen &amp; ramen"
-msgstr "Ramki &amp; okna"
+msgid "Kozijnen & ramen"
+msgstr "Ramki & okna"
 
 #: templates/projecten.html:33
 msgid "Verbouwingen"
@@ -2414,7 +2414,7 @@ msgstr ""
 #~ msgid "Wat wij doen"
 #~ msgstr ""
 
-#~ msgid "Onze diensten &amp; specialisaties"
+#~ msgid "Onze diensten & specialisaties"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2432,7 +2432,7 @@ msgstr ""
 #~ "kasten en boekenkasten tot complete woonwanden."
 #~ msgstr ""
 
-#~ msgid "Kozijnen &amp; ramen"
+#~ msgid "Kozijnen & ramen"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2440,7 +2440,7 @@ msgstr ""
 #~ "prachtig afgewerkt voor een warme uitstraling."
 #~ msgstr ""
 
-#~ msgid "Deuren &amp; drempels"
+#~ msgid "Deuren & drempels"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2532,7 +2532,7 @@ msgstr ""
 #~ msgid "2"
 #~ msgstr ""
 
-#~ msgid "Offerte &amp; ontwerp"
+#~ msgid "Offerte & ontwerp"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2853,7 +2853,7 @@ msgstr ""
 #~ msgid "Henk van Wijnen"
 #~ msgstr ""
 
-#~ msgid "Oprichter &amp; Uitvoerder"
+#~ msgid "Oprichter & Uitvoerder"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2864,7 +2864,7 @@ msgstr ""
 #~ msgid "Bas van Wijnen"
 #~ msgstr ""
 
-#~ msgid "Bedrijfsleider &amp; Ontwerper"
+#~ msgid "Bedrijfsleider & Ontwerper"
 #~ msgstr ""
 
 #~ msgid ""

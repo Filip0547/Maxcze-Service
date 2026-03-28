@@ -482,7 +482,7 @@ msgid "2"
 msgstr ""
 
 #: templates/index.html:184
-msgid "Offerte &amp; ontwerp"
+msgid "Offerte & ontwerp"
 msgstr ""
 
 #: templates/index.html:185
@@ -878,7 +878,7 @@ msgid "Max Czepelka"
 msgstr ""
 
 #: templates/over-ons.html:207
-msgid "Eigenaar &amp; Vakman"
+msgid "Eigenaar & Vakman"
 msgstr ""
 
 #: templates/over-ons.html:208
@@ -1153,7 +1153,7 @@ msgid "Maatwerk meubels"
 msgstr ""
 
 #: templates/projecten.html:32
-msgid "Kozijnen &amp; ramen"
+msgid "Kozijnen & ramen"
 msgstr ""
 
 #: templates/projecten.html:33

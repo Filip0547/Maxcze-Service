@@ -185,6 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ─── Desktop hover fallback voor diensten dropdown ─── */
   const navDiensten = document.querySelector('.nav-diensten');
+  const navDienstenWrapper = document.querySelector('.nav-diensten-wrapper');
   const desktopHoverQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
 
   if (navDiensten && desktopHoverQuery) {
@@ -202,8 +203,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (hoverListenersAttached) {
         return;
       }
-      navDiensten.addEventListener('mouseenter', openDiensten);
-      navDiensten.addEventListener('mouseleave', closeDiensten);
+      const hoverTarget = navDienstenWrapper || navDiensten;
+      hoverTarget.addEventListener('mouseenter', openDiensten);
+      hoverTarget.addEventListener('mouseleave', closeDiensten);
       hoverListenersAttached = true;
     };
 
@@ -211,8 +213,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!hoverListenersAttached) {
         return;
       }
-      navDiensten.removeEventListener('mouseenter', openDiensten);
-      navDiensten.removeEventListener('mouseleave', closeDiensten);
+      const hoverTarget = navDienstenWrapper || navDiensten;
+      hoverTarget.removeEventListener('mouseenter', openDiensten);
+      hoverTarget.removeEventListener('mouseleave', closeDiensten);
       hoverListenersAttached = false;
       closeDiensten();
     };

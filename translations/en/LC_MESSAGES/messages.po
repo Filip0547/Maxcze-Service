@@ -574,8 +574,8 @@ msgid "2"
 msgstr "2"
 
 #: templates/index.html:184
-msgid "Offerte &amp; ontwerp"
-msgstr "Quote &amp; design"
+msgid "Offerte & ontwerp"
+msgstr "Quote & design"
 
 #: templates/index.html:185
 msgid ""
@@ -1030,8 +1030,8 @@ msgid "Max Czepelka"
 msgstr "Max Czepelka"
 
 #: templates/over-ons.html:207
-msgid "Eigenaar &amp; Vakman"
-msgstr "Owner &amp; Craftsman"
+msgid "Eigenaar & Vakman"
+msgstr "Owner & Craftsman"
 
 #: templates/over-ons.html:208
 msgid ""
@@ -1341,8 +1341,8 @@ msgid "Maatwerk meubels"
 msgstr "Custom furniture"
 
 #: templates/projecten.html:32
-msgid "Kozijnen &amp; ramen"
-msgstr "Frames &amp; windows"
+msgid "Kozijnen & ramen"
+msgstr "Frames & windows"
 
 #: templates/projecten.html:33
 msgid "Verbouwingen"
@@ -2393,7 +2393,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ msgid "Wat wij doen"
 #~ msgstr ""
 
-#~ msgid "Onze diensten &amp; specialisaties"
+#~ msgid "Onze diensten & specialisaties"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2411,7 +2411,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ "kasten en boekenkasten tot complete woonwanden."
 #~ msgstr ""
 
-#~ msgid "Kozijnen &amp; ramen"
+#~ msgid "Kozijnen & ramen"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2419,7 +2419,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ "prachtig afgewerkt voor een warme uitstraling."
 #~ msgstr ""
 
-#~ msgid "Deuren &amp; drempels"
+#~ msgid "Deuren & drempels"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2511,7 +2511,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ msgid "2"
 #~ msgstr ""
 
-#~ msgid "Offerte &amp; ontwerp"
+#~ msgid "Offerte & ontwerp"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2832,7 +2832,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ msgid "Henk van Wijnen"
 #~ msgstr ""
 
-#~ msgid "Oprichter &amp; Uitvoerder"
+#~ msgid "Oprichter & Uitvoerder"
 #~ msgstr ""
 
 #~ msgid ""
@@ -2843,7 +2843,7 @@ msgstr "Discuss your job or custom request directly with MaxCze Services."
 #~ msgid "Bas van Wijnen"
 #~ msgstr ""
 
-#~ msgid "Bedrijfsleider &amp; Ontwerper"
+#~ msgid "Bedrijfsleider & Ontwerper"
 #~ msgstr ""
 
 #~ msgid ""
