@@ -26,7 +26,7 @@ LOCALE_CODES = {
     'nl': 'nl_NL',
     'en': 'en_GB',
     'pl': 'pl_PL',
-    'uk': 'uk_UA',
+    'de': 'de_DE',
 }
 
 app.secret_key = os.getenv('SECRET_KEY')
@@ -94,17 +94,17 @@ mail = FlaskMail(app)
 app.config["BABEL_DEFAULT_LOCALE"] = "nl"
 app.config["BABEL_TRANSLATION_DIRECTORIES"] = "translations"
 
-SUPPORTED_LANGS = ['nl', 'en', 'pl', 'uk']
+SUPPORTED_LANGS = ['nl', 'en', 'pl', 'de']
 ROUTE_MAP = {
-    'home': {'nl': '/', 'en': '/en', 'pl': '/pl', 'uk': '/uk'},
-    'over_ons': {'nl': '/over-ons', 'en': '/en/about-us', 'pl': '/pl/o-nas', 'uk': '/uk/pro-nas'},
-    'projecten': {'nl': '/projecten', 'en': '/en/projects', 'pl': '/pl/projekty', 'uk': '/uk/proekty'},
-    'verbouwingen': {'nl': '/verbouwingen', 'en': '/en/remodeling', 'pl': '/pl/przebudowy', 'uk': '/uk/remonty'},
-    'renovaties': {'nl': '/renovaties', 'en': '/en/renovations', 'pl': '/pl/remonty', 'uk': '/uk/renovacii'},
-    'kozijnen_deuren': {'nl': '/kozijnen-en-deuren', 'en': '/en/windows-and-doors', 'pl': '/pl/okna-i-drzwi', 'uk': '/uk/vikna-ta-dveri'},
-    'timmerwerk': {'nl': '/timmerwerk', 'en': '/en/carpentry', 'pl': '/pl/stolarka', 'uk': '/uk/stoliarni-roboty'},
-    'contact': {'nl': '/contact', 'en': '/en/contact', 'pl': '/pl/contact', 'uk': '/uk/contact'},
-    'privacy': {'nl': '/privacy', 'en': '/en/privacy', 'pl': '/pl/prywatnosc', 'uk': '/uk/polityka-pryvatnosti'},
+    'home': {'nl': '/', 'en': '/en', 'pl': '/pl', 'de': '/de'},
+    'over_ons': {'nl': '/over-ons', 'en': '/en/about-us', 'pl': '/pl/o-nas', 'de': '/de/uber-uns'},
+    'projecten': {'nl': '/projecten', 'en': '/en/projects', 'pl': '/pl/projekty', 'de': '/de/projekte'},
+    'verbouwingen': {'nl': '/verbouwingen', 'en': '/en/remodeling', 'pl': '/pl/przebudowy', 'de': '/de/umbauten'},
+    'renovaties': {'nl': '/renovaties', 'en': '/en/renovations', 'pl': '/pl/remonty', 'de': '/de/renovierungen'},
+    'kozijnen_deuren': {'nl': '/kozijnen-en-deuren', 'en': '/en/windows-and-doors', 'pl': '/pl/okna-i-drzwi', 'de': '/de/fenster-und-tueren'},
+    'timmerwerk': {'nl': '/timmerwerk', 'en': '/en/carpentry', 'pl': '/pl/stolarka', 'de': '/de/zimmerei'},
+    'contact': {'nl': '/contact', 'en': '/en/contact', 'pl': '/pl/contact', 'de': '/de/kontakt'},
+    'privacy': {'nl': '/privacy', 'en': '/en/privacy', 'pl': '/pl/prywatnosc', 'de': '/de/datenschutz'},
 }
 
 
@@ -128,7 +128,7 @@ def load_po_translations(lang):
 TRANSLATIONS = {
     'en': load_po_translations('en'),
     'pl': load_po_translations('pl'),
-    'uk': load_po_translations('uk'),
+    'de': load_po_translations('de'),
 }
 
 def get_locale():
@@ -138,7 +138,7 @@ def get_locale():
             return lang
 
     first_segment = request.path.strip('/').split('/', 1)[0]
-    if first_segment in ['en', 'pl', 'uk']:
+    if first_segment in ['en', 'pl', 'de']:
         return first_segment
 
     return 'nl'
@@ -406,21 +406,21 @@ def inject_locale():
 @app.route('/', defaults={'lang': 'nl'})
 @app.route('/en', defaults={'lang': 'en'})
 @app.route('/pl', defaults={'lang': 'pl'})
-@app.route('/uk', defaults={'lang': 'uk'})
+@app.route('/de', defaults={'lang': 'de'})
 def home(lang='nl'):
     return render_template('index.html')
 
 @app.route('/over-ons', defaults={'lang': 'nl'})
 @app.route('/en/about-us', defaults={'lang': 'en'})
 @app.route('/pl/o-nas', defaults={'lang': 'pl'})
-@app.route('/uk/pro-nas', defaults={'lang': 'uk'})
+@app.route('/de/uber-uns', defaults={'lang': 'de'})
 def over_ons(lang='nl'):
     return render_template('over-ons.html')
 
 @app.route('/projecten', defaults={'lang': 'nl'})
 @app.route('/en/projects', defaults={'lang': 'en'})
 @app.route('/pl/projekty', defaults={'lang': 'pl'})
-@app.route('/uk/proekty', defaults={'lang': 'uk'})
+@app.route('/de/projekte', defaults={'lang': 'de'})
 def projecten(lang='nl'):
     return render_template('projecten.html')
 
@@ -428,7 +428,7 @@ def projecten(lang='nl'):
 @app.route('/verbouwingen', defaults={'lang': 'nl'})
 @app.route('/en/remodeling', defaults={'lang': 'en'})
 @app.route('/pl/przebudowy', defaults={'lang': 'pl'})
-@app.route('/uk/remonty', defaults={'lang': 'uk'})
+@app.route('/de/umbauten', defaults={'lang': 'de'})
 def verbouwingen(lang='nl'):
     return render_template('verbouwingen.html')
 
@@ -436,7 +436,7 @@ def verbouwingen(lang='nl'):
 @app.route('/renovaties', defaults={'lang': 'nl'})
 @app.route('/en/renovations', defaults={'lang': 'en'})
 @app.route('/pl/remonty', defaults={'lang': 'pl'})
-@app.route('/uk/renovacii', defaults={'lang': 'uk'})
+@app.route('/de/renovierungen', defaults={'lang': 'de'})
 def renovaties(lang='nl'):
     return render_template('renovaties.html')
 
@@ -444,7 +444,7 @@ def renovaties(lang='nl'):
 @app.route('/kozijnen-en-deuren', defaults={'lang': 'nl'})
 @app.route('/en/windows-and-doors', defaults={'lang': 'en'})
 @app.route('/pl/okna-i-drzwi', defaults={'lang': 'pl'})
-@app.route('/uk/vikna-ta-dveri', defaults={'lang': 'uk'})
+@app.route('/de/fenster-und-tueren', defaults={'lang': 'de'})
 def kozijnen_deuren(lang='nl'):
     return render_template('kozijnen-deuren.html')
 
@@ -452,14 +452,14 @@ def kozijnen_deuren(lang='nl'):
 @app.route('/timmerwerk', defaults={'lang': 'nl'})
 @app.route('/en/carpentry', defaults={'lang': 'en'})
 @app.route('/pl/stolarka', defaults={'lang': 'pl'})
-@app.route('/uk/stoliarni-roboty', defaults={'lang': 'uk'})
+@app.route('/de/zimmerei', defaults={'lang': 'de'})
 def timmerwerk(lang='nl'):
     return render_template('timmerwerk.html')
 
 @app.route('/contact', defaults={'lang': 'nl'}, methods=['GET', 'POST'])
 @app.route('/en/contact', defaults={'lang': 'en'}, methods=['GET', 'POST'])
 @app.route('/pl/contact', defaults={'lang': 'pl'}, methods=['GET', 'POST'])
-@app.route('/uk/contact', defaults={'lang': 'uk'}, methods=['GET', 'POST'])
+@app.route('/de/kontakt', defaults={'lang': 'de'}, methods=['GET', 'POST'])
 def contact(lang='nl'):
     if request.method == 'POST':
         payload = _build_contact_payload(request.form)
@@ -500,7 +500,7 @@ def contact(lang='nl'):
 @app.route('/privacy', defaults={'lang': 'nl'})
 @app.route('/en/privacy', defaults={'lang': 'en'})
 @app.route('/pl/prywatnosc', defaults={'lang': 'pl'})
-@app.route('/uk/polityka-pryvatnosti', defaults={'lang': 'uk'})
+@app.route('/de/datenschutz', defaults={'lang': 'de'})
 def privacy(lang='nl'):
     return render_template('privacy.html')
 

@@ -1,0 +1,3968 @@
+# German translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-03-10 23:32+0100\n"
+"PO-Revision-Date: 2026-03-28 12:00+0100\n"
+"Last-Translator: GitHub Copilot <noreply@example.com>\n"
+"Language-Team: de\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: templates/base.html:23 templates/base.html:51 templates/base.html:73
+#: templates/contact.html:13 templates/over-ons.html:13
+#: templates/privacy.html:13 templates/projecten.html:13
+msgid "Home"
+msgstr "Startseite"
+
+#: templates/base.html:24 templates/base.html:52 templates/base.html:74
+#: templates/index.html:124 templates/over-ons.html:2
+#: templates/over-ons.html:15
+msgid "Over ons"
+msgstr "Über uns"
+
+#: templates/base.html:25 templates/base.html:53 templates/base.html:75
+#: templates/projecten.html:15
+msgid "Projecten"
+msgstr "Projekte"
+
+#: templates/base.html:26
+msgid "Offerte aanvragen"
+msgstr "Angebot anfordern"
+
+#: templates/base.html:54 templates/contact.html:2
+msgid "Contact & Offerte"
+msgstr "Kontakt & Angebot"
+
+#: templates/base.html:65
+msgid ""
+"MaxCze Services - vakmanschap voor verbouwingen, renovaties en timmerwerk. "
+"25+ jaar ervaring in Goor en regio Twente."
+msgstr ""
+"MaxCze Services – Handwerkskunst für Umbauten, Renovierungen und "
+"Tischlerarbeiten. Über 25 Jahre Erfahrung in Goor und der Region Twente."
+
+#: templates/base.html:71
+msgid "Navigatie"
+msgstr "Navigation"
+
+#: templates/base.html:76 templates/base.html:89 templates/contact.html:15
+msgid "Contact"
+msgstr "Kontakt"
+
+#: templates/base.html:80
+msgid "Diensten"
+msgstr "Leistungen"
+
+#: templates/base.html:82 templates/index.html:67
+msgid "Complete verbouwingen"
+msgstr "Komplette Umbauten"
+
+#: templates/base.html:83 templates/index.html:77
+msgid "Kozijnen en deuren"
+msgstr "Fenster und Türen"
+
+#: templates/base.html:84 templates/index.html:89 templates/projecten.html:35
+msgid "Renovaties"
+msgstr "Renovierungen"
+
+#: templates/base.html:85 templates/index.html:99
+msgid "Overig timmerwerk"
+msgstr "Sonstige Tischlerarbeiten"
+
+#: templates/base.html:90
+msgid "Goor en regio Twente"
+msgstr "Goor und Region Twente"
+
+#: templates/base.html:91
+msgid "06 33649552"
+msgstr "06 33649552"
+
+#: templates/base.html:92
+msgid "maxcze@hotmail.com"
+msgstr "maxcze@hotmail.com"
+
+#: templates/base.html:96
+msgid "© 2026 MaxCze Services |"
+msgstr "© 2026 MaxCze Services |"
+
+#: templates/base.html:96
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: templates/contact.html:3
+msgid ""
+"Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"
+" plan een vrijblijvend gesprek."
+msgstr ""
+"Kontaktieren Sie MaxCze Services in Goor. Fordern Sie ein kostenloses "
+"Angebot an oder vereinbaren Sie einen unverbindlichen Beratungstermin."
+
+#: templates/contact.html:17
+msgid "Laten we praten"
+msgstr "Lass uns reden"
+
+#: templates/contact.html:18
+msgid "Vraag een gratis offerte aan"
+msgstr "Fordern Sie ein kostenloses Angebot an"
+
+#: templates/contact.html:19
+msgid ""
+"Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
+"uw aanvraag."
+msgstr ""
+"Füllen Sie das Formular aus oder rufen Sie uns direkt an. We will respond to"
+" your request within one working day."
+
+#: templates/contact.html:31
+msgid "Contactgegevens"
+msgstr "Kontaktdaten"
+
+#: templates/contact.html:32
+msgid "Wij helpen u graag verder"
+msgstr "Wir helfen Ihnen gerne weiter"
+
+#: templates/contact.html:33
+msgid ""
+"Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
+"gerust contact op — geen vraag is te klein en geen project te groot."
+msgstr ""
+"Sie haben Fragen zu unseren Leistungen oder möchten ein Projekt besprechen? "
+"Nehmen Sie gerne Kontakt mit uns auf – keine Frage ist zu klein und kein "
+"Projekt zu groß."
+
+#: templates/contact.html:41
+msgid "Adres"
+msgstr "Adresse"
+
+#: templates/contact.html:42
+msgid "Het Jannink 23"
+msgstr "Het Jannink 23"
+
+#: templates/contact.html:42
+msgid "7471 VB Goor, Overijssel"
+msgstr "7471 VB Goor, Overijssel"
+
+#: templates/contact.html:51
+msgid "Telefoon"
+msgstr "Telefon"
+
+#: templates/contact.html:52
+msgid "06 33649552"
+msgstr "06 33649552"
+
+#: templates/contact.html:61 templates/contact.html:128
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: templates/contact.html:62
+msgid "Maxcze@hotmail.com"
+msgstr "Maxcze@hotmail.com"
+
+#: templates/contact.html:71
+msgid "KvK-nummer"
+msgstr "Nummer der Handelskammer"
+
+#: templates/contact.html:72
+msgid "66516005"
+msgstr "66516005"
+
+#: templates/contact.html:79
+msgid "Openingstijden"
+msgstr "Öffnungszeiten"
+
+#: templates/contact.html:81
+msgid "Maandag – Vrijdag"
+msgstr "Montag – Freitag"
+
+#: templates/contact.html:82
+msgid "07:30 – 17:00"
+msgstr "07:30 – 17:00"
+
+#: templates/contact.html:85
+msgid "Zaterdag"
+msgstr "Samstag"
+
+#: templates/contact.html:86
+msgid "08:00 – 12:00"
+msgstr "08:00 – 12:00"
+
+#: templates/contact.html:89
+msgid "Zondag"
+msgstr "Sonntag"
+
+#: templates/contact.html:90
+msgid "Gesloten"
+msgstr "Geschlossen"
+
+#: templates/contact.html:93
+msgid ""
+"Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+msgstr ""
+"Außerhalb der Bürozeiten? Senden Sie eine E-Mail – wir antworten am nächsten"
+" Werktag."
+
+#: templates/contact.html:102
+msgid "Offerte of vraag sturen"
+msgstr "Senden Sie ein Angebot oder eine Frage"
+
+#: templates/contact.html:103
+msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+msgstr ""
+"Füllen Sie das Formular aus und wir werden uns innerhalb eines Arbeitstages "
+"mit Ihnen in Verbindung setzen."
+
+#: templates/contact.html:118
+msgid "Voornaam"
+msgstr "Vorname"
+
+#: templates/contact.html:119
+msgid "Jan"
+msgstr "Jan"
+
+#: templates/contact.html:122
+msgid "Achternaam"
+msgstr "Nachname"
+
+#: templates/contact.html:123
+msgid "de Vries"
+msgstr "de Vries"
+
+#: templates/contact.html:133 templates/privacy.html:42
+msgid "Telefoonnummer"
+msgstr "Telefonnummer"
+
+#: templates/contact.html:138
+msgid "Type aanvraag"
+msgstr "Art der Anfrage"
+
+#: templates/contact.html:140
+msgid "Maak een keuze"
+msgstr "Treffen Sie eine Auswahl"
+
+#: templates/contact.html:141
+msgid "Offerte aanvraag"
+msgstr "Angebotsanfrage"
+
+#: templates/contact.html:142
+msgid "Vraag"
+msgstr "Frage"
+
+#: templates/contact.html:143 templates/index.html:223
+#: templates/projecten.html:59
+msgid "Renovatie"
+msgstr "Renovierung"
+
+#: templates/contact.html:144 templates/projecten.html:107
+#: templates/projecten.html:131
+msgid "Verbouwing"
+msgstr "Renovierung"
+
+#: templates/contact.html:145
+msgid "Overig"
+msgstr "Sonstiges"
+
+#: templates/contact.html:150
+msgid "Bericht"
+msgstr "Nachricht"
+
+#: templates/contact.html:151
+msgid "Omschrijf uw aanvraag"
+msgstr "Beschreiben Sie Ihr Anliegen"
+
+#: templates/contact.html:157
+msgid "Ik ga akkoord met het"
+msgstr "Ich stimme dem zu"
+
+#: templates/contact.html:157
+msgid "privacybeleid"
+msgstr "Datenschutzerklärung"
+
+#: templates/contact.html:163
+msgid "Aanvraag versturen"
+msgstr "Anfrage senden"
+
+#: templates/contact.html:172
+msgid "Request received!"
+msgstr "Anfrage erhalten!"
+
+#: templates/contact.html:173
+msgid ""
+"Thank you for your message. We will contact you within one business day to "
+"discuss your request."
+msgstr ""
+"Vielen Dank für Ihre Nachricht. Wir werden uns innerhalb eines Werktages mit"
+" Ihnen in Verbindung setzen, um Ihr Anliegen zu besprechen."
+
+#: templates/index.html:2
+msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
+msgstr "MaxCze-Dienste | Handwerkskunst aus Holz – Goor, Overijssel"
+
+#: templates/index.html:3
+msgid ""
+"MaxCze Services - 25+ jaar vakmanschap in verbouwingen, kozijnen, deuren en "
+"maatwerk in Goor en omgeving."
+msgstr ""
+"MaxCze Services – über 25 Jahre handwerkliche Erfahrung in Renovierungen, "
+"Rahmen, Türen und maßgefertigten Arbeiten in Goor und Umgebung."
+
+#: templates/index.html:13
+msgid ""
+"\n"
+"        Gevestigd in Goor, Overijssel\n"
+"      "
+msgstr ""
+"\n"
+"        Befindet sich in Goor, Overijssel\n"
+"      "
+
+#: templates/index.html:16
+msgid "Vakmanschap voor complete verbouwingen en maatwerk"
+msgstr ""
+"Handwerkskunst für komplette Renovierungen und individuelle Anpassungen"
+
+#: templates/index.html:17
+msgid ""
+"25+ jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk. Wij helpen "
+"u uw woonwensen werkelijkheid te maken."
+msgstr ""
+"Über 25 Jahre Erfahrung in Renovierungen, Rahmen, Türen und "
+"Sonderanfertigungen. Wir helfen Ihnen, Ihre Wohnwünsche zu verwirklichen."
+
+#: templates/index.html:20
+msgid ""
+"\n"
+"          Gratis offerte aanvragen\n"
+"        "
+msgstr ""
+"\n"
+"          Fordern Sie ein kostenloses Angebot an\n"
+"        "
+
+#: templates/index.html:24
+msgid ""
+"\n"
+"          Bekijk onze projecten\n"
+"        "
+msgstr ""
+"\n"
+"          Sehen Sie sich unsere Projekte an\n"
+"        "
+
+#: templates/index.html:31 templates/index.html:35
+msgid "0+"
+msgstr "0+"
+
+#: templates/index.html:32 templates/over-ons.html:55
+msgid "Jaar ervaring"
+msgstr "Jahrelange Erfahrung"
+
+#: templates/index.html:36
+msgid "Projecten voltooid"
+msgstr "Projekte abgeschlossen"
+
+#: templates/index.html:39
+#, python-format
+msgid "0%%"
+msgstr "0%%"
+
+#: templates/index.html:40
+msgid "Tevreden klanten"
+msgstr "Zufriedene Kunden"
+
+#: templates/index.html:46
+msgid ""
+"\n"
+"    Scroll\n"
+"  "
+msgstr ""
+"\n"
+"    Scrollen\n"
+"  "
+
+#: templates/index.html:55
+msgid "Wat wij doen"
+msgstr "Was wir tun"
+
+#: templates/index.html:56
+msgid "Onze diensten"
+msgstr "Unsere Leistungen"
+
+#: templates/index.html:57
+msgid ""
+"Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
+"maat voor elk project."
+msgstr ""
+"Von der Kleinreparatur bis zur Komplettsanierung – wir liefern "
+"maßgeschneiderte Qualität für jedes Projekt."
+
+#: templates/index.html:68
+msgid ""
+"Van voorbereiding tot afwerking verzorgen wij complete verbouwingen voor "
+"woningen en bedrijfspanden."
+msgstr ""
+"Von der Vorbereitung bis zur Fertigstellung bieten wir komplette "
+"Renovierungen für Wohn- und Gewerbeimmobilien an."
+
+#: templates/index.html:78
+msgid ""
+"Plaatsing, vervanging en herstel van kozijnen en deuren met oog voor "
+"duurzaamheid en afwerking."
+msgstr ""
+"Installation, Austausch und Reparatur von Rahmen und Türen mit Blick auf "
+"Haltbarkeit und Finish."
+
+#: templates/index.html:90
+msgid ""
+"Praktische en nette renovaties voor binnen en buiten, afgestemd op uw wensen"
+" en bestaande situatie."
+msgstr ""
+"Zweckmäßige und gepflegte Sanierungen für innen und außen, abgestimmt auf "
+"Ihre Wünsche und bestehende Situation."
+
+#: templates/index.html:100
+msgid ""
+"Voor alle overige timmerwerken bieden wij een betrouwbare, vakkundige en "
+"flexibele oplossing."
+msgstr ""
+"Für alle anderen Tischlerarbeiten bieten wir eine zuverlässige, "
+"professionelle und flexible Lösung."
+
+#: templates/index.html:118
+msgid "25+"
+msgstr "25+"
+
+#: templates/index.html:119
+msgid "jaar"
+msgstr "Jahr"
+
+#: templates/index.html:119 templates/over-ons.html:126
+msgid "vakmanschap"
+msgstr "Handwerkskunst"
+
+#: templates/index.html:125
+msgid "Persoonlijk vakmanschap in Goor"
+msgstr "Persönliche Handwerkskunst in Goor"
+
+#: templates/index.html:126
+msgid ""
+"MaxCze Services is een eenmanszaak van Max Czepelka. Sinds 2016 helpt hij "
+"klanten met verbouwingen, renovaties en timmerwerk in Goor en de regio "
+"Twente."
+msgstr ""
+"MaxCze Services ist ein Einzelunternehmen von Max Czepelka. Seit 2016 "
+"unterstützt er Kunden bei Renovierungen, Renovierungen und Tischlerarbeiten "
+"in Goor und der Region Twente."
+
+#: templates/index.html:134
+msgid "25+ jaar ervaring"
+msgstr "Über 25 Jahre Erfahrung"
+
+#: templates/index.html:135
+msgid ""
+"Ruime praktijkervaring in complete verbouwingen, renovaties en maatwerk in "
+"hout."
+msgstr ""
+"Umfangreiche Praxiserfahrung bei Komplettumbauten, Renovierungen und "
+"Maßarbeiten in Holz."
+
+#: templates/index.html:143
+msgid "Persoonlijke aanpak"
+msgstr "Persönlicher Ansatz"
+
+#: templates/index.html:144
+msgid ""
+"U heeft altijd direct contact met de eigenaar, van intake tot oplevering."
+msgstr ""
+"Von der Annahme bis zur Lieferung haben Sie immer direkten Kontakt zum "
+"Eigentümer."
+
+#: templates/index.html:152
+msgid "Heldere afspraken"
+msgstr "Klare Vereinbarungen"
+
+#: templates/index.html:153
+msgid ""
+"Duidelijke planning, nette uitvoering en afspraken die worden nagekomen."
+msgstr "Klare Planung, saubere Ausführung und eingehaltene Vereinbarungen."
+
+#: templates/index.html:158
+msgid ""
+"\n"
+"          Meer over ons verhaal\n"
+"          "
+msgstr ""
+"\n"
+"          Mehr zu unserer Geschichte\n"
+"          "
+
+#: templates/index.html:171
+msgid "Hoe werken wij"
+msgstr "Wie wir arbeiten"
+
+#: templates/index.html:172
+msgid "Van idee tot oplevering"
+msgstr "Von der Idee bis zur Lieferung"
+
+#: templates/index.html:173
+msgid ""
+"Een helder en transparant werkproces zodat u altijd weet waar u aan toe "
+"bent."
+msgstr ""
+"Ein klarer und transparenter Arbeitsprozess, damit Sie immer wissen, woran "
+"Sie sind."
+
+#: templates/index.html:178
+msgid "1"
+msgstr "1"
+
+#: templates/index.html:179
+msgid "Kennismaken"
+msgstr "Ich lerne Dich kennen"
+
+#: templates/index.html:180
+msgid ""
+"Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te "
+"bespreken."
+msgstr ""
+"Kostenloses Aufnahmegespräch bei Ihnen zu Hause oder in unserer Werkstatt, "
+"um Ihre Wünsche zu besprechen."
+
+#: templates/index.html:183
+msgid "2"
+msgstr "2"
+
+#: templates/index.html:184
+msgid "Offerte & ontwerp"
+msgstr "Angebot & Design"
+
+#: templates/index.html:185
+msgid ""
+"Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of "
+"3D-visualisatie."
+msgstr ""
+"Wir erstellen ein detailliertes Angebot und bei Bedarf eine Entwurfsskizze "
+"oder 3D-Visualisierung."
+
+#: templates/index.html:188
+msgid "3"
+msgstr "3"
+
+#: templates/index.html:189
+msgid "Uitvoering"
+msgstr "Ausführung"
+
+#: templates/index.html:190
+msgid ""
+"Vakkundige uitvoering door de eigenaar, met duidelijke communicatie over de "
+"voortgang."
+msgstr ""
+"Professionelle Ausführung durch den Eigentümer, mit klarer Kommunikation "
+"über den Fortschritt."
+
+#: templates/index.html:193
+msgid "4"
+msgstr "4"
+
+#: templates/index.html:194
+msgid "Oplevering"
+msgstr "Lieferung"
+
+#: templates/index.html:195
+msgid ""
+"Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op."
+msgstr ""
+"Sorgfältige Lieferung und Nachbetreuung. Nicht zufrieden? Dann werden wir es"
+" lösen."
+
+#: templates/index.html:205
+msgid "Recent werk"
+msgstr "Aktuelle Arbeiten"
+
+#: templates/index.html:206
+msgid "Uitgelichte projecten"
+msgstr "Ausgewählte Projekte"
+
+#: templates/index.html:207
+msgid "Een greep uit onze meest recente opdrachten in Twente en omgeving."
+msgstr "Eine Auswahl unserer letzten Aufträge in Twente und Umgebung."
+
+#: templates/index.html:214
+msgid "Maatwerk"
+msgstr "Anpassung"
+
+#: templates/index.html:215
+msgid "Keuken op maat – Almelo"
+msgstr "Maßgeschneiderte Küche – Almelo"
+
+#: templates/index.html:216
+msgid ""
+"Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur."
+msgstr ""
+"Komplett maßgefertigte Küche in Weißeiche, inklusive Kochinsel und "
+"Einbaugeräten."
+
+#: templates/index.html:224
+msgid "Trap renovatie – Enschede"
+msgstr "Treppenrenovierung – Enschede"
+
+#: templates/index.html:225
+msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
+msgstr ""
+"Komplette Treppenrenovierung mit neuen Stufen und Sprossen aus massiver "
+"Eiche."
+
+#: templates/index.html:232 templates/projecten.html:71
+#: templates/projecten.html:143
+msgid "Kozijnen"
+msgstr "Rahmen"
+
+#: templates/index.html:233
+msgid "Kozijnen plaatsing – Hengelo"
+msgstr "Fensterrahmenmontage – Hengelo"
+
+#: templates/index.html:234
+msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
+msgstr "Austausch von 14 Fensterrahmen aus Meranti-Holz mit Doppelverglasung."
+
+#: templates/index.html:240
+msgid ""
+"\n"
+"        Bekijk alle projecten\n"
+"        "
+msgstr ""
+"\n"
+"        Alle Projekte ansehen\n"
+"        "
+
+#: templates/index.html:252
+msgid "Klantbeoordelingen"
+msgstr "Kundenrezensionen"
+
+#: templates/index.html:253
+msgid "Wat onze klanten zeggen"
+msgstr "Was unsere Kunden sagen"
+
+#: templates/index.html:254
+msgid ""
+"We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk"
+" vinden."
+msgstr ""
+"Wir sind stolz auf jede Bewertung. Lesen Sie, was unsere Kunden über unsere "
+"Arbeit denken."
+
+#: templates/index.html:266
+msgid ""
+"\"MaxCze Services heeft onze verbouwing netjes en vakkundig uitgevoerd. "
+"Fijne communicatie, heldere afspraken en een prachtig eindresultaat.\""
+msgstr ""
+"„MaxCze Services hat unsere Renovierung sauber und professionell "
+"durchgeführt. Gute Kommunikation, klare Vereinbarungen und ein schönes "
+"Endergebnis.“"
+
+#: templates/index.html:270
+msgid "Marieke de Boer"
+msgstr "Marieke de Boer"
+
+#: templates/index.html:271
+msgid "Almelo"
+msgstr "Almelo"
+
+#: templates/index.html:284
+msgid ""
+"\"Voor het vervangen van kozijnen en deuren kozen wij voor MaxCze Service. "
+"Alles is zorgvuldig afgewerkt en exact volgens planning opgeleverd.\""
+msgstr ""
+"„Wir haben uns für den Austausch von Fensterrahmen und Türen für MaxCze "
+"Service entschieden. Alles wurde sorgfältig fertiggestellt und genau nach "
+"Plan geliefert.“"
+
+#: templates/index.html:288
+msgid "Peter Jansen"
+msgstr "Peter Jansen"
+
+#: templates/index.html:289
+msgid "Hengelo"
+msgstr "Hengelo"
+
+#: templates/index.html:302
+msgid ""
+"\"Onze renovatie is professioneel aangepakt. Van de eerste opname tot de "
+"laatste afwerking verliep alles soepel. Zeker een aanrader in Twente.\""
+msgstr ""
+"„Unsere Renovierung wurde professionell abgewickelt. Von der ersten Aufnahme"
+" bis zur endgültigen Fertigstellung verlief alles reibungslos. Auf jeden "
+"Fall in Twente zu empfehlen.“"
+
+#: templates/index.html:306
+msgid "Sandra Visscher"
+msgstr "Sandra Visscher"
+
+#: templates/index.html:307
+msgid "Goor"
+msgstr "Goor"
+
+#: templates/index.html:319
+msgid "Klaar om te beginnen?"
+msgstr "Bereit, loszulegen?"
+
+#: templates/index.html:320
+msgid "Heeft u een project in gedachten?"
+msgstr "Haben Sie ein Projekt im Sinn?"
+
+#: templates/index.html:321
+msgid ""
+"Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
+"offerte aan. Wij reageren binnen één werkdag."
+msgstr ""
+"Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch oder fordern "
+"Sie gleich Ihr kostenloses Angebot an. Wir antworten innerhalb eines "
+"Werktages."
+
+#: templates/index.html:324
+msgid ""
+"\n"
+"          Offerte aanvragen\n"
+"        "
+msgstr ""
+"\n"
+"          Angebot anfordern\n"
+"        "
+
+#: templates/index.html:328
+msgid ""
+"\n"
+"          06 33649552\n"
+"        "
+msgstr ""
+"\n"
+"          06 33649552\n"
+"        "
+
+#: templates/over-ons.html:3
+msgid ""
+"Leer meer over MaxCze Services. Een eenmanszaak met 25+ jaar ervaring in "
+"verbouwingen, renovaties en timmerwerk in Twente."
+msgstr ""
+"Erfahren Sie mehr über MaxCze Services. Ein Einzelunternehmen mit mehr als "
+"25 Jahren Erfahrung in Renovierungen, Renovierungen und Zimmereiarbeiten in "
+"Twente."
+
+#: templates/over-ons.html:17
+msgid "Ons verhaal"
+msgstr "Unsere Geschichte"
+
+#: templates/over-ons.html:18
+msgid "Maak kennis met"
+msgstr "Lernen Sie es kennen"
+
+#: templates/over-ons.html:18
+msgid "MaxCze Services"
+msgstr "MaxCze Services"
+
+#: templates/over-ons.html:19
+msgid ""
+"MaxCze Services is een eenmanszaak, opgericht in 2016 door Max Czepelka. "
+"Persoonlijk contact en vakmanschap staan centraal."
+msgstr ""
+"MaxCze Services ist ein Einzelunternehmen, das 2016 von Max Czepelka "
+"gegründet wurde. Persönlicher Kontakt und handwerkliches Können stehen im "
+"Mittelpunkt."
+
+#: templates/over-ons.html:38 templates/over-ons.html:197
+msgid "Maak kennis met de eigenaar"
+msgstr "Treffen Sie den Besitzer"
+
+#: templates/over-ons.html:39
+msgid "Persoonlijk vakmanschap"
+msgstr "Persönliche Handwerkskunst"
+
+#: templates/over-ons.html:40
+msgid "MaxCze Services werd opgericht in 2016 door Max Czepelka."
+msgstr "MaxCze Services wurde 2016 von Max Czepelka gegründet."
+
+#: templates/over-ons.html:41
+msgid ""
+"Met 25+ jaar ervaring in het timmervak helpt hij klanten met verbouwingen, "
+"renovaties en maatwerkprojecten in Goor en de regio Twente."
+msgstr ""
+"Mit mehr als 25 Jahren Erfahrung im Tischlerhandwerk unterstützt er Kunden "
+"bei Renovierungen, Renovierungen und individuellen Projekten in Goor und der"
+" Region Twente."
+
+#: templates/over-ons.html:42
+msgid ""
+"Van de eerste opname tot de oplevering heeft u altijd direct contact met de "
+"eigenaar. Zo zijn afspraken duidelijk en blijft de uitvoering persoonlijk en"
+" betrouwbaar."
+msgstr ""
+"Von der ersten Aufnahme bis zur Auslieferung haben Sie stets direkten "
+"Kontakt zum Eigentümer. So sind Vereinbarungen klar und die Umsetzung bleibt"
+" persönlich und zuverlässig."
+
+#: templates/over-ons.html:60
+msgid "Voltooide projecten"
+msgstr "Abgeschlossene Projekte"
+
+#: templates/over-ons.html:65
+msgid "Eigenaar"
+msgstr "Eigentümer"
+
+#: templates/over-ons.html:70
+msgid "Klanten tevreden"
+msgstr "Kunden zufrieden"
+
+#: templates/over-ons.html:80
+msgid "Waar wij voor staan"
+msgstr "Wofür wir stehen"
+
+#: templates/over-ons.html:81
+msgid "Onze kernwaarden"
+msgstr "Unsere Grundwerte"
+
+#: templates/over-ons.html:82
+msgid ""
+"Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
+"het teken van deze vier waarden."
+msgstr ""
+"Bei jeder Entscheidung, die wir treffen, bei jedem Projekt, das wir "
+"durchführen, dreht sich alles um diese vier Werte."
+
+#: templates/over-ons.html:90
+msgid "Kwaliteit"
+msgstr "Qualität"
+
+#: templates/over-ons.html:91
+msgid ""
+"Wij werken uitsluitend met premium materialen en staan voor vakmanschap dat "
+"tientallen jaren meegaat. Geen compromissen."
+msgstr ""
+"Wir verarbeiten ausschließlich hochwertige Materialien und stehen für "
+"jahrzehntelange Handwerkskunst. Keine Kompromisse."
+
+#: templates/over-ons.html:98
+msgid "Passie"
+msgstr "Hingabe"
+
+#: templates/over-ons.html:99
+msgid ""
+"Houtbewerking is onze passie, geen baan. Die liefde zien en voelen onze "
+"klanten terug in het eindresultaat."
+msgstr ""
+"Holzbearbeitung ist unsere Leidenschaft, kein Job. Unsere Kunden sehen und "
+"spüren diese Liebe im Endergebnis."
+
+#: templates/over-ons.html:106
+msgid "Betrouwbaarheid"
+msgstr "Zuverlässigkeit"
+
+#: templates/over-ons.html:107
+msgid ""
+"Een afspraak is een afspraak. Wij communiceren helder, zijn op tijd en "
+"leveren wat wij beloven."
+msgstr ""
+"Eine Vereinbarung ist eine Vereinbarung. Wir kommunizieren klar, sind "
+"pünktlich und halten, was wir versprechen."
+
+#: templates/over-ons.html:114
+msgid "Duurzaamheid"
+msgstr "Nachhaltigkeit"
+
+#: templates/over-ons.html:115
+msgid ""
+"Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
+"Een mooie woning én een gezond milieu gaan hand in hand."
+msgstr ""
+"Wir arbeiten mit FSC-zertifiziertem Holz und umweltfreundlichen Oberflächen."
+" Ein schönes Zuhause und eine gesunde Umwelt gehen Hand in Hand."
+
+#: templates/over-ons.html:125
+msgid "Onze geschiedenis"
+msgstr "Unsere Geschichte"
+
+#: templates/over-ons.html:126
+msgid "25+ jaar"
+msgstr "25+ Jahre"
+
+#: templates/over-ons.html:132
+msgid "2016"
+msgstr "2016"
+
+#: templates/over-ons.html:133
+msgid "Oprichting"
+msgstr "Eingliederung"
+
+#: templates/over-ons.html:134
+msgid ""
+"Max Czepelka richt MaxCze Services op in Goor, met focus op verbouwingen, "
+"renovaties en timmerwerk op maat."
+msgstr ""
+"Max Czepelka gründete MaxCze Services in Goor mit Schwerpunkt auf Umbauten, "
+"Renovierungen und kundenspezifischen Tischlereiarbeiten."
+
+#: templates/over-ons.html:144
+msgid "2018"
+msgstr "2018"
+
+#: templates/over-ons.html:145
+msgid "Groei in opdrachten"
+msgstr "Zuwachs an Aufgaben"
+
+#: templates/over-ons.html:146
+msgid ""
+"Door mond-tot-mondreclame groeit het aantal projecten in Goor en de regio "
+"Twente snel."
+msgstr ""
+"Dank Mundpropaganda wächst die Zahl der Projekte in Goor und der Region "
+"Twente rasant."
+
+#: templates/over-ons.html:152
+msgid "2020"
+msgstr "2020"
+
+#: templates/over-ons.html:153
+msgid "Uitbreiding diensten"
+msgstr "Erweiterung der Dienstleistungen"
+
+#: templates/over-ons.html:154
+msgid ""
+"Steeds meer klanten kiezen MaxCze Services voor complete verbouwingen en "
+"renovatiewerk."
+msgstr ""
+"Immer mehr Kunden entscheiden sich für MaxCze Services für komplette "
+"Renovierungen und Sanierungsarbeiten."
+
+#: templates/over-ons.html:164
+msgid "2023"
+msgstr "2023"
+
+#: templates/over-ons.html:165
+msgid "Regionale bekendheid"
+msgstr "Regionaler Ruhm"
+
+#: templates/over-ons.html:166
+msgid ""
+"MaxCze Services bouwt verder aan een sterke reputatie dankzij persoonlijk "
+"advies en nette oplevering."
+msgstr ""
+"Dank persönlicher Beratung und sorgfältiger Lieferung baut sich MaxCze "
+"Services weiterhin einen guten Ruf auf."
+
+#: templates/over-ons.html:172
+msgid "Heden"
+msgstr "Heute"
+
+#: templates/over-ons.html:173
+msgid "Betrouwbare partner"
+msgstr "Zuverlässiger Partner"
+
+#: templates/over-ons.html:174
+msgid ""
+"Met 25+ jaar ervaring blijft MaxCze Services klanten helpen met "
+"verbouwingen, renovaties en timmerwerk in Twente."
+msgstr ""
+"Mit mehr als 25 Jahren Erfahrung unterstützt MaxCze Services Kunden "
+"weiterhin bei Renovierungen, Renovierungen und Tischlerarbeiten in Twente."
+
+#: templates/over-ons.html:184
+msgid "Toekomst"
+msgstr "Zukunft"
+
+#: templates/over-ons.html:185
+msgid "Blijven verbeteren"
+msgstr "Verbessern Sie sich weiter"
+
+#: templates/over-ons.html:186
+msgid ""
+"Ook in de komende jaren blijft persoonlijke service en degelijk vakwerk de "
+"basis van ieder project."
+msgstr ""
+"Persönlicher Service und solides Handwerk bleiben auch in den kommenden "
+"Jahren die Basis jedes Projekts."
+
+#: templates/over-ons.html:198
+msgid "Eén aanspreekpunt, van begin tot eind"
+msgstr "Ein Ansprechpartner, von Anfang bis Ende"
+
+#: templates/over-ons.html:199
+msgid ""
+"Bij MaxCze Services wordt elk project persoonlijk uitgevoerd en begeleid "
+"door de eigenaar."
+msgstr ""
+"Bei MaxCze Services wird jedes Projekt vom Eigentümer persönlich "
+"durchgeführt und überwacht."
+
+#: templates/over-ons.html:206
+msgid "Max Czepelka"
+msgstr "Max Czepelka"
+
+#: templates/over-ons.html:207
+msgid "Eigenaar & Vakman"
+msgstr "Inhaber und Handwerker"
+
+#: templates/over-ons.html:208
+msgid ""
+"25+ jaar vakkennis in verbouwingen, renovaties en allround timmerwerk. "
+"Altijd persoonlijk contact en een betrouwbare uitvoering."
+msgstr ""
+"Über 25 Jahre Erfahrung in Renovierungen, Renovierungen und umfassenden "
+"Schreinerarbeiten. Stets persönlicher Kontakt und zuverlässige Umsetzung."
+
+#: templates/over-ons.html:219
+msgid "Samenwerken?"
+msgstr "Mitarbeiten?"
+
+#: templates/over-ons.html:220
+msgid "Klaar om kennis te maken?"
+msgstr "Bereit zum Kennenlernen?"
+
+#: templates/over-ons.html:221
+msgid ""
+"Plan een vrijblijvend gesprek in op onze locatie in Goor, of vraag direct "
+"een offerte aan voor uw project."
+msgstr ""
+"Vereinbaren Sie einen unverbindlichen Beratungstermin an unserem Standort in"
+" Goor oder fordern Sie sofort ein Angebot für Ihr Projekt an."
+
+#: templates/privacy.html:2 templates/privacy.html:15
+#: templates/privacy.html:18
+msgid "Privacyverklaring"
+msgstr "Datenschutzerklärung"
+
+#: templates/privacy.html:3
+msgid ""
+"Lees de privacyverklaring van MaxCze Services. Wij leggen uit welke "
+"persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
+msgstr ""
+"Lesen Sie die Datenschutzerklärung von MaxCze Services. Wir erklären, welche"
+" personenbezogenen Daten wir erheben, warum und welche Rechte Sie haben."
+
+#: templates/privacy.html:17
+msgid "Belangrijk"
+msgstr "Wichtig"
+
+#: templates/privacy.html:19
+msgid ""
+"Onderstaand leest u meer over hoe wij omgaan met persoonsgegevens en welke "
+"rechten u heeft."
+msgstr ""
+"Nachfolgend erfahren Sie mehr darüber, wie wir mit personenbezogenen Daten "
+"umgehen und welche Rechte Sie haben."
+
+#: templates/privacy.html:27
+msgid "1. Inleiding"
+msgstr "1. Einführung"
+
+#: templates/privacy.html:28
+msgid ""
+"Deze privacyverklaring is van toepassing op de website en diensten van "
+"MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
+"persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
+"wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
+"gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
+"omgaan."
+msgstr ""
+"Diese Datenschutzerklärung gilt für die Website und Dienste von MaxCze "
+"Services. Wir legen großen Wert auf den Schutz Ihrer persönlichen Daten und "
+"sorgen für einen sorgfältigen und sicheren Umgang mit personenbezogenen "
+"Daten. In dieser Erklärung erklären wir, welche Daten wir erheben, warum wir"
+" sie erheben und wie wir damit umgehen."
+
+#: templates/privacy.html:30
+msgid "2. Bedrijfsgegevens"
+msgstr "2. Unternehmensinformationen"
+
+#: templates/privacy.html:31
+msgid "Bedrijfsnaam: MaxCze Services"
+msgstr "Firmenname: MaxCze Services"
+
+#: templates/privacy.html:32
+msgid "Adres: Het Jannink 23"
+msgstr "Adresse: Het Jannink 23"
+
+#: templates/privacy.html:33
+msgid "Postcode en plaats: 7471VB, Goor"
+msgstr "Postleitzahl und Ort: 7471VB, Goor"
+
+#: templates/privacy.html:34 templates/privacy.html:85
+msgid "E-mail: Maxcze@hotmail.com"
+msgstr "E-mail: Maxcze@hotmail.com"
+
+#: templates/privacy.html:35
+msgid "Telefoonnummer: +31 6 33649552"
+msgstr "Telefonnummer: +31 6 33649552"
+
+#: templates/privacy.html:36
+msgid "KvK-nummer: 66516005"
+msgstr "Handelskammernummer: 66516005"
+
+#: templates/privacy.html:38
+msgid "3. Persoonsgegevens die wij verwerken"
+msgstr "3. Personenbezogene Daten, die wir verarbeiten"
+
+#: templates/privacy.html:39
+msgid ""
+"Wanneer u gebruik maakt van onze website of contact met ons opneemt, kunnen "
+"wij de volgende gegevens verwerken:"
+msgstr ""
+"Wenn Sie unsere Website nutzen oder mit uns Kontakt aufnehmen, können wir "
+"folgende Daten verarbeiten:"
+
+#: templates/privacy.html:41
+msgid "Naam"
+msgstr "Name"
+
+#: templates/privacy.html:43
+msgid "E-mailadres"
+msgstr "E-Mail-Adresse"
+
+#: templates/privacy.html:44
+msgid "Adresgegevens (indien nodig voor offerte of werkzaamheden)"
+msgstr "Adressdaten (falls für Angebot oder Arbeit erforderlich)"
+
+#: templates/privacy.html:45
+msgid "Eventuele informatie die u zelf invult in een contactformulier"
+msgstr "Alle Informationen, die Sie selbst in ein Kontaktformular eingeben"
+
+#: templates/privacy.html:48
+msgid "4. Waarom wij deze gegevens verzamelen"
+msgstr "4. Warum wir diese Daten sammeln"
+
+#: templates/privacy.html:49
+msgid "Wij verwerken persoonsgegevens voor de volgende doeleinden:"
+msgstr "Wir verarbeiten personenbezogene Daten zu folgenden Zwecken:"
+
+#: templates/privacy.html:51
+msgid ""
+"Om contact met u op te nemen naar aanleiding van een aanvraag of offerte"
+msgstr "Um Sie bezüglich einer Anfrage oder eines Angebots zu kontaktieren"
+
+#: templates/privacy.html:52
+msgid "Om onze diensten uit te voeren"
+msgstr "Zur Erbringung unserer Dienstleistungen"
+
+#: templates/privacy.html:53
+msgid "Voor het opstellen en versturen van offertes en facturen"
+msgstr "Für die Erstellung und den Versand von Angeboten und Rechnungen"
+
+#: templates/privacy.html:54
+msgid "Om onze website en dienstverlening te verbeteren"
+msgstr "Um unsere Website und Dienstleistungen zu verbessern"
+
+#: templates/privacy.html:55
+msgid "Om te voldoen aan wettelijke verplichtingen"
+msgstr "Zur Einhaltung gesetzlicher Verpflichtungen"
+
+#: templates/privacy.html:58
+msgid "5. Bewaartermijn"
+msgstr "5. Aufbewahrungsfrist"
+
+#: templates/privacy.html:59
+msgid ""
+"Wij bewaren uw persoonsgegevens niet langer dan noodzakelijk is voor het "
+"doel waarvoor deze zijn verzameld, tenzij wij wettelijk verplicht zijn deze "
+"langer te bewaren (bijvoorbeeld voor de administratie)."
+msgstr ""
+"Wir speichern Ihre personenbezogenen Daten nicht länger, als es für den "
+"Zweck, für den sie erhoben wurden, erforderlich ist, es sei denn, wir sind "
+"gesetzlich dazu verpflichtet, sie länger aufzubewahren (z. B. für "
+"Verwaltungszwecke)."
+
+#: templates/privacy.html:61
+msgid "6. Delen van gegevens met derden"
+msgstr "6. Weitergabe von Daten an Dritte"
+
+#: templates/privacy.html:62
+msgid ""
+"Wij delen uw persoonsgegevens alleen met derden wanneer dit nodig is voor de"
+" uitvoering van onze diensten of wanneer wij hier wettelijk toe verplicht "
+"zijn. Wij verkopen uw gegevens nooit aan derden."
+msgstr ""
+"Wir geben Ihre personenbezogenen Daten nur dann an Dritte weiter, wenn dies "
+"für die Erbringung unserer Leistungen erforderlich ist oder wir gesetzlich "
+"dazu verpflichtet sind. Wir verkaufen Ihre Daten niemals an Dritte."
+
+#: templates/privacy.html:64
+msgid "7. Beveiliging van gegevens"
+msgstr "7. Datensicherheit"
+
+#: templates/privacy.html:65
+msgid ""
+"Wij nemen passende maatregelen om uw persoonsgegevens te beschermen tegen "
+"verlies, misbruik of onbevoegde toegang."
+msgstr ""
+"Wir ergreifen geeignete Maßnahmen, um Ihre personenbezogenen Daten vor "
+"Verlust, Missbrauch oder unbefugtem Zugriff zu schützen."
+
+#: templates/privacy.html:67
+msgid "8. Cookies"
+msgstr "8.Cookies"
+
+#: templates/privacy.html:68
+msgid ""
+"Onze website kan gebruik maken van cookies. Cookies zijn kleine "
+"tekstbestanden die op uw apparaat worden opgeslagen om de website beter te "
+"laten functioneren en inzicht te krijgen in het gebruik van de website. U "
+"kunt cookies uitschakelen via de instellingen van uw browser."
+msgstr ""
+"Unsere Website verwendet möglicherweise Cookies. Cookies sind kleine "
+"Textdateien, die auf Ihrem Gerät gespeichert werden, um die Funktion der "
+"Website zu verbessern und Einblicke in die Nutzung der Website zu gewinnen. "
+"Sie können Cookies über Ihre Browsereinstellungen deaktivieren."
+
+#: templates/privacy.html:70
+msgid "9. Uw rechten"
+msgstr "9. Ihre Rechte"
+
+#: templates/privacy.html:71
+msgid "U heeft het recht om:"
+msgstr "Sie haben das Recht:"
+
+#: templates/privacy.html:73
+msgid "uw persoonsgegevens in te zien"
+msgstr "um Ihre persönlichen Daten einzusehen"
+
+#: templates/privacy.html:74
+msgid "uw gegevens te laten corrigeren"
+msgstr "Ihre Daten berichtigen zu lassen"
+
+#: templates/privacy.html:75
+msgid "uw gegevens te laten verwijderen"
+msgstr "Ihre Daten löschen zu lassen"
+
+#: templates/privacy.html:76
+msgid "bezwaar te maken tegen het gebruik van uw gegevens"
+msgstr "der Nutzung Ihrer Daten zu widersprechen"
+
+#: templates/privacy.html:78
+msgid ""
+"U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
+"staat vermeld."
+msgstr ""
+"Eine Kontaktaufnahme hierzu ist über die oben angegebene E-Mail-Adresse "
+"möglich."
+
+#: templates/privacy.html:80
+msgid "10. Wijzigingen"
+msgstr "10. Änderungen"
+
+#: templates/privacy.html:81
+msgid ""
+"Wij behouden ons het recht voor om deze privacyverklaring te wijzigen. De "
+"meest actuele versie staat altijd op onze website."
+msgstr ""
+"Wir behalten uns das Recht vor, diese Datenschutzerklärung zu ändern. Die "
+"aktuellste Version finden Sie immer auf unserer Website."
+
+#: templates/privacy.html:83
+msgid "11. Contact"
+msgstr "11. Kontakt"
+
+#: templates/privacy.html:84
+msgid ""
+"Heeft u vragen over deze privacyverklaring of over hoe wij met uw gegevens "
+"omgaan? Neem dan contact met ons op via:"
+msgstr ""
+"Sie haben Fragen zu dieser Datenschutzerklärung oder unserem Umgang mit "
+"Ihren Daten? Bitte kontaktieren Sie uns über:"
+
+#: templates/privacy.html:86
+msgid "Telefoon: +31 6 33649552."
+msgstr "Telefon: +31 6 33649552."
+
+#: templates/projecten.html:2
+msgid "Projecten & Portfolio"
+msgstr "Projekte & Portfolio"
+
+#: templates/projecten.html:3
+msgid ""
+"Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, "
+"verbouwingen en meer. Vakmanschap dat spreekt voor zich."
+msgstr ""
+"Sehen Sie sich unsere abgeschlossenen Projekte an: maßgefertigte Möbel, "
+"Fensterrahmen, Türen, Renovierungen und mehr. Handwerkskunst spricht für "
+"sich."
+
+#: templates/projecten.html:17
+msgid "Ons portfolio"
+msgstr "Unser Portfolio"
+
+#: templates/projecten.html:18
+msgid "Projecten die"
+msgstr "Projiziert das"
+
+#: templates/projecten.html:18
+msgid "voor zichzelf spreken"
+msgstr "sprechen für sich"
+
+#: templates/projecten.html:19
+msgid ""
+"Een selectie van onze meest recente en bijzondere opdrachten in Twente en "
+"omgeving."
+msgstr ""
+"Eine Auswahl unserer aktuellsten und besonderen Aufträge in Twente und "
+"Umgebung."
+
+#: templates/projecten.html:30
+msgid "Alle projecten"
+msgstr "Alle Projekte"
+
+#: templates/projecten.html:31 templates/projecten.html:47
+#: templates/projecten.html:83 templates/projecten.html:119
+msgid "Maatwerk meubels"
+msgstr "Maßgeschneiderte Möbel"
+
+#: templates/projecten.html:32
+msgid "Kozijnen & ramen"
+msgstr "Rahmen und Fenster"
+
+#: templates/projecten.html:33
+msgid "Verbouwingen"
+msgstr "Renovierungen"
+
+#: templates/projecten.html:34 templates/projecten.html:95
+msgid "Deuren"
+msgstr "Türen"
+
+#: templates/projecten.html:48
+msgid "Complete keuken op maat – Almelo"
+msgstr "Komplette maßgeschneiderte Küche - Almelo"
+
+#: templates/projecten.html:49
+msgid ""
+"Een volledig op maat gemaakte keuken in wit eiken met een kookeiland van "
+"Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de "
+"kastjes."
+msgstr ""
+"Eine komplett maßgeschneiderte Küche aus Weißeiche mit einer Kochinsel aus "
+"belgischem Blaustein. Inklusive Einbaugeräten und LED-Beleuchtung unter den "
+"Schränken."
+
+#: templates/projecten.html:60
+msgid "Traprenovatie – Enschede"
+msgstr "Treppenrenovierung – Enschede"
+
+#: templates/projecten.html:61
+msgid ""
+"Volledige vervanging van treden en spijlen in massief eiken. Inclusief "
+"nieuwe leuning en schilderwerk."
+msgstr ""
+"Kompletter Austausch von Stufen und Stangen aus massiver Eiche. Inklusive "
+"neuem Geländer und Anstrich."
+
+#: templates/projecten.html:72
+msgid "Kozijnenvervanging – Hengelo"
+msgstr "Austausch des Fensterrahmens – Hengelo"
+
+#: templates/projecten.html:73
+msgid ""
+"14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief "
+"schilderwerk in kleur van de klant."
+msgstr ""
+"14 Holzrahmen in Meranti, mit doppelter HR++-Verglasung. Inklusive "
+"Lackierung in Kundenfarbe."
+
+#: templates/projecten.html:84
+msgid "Inbouwkasten slaapkamer – Goor"
+msgstr "Schlafzimmer-Einbauschränke - Goor"
+
+#: templates/projecten.html:85
+msgid ""
+"Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met "
+"zachte sluitingen. Maximale benutting van de ruimte."
+msgstr ""
+"Komplette Wand aus Einbauschränken mit einer Breite von über 4,5 Metern aus "
+"weiß lackiertem MDF mit Soft-Closing. Maximale Raumausnutzung."
+
+#: templates/projecten.html:96
+msgid "Voordeur op maat – Delden"
+msgstr "Maßgeschneiderte Haustür – Delden"
+
+#: templates/projecten.html:97
+msgid ""
+"Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en "
+"sluitwerk. Inclusief nieuw kozijn."
+msgstr ""
+"Vordertür aus massiver Eiche mit eleganter Glasscheibe und antiken "
+"Messingscharnieren und -schlössern. Inklusive neuem Rahmen."
+
+#: templates/projecten.html:108
+msgid "Badkamer verbouwing – Borne"
+msgstr "Badezimmerrenovierung – Borne"
+
+#: templates/projecten.html:109
+msgid ""
+"Complete verbouwing van een badkamer inclusief het timmerwerk voor de "
+"betegeling en inbouwkasten rondom het bad."
+msgstr ""
+"Komplettsanierung eines Badezimmers inklusive Tischlerarbeiten für Fliesen "
+"und Einbauschränke rund um die Badewanne."
+
+#: templates/projecten.html:120
+msgid "Thuiskantoor op maat – Rijssen"
+msgstr "Maßgeschneidertes Homeoffice – Rijssen"
+
+#: templates/projecten.html:121
+msgid ""
+"Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, "
+"perfect passend in de serre."
+msgstr ""
+"Eingebaute Bücherregale und Schreibtisch aus dunklem Walnussholz. Schlank "
+"und funktional, passt perfekt in den Wintergarten."
+
+#: templates/projecten.html:132
+msgid "Complete woonkamer verbouwing – Almelo"
+msgstr "Komplette Wohnzimmerrenovierung - Almelo"
+
+#: templates/projecten.html:133
+msgid ""
+"Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige "
+"eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
+msgstr ""
+"Von rauen, kahlen Wänden bis hin zu einem stilvollen Wohnzimmer mit schönem "
+"Eichenboden, Kaminwandnische und eingebautem TV-Schrank."
+
+#: templates/projecten.html:144
+msgid "Dakkapel kozijnen – Wierden"
+msgstr "Dachfensterrahmen – Wierden"
+
+#: templates/projecten.html:145
+msgid ""
+"Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting "
+"op de bestaande constructie."
+msgstr ""
+"Einbau von Holzrahmen in ein neues Dachgaubenfenster. Perfekte Anbindung an "
+"die bestehende Konstruktion."
+
+#: templates/projecten.html:163
+msgid "Uw project"
+msgstr "Ihr Projekt"
+
+#: templates/projecten.html:164
+msgid "Heeft u een soortgelijk"
+msgstr "Hast du ein ähnliches?"
+
+#: templates/projecten.html:164
+msgid "project in gedachten?"
+msgstr "Projekt im Sinn?"
+
+#: templates/projecten.html:165
+msgid ""
+"Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee "
+"over de mogelijkheden."
+msgstr ""
+"Kontaktieren Sie uns für eine unverbindliche Beratung. Gerne denken wir "
+"gemeinsam mit Ihnen über die Möglichkeiten nach."
+
+#~ msgid "0%"
+#~ msgstr "0%"
+
+#~ msgid ""
+#~ "Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Anfrage! Wir werden uns innerhalb eines Werktages mit "
+#~ "Ihnen in Verbindung setzen."
+
+#~ msgid "MaxCze"
+#~ msgstr "MaxCze"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "Over ons"
+#~ msgstr "Über uns"
+
+#~ msgid "Projecten"
+#~ msgstr "Projekte"
+
+#~ msgid "Offerte aanvragen"
+#~ msgstr "Angebot anfordern"
+
+#~ msgid "NL"
+#~ msgstr "NL"
+
+#~ msgid "EN"
+#~ msgstr "UND"
+
+#~ msgid "PL"
+#~ msgstr "PL"
+
+#~ msgid "Contact & Offerte"
+#~ msgstr "Kontakt & Angebot"
+
+#~ msgid "MaxCze Services"
+#~ msgstr "MaxCze Services"
+
+#~ msgid "Vakmanschap in hout"
+#~ msgstr "Handwerkskunst aus Holz"
+
+#~ msgid "Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente."
+#~ msgstr ""
+#~ "Mehr als 25 Jahre traditionelle Tischlerei in Goor und der Region Twente."
+
+#~ msgid "Navigatie"
+#~ msgstr "Navigation"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Diensten"
+#~ msgstr "Leistungen"
+
+#~ msgid "Verbouwingen"
+#~ msgstr "Renovierungen"
+
+#~ msgid "Maatwerk meubels"
+#~ msgstr "Maßgeschneiderte Möbel"
+
+#~ msgid "Kozijnen"
+#~ msgstr "Rahmen"
+
+#~ msgid "Deuren"
+#~ msgstr "Türen"
+
+#~ msgid "Renovaties"
+#~ msgstr "Renovierungen"
+
+#~ msgid "Dorpsstraat 42, 7471 AK Goor"
+#~ msgstr "Dorpsstraat 42, 7471 AK Goor"
+
+#~ msgid "06 33649552"
+#~ msgstr "06 33649552"
+
+#~ msgid "info@vanwijntimmerwerken.nl"
+#~ msgstr "info@vanwijntimmerwerken.nl"
+
+#~ msgid "© 2026 MaxCze Services |"
+#~ msgstr "© 2026 MaxCze Services |"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Datenschutzerklärung"
+
+#~ msgid ""
+#~ "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"
+#~ " plan een vrijblijvend gesprek."
+#~ msgstr ""
+#~ "Kontaktieren Sie MaxCze Services in Goor. Fordern Sie ein kostenloses "
+#~ "Angebot an oder vereinbaren Sie einen unverbindlichen Beratungstermin."
+
+#~ msgid "Laten we praten"
+#~ msgstr "Lass uns reden"
+
+#~ msgid "Vraag een gratis offerte aan"
+#~ msgstr "Fordern Sie ein kostenloses Angebot an"
+
+#~ msgid ""
+#~ "Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
+#~ "uw aanvraag."
+#~ msgstr ""
+#~ "Füllen Sie das Formular aus oder rufen Sie uns direkt an. We will respond to"
+#~ " your request within one working day."
+
+#~ msgid "Contactgegevens"
+#~ msgstr "Kontaktdaten"
+
+#~ msgid "Wij helpen u graag verder"
+#~ msgstr "Wir helfen Ihnen gerne weiter"
+
+#~ msgid ""
+#~ "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
+#~ "gerust contact op — geen vraag is te klein en geen project te groot."
+#~ msgstr ""
+#~ "Sie haben Fragen zu unseren Leistungen oder möchten ein Projekt besprechen? "
+#~ "Nehmen Sie gerne Kontakt mit uns auf – keine Frage ist zu klein und kein "
+#~ "Projekt zu groß."
+
+#~ msgid "Adres"
+#~ msgstr "Adresse"
+
+#~ msgid "Het Jannink 23"
+#~ msgstr "Het Jannink 23"
+
+#~ msgid "7471 VB Goor, Overijssel"
+#~ msgstr "7471 VB Goor, Overijssel"
+
+#~ msgid "Telefoon"
+#~ msgstr "Telefon"
+
+#~ msgid "06 33649552"
+#~ msgstr "06 33649552"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Maxcze@hotmail.com"
+#~ msgstr "Maxcze@hotmail.com"
+
+#~ msgid "KvK-nummer"
+#~ msgstr "Nummer der Handelskammer"
+
+#~ msgid "66516005"
+#~ msgstr "66516005"
+
+#~ msgid "Openingstijden"
+#~ msgstr "Öffnungszeiten"
+
+#~ msgid "Maandag – Vrijdag"
+#~ msgstr "Montag – Freitag"
+
+#~ msgid "07:30 – 17:00"
+#~ msgstr "07:30 – 17:00"
+
+#~ msgid "Zaterdag"
+#~ msgstr "Samstag"
+
+#~ msgid "08:00 – 12:00"
+#~ msgstr "08:00 – 12:00"
+
+#~ msgid "Zondag"
+#~ msgstr "Sonntag"
+
+#~ msgid "Gesloten"
+#~ msgstr "Geschlossen"
+
+#~ msgid ""
+#~ "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+#~ msgstr ""
+#~ "Außerhalb der Bürozeiten? Senden Sie eine E-Mail – wir antworten am nächsten"
+#~ " Werktag."
+
+#~ msgid "Offerte of vraag sturen"
+#~ msgstr "Senden Sie ein Angebot oder eine Frage"
+
+#~ msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+#~ msgstr ""
+#~ "Füllen Sie das Formular aus und wir werden uns innerhalb eines Arbeitstages "
+#~ "mit Ihnen in Verbindung setzen."
+
+#~ msgid "First name"
+#~ msgstr "Vorname"
+
+#~ msgid "Jan"
+#~ msgstr "Jan"
+
+#~ msgid "Last name"
+#~ msgstr "Nachname"
+
+#~ msgid "de Vries"
+#~ msgstr "de Vries"
+
+#~ msgid "Phone number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Message / request"
+#~ msgstr "Nachricht/Anfrage"
+
+#~ msgid "Omschrijf uw aanvraag"
+#~ msgstr "Beschreiben Sie Ihr Anliegen"
+
+#~ msgid "I agree to the"
+#~ msgstr "Ich stimme dem zu"
+
+#~ msgid "privacy policy"
+#~ msgstr "Datenschutzrichtlinie"
+
+#~ msgid "Submit request"
+#~ msgstr "Anfrage abschicken"
+
+#~ msgid "Request received!"
+#~ msgstr "Anfrage erhalten!"
+
+#~ msgid ""
+#~ "Thank you for your message. We will contact you within one business day to "
+#~ "discuss your request."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Nachricht. Wir werden uns innerhalb eines Werktages mit"
+#~ " Ihnen in Verbindung setzen, um Ihr Anliegen zu besprechen."
+
+#~ msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
+#~ msgstr "MaxCze-Dienste | Handwerkskunst aus Holz – Goor, Overijssel"
+
+#~ msgid ""
+#~ "MaxCze Services – meer dan 25 jaar vakmanschap in maatwerk meubels, "
+#~ "kozijnen, deuren en verbouwingen in Goor en omgeving."
+#~ msgstr ""
+#~ "MaxCze Services – mehr als 25 Jahre handwerkliche Erfahrung mit "
+#~ "maßgefertigten Möbeln, Rahmen, Türen und Renovierungen in Goor und Umgebung."
+
+#~ msgid ""
+#~ "\n"
+#~ "        Gevestigd in Goor, Overijssel\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Befindet sich in Goor, Overijssel\n"
+#~ "      "
+
+#~ msgid "Vakmanschap in hout,"
+#~ msgstr "Handwerkskunst aus Holz,"
+
+#~ msgid "passie voor perfectie"
+#~ msgstr "Leidenschaft für Perfektion"
+
+#~ msgid ""
+#~ "Meer dan 25 jaar ervaring in maatwerk meubels, kozijnen, deuren en complete "
+#~ "verbouwingen. Wij maken uw woonwensen werkelijkheid."
+#~ msgstr ""
+#~ "Mehr als 25 Jahre Erfahrung mit maßgefertigten Möbeln, Rahmen, Türen und "
+#~ "kompletten Renovierungen. Wir verwirklichen Ihre Wohnwünsche."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Gratis offerte aanvragen\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Fordern Sie ein kostenloses Angebot an\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "          Bekijk onze projecten\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Sehen Sie sich unsere Projekte an\n"
+#~ "        "
+
+#~ msgid "0+"
+#~ msgstr "0+"
+
+#~ msgid "Jaar ervaring"
+#~ msgstr "Jahrelange Erfahrung"
+
+#~ msgid "Projecten voltooid"
+#~ msgstr "Projekte abgeschlossen"
+
+#~ msgid "0%%"
+#~ msgstr "0%%"
+
+#~ msgid "Tevreden klanten"
+#~ msgstr "Zufriedene Kunden"
+
+#~ msgid ""
+#~ "\n"
+#~ "    Scroll\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "    Scrollen\n"
+#~ "  "
+
+#~ msgid "Wat wij doen"
+#~ msgstr "Was wir tun"
+
+#~ msgid "Onze diensten & specialisaties"
+#~ msgstr "Unsere Leistungen & Spezialisierungen"
+
+#~ msgid ""
+#~ "Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
+#~ "maat voor elk project."
+#~ msgstr ""
+#~ "Von der Kleinreparatur bis zur Komplettsanierung – wir liefern "
+#~ "maßgeschneiderte Qualität für jedes Projekt."
+
+#~ msgid ""
+#~ "Complete woning- en bedrijfsverbouwingen van A tot Z. Wij begeleiden het "
+#~ "gehele proces en zorgen voor een vlekkeloze oplevering."
+#~ msgstr ""
+#~ "Komplette Haus- und Geschäftsrenovierungen von A bis Z. Wir überwachen den "
+#~ "gesamten Prozess und sorgen für eine einwandfreie Lieferung."
+
+#~ msgid ""
+#~ "Unieke, op maat gemaakte meubels die perfect passen in uw interieur. Van "
+#~ "kasten en boekenkasten tot complete woonwanden."
+#~ msgstr ""
+#~ "Einzigartige, maßgeschneiderte Möbel, die perfekt in Ihr Interieur passen. "
+#~ "Von Schränken und Bücherregalen bis hin zu kompletten Wohnwänden."
+
+#~ msgid "Kozijnen & ramen"
+#~ msgstr "Rahmen und Fenster"
+
+#~ msgid ""
+#~ "Hoogwaardige houten kozijnen en ramen op maat. Energiezuinig, duurzaam en "
+#~ "prachtig afgewerkt voor een warme uitstraling."
+#~ msgstr ""
+#~ "Hochwertige Holzrahmen und maßgefertigte Fenster. Energieeffizient, "
+#~ "langlebig und schön verarbeitet für ein warmes Erscheinungsbild."
+
+#~ msgid "Deuren & drempels"
+#~ msgstr "Türen & Schwellen"
+
+#~ msgid ""
+#~ "Stijlvolle binnen- en buitendeuren van massief hout. Inclusief kozijn, hang-"
+#~ " en sluitwerk en professionele montage."
+#~ msgstr ""
+#~ "Stilvolle Innen- und Außentüren aus Massivholz. Inklusive Rahmen, "
+#~ "Scharnieren und Schlössern sowie fachgerechter Montage."
+
+#~ msgid ""
+#~ "Revitaliseer uw woning of bedrijfspand met een vakkundige renovatie. Wij "
+#~ "herstellen, vervangen en moderniseren houtwerk van elke omvang."
+#~ msgstr ""
+#~ "Beleben Sie Ihr Zuhause oder Ihre Geschäftsräume mit einer professionellen "
+#~ "Renovierung. Wir reparieren, ersetzen und modernisieren Holzarbeiten jeder "
+#~ "Größe."
+
+#~ msgid "Overig houtwerk"
+#~ msgstr "Andere Holzarbeiten"
+
+#~ msgid ""
+#~ "Vloerdelen, trappen, plafonds, terrasoverkappingen en tuinhuizen. Wij werken"
+#~ " met alle houtsoorten voor elk vraagstuk."
+#~ msgstr ""
+#~ "Dielen, Treppen, Decken, Terrassenüberdachungen und Gartenhäuser. Für jedes "
+#~ "Anliegen verarbeiten wir alle Holzarten."
+
+#~ msgid "25+"
+#~ msgstr "25+"
+
+#~ msgid "jaar"
+#~ msgstr "Jahr"
+
+#~ msgid "vakmanschap"
+#~ msgstr "Handwerkskunst"
+
+#~ msgid "Twee generaties timmervakmanschap in Goor"
+#~ msgstr "Zwei Generationen Tischlerhandwerk in Goor"
+
+#~ msgid ""
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen en is inmiddels "
+#~ "uitgegroeid tot een begrip in de regio Twente. Wij combineren traditioneel "
+#~ "vakmanschap met moderne technieken voor een resultaat dat eeuwig meegaat."
+#~ msgstr ""
+#~ "MaxCze Services wurde 1998 von Henk van Wijnen gegründet und hat sich "
+#~ "seitdem zu einem bekannten Namen in der Region Twente entwickelt. Wir "
+#~ "kombinieren traditionelle Handwerkskunst mit modernen Techniken für ein "
+#~ "Ergebnis, das für die Ewigkeit hält."
+
+#~ msgid "Gecertificeerd vakmanschap"
+#~ msgstr "Zertifizierte Handwerkskunst"
+
+#~ msgid ""
+#~ "Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit."
+#~ msgstr ""
+#~ "Anerkannter Ausbildungsbetrieb und Mitglied der BouwGarant – Ihr Garant für "
+#~ "Qualität."
+
+#~ msgid "Duurzame materialen"
+#~ msgstr "Nachhaltige Materialien"
+
+#~ msgid ""
+#~ "Wij werken uitsluitend met FSC-gecertificeerd hout en milieuvriendelijke "
+#~ "afwerkingen."
+#~ msgstr ""
+#~ "Wir arbeiten ausschließlich mit FSC-zertifiziertem Holz und "
+#~ "umweltfreundlichen Veredelungen."
+
+#~ msgid "Op tijd en binnen budget"
+#~ msgstr "Pünktlich und innerhalb des Budgets"
+
+#~ msgid ""
+#~ "Heldere afspraken, transparante communicatie en altijd op tijd opgeleverd."
+#~ msgstr ""
+#~ "Klare Vereinbarungen, transparente Kommunikation und stets pünktliche "
+#~ "Lieferung."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Meer over ons verhaal\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "          Mehr zu unserer Geschichte\n"
+#~ "          "
+
+#~ msgid "Hoe werken wij"
+#~ msgstr "Wie wir arbeiten"
+
+#~ msgid "Van idee tot oplevering"
+#~ msgstr "Von der Idee bis zur Lieferung"
+
+#~ msgid ""
+#~ "Een helder en transparant werkproces zodat u altijd weet waar u aan toe "
+#~ "bent."
+#~ msgstr ""
+#~ "Ein klarer und transparenter Arbeitsprozess, damit Sie immer wissen, woran "
+#~ "Sie sind."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Kennismaken"
+#~ msgstr "Ich lerne Dich kennen"
+
+#~ msgid ""
+#~ "Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te "
+#~ "bespreken."
+#~ msgstr ""
+#~ "Kostenloses Aufnahmegespräch bei Ihnen zu Hause oder in unserer Werkstatt, "
+#~ "um Ihre Wünsche zu besprechen."
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "Offerte & ontwerp"
+#~ msgstr "Angebot & Design"
+
+#~ msgid ""
+#~ "Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of "
+#~ "3D-visualisatie."
+#~ msgstr ""
+#~ "Wir erstellen ein detailliertes Angebot und bei Bedarf eine Entwurfsskizze "
+#~ "oder 3D-Visualisierung."
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "Uitvoering"
+#~ msgstr "Ausführung"
+
+#~ msgid ""
+#~ "Vakkundige uitvoering door ons eigen team, met dagelijkse communicatie over "
+#~ "de voortgang."
+#~ msgstr ""
+#~ "Professionelle Umsetzung durch unser eigenes Team, mit täglicher "
+#~ "Kommunikation über den Fortschritt."
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Oplevering"
+#~ msgstr "Lieferung"
+
+#~ msgid ""
+#~ "Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op."
+#~ msgstr ""
+#~ "Sorgfältige Lieferung und Nachbetreuung. Nicht zufrieden? Dann werden wir es"
+#~ " lösen."
+
+#~ msgid "Recent werk"
+#~ msgstr "Aktuelle Arbeiten"
+
+#~ msgid "Uitgelichte projecten"
+#~ msgstr "Ausgewählte Projekte"
+
+#~ msgid "Een greep uit onze meest recente opdrachten in Twente en omgeving."
+#~ msgstr "Eine Auswahl unserer letzten Aufträge in Twente und Umgebung."
+
+#~ msgid "Maatwerk"
+#~ msgstr "Anpassung"
+
+#~ msgid "Keuken op maat – Almelo"
+#~ msgstr "Maßgeschneiderte Küche – Almelo"
+
+#~ msgid ""
+#~ "Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur."
+#~ msgstr ""
+#~ "Komplett maßgefertigte Küche in Weißeiche, inklusive Kochinsel und "
+#~ "Einbaugeräten."
+
+#~ msgid "Renovatie"
+#~ msgstr "Renovierung"
+
+#~ msgid "Trap renovatie – Enschede"
+#~ msgstr "Treppenrenovierung – Enschede"
+
+#~ msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
+#~ msgstr ""
+#~ "Komplette Treppenrenovierung mit neuen Stufen und Sprossen aus massiver "
+#~ "Eiche."
+
+#~ msgid "Kozijnen plaatsing – Hengelo"
+#~ msgstr "Fensterrahmenmontage – Hengelo"
+
+#~ msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
+#~ msgstr "Austausch von 14 Fensterrahmen aus Meranti-Holz mit Doppelverglasung."
+
+#~ msgid ""
+#~ "\n"
+#~ "        Bekijk alle projecten\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "        Alle Projekte ansehen\n"
+#~ "        "
+
+#~ msgid "Klantbeoordelingen"
+#~ msgstr "Kundenrezensionen"
+
+#~ msgid "Wat onze klanten zeggen"
+#~ msgstr "Was unsere Kunden sagen"
+
+#~ msgid ""
+#~ "We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk"
+#~ " vinden."
+#~ msgstr ""
+#~ "Wir sind stolz auf jede Bewertung. Lesen Sie, was unsere Kunden über unsere "
+#~ "Arbeit denken."
+
+#~ msgid ""
+#~ "\"Van Wijnen heeft onze complete keuken verbouwd. Van het eerste gesprek tot"
+#~ " de oplevering was alles perfect geregeld. De kwaliteit van het maatwerk "
+#~ "overtreft onze verwachtingen ruimschoots. Echt een aanrader!\""
+#~ msgstr ""
+#~ "„Van Wijnen hat unsere gesamte Küche renoviert. Vom ersten Gespräch bis zur "
+#~ "Lieferung war alles perfekt organisiert. Die Qualität der Maßarbeit "
+#~ "übertrifft unsere Erwartungen bei weitem. Sehr zu empfehlen!“"
+
+#~ msgid "Marieke de Boer"
+#~ msgstr "Marieke de Boer"
+
+#~ msgid "Almelo"
+#~ msgstr "Almelo"
+
+#~ msgid ""
+#~ "\"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was"
+#~ " vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is "
+#~ "onberispelijk. Wij zijn heel blij met het resultaat!\""
+#~ msgstr ""
+#~ "„Unsere Holzrahmen wurden wunderschön gefertigt und montiert. Das Team war "
+#~ "freundlich, arbeitete sauber und erledigte die Arbeit an einem Tag. Die "
+#~ "Verarbeitung ist tadellos. Wir sind sehr zufrieden mit dem Ergebnis!“"
+
+#~ msgid "Peter Jansen"
+#~ msgstr "Peter Jansen"
+
+#~ msgid "Hengelo"
+#~ msgstr "Hengelo"
+
+#~ msgid ""
+#~ "\"Wij lieten onze complete slaapkamer inrichten met maatwerk kasten. "
+#~ "Prachtig vakwerk! Iedere centimeter is benut. De prijs-kwaliteitverhouding "
+#~ "is uitstekend en de communicatie was altijd snel en duidelijk.\""
+#~ msgstr ""
+#~ "„Wir haben unser gesamtes Schlafzimmer mit maßgefertigten Schränken "
+#~ "ausstatten lassen. Wunderschöne Handwerkskunst! Jeder Zentimeter wurde "
+#~ "genutzt. Das Preis-Leistungs-Verhältnis ist ausgezeichnet und die "
+#~ "Kommunikation war immer schnell und klar.“"
+
+#~ msgid "Sandra Visscher"
+#~ msgstr "Sandra Visscher"
+
+#~ msgid "Goor"
+#~ msgstr "Goor"
+
+#~ msgid "Klaar om te beginnen?"
+#~ msgstr "Bereit, loszulegen?"
+
+#~ msgid "Heeft u een project in gedachten?"
+#~ msgstr "Haben Sie ein Projekt im Sinn?"
+
+#~ msgid ""
+#~ "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
+#~ "offerte aan. Wij reageren binnen één werkdag."
+#~ msgstr ""
+#~ "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch oder fordern "
+#~ "Sie gleich Ihr kostenloses Angebot an. Wir antworten innerhalb eines "
+#~ "Werktages."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Offerte aanvragen\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Angebot anfordern\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "          06 33649552\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          06 33649552\n"
+#~ "        "
+
+#~ msgid ""
+#~ "Leer meer over MaxCze Services. Meer dan 25 jaar vakmanschap, een gedreven "
+#~ "team en een rijke geschiedenis in de regio Twente."
+#~ msgstr ""
+#~ "Erfahren Sie mehr über MaxCze Services. Mehr als 25 Jahre Handwerkskunst, "
+#~ "ein motiviertes Team und eine reiche Geschichte in der Region Twente."
+
+#~ msgid "Ons verhaal"
+#~ msgstr "Unsere Geschichte"
+
+#~ msgid "Twee generaties"
+#~ msgstr "Zwei Generationen"
+
+#~ msgid "timmervakmanschap"
+#~ msgstr "Tischlerhandwerk"
+
+#~ msgid ""
+#~ "Opgericht in 1998, uitgegroeid tot een begrip in Twente. Maak kennis met het"
+#~ " team achter MaxCze Services."
+#~ msgstr ""
+#~ "Das 1998 gegründete Unternehmen hat sich in Twente zu einem bekannten Namen "
+#~ "entwickelt. Lernen Sie das Team hinter MaxCze Services kennen."
+
+#~ msgid "Wie wij zijn"
+#~ msgstr "Wer wir sind"
+
+#~ msgid "Vakmanschap zit in ons bloed"
+#~ msgstr "Handwerkskunst liegt uns im Blut"
+
+#~ msgid ""
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding"
+#~ " aan de vakschool in Almelo en tien jaar ervaring bij een groot "
+#~ "aannemersbedrijf, besloot Henk zijn eigen bedrijf te starten vanuit zijn "
+#~ "liefde voor ambachtelijk houtwerk."
+#~ msgstr ""
+#~ "MaxCze Services wurde 1998 von Henk van Wijnen gegründet. Nach seiner "
+#~ "Ausbildung an der Berufsschule in Almelo und zehn Jahren Erfahrung bei einem"
+#~ " großen Bauunternehmen beschloss Henk, aufgrund seiner Liebe zur "
+#~ "traditionellen Holzverarbeitung ein eigenes Unternehmen zu gründen."
+
+#~ msgid ""
+#~ "Inmiddels werkt ook zijn zoon Bas mee in het bedrijf, die de traditie "
+#~ "voortzet met een frisse kijk op moderne technieken en design. Samen vormen "
+#~ "zij het kloppende hart van een team van zeven vakkundige timmerlieden."
+#~ msgstr ""
+#~ "Mittlerweile arbeitet auch sein Sohn Bas im Unternehmen, der die Tradition "
+#~ "mit einem frischen Blick auf moderne Techniken und Design fortführt. "
+#~ "Zusammen bilden sie das schlagende Herz eines Teams aus sieben erfahrenen "
+#~ "Tischlern."
+
+#~ msgid ""
+#~ "Wij zijn trots op onze reputatie in Twente en de omliggende gemeenten. Niet "
+#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren —"
+#~ " op tijd, binnen budget en met een glimlach."
+#~ msgstr ""
+#~ "Wir sind stolz auf unseren Ruf in Twente und den umliegenden Gemeinden. "
+#~ "Nicht durch große Versprechungen, sondern durch die Umsetzung jedes Projekts"
+#~ " bis ins letzte Detail – pünktlich, innerhalb des Budgets und mit einem "
+#~ "Lächeln."
+
+#~ msgid "Voltooide projecten"
+#~ msgstr "Abgeschlossene Projekte"
+
+#~ msgid "Vaste medewerkers"
+#~ msgstr "Festangestellte Mitarbeiter"
+
+#~ msgid "Klanten tevreden"
+#~ msgstr "Kunden zufrieden"
+
+#~ msgid "Waar wij voor staan"
+#~ msgstr "Wofür wir stehen"
+
+#~ msgid "Onze kernwaarden"
+#~ msgstr "Unsere Grundwerte"
+
+#~ msgid ""
+#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
+#~ "het teken van deze vier waarden."
+#~ msgstr ""
+#~ "Bei jeder Entscheidung, die wir treffen, bei jedem Projekt, das wir "
+#~ "durchführen, dreht sich alles um diese vier Werte."
+
+#~ msgid "Kwaliteit"
+#~ msgstr "Qualität"
+
+#~ msgid ""
+#~ "Wij werken uitsluitend met premium materialen en staan voor vakmanschap dat "
+#~ "tientallen jaren meegaat. Geen compromissen."
+#~ msgstr ""
+#~ "Wir verarbeiten ausschließlich hochwertige Materialien und stehen für "
+#~ "jahrzehntelange Handwerkskunst. Keine Kompromisse."
+
+#~ msgid "Passie"
+#~ msgstr "Hingabe"
+
+#~ msgid ""
+#~ "Houtbewerking is onze passie, geen baan. Die liefde zien en voelen onze "
+#~ "klanten terug in het eindresultaat."
+#~ msgstr ""
+#~ "Holzbearbeitung ist unsere Leidenschaft, kein Job. Unsere Kunden sehen und "
+#~ "spüren diese Liebe im Endergebnis."
+
+#~ msgid "Betrouwbaarheid"
+#~ msgstr "Zuverlässigkeit"
+
+#~ msgid ""
+#~ "Een afspraak is een afspraak. Wij communiceren helder, zijn op tijd en "
+#~ "leveren wat wij beloven."
+#~ msgstr ""
+#~ "Eine Vereinbarung ist eine Vereinbarung. Wir kommunizieren klar, sind "
+#~ "pünktlich und halten, was wir versprechen."
+
+#~ msgid "Duurzaamheid"
+#~ msgstr "Nachhaltigkeit"
+
+#~ msgid ""
+#~ "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
+#~ "Een mooie woning én een gezond milieu gaan hand in hand."
+#~ msgstr ""
+#~ "Wir arbeiten mit FSC-zertifiziertem Holz und umweltfreundlichen Oberflächen."
+#~ " Ein schönes Zuhause und eine gesunde Umwelt gehen Hand in Hand."
+
+#~ msgid "Onze geschiedenis"
+#~ msgstr "Unsere Geschichte"
+
+#~ msgid "Meer dan 25 jaar"
+#~ msgstr "Mehr als 25 Jahre"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "Oprichting"
+#~ msgstr "Eingliederung"
+
+#~ msgid ""
+#~ "Henk van Wijnen richt het bedrijf op vanuit zijn garage in Goor. De eerste "
+#~ "opdracht: een complete keuken voor de buren."
+#~ msgstr ""
+#~ "Henk van Wijnen gründete das Unternehmen in seiner Garage in Goor. Der erste"
+#~ " Auftrag: eine komplette Küche für die Nachbarn."
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "Eigen werkplaats"
+#~ msgstr "Eigene Werkstatt"
+
+#~ msgid ""
+#~ "Met de groei van het bedrijf verhuizen wij naar een professionele werkplaats"
+#~ " aan de Dorpsstraat. Het team groeit naar vier medewerkers."
+#~ msgstr ""
+#~ "Da das Unternehmen wächst, ziehen wir in eine professionelle Werkstatt in "
+#~ "der Dorpsstraat um. Das Team wächst auf vier Mitarbeiter."
+
+#~ msgid "2009"
+#~ msgstr "2009"
+
+#~ msgid "BouwGarant certificering"
+#~ msgstr "BouwGarant-Zertifizierung"
+
+#~ msgid ""
+#~ "MaxCze Services ontvangt de BouwGarant-erkenning, een keurmerk voor "
+#~ "betrouwbare bouwbedrijven."
+#~ msgstr ""
+#~ "MaxCze Services erhält die BouwGarant-Akkreditierung, ein Qualitätszeichen "
+#~ "für zuverlässige Bauunternehmen."
+
+#~ msgid "2015"
+#~ msgstr "2015"
+
+#~ msgid "Tweede generatie"
+#~ msgstr "Zweite Generation"
+
+#~ msgid ""
+#~ "Bas van Wijnen treedt toe tot het bedrijf na zijn opleiding aan het ROC van "
+#~ "Twente. Hij brengt frisse ideeën en moderne CNC-technieken mee."
+#~ msgstr ""
+#~ "Bas van Wijnen tritt dem Unternehmen bei, nachdem er seine Ausbildung am ROC"
+#~ " Twente abgeschlossen hat. Er bringt frische Ideen und moderne CNC-Techniken"
+#~ " mit."
+
+#~ msgid "2020"
+#~ msgstr "2020"
+
+#~ msgid "Uitbreiding werkplaats"
+#~ msgstr "Erweiterung der Werkstatt"
+
+#~ msgid ""
+#~ "Nieuwbouw van een moderne machinewerkplaats. Investering in CNC-freesmachine"
+#~ " en digitale ontwerpsoftware."
+#~ msgstr ""
+#~ "Neubau einer modernen Maschinenhalle. Investition in CNC-Fräsmaschine und "
+#~ "digitale Designsoftware."
+
+#~ msgid "Heden"
+#~ msgstr "Heute"
+
+#~ msgid "Nog steeds groeiend"
+#~ msgstr "Wächst immer noch"
+
+#~ msgid ""
+#~ "Met zeven vaste medewerkers en meer dan 480 voltooide projecten blijven wij "
+#~ "bouwen aan de mooiste interieurs in Twente en omgeving."
+#~ msgstr ""
+#~ "Mit sieben festangestellten Mitarbeitern und mehr als 480 abgeschlossenen "
+#~ "Projekten bauen wir weiterhin die schönsten Innenräume in Twente und "
+#~ "Umgebung."
+
+#~ msgid "De mensen achter het werk"
+#~ msgstr "Die Menschen hinter der Arbeit"
+
+#~ msgid "Maak kennis met ons team"
+#~ msgstr "Lernen Sie unser Team kennen"
+
+#~ msgid ""
+#~ "Zeven enthousiaste vakmannen die elke dag met plezier aan de slag gaan voor "
+#~ "onze klanten."
+#~ msgstr ""
+#~ "Sieben begeisterte Profis, die jeden Tag gerne für unsere Kunden arbeiten."
+
+#~ msgid "Henk van Wijnen"
+#~ msgstr "Henk van Wijnen"
+
+#~ msgid "Oprichter & Uitvoerder"
+#~ msgstr "Gründer und Geschäftsführer"
+
+#~ msgid ""
+#~ "25 jaar vakkennis, van kozijn tot complete verbouwing. Henk is de rustige "
+#~ "kracht achter elk project."
+#~ msgstr ""
+#~ "25 Jahre Kompetenz vom Rahmen bis zur Komplettsanierung. Henk ist die stille"
+#~ " Kraft hinter jedem Projekt."
+
+#~ msgid "Bas van Wijnen"
+#~ msgstr "Bas van Wijnen"
+
+#~ msgid "Bedrijfsleider & Ontwerper"
+#~ msgstr "Geschäftsführer und Designer"
+
+#~ msgid ""
+#~ "Combinatie van ambachtelijk vakmanschap en moderne techniek. Bas verzorgt "
+#~ "ook onze 3D-ontwerpen."
+#~ msgstr ""
+#~ "Kombination aus traditioneller Handwerkskunst und moderner Technologie. Bas "
+#~ "kümmert sich auch um unsere 3D-Designs."
+
+#~ msgid "Marco Brink"
+#~ msgstr "Marco Brink"
+
+#~ msgid "Senior Timmerman"
+#~ msgstr "Oberschreiner"
+
+#~ msgid ""
+#~ "Specialist in maatwerk meubels en interieurbouw. 15 jaar ervaring, "
+#~ "perfectionist tot op de millimeter."
+#~ msgstr ""
+#~ "Spezialist für maßgefertigte Möbel und Innenausbau. 15 Jahre Erfahrung, "
+#~ "Perfektionist bis zum Millimeter."
+
+#~ msgid "Tim Schuurman"
+#~ msgstr "Tim Schuurman"
+
+#~ msgid "Timmerman kozijnen"
+#~ msgstr "Zimmermannsfensterrahmen"
+
+#~ msgid ""
+#~ "Onze kozijnenspecialist. Plaatste inmiddels meer dan 2.000 kozijnen in de "
+#~ "regio Twente."
+#~ msgstr ""
+#~ "Unser Spezialist für Fensterrahmen. Hat inzwischen mehr als 2.000 "
+#~ "Fensterrahmen in der Region Twente installiert."
+
+#~ msgid "Samenwerken?"
+#~ msgstr "Mitarbeiten?"
+
+#~ msgid "Klaar om kennis te maken?"
+#~ msgstr "Bereit zum Kennenlernen?"
+
+#~ msgid ""
+#~ "Plan een vrijblijvend gesprek in op onze locatie in Goor, of vraag direct "
+#~ "een offerte aan voor uw project."
+#~ msgstr ""
+#~ "Vereinbaren Sie einen unverbindlichen Beratungstermin an unserem Standort in"
+#~ " Goor oder fordern Sie sofort ein Angebot für Ihr Projekt an."
+
+#~ msgid "Privacyverklaring"
+#~ msgstr "Datenschutzerklärung"
+
+#~ msgid ""
+#~ "Lees de privacyverklaring van MaxCze Service. Wij leggen uit welke "
+#~ "persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
+#~ msgstr ""
+#~ "Lesen Sie die Datenschutzerklärung von MaxCze Service. Wir erklären, welche "
+#~ "personenbezogenen Daten wir erheben, warum und welche Rechte Sie haben."
+
+#~ msgid "Belangrijk"
+#~ msgstr "Wichtig"
+
+#~ msgid ""
+#~ "Onderstaand leest u meer over hoe wij omgaan met persoonsgegevens en welke "
+#~ "rechten u heeft."
+#~ msgstr ""
+#~ "Nachfolgend erfahren Sie mehr darüber, wie wir mit personenbezogenen Daten "
+#~ "umgehen und welche Rechte Sie haben."
+
+#~ msgid "1. Inleiding"
+#~ msgstr "1. Einführung"
+
+#~ msgid ""
+#~ "Deze privacyverklaring is van toepassing op de website en diensten van "
+#~ "MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
+#~ "persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
+#~ "wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
+#~ "gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
+#~ "omgaan."
+#~ msgstr ""
+#~ "Diese Datenschutzerklärung gilt für die Website und Dienste von MaxCze "
+#~ "Services. Wir legen großen Wert auf den Schutz Ihrer persönlichen Daten und "
+#~ "sorgen für einen sorgfältigen und sicheren Umgang mit personenbezogenen "
+#~ "Daten. In dieser Erklärung erklären wir, welche Daten wir erheben, warum wir"
+#~ " sie erheben und wie wir damit umgehen."
+
+#~ msgid "2. Bedrijfsgegevens"
+#~ msgstr "2. Unternehmensinformationen"
+
+#~ msgid "Bedrijfsnaam: MaxCze Services"
+#~ msgstr "Firmenname: MaxCze Services"
+
+#~ msgid "Adres: Het Jannink 23"
+#~ msgstr "Adresse: Het Jannink 23"
+
+#~ msgid "Postcode en plaats: 7471VB, Goor"
+#~ msgstr "Postleitzahl und Ort: 7471VB, Goor"
+
+#~ msgid "E-mail: Maxcze@hotmail.com"
+#~ msgstr "E-mail: Maxcze@hotmail.com"
+
+#~ msgid "Telefoonnummer: +31 6 33649552"
+#~ msgstr "Telefonnummer: +31 6 33649552"
+
+#~ msgid "KvK-nummer: 66516005"
+#~ msgstr "Handelskammernummer: 66516005"
+
+#~ msgid "3. Persoonsgegevens die wij verwerken"
+#~ msgstr "3. Personenbezogene Daten, die wir verarbeiten"
+
+#~ msgid ""
+#~ "Wanneer u gebruik maakt van onze website of contact met ons opneemt, kunnen "
+#~ "wij de volgende gegevens verwerken:"
+#~ msgstr ""
+#~ "Wenn Sie unsere Website nutzen oder mit uns Kontakt aufnehmen, können wir "
+#~ "folgende Daten verarbeiten:"
+
+#~ msgid "Naam"
+#~ msgstr "Name"
+
+#~ msgid "Telefoonnummer"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "E-mailadres"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "Adresgegevens (indien nodig voor offerte of werkzaamheden)"
+#~ msgstr "Adressdaten (falls für Angebot oder Arbeit erforderlich)"
+
+#~ msgid "Eventuele informatie die u zelf invult in een contactformulier"
+#~ msgstr "Alle Informationen, die Sie selbst in ein Kontaktformular eingeben"
+
+#~ msgid "4. Waarom wij deze gegevens verzamelen"
+#~ msgstr "4. Warum wir diese Daten sammeln"
+
+#~ msgid "Wij verwerken persoonsgegevens voor de volgende doeleinden:"
+#~ msgstr "Wir verarbeiten personenbezogene Daten zu folgenden Zwecken:"
+
+#~ msgid ""
+#~ "Om contact met u op te nemen naar aanleiding van een aanvraag of offerte"
+#~ msgstr "Um Sie bezüglich einer Anfrage oder eines Angebots zu kontaktieren"
+
+#~ msgid "Om onze diensten uit te voeren"
+#~ msgstr "Zur Erbringung unserer Dienstleistungen"
+
+#~ msgid "Voor het opstellen en versturen van offertes en facturen"
+#~ msgstr "Für die Erstellung und den Versand von Angeboten und Rechnungen"
+
+#~ msgid "Om onze website en dienstverlening te verbeteren"
+#~ msgstr "Um unsere Website und Dienstleistungen zu verbessern"
+
+#~ msgid "Om te voldoen aan wettelijke verplichtingen"
+#~ msgstr "Zur Einhaltung gesetzlicher Verpflichtungen"
+
+#~ msgid "5. Bewaartermijn"
+#~ msgstr "5. Aufbewahrungsfrist"
+
+#~ msgid ""
+#~ "Wij bewaren uw persoonsgegevens niet langer dan noodzakelijk is voor het "
+#~ "doel waarvoor deze zijn verzameld, tenzij wij wettelijk verplicht zijn deze "
+#~ "langer te bewaren (bijvoorbeeld voor de administratie)."
+#~ msgstr ""
+#~ "Wir speichern Ihre personenbezogenen Daten nicht länger, als es für den "
+#~ "Zweck, für den sie erhoben wurden, erforderlich ist, es sei denn, wir sind "
+#~ "gesetzlich dazu verpflichtet, sie länger aufzubewahren (z. B. für "
+#~ "Verwaltungszwecke)."
+
+#~ msgid "6. Delen van gegevens met derden"
+#~ msgstr "6. Weitergabe von Daten an Dritte"
+
+#~ msgid ""
+#~ "Wij delen uw persoonsgegevens alleen met derden wanneer dit nodig is voor de"
+#~ " uitvoering van onze diensten of wanneer wij hier wettelijk toe verplicht "
+#~ "zijn. Wij verkopen uw gegevens nooit aan derden."
+#~ msgstr ""
+#~ "Wir geben Ihre personenbezogenen Daten nur dann an Dritte weiter, wenn dies "
+#~ "für die Erbringung unserer Leistungen erforderlich ist oder wir gesetzlich "
+#~ "dazu verpflichtet sind. Wir verkaufen Ihre Daten niemals an Dritte."
+
+#~ msgid "7. Beveiliging van gegevens"
+#~ msgstr "7. Datensicherheit"
+
+#~ msgid ""
+#~ "Wij nemen passende maatregelen om uw persoonsgegevens te beschermen tegen "
+#~ "verlies, misbruik of onbevoegde toegang."
+#~ msgstr ""
+#~ "Wir ergreifen geeignete Maßnahmen, um Ihre personenbezogenen Daten vor "
+#~ "Verlust, Missbrauch oder unbefugtem Zugriff zu schützen."
+
+#~ msgid "8. Cookies"
+#~ msgstr "8.Cookies"
+
+#~ msgid ""
+#~ "Onze website kan gebruik maken van cookies. Cookies zijn kleine "
+#~ "tekstbestanden die op uw apparaat worden opgeslagen om de website beter te "
+#~ "laten functioneren en inzicht te krijgen in het gebruik van de website. U "
+#~ "kunt cookies uitschakelen via de instellingen van uw browser."
+#~ msgstr ""
+#~ "Unsere Website verwendet möglicherweise Cookies. Cookies sind kleine "
+#~ "Textdateien, die auf Ihrem Gerät gespeichert werden, um die Funktion der "
+#~ "Website zu verbessern und Einblicke in die Nutzung der Website zu gewinnen. "
+#~ "Sie können Cookies über Ihre Browsereinstellungen deaktivieren."
+
+#~ msgid "9. Uw rechten"
+#~ msgstr "9. Ihre Rechte"
+
+#~ msgid "U heeft het recht om:"
+#~ msgstr "Sie haben das Recht:"
+
+#~ msgid "uw persoonsgegevens in te zien"
+#~ msgstr "um Ihre persönlichen Daten einzusehen"
+
+#~ msgid "uw gegevens te laten corrigeren"
+#~ msgstr "Ihre Daten berichtigen zu lassen"
+
+#~ msgid "uw gegevens te laten verwijderen"
+#~ msgstr "Ihre Daten löschen zu lassen"
+
+#~ msgid "bezwaar te maken tegen het gebruik van uw gegevens"
+#~ msgstr "der Nutzung Ihrer Daten zu widersprechen"
+
+#~ msgid ""
+#~ "U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
+#~ "staat vermeld."
+#~ msgstr ""
+#~ "Eine Kontaktaufnahme hierzu ist über die oben angegebene E-Mail-Adresse "
+#~ "möglich."
+
+#~ msgid "10. Wijzigingen"
+#~ msgstr "10. Änderungen"
+
+#~ msgid ""
+#~ "Wij behouden ons het recht voor om deze privacyverklaring te wijzigen. De "
+#~ "meest actuele versie staat altijd op onze website."
+#~ msgstr ""
+#~ "Wir behalten uns das Recht vor, diese Datenschutzerklärung zu ändern. Die "
+#~ "aktuellste Version finden Sie immer auf unserer Website."
+
+#~ msgid "11. Contact"
+#~ msgstr "11. Kontakt"
+
+#~ msgid ""
+#~ "Heeft u vragen over deze privacyverklaring of over hoe wij met uw gegevens "
+#~ "omgaan? Neem dan contact met ons op via:"
+#~ msgstr ""
+#~ "Sie haben Fragen zu dieser Datenschutzerklärung oder unserem Umgang mit "
+#~ "Ihren Daten? Bitte kontaktieren Sie uns über:"
+
+#~ msgid "Telefoon: +31 6 33649552."
+#~ msgstr "Telefon: +31 6 33649552."
+
+#~ msgid "Projecten & Portfolio"
+#~ msgstr "Projekte & Portfolio"
+
+#~ msgid ""
+#~ "Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, "
+#~ "verbouwingen en meer. Vakmanschap dat spreekt voor zich."
+#~ msgstr ""
+#~ "Sehen Sie sich unsere abgeschlossenen Projekte an: maßgefertigte Möbel, "
+#~ "Fensterrahmen, Türen, Renovierungen und mehr. Handwerkskunst spricht für "
+#~ "sich."
+
+#~ msgid "Ons portfolio"
+#~ msgstr "Unser Portfolio"
+
+#~ msgid "Projecten die"
+#~ msgstr "Projiziert das"
+
+#~ msgid "voor zichzelf spreken"
+#~ msgstr "sprechen für sich"
+
+#~ msgid ""
+#~ "Een selectie van onze meest recente en bijzondere opdrachten in Twente en "
+#~ "omgeving."
+#~ msgstr ""
+#~ "Eine Auswahl unserer aktuellsten und besonderen Aufträge in Twente und "
+#~ "Umgebung."
+
+#~ msgid "Alle projecten"
+#~ msgstr "Alle Projekte"
+
+#~ msgid "Complete keuken op maat – Almelo"
+#~ msgstr "Komplette maßgeschneiderte Küche - Almelo"
+
+#~ msgid ""
+#~ "Een volledig op maat gemaakte keuken in wit eiken met een kookeiland van "
+#~ "Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de "
+#~ "kastjes."
+#~ msgstr ""
+#~ "Eine komplett maßgeschneiderte Küche aus Weißeiche mit einer Kochinsel aus "
+#~ "belgischem Blaustein. Inklusive Einbaugeräten und LED-Beleuchtung unter den "
+#~ "Schränken."
+
+#~ msgid "Traprenovatie – Enschede"
+#~ msgstr "Treppenrenovierung – Enschede"
+
+#~ msgid ""
+#~ "Volledige vervanging van treden en spijlen in massief eiken. Inclusief "
+#~ "nieuwe leuning en schilderwerk."
+#~ msgstr ""
+#~ "Kompletter Austausch von Stufen und Stangen aus massiver Eiche. Inklusive "
+#~ "neuem Geländer und Anstrich."
+
+#~ msgid "Kozijnenvervanging – Hengelo"
+#~ msgstr "Austausch des Fensterrahmens – Hengelo"
+
+#~ msgid ""
+#~ "14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief "
+#~ "schilderwerk in kleur van de klant."
+#~ msgstr ""
+#~ "14 Holzrahmen in Meranti, mit doppelter HR++-Verglasung. Inklusive "
+#~ "Lackierung in Kundenfarbe."
+
+#~ msgid "Inbouwkasten slaapkamer – Goor"
+#~ msgstr "Schlafzimmer-Einbauschränke - Goor"
+
+#~ msgid ""
+#~ "Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met "
+#~ "zachte sluitingen. Maximale benutting van de ruimte."
+#~ msgstr ""
+#~ "Komplette Wand aus Einbauschränken mit einer Breite von über 4,5 Metern aus "
+#~ "weiß lackiertem MDF mit Soft-Closing. Maximale Raumausnutzung."
+
+#~ msgid "Voordeur op maat – Delden"
+#~ msgstr "Maßgeschneiderte Haustür – Delden"
+
+#~ msgid ""
+#~ "Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en "
+#~ "sluitwerk. Inclusief nieuw kozijn."
+#~ msgstr ""
+#~ "Vordertür aus massiver Eiche mit eleganter Glasscheibe und antiken "
+#~ "Messingscharnieren und -schlössern. Inklusive neuem Rahmen."
+
+#~ msgid "Verbouwing"
+#~ msgstr "Renovierung"
+
+#~ msgid "Badkamer verbouwing – Borne"
+#~ msgstr "Badezimmerrenovierung – Borne"
+
+#~ msgid ""
+#~ "Complete verbouwing van een badkamer inclusief het timmerwerk voor de "
+#~ "betegeling en inbouwkasten rondom het bad."
+#~ msgstr ""
+#~ "Komplettsanierung eines Badezimmers inklusive Tischlerarbeiten für Fliesen "
+#~ "und Einbauschränke rund um die Badewanne."
+
+#~ msgid "Thuiskantoor op maat – Rijssen"
+#~ msgstr "Maßgeschneidertes Homeoffice – Rijssen"
+
+#~ msgid ""
+#~ "Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, "
+#~ "perfect passend in de serre."
+#~ msgstr ""
+#~ "Eingebaute Bücherregale und Schreibtisch aus dunklem Walnussholz. Schlank "
+#~ "und funktional, passt perfekt in den Wintergarten."
+
+#~ msgid "Complete woonkamer verbouwing – Almelo"
+#~ msgstr "Komplette Wohnzimmerrenovierung - Almelo"
+
+#~ msgid ""
+#~ "Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige "
+#~ "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
+#~ msgstr ""
+#~ "Von rauen, kahlen Wänden bis hin zu einem stilvollen Wohnzimmer mit schönem "
+#~ "Eichenboden, Kaminwandnische und eingebautem TV-Schrank."
+
+#~ msgid "Dakkapel kozijnen – Wierden"
+#~ msgstr "Dachfensterrahmen – Wierden"
+
+#~ msgid ""
+#~ "Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting "
+#~ "op de bestaande constructie."
+#~ msgstr ""
+#~ "Einbau von Holzrahmen in ein neues Dachgaubenfenster. Perfekte Anbindung an "
+#~ "die bestehende Konstruktion."
+
+#~ msgid "Uw project"
+#~ msgstr "Ihr Projekt"
+
+#~ msgid "Heeft u een soortgelijk"
+#~ msgstr "Hast du ein ähnliches?"
+
+#~ msgid "project in gedachten?"
+#~ msgstr "Projekt im Sinn?"
+
+#~ msgid ""
+#~ "Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee "
+#~ "over de mogelijkheden."
+#~ msgstr ""
+#~ "Kontaktieren Sie uns für eine unverbindliche Beratung. Gerne denken wir "
+#~ "gemeinsam mit Ihnen über die Möglichkeiten nach."
+
+#~ msgid "0%"
+#~ msgstr "0%"
+
+#~ msgid ""
+#~ "Bedankt voor uw aanvraag! Wij nemen binnen één werkdag contact met u op."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Anfrage! Wir werden uns innerhalb eines Werktages mit "
+#~ "Ihnen in Verbindung setzen."
+
+#~ msgid "MaxCze"
+#~ msgstr "MaxCze"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "Over ons"
+#~ msgstr "Über uns"
+
+#~ msgid "Projecten"
+#~ msgstr "Projekte"
+
+#~ msgid "Offerte aanvragen"
+#~ msgstr "Angebot anfordern"
+
+#~ msgid "NL"
+#~ msgstr "NL"
+
+#~ msgid "EN"
+#~ msgstr "UND"
+
+#~ msgid "PL"
+#~ msgstr "PL"
+
+#~ msgid "Contact & Offerte"
+#~ msgstr "Kontakt & Angebot"
+
+#~ msgid "MaxCze Services"
+#~ msgstr "MaxCze Services"
+
+#~ msgid "Vakmanschap in hout"
+#~ msgstr "Handwerkskunst aus Holz"
+
+#~ msgid "Meer dan 25 jaar ambachtelijk timmerwerk in Goor en de regio Twente."
+#~ msgstr ""
+#~ "Mehr als 25 Jahre traditionelle Tischlerei in Goor und der Region Twente."
+
+#~ msgid "Navigatie"
+#~ msgstr "Navigation"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Diensten"
+#~ msgstr "Leistungen"
+
+#~ msgid "Verbouwingen"
+#~ msgstr "Renovierungen"
+
+#~ msgid "Maatwerk meubels"
+#~ msgstr "Maßgeschneiderte Möbel"
+
+#~ msgid "Kozijnen"
+#~ msgstr "Rahmen"
+
+#~ msgid "Deuren"
+#~ msgstr "Türen"
+
+#~ msgid "Renovaties"
+#~ msgstr "Renovierungen"
+
+#~ msgid "Dorpsstraat 42, 7471 AK Goor"
+#~ msgstr "Dorpsstraat 42, 7471 AK Goor"
+
+#~ msgid "06 33649552"
+#~ msgstr "06 33649552"
+
+#~ msgid "info@vanwijntimmerwerken.nl"
+#~ msgstr "info@vanwijntimmerwerken.nl"
+
+#~ msgid "© 2026 MaxCze Services |"
+#~ msgstr "© 2026 MaxCze Services |"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Datenschutzerklärung"
+
+#~ msgid ""
+#~ "Neem contact op met MaxCze Services in Goor. Vraag een gratis offerte aan of"
+#~ " plan een vrijblijvend gesprek."
+#~ msgstr ""
+#~ "Kontaktieren Sie MaxCze Services in Goor. Fordern Sie ein kostenloses "
+#~ "Angebot an oder vereinbaren Sie einen unverbindlichen Beratungstermin."
+
+#~ msgid "Laten we praten"
+#~ msgstr "Lass uns reden"
+
+#~ msgid "Vraag een gratis offerte aan"
+#~ msgstr "Fordern Sie ein kostenloses Angebot an"
+
+#~ msgid ""
+#~ "Vul het formulier in of bel ons direct. Wij reageren binnen één werkdag op "
+#~ "uw aanvraag."
+#~ msgstr ""
+#~ "Füllen Sie das Formular aus oder rufen Sie uns direkt an. We will respond to"
+#~ " your request within one working day."
+
+#~ msgid "Contactgegevens"
+#~ msgstr "Kontaktdaten"
+
+#~ msgid "Wij helpen u graag verder"
+#~ msgstr "Wir helfen Ihnen gerne weiter"
+
+#~ msgid ""
+#~ "Heeft u vragen over onze diensten of wilt u een project bespreken? Neem "
+#~ "gerust contact op — geen vraag is te klein en geen project te groot."
+#~ msgstr ""
+#~ "Sie haben Fragen zu unseren Leistungen oder möchten ein Projekt besprechen? "
+#~ "Nehmen Sie gerne Kontakt mit uns auf – keine Frage ist zu klein und kein "
+#~ "Projekt zu groß."
+
+#~ msgid "Adres"
+#~ msgstr "Adresse"
+
+#~ msgid "Het Jannink 23"
+#~ msgstr "Het Jannink 23"
+
+#~ msgid "7471 VB Goor, Overijssel"
+#~ msgstr "7471 VB Goor, Overijssel"
+
+#~ msgid "Telefoon"
+#~ msgstr "Telefon"
+
+#~ msgid "06 33649552"
+#~ msgstr "06 33649552"
+
+#~ msgid "E-mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Maxcze@hotmail.com"
+#~ msgstr "Maxcze@hotmail.com"
+
+#~ msgid "KvK-nummer"
+#~ msgstr "Nummer der Handelskammer"
+
+#~ msgid "66516005"
+#~ msgstr "66516005"
+
+#~ msgid "Openingstijden"
+#~ msgstr "Öffnungszeiten"
+
+#~ msgid "Maandag – Vrijdag"
+#~ msgstr "Montag – Freitag"
+
+#~ msgid "07:30 – 17:00"
+#~ msgstr "07:30 – 17:00"
+
+#~ msgid "Zaterdag"
+#~ msgstr "Samstag"
+
+#~ msgid "08:00 – 12:00"
+#~ msgstr "08:00 – 12:00"
+
+#~ msgid "Zondag"
+#~ msgstr "Sonntag"
+
+#~ msgid "Gesloten"
+#~ msgstr "Geschlossen"
+
+#~ msgid ""
+#~ "Buiten kantoortijd? Stuur een e-mail — wij reageren de volgende werkdag."
+#~ msgstr ""
+#~ "Außerhalb der Bürozeiten? Senden Sie eine E-Mail – wir antworten am nächsten"
+#~ " Werktag."
+
+#~ msgid "Offerte of vraag sturen"
+#~ msgstr "Senden Sie ein Angebot oder eine Frage"
+
+#~ msgid "Vul het formulier in en wij nemen binnen één werkdag contact met u op."
+#~ msgstr ""
+#~ "Füllen Sie das Formular aus und wir werden uns innerhalb eines Arbeitstages "
+#~ "mit Ihnen in Verbindung setzen."
+
+#~ msgid "First name"
+#~ msgstr "Vorname"
+
+#~ msgid "Jan"
+#~ msgstr "Jan"
+
+#~ msgid "Last name"
+#~ msgstr "Nachname"
+
+#~ msgid "de Vries"
+#~ msgstr "de Vries"
+
+#~ msgid "Phone number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Message / request"
+#~ msgstr "Nachricht/Anfrage"
+
+#~ msgid "Omschrijf uw aanvraag"
+#~ msgstr "Beschreiben Sie Ihr Anliegen"
+
+#~ msgid "I agree to the"
+#~ msgstr "Ich stimme dem zu"
+
+#~ msgid "privacy policy"
+#~ msgstr "Datenschutzrichtlinie"
+
+#~ msgid "Submit request"
+#~ msgstr "Anfrage abschicken"
+
+#~ msgid "Request received!"
+#~ msgstr "Anfrage erhalten!"
+
+#~ msgid ""
+#~ "Thank you for your message. We will contact you within one business day to "
+#~ "discuss your request."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Nachricht. Wir werden uns innerhalb eines Werktages mit"
+#~ " Ihnen in Verbindung setzen, um Ihr Anliegen zu besprechen."
+
+#~ msgid "MaxCze Services | Vakmanschap in hout – Goor, Overijssel"
+#~ msgstr "MaxCze-Dienste | Handwerkskunst aus Holz – Goor, Overijssel"
+
+#~ msgid ""
+#~ "MaxCze Services – meer dan 25 jaar vakmanschap in maatwerk meubels, "
+#~ "kozijnen, deuren en verbouwingen in Goor en omgeving."
+#~ msgstr ""
+#~ "MaxCze Services – mehr als 25 Jahre handwerkliche Erfahrung mit "
+#~ "maßgefertigten Möbeln, Rahmen, Türen und Renovierungen in Goor und Umgebung."
+
+#~ msgid ""
+#~ "\n"
+#~ "        Gevestigd in Goor, Overijssel\n"
+#~ "      "
+#~ msgstr ""
+#~ "\n"
+#~ "        Befindet sich in Goor, Overijssel\n"
+#~ "      "
+
+#~ msgid "Vakmanschap in hout,"
+#~ msgstr "Handwerkskunst aus Holz,"
+
+#~ msgid "passie voor perfectie"
+#~ msgstr "Leidenschaft für Perfektion"
+
+#~ msgid ""
+#~ "Meer dan 25 jaar ervaring in maatwerk meubels, kozijnen, deuren en complete "
+#~ "verbouwingen. Wij maken uw woonwensen werkelijkheid."
+#~ msgstr ""
+#~ "Mehr als 25 Jahre Erfahrung mit maßgefertigten Möbeln, Rahmen, Türen und "
+#~ "kompletten Renovierungen. Wir verwirklichen Ihre Wohnwünsche."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Gratis offerte aanvragen\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Fordern Sie ein kostenloses Angebot an\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "          Bekijk onze projecten\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Sehen Sie sich unsere Projekte an\n"
+#~ "        "
+
+#~ msgid "0+"
+#~ msgstr "0+"
+
+#~ msgid "Jaar ervaring"
+#~ msgstr "Jahrelange Erfahrung"
+
+#~ msgid "Projecten voltooid"
+#~ msgstr "Projekte abgeschlossen"
+
+#~ msgid "0%%"
+#~ msgstr "0%%"
+
+#~ msgid "Tevreden klanten"
+#~ msgstr "Zufriedene Kunden"
+
+#~ msgid ""
+#~ "\n"
+#~ "    Scroll\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "    Scrollen\n"
+#~ "  "
+
+#~ msgid "Wat wij doen"
+#~ msgstr "Was wir tun"
+
+#~ msgid "Onze diensten & specialisaties"
+#~ msgstr "Unsere Leistungen & Spezialisierungen"
+
+#~ msgid ""
+#~ "Van kleine reparaties tot complete verbouwingen – wij leveren kwaliteit op "
+#~ "maat voor elk project."
+#~ msgstr ""
+#~ "Von der Kleinreparatur bis zur Komplettsanierung – wir liefern "
+#~ "maßgeschneiderte Qualität für jedes Projekt."
+
+#~ msgid ""
+#~ "Complete woning- en bedrijfsverbouwingen van A tot Z. Wij begeleiden het "
+#~ "gehele proces en zorgen voor een vlekkeloze oplevering."
+#~ msgstr ""
+#~ "Komplette Haus- und Geschäftsrenovierungen von A bis Z. Wir überwachen den "
+#~ "gesamten Prozess und sorgen für eine einwandfreie Lieferung."
+
+#~ msgid ""
+#~ "Unieke, op maat gemaakte meubels die perfect passen in uw interieur. Van "
+#~ "kasten en boekenkasten tot complete woonwanden."
+#~ msgstr ""
+#~ "Einzigartige, maßgeschneiderte Möbel, die perfekt in Ihr Interieur passen. "
+#~ "Von Schränken und Bücherregalen bis hin zu kompletten Wohnwänden."
+
+#~ msgid "Kozijnen & ramen"
+#~ msgstr "Rahmen und Fenster"
+
+#~ msgid ""
+#~ "Hoogwaardige houten kozijnen en ramen op maat. Energiezuinig, duurzaam en "
+#~ "prachtig afgewerkt voor een warme uitstraling."
+#~ msgstr ""
+#~ "Hochwertige Holzrahmen und maßgefertigte Fenster. Energieeffizient, "
+#~ "langlebig und schön verarbeitet für ein warmes Erscheinungsbild."
+
+#~ msgid "Deuren & drempels"
+#~ msgstr "Türen & Schwellen"
+
+#~ msgid ""
+#~ "Stijlvolle binnen- en buitendeuren van massief hout. Inclusief kozijn, hang-"
+#~ " en sluitwerk en professionele montage."
+#~ msgstr ""
+#~ "Stilvolle Innen- und Außentüren aus Massivholz. Inklusive Rahmen, "
+#~ "Scharnieren und Schlössern sowie fachgerechter Montage."
+
+#~ msgid ""
+#~ "Revitaliseer uw woning of bedrijfspand met een vakkundige renovatie. Wij "
+#~ "herstellen, vervangen en moderniseren houtwerk van elke omvang."
+#~ msgstr ""
+#~ "Beleben Sie Ihr Zuhause oder Ihre Geschäftsräume mit einer professionellen "
+#~ "Renovierung. Wir reparieren, ersetzen und modernisieren Holzarbeiten jeder "
+#~ "Größe."
+
+#~ msgid "Overig houtwerk"
+#~ msgstr "Andere Holzarbeiten"
+
+#~ msgid ""
+#~ "Vloerdelen, trappen, plafonds, terrasoverkappingen en tuinhuizen. Wij werken"
+#~ " met alle houtsoorten voor elk vraagstuk."
+#~ msgstr ""
+#~ "Dielen, Treppen, Decken, Terrassenüberdachungen und Gartenhäuser. Für jedes "
+#~ "Anliegen verarbeiten wir alle Holzarten."
+
+#~ msgid "25+"
+#~ msgstr "25+"
+
+#~ msgid "jaar"
+#~ msgstr "Jahr"
+
+#~ msgid "vakmanschap"
+#~ msgstr "Handwerkskunst"
+
+#~ msgid "Twee generaties timmervakmanschap in Goor"
+#~ msgstr "Zwei Generationen Tischlerhandwerk in Goor"
+
+#~ msgid ""
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen en is inmiddels "
+#~ "uitgegroeid tot een begrip in de regio Twente. Wij combineren traditioneel "
+#~ "vakmanschap met moderne technieken voor een resultaat dat eeuwig meegaat."
+#~ msgstr ""
+#~ "MaxCze Services wurde 1998 von Henk van Wijnen gegründet und hat sich "
+#~ "seitdem zu einem bekannten Namen in der Region Twente entwickelt. Wir "
+#~ "kombinieren traditionelle Handwerkskunst mit modernen Techniken für ein "
+#~ "Ergebnis, das für die Ewigkeit hält."
+
+#~ msgid "Gecertificeerd vakmanschap"
+#~ msgstr "Zertifizierte Handwerkskunst"
+
+#~ msgid ""
+#~ "Erkend leerbedrijf en lid van de BouwGarant — uw garantie voor kwaliteit."
+#~ msgstr ""
+#~ "Anerkannter Ausbildungsbetrieb und Mitglied der BouwGarant – Ihr Garant für "
+#~ "Qualität."
+
+#~ msgid "Duurzame materialen"
+#~ msgstr "Nachhaltige Materialien"
+
+#~ msgid ""
+#~ "Wij werken uitsluitend met FSC-gecertificeerd hout en milieuvriendelijke "
+#~ "afwerkingen."
+#~ msgstr ""
+#~ "Wir arbeiten ausschließlich mit FSC-zertifiziertem Holz und "
+#~ "umweltfreundlichen Veredelungen."
+
+#~ msgid "Op tijd en binnen budget"
+#~ msgstr "Pünktlich und innerhalb des Budgets"
+
+#~ msgid ""
+#~ "Heldere afspraken, transparante communicatie en altijd op tijd opgeleverd."
+#~ msgstr ""
+#~ "Klare Vereinbarungen, transparente Kommunikation und stets pünktliche "
+#~ "Lieferung."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Meer over ons verhaal\n"
+#~ "          "
+#~ msgstr ""
+#~ "\n"
+#~ "          Mehr zu unserer Geschichte\n"
+#~ "          "
+
+#~ msgid "Hoe werken wij"
+#~ msgstr "Wie wir arbeiten"
+
+#~ msgid "Van idee tot oplevering"
+#~ msgstr "Von der Idee bis zur Lieferung"
+
+#~ msgid ""
+#~ "Een helder en transparant werkproces zodat u altijd weet waar u aan toe "
+#~ "bent."
+#~ msgstr ""
+#~ "Ein klarer und transparenter Arbeitsprozess, damit Sie immer wissen, woran "
+#~ "Sie sind."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Kennismaken"
+#~ msgstr "Ich lerne Dich kennen"
+
+#~ msgid ""
+#~ "Gratis intakegesprek bij u thuis of in onze werkplaats om uw wensen te "
+#~ "bespreken."
+#~ msgstr ""
+#~ "Kostenloses Aufnahmegespräch bei Ihnen zu Hause oder in unserer Werkstatt, "
+#~ "um Ihre Wünsche zu besprechen."
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "Offerte & ontwerp"
+#~ msgstr "Angebot & Design"
+
+#~ msgid ""
+#~ "Wij maken een gedetailleerde offerte en eventueel een schetsontwerp of "
+#~ "3D-visualisatie."
+#~ msgstr ""
+#~ "Wir erstellen ein detailliertes Angebot und bei Bedarf eine Entwurfsskizze "
+#~ "oder 3D-Visualisierung."
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "Uitvoering"
+#~ msgstr "Ausführung"
+
+#~ msgid ""
+#~ "Vakkundige uitvoering door ons eigen team, met dagelijkse communicatie over "
+#~ "de voortgang."
+#~ msgstr ""
+#~ "Professionelle Umsetzung durch unser eigenes Team, mit täglicher "
+#~ "Kommunikation über den Fortschritt."
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Oplevering"
+#~ msgstr "Lieferung"
+
+#~ msgid ""
+#~ "Zorgvuldige oplevering en nazorg. Niet tevreden? Dan lossen wij het op."
+#~ msgstr ""
+#~ "Sorgfältige Lieferung und Nachbetreuung. Nicht zufrieden? Dann werden wir es"
+#~ " lösen."
+
+#~ msgid "Recent werk"
+#~ msgstr "Aktuelle Arbeiten"
+
+#~ msgid "Uitgelichte projecten"
+#~ msgstr "Ausgewählte Projekte"
+
+#~ msgid "Een greep uit onze meest recente opdrachten in Twente en omgeving."
+#~ msgstr "Eine Auswahl unserer letzten Aufträge in Twente und Umgebung."
+
+#~ msgid "Maatwerk"
+#~ msgstr "Anpassung"
+
+#~ msgid "Keuken op maat – Almelo"
+#~ msgstr "Maßgeschneiderte Küche – Almelo"
+
+#~ msgid ""
+#~ "Volledig maatwerk keuken in wit eiken, incl. kookeiland en inbouwapparatuur."
+#~ msgstr ""
+#~ "Komplett maßgefertigte Küche in Weißeiche, inklusive Kochinsel und "
+#~ "Einbaugeräten."
+
+#~ msgid "Renovatie"
+#~ msgstr "Renovierung"
+
+#~ msgid "Trap renovatie – Enschede"
+#~ msgstr "Treppenrenovierung – Enschede"
+
+#~ msgid "Volledige traprenovatie met nieuwe treden en spijlen in massief eiken."
+#~ msgstr ""
+#~ "Komplette Treppenrenovierung mit neuen Stufen und Sprossen aus massiver "
+#~ "Eiche."
+
+#~ msgid "Kozijnen plaatsing – Hengelo"
+#~ msgstr "Fensterrahmenmontage – Hengelo"
+
+#~ msgid "Vervanging van 14 kozijnen in houten meranti met dubbele beglazing."
+#~ msgstr "Austausch von 14 Fensterrahmen aus Meranti-Holz mit Doppelverglasung."
+
+#~ msgid ""
+#~ "\n"
+#~ "        Bekijk alle projecten\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "        Alle Projekte ansehen\n"
+#~ "        "
+
+#~ msgid "Klantbeoordelingen"
+#~ msgstr "Kundenrezensionen"
+
+#~ msgid "Wat onze klanten zeggen"
+#~ msgstr "Was unsere Kunden sagen"
+
+#~ msgid ""
+#~ "We zijn trots op elke beoordeling. Lees wat onze opdrachtgevers van ons werk"
+#~ " vinden."
+#~ msgstr ""
+#~ "Wir sind stolz auf jede Bewertung. Lesen Sie, was unsere Kunden über unsere "
+#~ "Arbeit denken."
+
+#~ msgid ""
+#~ "\"Van Wijnen heeft onze complete keuken verbouwd. Van het eerste gesprek tot"
+#~ " de oplevering was alles perfect geregeld. De kwaliteit van het maatwerk "
+#~ "overtreft onze verwachtingen ruimschoots. Echt een aanrader!\""
+#~ msgstr ""
+#~ "„Van Wijnen hat unsere gesamte Küche renoviert. Vom ersten Gespräch bis zur "
+#~ "Lieferung war alles perfekt organisiert. Die Qualität der Maßarbeit "
+#~ "übertrifft unsere Erwartungen bei weitem. Sehr zu empfehlen!“"
+
+#~ msgid "Marieke de Boer"
+#~ msgstr "Marieke de Boer"
+
+#~ msgid "Almelo"
+#~ msgstr "Almelo"
+
+#~ msgid ""
+#~ "\"Onze houten kozijnen zijn prachtig vervaardigd en gemonteerd. Het team was"
+#~ " vriendelijk, werkte netjes en klaarde de klus in één dag. De afwerking is "
+#~ "onberispelijk. Wij zijn heel blij met het resultaat!\""
+#~ msgstr ""
+#~ "„Unsere Holzrahmen wurden wunderschön gefertigt und montiert. Das Team war "
+#~ "freundlich, arbeitete sauber und erledigte die Arbeit an einem Tag. Die "
+#~ "Verarbeitung ist tadellos. Wir sind sehr zufrieden mit dem Ergebnis!“"
+
+#~ msgid "Peter Jansen"
+#~ msgstr "Peter Jansen"
+
+#~ msgid "Hengelo"
+#~ msgstr "Hengelo"
+
+#~ msgid ""
+#~ "\"Wij lieten onze complete slaapkamer inrichten met maatwerk kasten. "
+#~ "Prachtig vakwerk! Iedere centimeter is benut. De prijs-kwaliteitverhouding "
+#~ "is uitstekend en de communicatie was altijd snel en duidelijk.\""
+#~ msgstr ""
+#~ "„Wir haben unser gesamtes Schlafzimmer mit maßgefertigten Schränken "
+#~ "ausstatten lassen. Wunderschöne Handwerkskunst! Jeder Zentimeter wurde "
+#~ "genutzt. Das Preis-Leistungs-Verhältnis ist ausgezeichnet und die "
+#~ "Kommunikation war immer schnell und klar.“"
+
+#~ msgid "Sandra Visscher"
+#~ msgstr "Sandra Visscher"
+
+#~ msgid "Goor"
+#~ msgstr "Goor"
+
+#~ msgid "Klaar om te beginnen?"
+#~ msgstr "Bereit, loszulegen?"
+
+#~ msgid "Heeft u een project in gedachten?"
+#~ msgstr "Haben Sie ein Projekt im Sinn?"
+
+#~ msgid ""
+#~ "Neem contact op voor een vrijblijvend gesprek of vraag direct uw gratis "
+#~ "offerte aan. Wij reageren binnen één werkdag."
+#~ msgstr ""
+#~ "Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch oder fordern "
+#~ "Sie gleich Ihr kostenloses Angebot an. Wir antworten innerhalb eines "
+#~ "Werktages."
+
+#~ msgid ""
+#~ "\n"
+#~ "          Offerte aanvragen\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          Angebot anfordern\n"
+#~ "        "
+
+#~ msgid ""
+#~ "\n"
+#~ "          06 33649552\n"
+#~ "        "
+#~ msgstr ""
+#~ "\n"
+#~ "          06 33649552\n"
+#~ "        "
+
+#~ msgid ""
+#~ "Leer meer over MaxCze Services. Meer dan 25 jaar vakmanschap, een gedreven "
+#~ "team en een rijke geschiedenis in de regio Twente."
+#~ msgstr ""
+#~ "Erfahren Sie mehr über MaxCze Services. Mehr als 25 Jahre Handwerkskunst, "
+#~ "ein motiviertes Team und eine reiche Geschichte in der Region Twente."
+
+#~ msgid "Ons verhaal"
+#~ msgstr "Unsere Geschichte"
+
+#~ msgid "Twee generaties"
+#~ msgstr "Zwei Generationen"
+
+#~ msgid "timmervakmanschap"
+#~ msgstr "Tischlerhandwerk"
+
+#~ msgid ""
+#~ "Opgericht in 1998, uitgegroeid tot een begrip in Twente. Maak kennis met het"
+#~ " team achter MaxCze Services."
+#~ msgstr ""
+#~ "Das 1998 gegründete Unternehmen hat sich in Twente zu einem bekannten Namen "
+#~ "entwickelt. Lernen Sie das Team hinter MaxCze Services kennen."
+
+#~ msgid "Wie wij zijn"
+#~ msgstr "Wer wir sind"
+
+#~ msgid "Vakmanschap zit in ons bloed"
+#~ msgstr "Handwerkskunst liegt uns im Blut"
+
+#~ msgid ""
+#~ "MaxCze Services is in 1998 opgericht door Henk van Wijnen. Na zijn opleiding"
+#~ " aan de vakschool in Almelo en tien jaar ervaring bij een groot "
+#~ "aannemersbedrijf, besloot Henk zijn eigen bedrijf te starten vanuit zijn "
+#~ "liefde voor ambachtelijk houtwerk."
+#~ msgstr ""
+#~ "MaxCze Services wurde 1998 von Henk van Wijnen gegründet. Nach seiner "
+#~ "Ausbildung an der Berufsschule in Almelo und zehn Jahren Erfahrung bei einem"
+#~ " großen Bauunternehmen beschloss Henk, aufgrund seiner Liebe zur "
+#~ "traditionellen Holzverarbeitung ein eigenes Unternehmen zu gründen."
+
+#~ msgid ""
+#~ "Inmiddels werkt ook zijn zoon Bas mee in het bedrijf, die de traditie "
+#~ "voortzet met een frisse kijk op moderne technieken en design. Samen vormen "
+#~ "zij het kloppende hart van een team van zeven vakkundige timmerlieden."
+#~ msgstr ""
+#~ "Mittlerweile arbeitet auch sein Sohn Bas im Unternehmen, der die Tradition "
+#~ "mit einem frischen Blick auf moderne Techniken und Design fortführt. "
+#~ "Zusammen bilden sie das schlagende Herz eines Teams aus sieben erfahrenen "
+#~ "Tischlern."
+
+#~ msgid ""
+#~ "Wij zijn trots op onze reputatie in Twente en de omliggende gemeenten. Niet "
+#~ "door grote beloften, maar door elk project tot in de puntjes af te leveren —"
+#~ " op tijd, binnen budget en met een glimlach."
+#~ msgstr ""
+#~ "Wir sind stolz auf unseren Ruf in Twente und den umliegenden Gemeinden. "
+#~ "Nicht durch große Versprechungen, sondern durch die Umsetzung jedes Projekts"
+#~ " bis ins letzte Detail – pünktlich, innerhalb des Budgets und mit einem "
+#~ "Lächeln."
+
+#~ msgid "Voltooide projecten"
+#~ msgstr "Abgeschlossene Projekte"
+
+#~ msgid "Vaste medewerkers"
+#~ msgstr "Festangestellte Mitarbeiter"
+
+#~ msgid "Klanten tevreden"
+#~ msgstr "Kunden zufrieden"
+
+#~ msgid "Waar wij voor staan"
+#~ msgstr "Wofür wir stehen"
+
+#~ msgid "Onze kernwaarden"
+#~ msgstr "Unsere Grundwerte"
+
+#~ msgid ""
+#~ "Elke beslissing die wij nemen, elk project dat wij uitvoeren — het staat in "
+#~ "het teken van deze vier waarden."
+#~ msgstr ""
+#~ "Bei jeder Entscheidung, die wir treffen, bei jedem Projekt, das wir "
+#~ "durchführen, dreht sich alles um diese vier Werte."
+
+#~ msgid "Kwaliteit"
+#~ msgstr "Qualität"
+
+#~ msgid ""
+#~ "Wij werken uitsluitend met premium materialen en staan voor vakmanschap dat "
+#~ "tientallen jaren meegaat. Geen compromissen."
+#~ msgstr ""
+#~ "Wir verarbeiten ausschließlich hochwertige Materialien und stehen für "
+#~ "jahrzehntelange Handwerkskunst. Keine Kompromisse."
+
+#~ msgid "Passie"
+#~ msgstr "Hingabe"
+
+#~ msgid ""
+#~ "Houtbewerking is onze passie, geen baan. Die liefde zien en voelen onze "
+#~ "klanten terug in het eindresultaat."
+#~ msgstr ""
+#~ "Holzbearbeitung ist unsere Leidenschaft, kein Job. Unsere Kunden sehen und "
+#~ "spüren diese Liebe im Endergebnis."
+
+#~ msgid "Betrouwbaarheid"
+#~ msgstr "Zuverlässigkeit"
+
+#~ msgid ""
+#~ "Een afspraak is een afspraak. Wij communiceren helder, zijn op tijd en "
+#~ "leveren wat wij beloven."
+#~ msgstr ""
+#~ "Eine Vereinbarung ist eine Vereinbarung. Wir kommunizieren klar, sind "
+#~ "pünktlich und halten, was wir versprechen."
+
+#~ msgid "Duurzaamheid"
+#~ msgstr "Nachhaltigkeit"
+
+#~ msgid ""
+#~ "Wij werken met FSC-gecertificeerd hout en milieuvriendelijke afwerkingen. "
+#~ "Een mooie woning én een gezond milieu gaan hand in hand."
+#~ msgstr ""
+#~ "Wir arbeiten mit FSC-zertifiziertem Holz und umweltfreundlichen Oberflächen."
+#~ " Ein schönes Zuhause und eine gesunde Umwelt gehen Hand in Hand."
+
+#~ msgid "Onze geschiedenis"
+#~ msgstr "Unsere Geschichte"
+
+#~ msgid "Meer dan 25 jaar"
+#~ msgstr "Mehr als 25 Jahre"
+
+#~ msgid "1998"
+#~ msgstr "1998"
+
+#~ msgid "Oprichting"
+#~ msgstr "Eingliederung"
+
+#~ msgid ""
+#~ "Henk van Wijnen richt het bedrijf op vanuit zijn garage in Goor. De eerste "
+#~ "opdracht: een complete keuken voor de buren."
+#~ msgstr ""
+#~ "Henk van Wijnen gründete das Unternehmen in seiner Garage in Goor. Der erste"
+#~ " Auftrag: eine komplette Küche für die Nachbarn."
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "Eigen werkplaats"
+#~ msgstr "Eigene Werkstatt"
+
+#~ msgid ""
+#~ "Met de groei van het bedrijf verhuizen wij naar een professionele werkplaats"
+#~ " aan de Dorpsstraat. Het team groeit naar vier medewerkers."
+#~ msgstr ""
+#~ "Da das Unternehmen wächst, ziehen wir in eine professionelle Werkstatt in "
+#~ "der Dorpsstraat um. Das Team wächst auf vier Mitarbeiter."
+
+#~ msgid "2009"
+#~ msgstr "2009"
+
+#~ msgid "BouwGarant certificering"
+#~ msgstr "BouwGarant-Zertifizierung"
+
+#~ msgid ""
+#~ "MaxCze Services ontvangt de BouwGarant-erkenning, een keurmerk voor "
+#~ "betrouwbare bouwbedrijven."
+#~ msgstr ""
+#~ "MaxCze Services erhält die BouwGarant-Akkreditierung, ein Qualitätszeichen "
+#~ "für zuverlässige Bauunternehmen."
+
+#~ msgid "2015"
+#~ msgstr "2015"
+
+#~ msgid "Tweede generatie"
+#~ msgstr "Zweite Generation"
+
+#~ msgid ""
+#~ "Bas van Wijnen treedt toe tot het bedrijf na zijn opleiding aan het ROC van "
+#~ "Twente. Hij brengt frisse ideeën en moderne CNC-technieken mee."
+#~ msgstr ""
+#~ "Bas van Wijnen tritt dem Unternehmen bei, nachdem er seine Ausbildung am ROC"
+#~ " Twente abgeschlossen hat. Er bringt frische Ideen und moderne CNC-Techniken"
+#~ " mit."
+
+#~ msgid "2020"
+#~ msgstr "2020"
+
+#~ msgid "Uitbreiding werkplaats"
+#~ msgstr "Erweiterung der Werkstatt"
+
+#~ msgid ""
+#~ "Nieuwbouw van een moderne machinewerkplaats. Investering in CNC-freesmachine"
+#~ " en digitale ontwerpsoftware."
+#~ msgstr ""
+#~ "Neubau einer modernen Maschinenhalle. Investition in CNC-Fräsmaschine und "
+#~ "digitale Designsoftware."
+
+#~ msgid "Heden"
+#~ msgstr "Heute"
+
+#~ msgid "Nog steeds groeiend"
+#~ msgstr "Wächst immer noch"
+
+#~ msgid ""
+#~ "Met zeven vaste medewerkers en meer dan 480 voltooide projecten blijven wij "
+#~ "bouwen aan de mooiste interieurs in Twente en omgeving."
+#~ msgstr ""
+#~ "Mit sieben festangestellten Mitarbeitern und mehr als 480 abgeschlossenen "
+#~ "Projekten bauen wir weiterhin die schönsten Innenräume in Twente und "
+#~ "Umgebung."
+
+#~ msgid "De mensen achter het werk"
+#~ msgstr "Die Menschen hinter der Arbeit"
+
+#~ msgid "Maak kennis met ons team"
+#~ msgstr "Lernen Sie unser Team kennen"
+
+#~ msgid ""
+#~ "Zeven enthousiaste vakmannen die elke dag met plezier aan de slag gaan voor "
+#~ "onze klanten."
+#~ msgstr ""
+#~ "Sieben begeisterte Profis, die jeden Tag gerne für unsere Kunden arbeiten."
+
+#~ msgid "Henk van Wijnen"
+#~ msgstr "Henk van Wijnen"
+
+#~ msgid "Oprichter & Uitvoerder"
+#~ msgstr "Gründer und Geschäftsführer"
+
+#~ msgid ""
+#~ "25 jaar vakkennis, van kozijn tot complete verbouwing. Henk is de rustige "
+#~ "kracht achter elk project."
+#~ msgstr ""
+#~ "25 Jahre Kompetenz vom Rahmen bis zur Komplettsanierung. Henk ist die stille"
+#~ " Kraft hinter jedem Projekt."
+
+#~ msgid "Bas van Wijnen"
+#~ msgstr "Bas van Wijnen"
+
+#~ msgid "Bedrijfsleider & Ontwerper"
+#~ msgstr "Geschäftsführer und Designer"
+
+#~ msgid ""
+#~ "Combinatie van ambachtelijk vakmanschap en moderne techniek. Bas verzorgt "
+#~ "ook onze 3D-ontwerpen."
+#~ msgstr ""
+#~ "Kombination aus traditioneller Handwerkskunst und moderner Technologie. Bas "
+#~ "kümmert sich auch um unsere 3D-Designs."
+
+#~ msgid "Marco Brink"
+#~ msgstr "Marco Brink"
+
+#~ msgid "Senior Timmerman"
+#~ msgstr "Oberschreiner"
+
+#~ msgid ""
+#~ "Specialist in maatwerk meubels en interieurbouw. 15 jaar ervaring, "
+#~ "perfectionist tot op de millimeter."
+#~ msgstr ""
+#~ "Spezialist für maßgefertigte Möbel und Innenausbau. 15 Jahre Erfahrung, "
+#~ "Perfektionist bis zum Millimeter."
+
+#~ msgid "Tim Schuurman"
+#~ msgstr "Tim Schuurman"
+
+#~ msgid "Timmerman kozijnen"
+#~ msgstr "Zimmermannsfensterrahmen"
+
+#~ msgid ""
+#~ "Onze kozijnenspecialist. Plaatste inmiddels meer dan 2.000 kozijnen in de "
+#~ "regio Twente."
+#~ msgstr ""
+#~ "Unser Spezialist für Fensterrahmen. Hat inzwischen mehr als 2.000 "
+#~ "Fensterrahmen in der Region Twente installiert."
+
+#~ msgid "Samenwerken?"
+#~ msgstr "Mitarbeiten?"
+
+#~ msgid "Klaar om kennis te maken?"
+#~ msgstr "Bereit zum Kennenlernen?"
+
+#~ msgid ""
+#~ "Plan een vrijblijvend gesprek in op onze locatie in Goor, of vraag direct "
+#~ "een offerte aan voor uw project."
+#~ msgstr ""
+#~ "Vereinbaren Sie einen unverbindlichen Beratungstermin an unserem Standort in"
+#~ " Goor oder fordern Sie sofort ein Angebot für Ihr Projekt an."
+
+#~ msgid "Privacyverklaring"
+#~ msgstr "Datenschutzerklärung"
+
+#~ msgid ""
+#~ "Lees de privacyverklaring van MaxCze Service. Wij leggen uit welke "
+#~ "persoonsgegevens we verzamelen, waarom en welke rechten u heeft."
+#~ msgstr ""
+#~ "Lesen Sie die Datenschutzerklärung von MaxCze Service. Wir erklären, welche "
+#~ "personenbezogenen Daten wir erheben, warum und welche Rechte Sie haben."
+
+#~ msgid "Belangrijk"
+#~ msgstr "Wichtig"
+
+#~ msgid ""
+#~ "Onderstaand leest u meer over hoe wij omgaan met persoonsgegevens en welke "
+#~ "rechten u heeft."
+#~ msgstr ""
+#~ "Nachfolgend erfahren Sie mehr darüber, wie wir mit personenbezogenen Daten "
+#~ "umgehen und welche Rechte Sie haben."
+
+#~ msgid "1. Inleiding"
+#~ msgstr "1. Einführung"
+
+#~ msgid ""
+#~ "Deze privacyverklaring is van toepassing op de website en diensten van "
+#~ "MaxCze Services. Wij hechten veel waarde aan de bescherming van uw "
+#~ "persoonsgegevens en zorgen ervoor dat persoonlijke informatie zorgvuldig "
+#~ "wordt behandeld en beveiligd. In deze verklaring leggen wij uit welke "
+#~ "gegevens wij verzamelen, waarom wij deze verzamelen en hoe wij hiermee "
+#~ "omgaan."
+#~ msgstr ""
+#~ "Diese Datenschutzerklärung gilt für die Website und Dienste von MaxCze "
+#~ "Services. Wir legen großen Wert auf den Schutz Ihrer persönlichen Daten und "
+#~ "sorgen für einen sorgfältigen und sicheren Umgang mit personenbezogenen "
+#~ "Daten. In dieser Erklärung erklären wir, welche Daten wir erheben, warum wir"
+#~ " sie erheben und wie wir damit umgehen."
+
+#~ msgid "2. Bedrijfsgegevens"
+#~ msgstr "2. Unternehmensinformationen"
+
+#~ msgid "Bedrijfsnaam: MaxCze Services"
+#~ msgstr "Firmenname: MaxCze Services"
+
+#~ msgid "Adres: Het Jannink 23"
+#~ msgstr "Adresse: Het Jannink 23"
+
+#~ msgid "Postcode en plaats: 7471VB, Goor"
+#~ msgstr "Postleitzahl und Ort: 7471VB, Goor"
+
+#~ msgid "E-mail: Maxcze@hotmail.com"
+#~ msgstr "E-mail: Maxcze@hotmail.com"
+
+#~ msgid "Telefoonnummer: +31 6 33649552"
+#~ msgstr "Telefonnummer: +31 6 33649552"
+
+#~ msgid "KvK-nummer: 66516005"
+#~ msgstr "Handelskammernummer: 66516005"
+
+#~ msgid "3. Persoonsgegevens die wij verwerken"
+#~ msgstr "3. Personenbezogene Daten, die wir verarbeiten"
+
+#~ msgid ""
+#~ "Wanneer u gebruik maakt van onze website of contact met ons opneemt, kunnen "
+#~ "wij de volgende gegevens verwerken:"
+#~ msgstr ""
+#~ "Wenn Sie unsere Website nutzen oder mit uns Kontakt aufnehmen, können wir "
+#~ "folgende Daten verarbeiten:"
+
+#~ msgid "Naam"
+#~ msgstr "Name"
+
+#~ msgid "Telefoonnummer"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "E-mailadres"
+#~ msgstr "E-Mail-Adresse"
+
+#~ msgid "Adresgegevens (indien nodig voor offerte of werkzaamheden)"
+#~ msgstr "Adressdaten (falls für Angebot oder Arbeit erforderlich)"
+
+#~ msgid "Eventuele informatie die u zelf invult in een contactformulier"
+#~ msgstr "Alle Informationen, die Sie selbst in ein Kontaktformular eingeben"
+
+#~ msgid "4. Waarom wij deze gegevens verzamelen"
+#~ msgstr "4. Warum wir diese Daten sammeln"
+
+#~ msgid "Wij verwerken persoonsgegevens voor de volgende doeleinden:"
+#~ msgstr "Wir verarbeiten personenbezogene Daten zu folgenden Zwecken:"
+
+#~ msgid ""
+#~ "Om contact met u op te nemen naar aanleiding van een aanvraag of offerte"
+#~ msgstr "Um Sie bezüglich einer Anfrage oder eines Angebots zu kontaktieren"
+
+#~ msgid "Om onze diensten uit te voeren"
+#~ msgstr "Zur Erbringung unserer Dienstleistungen"
+
+#~ msgid "Voor het opstellen en versturen van offertes en facturen"
+#~ msgstr "Für die Erstellung und den Versand von Angeboten und Rechnungen"
+
+#~ msgid "Om onze website en dienstverlening te verbeteren"
+#~ msgstr "Um unsere Website und Dienstleistungen zu verbessern"
+
+#~ msgid "Om te voldoen aan wettelijke verplichtingen"
+#~ msgstr "Zur Einhaltung gesetzlicher Verpflichtungen"
+
+#~ msgid "5. Bewaartermijn"
+#~ msgstr "5. Aufbewahrungsfrist"
+
+#~ msgid ""
+#~ "Wij bewaren uw persoonsgegevens niet langer dan noodzakelijk is voor het "
+#~ "doel waarvoor deze zijn verzameld, tenzij wij wettelijk verplicht zijn deze "
+#~ "langer te bewaren (bijvoorbeeld voor de administratie)."
+#~ msgstr ""
+#~ "Wir speichern Ihre personenbezogenen Daten nicht länger, als es für den "
+#~ "Zweck, für den sie erhoben wurden, erforderlich ist, es sei denn, wir sind "
+#~ "gesetzlich dazu verpflichtet, sie länger aufzubewahren (z. B. für "
+#~ "Verwaltungszwecke)."
+
+#~ msgid "6. Delen van gegevens met derden"
+#~ msgstr "6. Weitergabe von Daten an Dritte"
+
+#~ msgid ""
+#~ "Wij delen uw persoonsgegevens alleen met derden wanneer dit nodig is voor de"
+#~ " uitvoering van onze diensten of wanneer wij hier wettelijk toe verplicht "
+#~ "zijn. Wij verkopen uw gegevens nooit aan derden."
+#~ msgstr ""
+#~ "Wir geben Ihre personenbezogenen Daten nur dann an Dritte weiter, wenn dies "
+#~ "für die Erbringung unserer Leistungen erforderlich ist oder wir gesetzlich "
+#~ "dazu verpflichtet sind. Wir verkaufen Ihre Daten niemals an Dritte."
+
+#~ msgid "7. Beveiliging van gegevens"
+#~ msgstr "7. Datensicherheit"
+
+#~ msgid ""
+#~ "Wij nemen passende maatregelen om uw persoonsgegevens te beschermen tegen "
+#~ "verlies, misbruik of onbevoegde toegang."
+#~ msgstr ""
+#~ "Wir ergreifen geeignete Maßnahmen, um Ihre personenbezogenen Daten vor "
+#~ "Verlust, Missbrauch oder unbefugtem Zugriff zu schützen."
+
+#~ msgid "8. Cookies"
+#~ msgstr "8.Cookies"
+
+#~ msgid ""
+#~ "Onze website kan gebruik maken van cookies. Cookies zijn kleine "
+#~ "tekstbestanden die op uw apparaat worden opgeslagen om de website beter te "
+#~ "laten functioneren en inzicht te krijgen in het gebruik van de website. U "
+#~ "kunt cookies uitschakelen via de instellingen van uw browser."
+#~ msgstr ""
+#~ "Unsere Website verwendet möglicherweise Cookies. Cookies sind kleine "
+#~ "Textdateien, die auf Ihrem Gerät gespeichert werden, um die Funktion der "
+#~ "Website zu verbessern und Einblicke in die Nutzung der Website zu gewinnen. "
+#~ "Sie können Cookies über Ihre Browsereinstellungen deaktivieren."
+
+#~ msgid "9. Uw rechten"
+#~ msgstr "9. Ihre Rechte"
+
+#~ msgid "U heeft het recht om:"
+#~ msgstr "Sie haben das Recht:"
+
+#~ msgid "uw persoonsgegevens in te zien"
+#~ msgstr "um Ihre persönlichen Daten einzusehen"
+
+#~ msgid "uw gegevens te laten corrigeren"
+#~ msgstr "Ihre Daten berichtigen zu lassen"
+
+#~ msgid "uw gegevens te laten verwijderen"
+#~ msgstr "Ihre Daten löschen zu lassen"
+
+#~ msgid "bezwaar te maken tegen het gebruik van uw gegevens"
+#~ msgstr "der Nutzung Ihrer Daten zu widersprechen"
+
+#~ msgid ""
+#~ "U kunt hiervoor contact met ons opnemen via het e‑mailadres dat hierboven "
+#~ "staat vermeld."
+#~ msgstr ""
+#~ "Eine Kontaktaufnahme hierzu ist über die oben angegebene E-Mail-Adresse "
+#~ "möglich."
+
+#~ msgid "10. Wijzigingen"
+#~ msgstr "10. Änderungen"
+
+#~ msgid ""
+#~ "Wij behouden ons het recht voor om deze privacyverklaring te wijzigen. De "
+#~ "meest actuele versie staat altijd op onze website."
+#~ msgstr ""
+#~ "Wir behalten uns das Recht vor, diese Datenschutzerklärung zu ändern. Die "
+#~ "aktuellste Version finden Sie immer auf unserer Website."
+
+#~ msgid "11. Contact"
+#~ msgstr "11. Kontakt"
+
+#~ msgid ""
+#~ "Heeft u vragen over deze privacyverklaring of over hoe wij met uw gegevens "
+#~ "omgaan? Neem dan contact met ons op via:"
+#~ msgstr ""
+#~ "Sie haben Fragen zu dieser Datenschutzerklärung oder unserem Umgang mit "
+#~ "Ihren Daten? Bitte kontaktieren Sie uns über:"
+
+#~ msgid "Telefoon: +31 6 33649552."
+#~ msgstr "Telefon: +31 6 33649552."
+
+#~ msgid "Projecten & Portfolio"
+#~ msgstr "Projekte & Portfolio"
+
+#~ msgid ""
+#~ "Bekijk onze afgeronde projecten: maatwerk meubels, kozijnen, deuren, "
+#~ "verbouwingen en meer. Vakmanschap dat spreekt voor zich."
+#~ msgstr ""
+#~ "Sehen Sie sich unsere abgeschlossenen Projekte an: maßgefertigte Möbel, "
+#~ "Fensterrahmen, Türen, Renovierungen und mehr. Handwerkskunst spricht für "
+#~ "sich."
+
+#~ msgid "Ons portfolio"
+#~ msgstr "Unser Portfolio"
+
+#~ msgid "Projecten die"
+#~ msgstr "Projiziert das"
+
+#~ msgid "voor zichzelf spreken"
+#~ msgstr "sprechen für sich"
+
+#~ msgid ""
+#~ "Een selectie van onze meest recente en bijzondere opdrachten in Twente en "
+#~ "omgeving."
+#~ msgstr ""
+#~ "Eine Auswahl unserer aktuellsten und besonderen Aufträge in Twente und "
+#~ "Umgebung."
+
+#~ msgid "Alle projecten"
+#~ msgstr "Alle Projekte"
+
+#~ msgid "Complete keuken op maat – Almelo"
+#~ msgstr "Komplette maßgeschneiderte Küche - Almelo"
+
+#~ msgid ""
+#~ "Een volledig op maat gemaakte keuken in wit eiken met een kookeiland van "
+#~ "Belgisch hardsteen. Inclusief inbouwapparatuur en LED-verlichting onder de "
+#~ "kastjes."
+#~ msgstr ""
+#~ "Eine komplett maßgeschneiderte Küche aus Weißeiche mit einer Kochinsel aus "
+#~ "belgischem Blaustein. Inklusive Einbaugeräten und LED-Beleuchtung unter den "
+#~ "Schränken."
+
+#~ msgid "Traprenovatie – Enschede"
+#~ msgstr "Treppenrenovierung – Enschede"
+
+#~ msgid ""
+#~ "Volledige vervanging van treden en spijlen in massief eiken. Inclusief "
+#~ "nieuwe leuning en schilderwerk."
+#~ msgstr ""
+#~ "Kompletter Austausch von Stufen und Stangen aus massiver Eiche. Inklusive "
+#~ "neuem Geländer und Anstrich."
+
+#~ msgid "Kozijnenvervanging – Hengelo"
+#~ msgstr "Austausch des Fensterrahmens – Hengelo"
+
+#~ msgid ""
+#~ "14 houten kozijnen in meranti, met dubbele HR++-beglazing. Inclusief "
+#~ "schilderwerk in kleur van de klant."
+#~ msgstr ""
+#~ "14 Holzrahmen in Meranti, mit doppelter HR++-Verglasung. Inklusive "
+#~ "Lackierung in Kundenfarbe."
+
+#~ msgid "Inbouwkasten slaapkamer – Goor"
+#~ msgstr "Schlafzimmer-Einbauschränke - Goor"
+
+#~ msgid ""
+#~ "Complete wand van inbouwkasten over 4,5 meter breedte in wit gelakt MDF met "
+#~ "zachte sluitingen. Maximale benutting van de ruimte."
+#~ msgstr ""
+#~ "Komplette Wand aus Einbauschränken mit einer Breite von über 4,5 Metern aus "
+#~ "weiß lackiertem MDF mit Soft-Closing. Maximale Raumausnutzung."
+
+#~ msgid "Voordeur op maat – Delden"
+#~ msgstr "Maßgeschneiderte Haustür – Delden"
+
+#~ msgid ""
+#~ "Massief eiken voordeur met sierlijk glaspaneel en antiek messing hang- en "
+#~ "sluitwerk. Inclusief nieuw kozijn."
+#~ msgstr ""
+#~ "Vordertür aus massiver Eiche mit eleganter Glasscheibe und antiken "
+#~ "Messingscharnieren und -schlössern. Inklusive neuem Rahmen."
+
+#~ msgid "Verbouwing"
+#~ msgstr "Renovierung"
+
+#~ msgid "Badkamer verbouwing – Borne"
+#~ msgstr "Badezimmerrenovierung – Borne"
+
+#~ msgid ""
+#~ "Complete verbouwing van een badkamer inclusief het timmerwerk voor de "
+#~ "betegeling en inbouwkasten rondom het bad."
+#~ msgstr ""
+#~ "Komplettsanierung eines Badezimmers inklusive Tischlerarbeiten für Fliesen "
+#~ "und Einbauschränke rund um die Badewanne."
+
+#~ msgid "Thuiskantoor op maat – Rijssen"
+#~ msgstr "Maßgeschneidertes Homeoffice – Rijssen"
+
+#~ msgid ""
+#~ "Ingebouwde boekenkasten en bureau in donker walnoot. Strak en functioneel, "
+#~ "perfect passend in de serre."
+#~ msgstr ""
+#~ "Eingebaute Bücherregale und Schreibtisch aus dunklem Walnussholz. Schlank "
+#~ "und funktional, passt perfekt in den Wintergarten."
+
+#~ msgid "Complete woonkamer verbouwing – Almelo"
+#~ msgstr "Komplette Wohnzimmerrenovierung - Almelo"
+
+#~ msgid ""
+#~ "Van ruwe kale muren naar een stijlvolle woonkamer met een prachtige "
+#~ "eikenhouten vloer, schouwen muurnis en ingebouwde TV-meubel."
+#~ msgstr ""
+#~ "Von rauen, kahlen Wänden bis hin zu einem stilvollen Wohnzimmer mit schönem "
+#~ "Eichenboden, Kaminwandnische und eingebautem TV-Schrank."
+
+#~ msgid "Dakkapel kozijnen – Wierden"
+#~ msgstr "Dachfensterrahmen – Wierden"
+
+#~ msgid ""
+#~ "Plaatsing van houten kozijnen in een nieuwe dakkapel. Perfecte aansluiting "
+#~ "op de bestaande constructie."
+#~ msgstr ""
+#~ "Einbau von Holzrahmen in ein neues Dachgaubenfenster. Perfekte Anbindung an "
+#~ "die bestehende Konstruktion."
+
+#~ msgid "Uw project"
+#~ msgstr "Ihr Projekt"
+
+#~ msgid "Heeft u een soortgelijk"
+#~ msgstr "Hast du ein ähnliches?"
+
+#~ msgid "project in gedachten?"
+#~ msgstr "Projekt im Sinn?"
+
+#~ msgid ""
+#~ "Neem contact op voor een vrijblijvend gesprek. Wij denken graag met u mee "
+#~ "over de mogelijkheden."
+#~ msgstr ""
+#~ "Kontaktieren Sie uns für eine unverbindliche Beratung. Gerne denken wir "
+#~ "gemeinsam mit Ihnen über die Möglichkeiten nach."
