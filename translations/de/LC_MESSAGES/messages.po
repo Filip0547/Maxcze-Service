@@ -2715,6 +2715,126 @@ msgstr ""
 #~ "Kontaktieren Sie uns für eine unverbindliche Beratung. Gerne denken wir "
 #~ "gemeinsam mit Ihnen über die Möglichkeiten nach."
 
+msgid "Direct naar inhoud"
+msgstr "Direkt zum Inhalt"
+
+msgid "Hoofdnavigatie"
+msgstr "Hauptnavigation"
+
+msgid "Timmerwerk"
+msgstr "Zimmerei"
+
+msgid "Menu openen"
+msgstr "Menü öffnen"
+
+msgid "Mobiele navigatie"
+msgstr "Mobile Navigation"
+
+msgid "Dark mode"
+msgstr "Dunkelmodus"
+
+msgid "Volgt automatisch uw toestel, maar u kunt dit hier zelf aanpassen."
+msgstr "Folgt automatisch Ihrem Gerät, kann hier aber manuell angepasst werden."
+
+msgid "Wij gebruiken cookies"
+msgstr "Wir verwenden Cookies"
+
+msgid "We gebruiken noodzakelijke cookies om de website goed te laten werken. Met uw toestemming plaatsen we ook aanvullende cookies. U kunt uw keuze altijd aanpassen."
+msgstr "Wir verwenden notwendige Cookies, damit die Website korrekt funktioniert. Mit Ihrer Zustimmung setzen wir auch zusätzliche Cookies. Sie können Ihre Auswahl jederzeit anpassen."
+
+msgid "Meer informatie"
+msgstr "Mehr Informationen"
+
+msgid "Alleen noodzakelijk"
+msgstr "Nur notwendig"
+
+msgid "Alles accepteren"
+msgstr "Alles akzeptieren"
+
+msgid "© 2026 MaxCze Services | "
+msgstr "© 2026 MaxCze Services | "
+
+msgid "Bewaar uw voorkeur voor een donkere of lichte weergave."
+msgstr "Speichern Sie Ihre Präferenz für eine dunkle oder helle Darstellung."
+
+msgid "Cookie-instellingen"
+msgstr "Cookie-Einstellungen"
+
+msgid "Aanneem timmerman in Twente, Overijssel en Gelderland | MaxCze Services"
+msgstr "Bau- und Zimmermann in Twente, Overijssel und Gelderland | MaxCze Services"
+
+msgid "MaxCze Services uit Goor staat voor vakmanschap en reparaties: uw aanneem timmerman voor verbouwingen, renovaties, kozijnen, deuren en timmerwerk in Twente, Overijssel en Gelderland."
+msgstr "MaxCze Services aus Goor steht für Handwerk und Reparaturen: Ihr Bau- und Zimmermann für Umbauten, Renovierungen, Fenster, Türen und Zimmerei in Twente, Overijssel und Gelderland."
+
+msgid "Verbouwingen, renovatie en timmerwerk in Goor"
+msgstr "Umbauten, Renovierung und Zimmerei in Goor"
+
+msgid "MaxCze Services biedt 25+ jaar ervaring in verbouwingen, kozijnen, deuren en maatwerk voor woningen en bedrijfspanden in Goor en regio Twente."
+msgstr "MaxCze Services bietet über 25 Jahre Erfahrung in Umbauten, Fenstern, Türen und Maßarbeit für Wohnhäuser und Gewerbeobjekte in Goor und der Region Twente."
+
+msgid "Meer over verbouwingen"
+msgstr "Mehr über Umbauten"
+
+msgid "Meer over kozijnen en deuren"
+msgstr "Mehr über Fenster und Türen"
+
+msgid "Meer over renovaties"
+msgstr "Mehr über Renovierungen"
+
+msgid "Meer over timmerwerk"
+msgstr "Mehr über Zimmerei"
+
+msgid "Lokale vakman voor Goor en Twente"
+msgstr "Lokaler Handwerker für Goor und Twente"
+
+msgid "Zoekt u een betrouwbare vakman voor verbouwing, renovatie, kozijnen, deuren of timmerwerk in Goor en Twente, dan bent u bij MaxCze Services aan het juiste adres. Wij combineren persoonlijke service met degelijk vakmanschap en heldere afspraken."
+msgstr "Wenn Sie einen zuverlässigen Handwerker für Umbau, Renovierung, Fenster, Türen oder Zimmerei in Goor und Twente suchen, sind Sie bei MaxCze Services richtig. Wir kombinieren persönlichen Service mit solidem Handwerk und klaren Absprachen."
+
+msgid "\"Voor het vervangen van kozijnen en deuren kozen wij voor MaxCze Services. Alles is zorgvuldig afgewerkt en exact volgens planning opgeleverd.\""
+msgstr "\"Für den Austausch von Fenstern und Türen haben wir uns für MaxCze Services entschieden. Alles wurde sorgfältig ausgeführt und exakt nach Planung geliefert.\""
+
+msgid "Contact met MaxCze Services | Goor, Overijssel"
+msgstr "Kontakt mit MaxCze Services | Goor, Overijssel"
+
+msgid "Neem contact op met MaxCze Services in Goor voor een offerte, advies of vragen over verbouwing, renovatie, kozijnen, deuren en timmerwerk."
+msgstr "Kontaktieren Sie MaxCze Services in Goor für ein Angebot, Beratung oder Fragen zu Umbau, Renovierung, Fenstern, Türen und Zimmerei."
+
+msgid "Contact voor verbouwing, renovatie en timmerwerk in Goor"
+msgstr "Kontakt für Umbau, Renovierung und Zimmerei in Goor"
+
+msgid "Vraag een gratis offerte aan voor uw project in Goor of Twente. Wij reageren binnen één werkdag op uw aanvraag."
+msgstr "Fordern Sie ein kostenloses Angebot für Ihr Projekt in Goor oder Twente an. Wir antworten innerhalb eines Werktages auf Ihre Anfrage."
+
+msgid "Uw lokale servicepartner in Goor"
+msgstr "Ihr lokaler Servicepartner in Goor"
+
+msgid "Offerte of vraag sturen voor uw project"
+msgstr "Angebot oder Frage für Ihr Projekt senden"
+
+msgid "Velden met * zijn verplicht."
+msgstr "Felder mit * sind Pflichtfelder."
+
+msgid "Niet alle verplichte velden zijn ingevuld. Controleer de velden met een * en probeer opnieuw."
+msgstr "Nicht alle Pflichtfelder sind ausgefüllt. Prüfen Sie die Felder mit * und versuchen Sie es erneut."
+
+msgid "Voorkeur voor terugkoppeling"
+msgstr "Bevorzugter Rückkanal"
+
+msgid "Kies hoe u een reactie wilt ontvangen"
+msgstr "Wählen Sie, wie Sie eine Antwort erhalten möchten"
+
+msgid "Telefoontje"
+msgstr "Telefonanruf"
+
+msgid "WhatsApp-bericht"
+msgstr "WhatsApp-Nachricht"
+
+msgid "Aanvraag ontvangen!"
+msgstr "Anfrage erhalten!"
+
+msgid "Bedankt voor uw bericht. Wij nemen binnen één werkdag contact met u op om uw aanvraag te bespreken."
+msgstr "Vielen Dank für Ihre Nachricht. Wir nehmen innerhalb eines Werktages Kontakt mit Ihnen auf, um Ihre Anfrage zu besprechen."
+
 #~ msgid "0%"
 #~ msgstr "0%"
 

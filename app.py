@@ -7,6 +7,7 @@ import polib
 from datetime import datetime
 import logging
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
+import re
 from sendgrid import SendGridAPIClient  # type: ignore[import-not-found]
 from sendgrid.helpers.mail import Mail as SendGridMail, Email as SendGridEmail  # type: ignore[import-not-found]
 
@@ -131,6 +132,20 @@ TRANSLATIONS = {
     'de': load_po_translations('de'),
 }
 
+
+def _normalize_msgid(message):
+    # Normalize whitespace and common unicode variants to improve key matching.
+    normalized = str(message or '').replace('\r\n', '\n').replace('\r', '\n').strip()
+    normalized = normalized.replace('\u2019', "'").replace('\u2018', "'").replace('\u2013', '-').replace('\u2014', '-')
+    normalized = re.sub(r'\s+', ' ', normalized)
+    return normalized
+
+
+NORMALIZED_TRANSLATIONS = {
+    lang: {_normalize_msgid(msgid): msgstr for msgid, msgstr in catalog.items()}
+    for lang, catalog in TRANSLATIONS.items()
+}
+
 def get_locale():
     if request.view_args:
         lang = request.view_args.get('lang')
@@ -150,7 +165,20 @@ def translate(message):
     lang = get_locale()
     if lang == 'nl':
         return message
-    return TRANSLATIONS.get(lang, {}).get(message, message)
+
+    catalog = TRANSLATIONS.get(lang, {})
+    translated = catalog.get(message)
+
+    if not translated:
+        translated = NORMALIZED_TRANSLATIONS.get(lang, {}).get(_normalize_msgid(message))
+
+    # German catalog is currently incomplete; fall back to English instead of Dutch.
+    if not translated and lang == 'de':
+        translated = TRANSLATIONS.get('en', {}).get(message)
+        if not translated:
+            translated = NORMALIZED_TRANSLATIONS.get('en', {}).get(_normalize_msgid(message))
+
+    return translated or message
 
 
 def _absolute_url(path=''):
